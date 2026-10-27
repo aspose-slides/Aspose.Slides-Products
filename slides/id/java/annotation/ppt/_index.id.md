@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Hapus Anotasi PPT menggunakan Java
 weight: 3630
+title: Hapus Anotasi PPT menggunakan Java
 url: /id/java/annotation/ppt/ 
-description: Kode sampel Java untuk menghapus anotasi format PPT di Java Runtime Environment untuk Aplikasi JSP/JSF dan Aplikasi Desktop.
+description: Hapus komentar dan penulis komentar dari presentasi PPT di Java dengan Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Hapus Komentar dan Penulis Komentar dari PPT di Jawa" h2="Bangun aplikasi Java Anda sendiri untuk memanipulasi komentar dan penulis dalam file dokumen menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Hapus Komentar dari PPT via Java" %}}
-Untuk menghapus anotasi dari file PPT, kami akan menggunakan API [Aspose.Slides for Java](https://products.aspose.com/slides/id/java/) yang kaya fitur, andal, dan mudah digunakan API manipulasi dokumen untuk platform Java.
-{{% blocks/products/pf/agp/code-block title="Hapus Anotasi dari PPT - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Hapus Komentar dan Penulis Komentar dari PPT di Java" h2="Gunakan Aspose.Slides for Java untuk menghapus komentar dan penulis komentar dari file presentasi." related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Hapus Komentar dari PPT melalui Java" variant="code" %}}
+
+Aspose.Slides for Java memungkinkan Anda menghapus komentar dan penulis komentar dari presentasi PPT. Muat file dengan kelas `Presentation`, iterasi objek `ICommentAuthor` dari `getCommentAuthors`, hapus komentarnya, lalu simpan presentasi yang diperbarui.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Hapus Anotasi dari PPT – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Menghapus Komentar dari PPT melalui Java" intro="Ikuti langkah-langkah ini untuk menghapus komentar dan penulis komentar dari presentasi PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal Aspose.Slides for Java. Lihat [Instalasi](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file PPT dengan kelas `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterasi objek `ICommentAuthor` dari `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Hapus komentar setiap penulis dengan `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kosongkan koleksi penulis komentar dan simpan file PPT yang diperbarui.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Menghapus Komentar dari PPT melalui Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Dibuat dengan Aspose.Slides" title="Hapus Komentar PPT Secara Online" description="Aplikasi Aspose.Slides Annotation gratis dibuat dengan [Aspose.Slides for Java](https://products.aspose.com/slides/id/java/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file PPT Anda sendiri." button="Buka Aspose.Slides Annotation" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menghapus komentar sebelum Anda menulis kode.
+- Hapus semua komentar dari file PPT Anda.
+- Unduh file yang sudah dibersihkan.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Anotasi" subTitle="Dengan Java, Anda juga dapat menghapus anotasi dari format lain." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk Java**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat PPT dengan turunan dari kelas Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi semua Penulis PPT yang dimuat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Komentar dari seorang penulis
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Penulis di bagian akhir
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Anotasi Lain yang Didukung" subTitle="Menggunakan Java, seseorang dapat dengan mudah membuat anotasi format lain termasuk." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

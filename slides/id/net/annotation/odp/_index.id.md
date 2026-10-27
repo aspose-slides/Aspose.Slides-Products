@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Hapus Anotasi ODP menggunakan .NET
 weight: 4380
+title: Hapus Anotasi ODP menggunakan .NET
 url: /id/net/annotation/odp/ 
-description: Kode sumber C# untuk menghapus anotasi format ODP pada Platform .NET Framework, .NET Core, Windows Azure, Mono atau Xamarin.
+description: Hapus komentar dan penulis komentar dari presentasi ODP di C#.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Hapus Komentar dan Penulis Komentar dari ODP di C#" h2="Bangun aplikasi .NET Anda sendiri untuk memanipulasi komentar dan penulis dalam file dokumen menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Hapus Komentar & Penulis Komentar dari ODP di C#" h2="Bangun aplikasi .NET yang mengelola komentar dan penulis dalam file presentasi menggunakan API sisi server." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Hapus Komentar dari ODP melalui C#" %}}
-Untuk menghapus anotasi dari file ODP, kami akan menggunakan API [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net) yang kaya fitur, andal, dan mudah digunakan API manipulasi dokumen untuk platform C#.
-{{% blocks/products/pf/agp/code-block title="Hapus Anotasi dari ODP - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Hapus Komentar dari ODP melalui C#" variant="code" %}}
 
+Gunakan [Aspose.Slides for .NET](/slides/id/net/) untuk menghapus komentar dan penulis komentar dari file presentasi ODP. Contoh di bawah ini mengosongkan koleksi `Comments` milik setiap penulis, lalu mengosongkan koleksi `CommentAuthors` presentasi.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Hapus Anotasi dari ODP – C#" >}}
 ```cs
+using var presentation = new Presentation("example.odp");
 
-using (Presentation presentation = new Presentation("example.odp"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.odp", SaveFormat.Odp);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Menghapus Komentar dari ODP melalui C#" intro="Ikuti langkah-langkah ini untuk menghapus komentar dan penulis komentar dari presentasi ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal Aspose.Slides for .NET. Lihat [Instalasi](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Muat file ODP dengan kelas `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterasi koleksi `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kosongkan koleksi `Comments` untuk setiap penulis komentar.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kosongkan koleksi `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan presentasi yang diperbarui dengan `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Menghapus Komentar dari ODP melalui C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Dibuat dengan Aspose.Slides" title="Hapus Komentar ODP Secara Online" description="Aplikasi Aspose.Slides Annotation gratis dibuat dengan [Aspose.Slides for .NET](https://products.aspose.com/slides/id/net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file ODP Anda sendiri." button="Buka Aspose.Slides Annotation" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menghapus komentar sebelum Anda menulis kode.
+- Hapus semua komentar dari file ODP Anda.
+- Unduh file yang sudah dibersihkan.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Anotasi" subTitle="Dengan C#, Anda juga dapat menghapus anotasi dari format lain." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/net/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat ODP dengan instance kelas Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi semua Penulis ODP yang dimuat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Komentar dari seorang penulis
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Penulis di bagian akhir
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Anotasi Lain yang Didukung" subTitle="Menggunakan C#, seseorang dapat dengan mudah membuat anotasi format lain termasuk." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

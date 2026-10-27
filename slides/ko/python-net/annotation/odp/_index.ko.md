@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python을 사용하여 ODP 주석 제거
 weight: 4380
+title: Python으로 ODP에서 메모 제거
 url: /ko/python-net/annotation/odp/ 
-description: ODP 프레젠테이션 주석을 제거하는 Python 소스 코드
+description: Aspose.Slides for Python via .NET을 사용하여 Python에서 ODP 프레젠테이션의 메모와 메모 작성자를 제거합니다.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python의 ODP에서 주석 및 주석 작성자 제거" h2="서버 측 API를 사용하여 문서 파일에서 댓글과 작성자를 조작하는 자신만의 Python 스크립트를 빌드합니다." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python에서 ODP의 메모 및 메모 작성자 제거" h2="Aspose.Slides for Python via .NET을 사용하여 프레젠테이션 메모와 관련 작성자를 제거하세요." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python을 통해 ODP에서 주석 제거" %}}
-ODP 파일에서 주석을 제거하기 위해 기능이 풍부한 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/) API를 사용합니다. 강력하고 사용하기 쉬운 Python 플랫폼용 문서 조작 API.
-{{% blocks/products/pf/agp/code-block title="ODP에서 주석 삭제 - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python으로 ODP에서 메모 제거" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/ko/python-net/)은 ODP 프레젠테이션에 저장된 메모와 메모 작성자에 대한 액세스를 제공합니다. `Presentation`으로 파일을 로드하고, 각 작성자의 `comments` 컬렉션과 `comment_authors`를 비운 다음, 결과를 ODP 형식으로 저장하세요.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python으로 ODP에서 메모 제거" >}}
 ```python
+with slides.Presentation("presentation.odp") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.odp") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.odp", slides.export.SaveFormat.ODP)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python으로 ODP에서 메모를 제거하는 방법" intro="ODP 프레젠테이션에서 모든 메모와 메모 작성자를 제거하려면 다음 단계를 따르세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}[Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/)을 설치합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation`으로 ODP 파일을 엽니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`comment_authors`를 반복하며 각 작성자의 `comments` 컬렉션을 비웁니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`comment_authors` 컬렉션을 비웁니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.ODP`와 함께 `save`를 호출하여 업데이트된 ODP 프레젠테이션을 씁니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python을 통해 ODP에서 주석을 제거하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides로 구축" title="온라인에서 ODP 메모 제거" description="무료 Aspose.Slides Annotation 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 ODP 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Annotation 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 메모를 제거하는 방식을 확인하세요.
+- ODP 파일의 모든 메모를 제거합니다.
+- 정리된 파일을 다운로드합니다.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="주석에 지원되는 기타 형식" subTitle="Python을 사용하면 다른 형식에서도 주석을 제거할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 클래스의 인스턴스로 ODP 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-로드된 ODP의 모든 작성자에 대해 반복
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-작성자의 모든 주석 제거
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-마지막에 모든 작성자 제거
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 주석 형식" subTitle="Python을 사용하면 다음을 포함한 다른 형식에 쉽게 주석을 달 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

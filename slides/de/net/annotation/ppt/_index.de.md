@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: PPT-Anmerkung mit .NET entfernen
 weight: 4380
+title: PPT-Anmerkungen mit .NET entfernen
 url: /de/net/annotation/ppt/ 
-description: C#-Quellcode zum Löschen von Anmerkungen im PPT-Format auf .NET Framework-, .NET Core-, Windows Azure-, Mono- oder Xamarin-Plattformen.
+description: Entfernen Sie Kommentare und Kommentarautoren aus PPT-Präsentationen in C#.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Kommentare und Kommentarautoren aus PPT in C# entfernen" h2="Erstellen Sie Ihre eigenen .NET-Apps, um Kommentare und Autoren in Dokumentdateien mithilfe serverseitiger APIs zu bearbeiten." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Kommentare und Kommentarautoren aus PPT in C# entfernen" h2="Entwickeln Sie .NET-Anwendungen, die mit serverseitigen APIs Kommentare und Autoren in Präsentationsdateien bearbeiten." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Kommentare aus PPT über C# entfernen" %}}
-Um Anmerkungen aus der PPT-Datei zu entfernen, verwenden wir die API [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net), die eine funktionsreiche, leistungsstarke und benutzerfreundliche API ist Dokumentbearbeitungs-API für die C#-Plattform.
-{{% blocks/products/pf/agp/code-block title="Anmerkungen aus PPT löschen – C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Kommentare aus PPT mit C# entfernen" variant="code" %}}
 
+Entfernen Sie mit [Aspose.Slides for .NET](/slides/de/net/) Kommentare und Kommentarautoren aus PPT-Präsentationsdateien. Das folgende Beispiel leert die `Comments`-Sammlung jedes Autors und anschließend die `CommentAuthors`-Sammlung der Präsentation.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Anmerkungen aus PPT löschen – C#" >}}
 ```cs
+using var presentation = new Presentation("example.ppt");
 
-using (Presentation presentation = new Presentation("example.ppt"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.ppt", SaveFormat.Ppt);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie Kommentare aus PPT mit C#" intro="Gehen Sie wie folgt vor, um Kommentare und Kommentarautoren aus einer PPT-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie Aspose.Slides for .NET. Siehe [Installation](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die PPT-Datei mit der Klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Durchlaufen Sie die Sammlung `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die `Comments`-Sammlung jedes Kommentarautors.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die Sammlung `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die aktualisierte Präsentation mit `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie Kommentare aus PPT über C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Entwickelt mit Aspose.Slides" title="PPT-Kommentare online entfernen" description="Die kostenlose App Aspose.Slides Annotation basiert auf [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPT-Dateien leisten kann." button="Aspose.Slides Annotation öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Kommentare entfernt, bevor Sie Code schreiben.
+- Entfernen Sie alle Kommentare aus Ihrer PPT-Datei.
+- Laden Sie die bereinigte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Anmerkungen" subTitle="Mit C# können Sie Anmerkungen auch aus anderen Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installieren Sie **Aspose.Slides für .NET**. Siehe [**Installation**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPT mit einer Instanz der Präsentationsklasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterieren Sie über alle Autoren der geladenen PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Alle Kommentare eines Autors entfernen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie am Ende alle Autoren
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Anmerkungsformate" subTitle="Mit C# kann man problemlos andere Formate kommentieren, einschließlich." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

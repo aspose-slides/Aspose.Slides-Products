@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ta bort PPT Annotation med Java
 weight: 3630
+title: Ta bort PPT-anteckningar med Java
 url: /sv/java/annotation/ppt/ 
-description: Java-exempelkod för att ta bort anteckningar i PPT-format i Java Runtime Environment för JSP/JSF-applikationer och skrivbordsapplikationer.
+description: Ta bort kommentarer och kommentarsförfattare från PPT-presentationer i Java med Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ta bort kommentarer och kommentarsförfattare från PPT i Java" h2="Bygg dina egna Java-appar för att manipulera kommentarer och författare i dokumentfiler med hjälp av API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Ta bort kommentarer från PPT via Java" %}}
-För att ta bort kommentarer från PPT-filen använder vi [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java/) API som är ett funktionsrikt, kraftfullt och lättanvänt API API för dokumentmanipulation för Java-plattformen.
-{{% blocks/products/pf/agp/code-block title="Ta bort anteckningar från PPT - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Ta bort kommentarer och kommentarsförfattare från PPT i Java" h2="Använd Aspose.Slides for Java för att ta bort kommentarer och kommentarsförfattare från presentationsfiler." related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ta bort kommentarer från PPT via Java" variant="code" %}}
+
+Med Aspose.Slides for Java kan du ta bort kommentarer och kommentarsförfattare från PPT-presentationer. Läs in en fil med klassen `Presentation`, gå igenom `ICommentAuthor`-objekten från `getCommentAuthors`, rensa deras kommentarer och spara den uppdaterade presentationen.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Radera anteckningar från PPT – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så tar du bort kommentarer från PPT via Java" intro="Följ de här stegen för att ta bort kommentarer och kommentarsförfattare från en PPT-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installera Aspose.Slides for Java. Se [Installation](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in PPT-filen med klassen `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gå igenom `ICommentAuthor`-objekten från `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rensa varje författares kommentarer med `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töm samlingen med kommentarsförfattare och spara den uppdaterade PPT-filen.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man tar bort kommentarer från PPT via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Byggd med Aspose.Slides" title="Ta bort PPT-kommentarer online" description="Den kostnadsfria appen Aspose.Slides Annotation är byggd med [Aspose.Slides for Java](https://products.aspose.com/slides/sv/java/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPT-filer." button="Öppna Aspose.Slides Annotation" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides tar bort kommentarer innan du skriver kod.
+- Ta bort alla kommentarer från din PPT-fil.
+- Ladda ned den rensade filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för anteckningar" subTitle="Med Java kan du även ta bort anteckningar från andra format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installera **Aspose.Slides för Java**. Se [**Installation**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda PPT med en instans av presentationsklassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterera över alla författare av laddad PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort alla kommentarer från en författare
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort alla författare i slutet
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra anteckningsformat som stöds" subTitle="Med Java kan man enkelt kommentera andra format inklusive." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

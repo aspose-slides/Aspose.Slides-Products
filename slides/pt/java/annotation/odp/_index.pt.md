@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Remover anotação ODP usando Java
 weight: 1790
+title: Remover anotações de ODP usando Java
 url: /pt/java/annotation/odp/ 
-description: Código de exemplo Java para excluir anotações de formato ODP no Java Runtime Environment para aplicativos JSP/JSF e aplicativos de desktop.
+description: Remova comentários e autores de comentários de apresentações ODP em Java com o Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Remover comentários e autores de comentários do ODP em Java" h2="Crie seus próprios aplicativos Java para manipular comentários e autores em arquivos de documentos usando APIs do lado do servidor." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Remover comentários do ODP via Java" %}}
-Para remover as anotações do arquivo ODP, usaremos a API [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/) que é uma API rica em recursos, poderosa e fácil de usar API de manipulação de documentos para plataforma Java.
-{{% blocks/products/pf/agp/code-block title="Excluir anotações do ODP - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Remover comentários e autores de comentários de ODP em Java" h2="Use o Aspose.Slides for Java para remover comentários e autores de comentários de arquivos de apresentação." related="PPT,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Remover comentários de ODP com Java" variant="code" %}}
+
+O Aspose.Slides for Java permite remover comentários e autores de comentários de apresentações ODP. Carregue um arquivo com a classe `Presentation`, percorra os objetos `ICommentAuthor` de `getCommentAuthors`, limpe os comentários e salve a apresentação atualizada.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Excluir anotações de ODP – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Como remover comentários de ODP com Java" intro="Siga estas etapas para remover comentários e autores de comentários de uma apresentação ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instale o Aspose.Slides for Java. Consulte [Instalação](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Carregue o arquivo ODP com a classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Percorra os objetos `ICommentAuthor` de `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Limpe os comentários de cada autor com `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Limpe a coleção de autores de comentários e salve o arquivo ODP atualizado.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Como remover comentários do ODP via Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Criado com Aspose.Slides" title="Remover comentários de ODP online" description="O aplicativo gratuito Aspose.Slides Annotation é criado com [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos ODP." button="Abrir Aspose.Slides Annotation" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides remove comentários antes de escrever código.
+- Remova todos os comentários do seu arquivo ODP.
+- Baixe o arquivo limpo.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outros formatos compatíveis com anotações" subTitle="Com Java, você também pode remover anotações de outros formatos." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/java/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pt/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instale **Aspose.Slides para Java**. Consulte [**Instalação**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Carregar ODP com uma instância da classe Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterar sobre todos os autores do ODP carregado
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Remover todos os comentários de um autor
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Remova todos os autores no final
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Outros formatos de anotação suportados" subTitle="Usando Java, pode-se facilmente anotar outros formatos, incluindo." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pt/java/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

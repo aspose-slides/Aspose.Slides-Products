@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java を使用して PPT 注釈を削除する
 weight: 3630
+title: Java で PPT の注釈を削除
 url: /ja/java/annotation/ppt/ 
-description: JSP/JSF アプリケーションおよびデスクトップ アプリケーション用の Java ランタイム環境で PPT 形式の注釈を削除する Java サンプル コード。
+description: Aspose.Slides for Java を使用して、Java で PPT プレゼンテーションからコメントとコメント作成者を削除します。
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java で PPT からコメントとコメント作成者を削除する" h2="サーバー側 API を使用して、独自の Java アプリを構築し、ドキュメント ファイル内のコメントと作成者を操作します。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Java経由でPPTからコメントを削除" %}}
-PPT ファイルから注釈を削除するには、[Aspose.Slides for Java](https://products.aspose.com/slides/ja/java/) API を使用します。これは、機能が豊富で強力で使いやすい API です。 Java プラットフォーム用のドキュメント操作 API。
-{{% blocks/products/pf/agp/code-block title="PPT から注釈を削除する - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java で PPT からコメントとコメント作成者を削除" h2="Aspose.Slides for Java を使用して、プレゼンテーション ファイルからコメントとコメント作成者を削除します。" related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java で PPT からコメントを削除" variant="code" %}}
+
+Aspose.Slides for Java を使用すると、PPT プレゼンテーションからコメントとコメント作成者を削除できます。`Presentation` クラスでファイルを読み込み、`getCommentAuthors` から取得した `ICommentAuthor` オブジェクトを反復処理してコメントをクリアし、更新したプレゼンテーションを保存します。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT から注釈を削除 – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java で PPT からコメントを削除する方法" intro="PPT プレゼンテーションからコメントとコメント作成者を削除するには、次の手順に従います。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for Java をインストールします。[インストール](https://docs.aspose.com/slides/java/installation/) を参照してください。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` クラスで PPT ファイルを読み込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`getCommentAuthors` から取得した `ICommentAuthor` オブジェクトを反復処理します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`getComments().clear()` で各作成者のコメントをクリアします。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}コメント作成者コレクションをクリアし、更新した PPT ファイルを保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java 経由で PPT からコメントを削除する方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides で構築" title="PPT のコメントをオンラインで削除" description="無料の Aspose.Slides Annotation アプリは、上記のコードと同じ API である [Aspose.Slides for Java](https://products.aspose.com/slides/ja/java/) で構築されています。アプリを開いて、ご自身の PPT ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Annotation を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がコメントを削除するしくみを確認できます。
+- PPT ファイルからすべてのコメントを削除します。
+- クリーンアップしたファイルをダウンロードします。
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="注釈でサポートされるその他の形式" subTitle="Java を使用すると、他の形式からも注釈を削除できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for Java** をインストールします。 [**インストール**](https://docs.aspose.com/slides/java/installation/) を参照してください。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-プレゼンテーション クラスのインスタンスを使用して PPT をロードする
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ロードされた PPT のすべての作成者を反復する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-著者のすべてのコメントを削除する
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-最後にすべての作成者を削除します
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="サポートされているその他の注釈形式" subTitle="Java を使用すると、次のような他の形式に簡単に注釈を付けることができます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: ลบคำอธิบายประกอบ PPTX โดยใช้ Python
 weight: 4380
+title: ลบความคิดเห็นออกจาก PPTX ใน Python
 url: /th/python-net/annotation/pptx/ 
-description: ซอร์สโค้ด Python เพื่อลบความคิดเห็นในการนำเสนอ PPTX
+description: ลบความคิดเห็นและผู้เขียนความคิดเห็นออกจากงานนำเสนอ PPTX ใน Python ด้วย Aspose.Slides for Python via .NET
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="ลบความคิดเห็นและผู้เขียนความคิดเห็นจาก PPTX ใน Python" h2="สร้างสคริปต์ Python ของคุณเองเพื่อจัดการความคิดเห็นและผู้เขียนในไฟล์เอกสารโดยใช้ API ฝั่งเซิร์ฟเวอร์" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ลบความคิดเห็นและผู้เขียนความคิดเห็นออกจาก PPTX ใน Python" h2="ใช้ Aspose.Slides for Python via .NET เพื่อลบความคิดเห็นในงานนำเสนอพร้อมผู้เขียนที่เกี่ยวข้อง" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="ลบความคิดเห็นจาก PPTX ผ่าน Python" %}}
-ในการลบคำอธิบายประกอบออกจากไฟล์ PPTX เราจะใช้ [Aspose.Slides สำหรับ Python ผ่าน .NET](https://products.aspose.com/slides/th/python-net/) API ซึ่งมีคุณลักษณะหลากหลาย API การจัดการเอกสารที่มีประสิทธิภาพและใช้งานง่ายสำหรับแพลตฟอร์ม Python
-{{% blocks/products/pf/agp/code-block title="ลบคำอธิบายประกอบจาก PPTX - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ลบความคิดเห็นออกจาก PPTX ผ่าน Python" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/th/python-net/) ให้สิทธิ์เข้าถึงความคิดเห็นและผู้เขียนความคิดเห็นที่จัดเก็บในงานนำเสนอ PPTX โหลดไฟล์ด้วย `Presentation` ล้างคอลเลกชัน `comments` ของผู้เขียนแต่ละคน ล้าง `comment_authors` แล้วบันทึกผลลัพธ์ในรูปแบบ PPTX
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ลบความคิดเห็นออกจาก PPTX ใน Python" >}}
 ```python
+with slides.Presentation("presentation.pptx") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.pptx") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.pptx", slides.export.SaveFormat.PPTX)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="วิธีลบความคิดเห็นออกจาก PPTX ผ่าน Python" intro="ทำตามขั้นตอนเหล่านี้เพื่อลบความคิดเห็นและผู้เขียนความคิดเห็นทั้งหมดออกจากงานนำเสนอ PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ติดตั้ง [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/){{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เปิดไฟล์ PPTX ด้วย `Presentation`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}วนซ้ำ `comment_authors` และล้างคอลเลกชัน `comments` ของผู้เขียนแต่ละคน{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ล้างคอลเลกชัน `comment_authors`{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}เรียก `save` ด้วย `SaveFormat.PPTX` เพื่อเขียนงานนำเสนอ PPTX ที่อัปเดตแล้ว{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="วิธีลบความคิดเห็นจาก PPTX ผ่าน Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="สร้างด้วย Aspose.Slides" title="ลบความคิดเห็น PPTX ออนไลน์" description="แอป Aspose.Slides Annotation ฟรีนี้สร้างด้วย [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/th/python-net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ PPTX ของคุณเอง" button="เปิด Aspose.Slides Annotation" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides ลบความคิดเห็นอย่างไรก่อนเขียนโค้ด
+- ลบความคิดเห็นทั้งหมดออกจากไฟล์ PPTX ของคุณ
+- ดาวน์โหลดไฟล์ที่ล้างแล้ว
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="รูปแบบอื่นที่รองรับสำหรับคำอธิบายประกอบ" subTitle="ด้วย Python คุณยังลบคำอธิบายประกอบออกจากรูปแบบอื่นได้ด้วย" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/th/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-โหลด PPTX ด้วยอินสแตนซ์ของคลาสการนำเสนอ
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-วนซ้ำผู้เขียนทั้งหมดของ PPTX ที่โหลด
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ลบความคิดเห็นทั้งหมดของผู้เขียน
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ลบผู้เขียนทั้งหมดในตอนท้าย
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="รูปแบบคำอธิบายประกอบอื่นๆ ที่รองรับ" subTitle="เมื่อใช้ Python ผู้ใช้สามารถใส่คำอธิบายประกอบในรูปแบบอื่นได้อย่างง่ายดาย รวมถึง" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/th/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

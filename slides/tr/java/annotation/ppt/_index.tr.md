@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Java kullanarak PPT Ek Açıklamasını kaldırın
 weight: 3630
+title: Java ile PPT ek açıklamalarını kaldırma
 url: /tr/java/annotation/ppt/ 
-description: JSP/JSF Uygulaması ve Masaüstü Uygulamaları için Java Runtime Environment üzerindeki PPT formatı ek açıklamalarını silmek için Java örnek kodu.
+description: Aspose.Slides for Java ile Java'da PPT sunumlarından yorumları ve yorum yazarlarını kaldırın.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Java'da PPT'den Yorumları ve Yorum Yazarlarını Kaldırma" h2="Sunucu tarafı API'lerini kullanarak belge dosyalarındaki yorumları ve yazarları işlemek için kendi Java uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Java aracılığıyla PPT'den Yorumları Kaldır" %}}
-Ek açıklamaları PPT dosyasından kaldırmak için zengin özelliklere sahip, güçlü ve kullanımı kolay [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) API'sini kullanacağız. Java platformu için belge işleme API'si.
-{{% blocks/products/pf/agp/code-block title="Ek Açıklamaları PPT'den Sil - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java ile PPT dosyasından yorumları ve yorum yazarlarını kaldırma" h2="Sunum dosyalarından yorumları ve yorum yazarlarını kaldırmak için Aspose.Slides for Java kullanın." related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java ile PPT dosyasından yorumları kaldırma" variant="code" %}}
+
+Aspose.Slides for Java, PPT sunumlarından yorumları ve yorum yazarlarını kaldırmanıza olanak tanır. Bir dosyayı `Presentation` sınıfıyla yükleyin, `getCommentAuthors` içindeki `ICommentAuthor` nesnelerinde dolaşın, yorumlarını temizleyin ve güncellenen sunumu kaydedin.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT dosyasından ek açıklamaları silme – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java ile PPT dosyasından yorumlar nasıl kaldırılır" intro="Bir PPT sunumundan yorumları ve yorum yazarlarını kaldırmak için bu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for Java'yı yükleyin. Bkz. [Kurulum](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`getCommentAuthors` içindeki `ICommentAuthor` nesnelerinde dolaşın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Her yazarın yorumlarını `getComments().clear()` ile temizleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yorum yazarı koleksiyonunu temizleyin ve güncellenen PPT dosyasını kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Java ile PPT'den Yorumlar Nasıl Kaldırılır" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides ile geliştirildi" title="PPT yorumlarını çevrimiçi kaldırma" description="Ücretsiz Aspose.Slides Annotation uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Java](https://products.aspose.com/slides/tr/java/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Annotation uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın yorumları nasıl kaldırdığını görün.
+- PPT dosyanızdaki tüm yorumları kaldırın.
+- Temizlenen dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Ek açıklamalar için desteklenen diğer biçimler" subTitle="Java ile diğer biçimlerden de ek açıklamaları kaldırabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for Java**'yı kurun. Bakınız [**Kurulum**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT'yi bir Presentation sınıfı örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yüklenen PPT'nin tüm Yazarları üzerinde yineleme yapın
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Bir yazarın tüm Yorumlarını kaldır
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonunda tüm Yazarları kaldır
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Ek Açıklama Biçimleri" subTitle="Java kullanılarak, aşağıdakiler de dahil olmak üzere diğer biçimlere kolayca açıklama eklenebilir." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

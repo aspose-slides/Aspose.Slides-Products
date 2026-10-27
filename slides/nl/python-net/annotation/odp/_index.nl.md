@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Verwijder ODP-annotatie met behulp van Python
 weight: 4380
+title: Opmerkingen verwijderen uit ODP in Python
 url: /nl/python-net/annotation/odp/ 
-description: Python-broncode om opmerkingen over ODP-presentaties te verwijderen
+description: Verwijder opmerkingen en opmerkingauteurs uit ODP-presentaties in Python met Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Verwijder opmerkingen en auteurs van opmerkingen uit ODP in Python" h2="Bouw uw eigen Python-scripts om opmerkingen en auteurs in documentbestanden te manipuleren met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Opmerkingen en opmerkingauteurs verwijderen uit ODP in Python" h2="Gebruik Aspose.Slides for Python via .NET om presentatieopmerkingen en de bijbehorende auteurs te verwijderen." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Verwijder opmerkingen van ODP via Python" %}}
-Om annotaties uit het ODP-bestand te verwijderen, gebruiken we [Aspose.Slides voor Python via .NET](https://products.aspose.com/slides/nl/python-net/) API, een feature-rijke, krachtige en gebruiksvriendelijke API voor documentmanipulatie voor het Python-platform.
-{{% blocks/products/pf/agp/code-block title="Annotaties verwijderen uit ODP - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Opmerkingen verwijderen uit ODP via Python" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/nl/python-net/) geeft toegang tot de opmerkingen en opmerkingauteurs in een ODP-presentatie. Laad het bestand met `Presentation`, maak de `comments`-verzameling van elke auteur leeg, maak `comment_authors` leeg en sla het resultaat op in ODP-indeling.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Opmerkingen verwijderen uit ODP in Python" >}}
 ```python
+with slides.Presentation("presentation.odp") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.odp") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.odp", slides.export.SaveFormat.ODP)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Opmerkingen verwijderen uit ODP via Python – zo werkt het" intro="Volg deze stappen om alle opmerkingen en opmerkingauteurs uit een ODP-presentatie te verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installeer [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open het ODP-bestand met `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Doorloop `comment_authors` en maak de `comments`-verzameling van elke auteur leeg.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Maak de verzameling `comment_authors` leeg.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Roep `save` aan met `SaveFormat.ODP` om de bijgewerkte ODP-presentatie te schrijven.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Opmerkingen van ODP verwijderen via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Gebouwd met Aspose.Slides" title="ODP-opmerkingen online verwijderen" description="De gratis app Aspose.Slides Annotation is gebouwd met [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/nl/python-net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Annotation openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides opmerkingen verwijdert voordat u code schrijft.
+- Verwijder alle opmerkingen uit uw ODP-bestand.
+- Download het opgeschoonde bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor aantekeningen" subTitle="Met Python kunt u ook aantekeningen uit andere formaten verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad ODP met een exemplaar van de Presentation-klasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Herhaal alle auteurs van geladen ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Verwijder alle opmerkingen van een auteur
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Verwijder alle auteurs aan het einde
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde annotatieformaten" subTitle="Met behulp van Python kan men eenvoudig andere formaten annoteren, waaronder." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

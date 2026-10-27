@@ -1,21 +1,22 @@
 ---
-lastmod: 2026-07-22
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Remove Comments from PPTX in Python
 weight: 4380
 url: /python-net/annotation/pptx/
 description: Remove comments and comment authors from PPTX presentations in Python with Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Remove Comments and Comment Authors from PPTX in Python" h2="Use Aspose.Slides for Python via .NET to remove presentation comments and their associated authors." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" fileiconsmall3="ODP" fileiconsmall4="PPS" fileiconsmall5="POT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Remove Comments and Comment Authors from PPTX in Python" h2="Use Aspose.Slides for Python via .NET to remove presentation comments and their associated authors." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Remove Comments from PPTX via Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Remove Comments from PPTX via Python" variant="code" %}}
+
 [Aspose.Slides for Python via .NET](/slides/python-net/) provides access to the comments and comment authors stored in a PPTX presentation. Load the file with `Presentation`, clear each author's `comments` collection, clear `comment_authors`, and save the result in PPTX format.
-{{% blocks/products/pf/agp/code-block title="Remove Comments from PPTX in Python" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Remove Comments from PPTX in Python" >}}
 ```python
 with slides.Presentation("presentation.pptx") as presentation:
     for comment_author in presentation.comment_authors:
@@ -24,49 +25,23 @@ with slides.Presentation("presentation.pptx") as presentation:
     presentation.comment_authors.clear()
     presentation.save("presentation-without-comments.pptx", slides.export.SaveFormat.PPTX)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Remove Comments from PPTX via Python" intro="Follow these steps to remove all comments and comment authors from a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Install [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Open the PPTX file with `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterate through `comment_authors` and clear each author's `comments` collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Clear the `comment_authors` collection.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `save` with `SaveFormat.PPTX` to write the updated PPTX presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Remove Comments from PPTX via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to remove all comments and comment authors from a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Annotation Formats" subTitle="Using Python, you can also remove annotations from other formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Install [**Aspose.Slides for Python via .NET**](https://docs.aspose.com/slides/python-net/installation/).
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Open the PPTX file with `Presentation`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Iterate through `comment_authors` and clear each author's `comments` collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Clear the `comment_authors` collection.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `save` with `SaveFormat.PPTX` to write the updated PPTX presentation.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Comment Formats" subTitle="You can also remove comments from other supported presentation formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

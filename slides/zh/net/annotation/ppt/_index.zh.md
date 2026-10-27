@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 .NET 删除 PPT 注释
 weight: 4380
+title: 使用 .NET 删除 PPT 批注
 url: /zh/net/annotation/ppt/ 
-description: .NET Framework、.NET Core、Windows Azure、Mono 或 Xamarin 平台上删除 PPT 格式注释的 C# 源代码。
+description: 使用 C# 从 PPT 演示文稿中删除评论和评论作者。
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="在 C# 中从 PPT 中删除评论和评论作者" h2="构建您自己的 .NET 应用程序以使用服务器端 API 操作文档文件中的评论和作者。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 C# 从 PPT 中删除评论和评论作者" h2="构建 .NET 应用程序，使用服务器端 API 处理演示文稿文件中的评论和作者。" related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C#去除PPT评论" %}}
-为了从 PPT 文件中删除注释，我们将使用 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net) API，它功能丰富、功能强大且易于使用用于 C# 平台的文档操作 API。
-{{% blocks/products/pf/agp/code-block title="从 PPT 中删除注释 - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="通过 C# 从 PPT 中删除评论" variant="code" %}}
 
+使用 [Aspose.Slides for .NET](/slides/zh/net/) 从 PPT 演示文稿文件中删除评论和评论作者。以下示例先清空每位作者的 `Comments` 集合，再清空演示文稿的 `CommentAuthors` 集合。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="从 PPT 中删除批注 – C#" >}}
 ```cs
+using var presentation = new Presentation("example.ppt");
 
-using (Presentation presentation = new Presentation("example.ppt"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.ppt", SaveFormat.Ppt);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何通过 C# 从 PPT 中删除评论" intro="按照以下步骤从 PPT 演示文稿中删除评论和评论作者。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}安装 Aspose.Slides for .NET。请参阅[安装](https://docs.aspose.com/slides/net/installation/)。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 类加载 PPT 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}遍历 `CommentAuthors` 集合。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}清空每位评论作者的 `Comments` 集合。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}清空 `CommentAuthors` 集合。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.Ppt` 保存更新后的演示文稿。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通过C#去除PPT中的评论" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="基于 Aspose.Slides 构建" title="在线删除 PPT 评论" description="免费的 Aspose.Slides Annotation 应用基于 [Aspose.Slides for .NET](https://products.aspose.com/slides/zh/net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 PPT 文件。" button="打开 Aspose.Slides Annotation" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先了解 Aspose.Slides 如何删除评论。
+- 删除 PPT 文件中的所有评论。
+- 下载清理后的文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="批注支持的其他格式" subTitle="使用 C#，您还可以从其他格式中删除批注。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh/net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-安装 **Aspose.Slides for .NET**。请参阅 [**安装**](https://docs.aspose.com/slides/net/installation/)。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 类的实例加载 PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-遍历加载 PPT 的所有作者
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-删除作者的所有评论
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-最后删除所有作者
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的注释格式" subTitle="使用 C#，可以轻松地注释其他格式，包括。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh/net/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

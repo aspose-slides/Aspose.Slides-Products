@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: قم بإزالة PPT Annotation باستخدام Java
 weight: 3630
+title: إزالة التعليقات التوضيحية من PPT باستخدام Java
 url: /ar/java/annotation/ppt/ 
-description: نموذج كود Java لحذف التعليقات التوضيحية بتنسيق PPT على Java Runtime Environment لتطبيق JSP / JSF وتطبيقات سطح المكتب.
+description: أزل التعليقات ومؤلفي التعليقات من عروض PPT التقديمية في Java باستخدام Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="إزالة التعليقات ومؤلفو التعليقات من PPT في Java" h2="قم ببناء تطبيقات Java الخاصة بك للتعامل مع التعليقات والمؤلفين في ملفات المستندات باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="إزالة التعليقات من PPT عبر Java" %}}
-لإزالة التعليقات التوضيحية من ملف PPT ، سنستخدم [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/) واجهة برمجة تطبيقات غنية بالميزات وقوية وسهلة الاستخدام واجهة برمجة تطبيقات معالجة المستندات لمنصة جافا.
-{{% blocks/products/pf/agp/code-block title="حذف التعليقات التوضيحية من PPT - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="إزالة التعليقات ومؤلفي التعليقات من PPT باستخدام Java" h2="استخدم Aspose.Slides for Java لإزالة التعليقات ومؤلفي التعليقات من ملفات العروض التقديمية." related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="إزالة التعليقات من PPT عبر Java" variant="code" %}}
+
+يتيح لك Aspose.Slides for Java إزالة التعليقات ومؤلفي التعليقات من عروض PPT التقديمية. حمّل ملفًا باستخدام الفئة `Presentation`، وكرّر عبر كائنات `ICommentAuthor` من `getCommentAuthors`، وامسح تعليقاتها، ثم احفظ العرض التقديمي المحدّث.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف التعليقات التوضيحية من PPT – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية إزالة التعليقات من PPT عبر Java" intro="اتبع هذه الخطوات لإزالة التعليقات ومؤلفي التعليقات من عرض تقديمي بتنسيق PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ثبّت Aspose.Slides for Java. راجع [التثبيت](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}حمّل ملف PPT باستخدام الفئة `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}كرّر عبر كائنات `ICommentAuthor` من `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}امسح تعليقات كل مؤلف باستخدام `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فرّغ مجموعة مؤلفي التعليقات واحفظ ملف PPT المحدّث.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية إزالة التعليقات من PPT عبر Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="مبني باستخدام Aspose.Slides" title="إزالة تعليقات PPT عبر الإنترنت" description="تطبيق Aspose.Slides Annotation المجاني مبني باستخدام [Aspose.Slides for Java](https://products.aspose.com/slides/ar/java/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPT الخاصة بك." button="افتح Aspose.Slides Annotation" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يزيل Aspose.Slides التعليقات قبل أن تكتب الشيفرة.
+- أزل جميع التعليقات من ملف PPT.
+- نزّل الملف المنظَّف.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للتعليقات التوضيحية" subTitle="باستخدام Java، يمكنك أيضًا إزالة التعليقات التوضيحية من تنسيقات أخرى." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتثبيت ** Aspose.Slides for Java **. راجع [** التثبيت **](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتحميل PPT بمثيل لفئة العرض التقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-كرر على جميع مؤلفي تحميل PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة جميع تعليقات المؤلف
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة جميع المؤلفين في النهاية
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات التعليقات التوضيحية الأخرى المعتمدة" subTitle="باستخدام Java ، يمكن للمرء أن يعلق بسهولة على التنسيقات الأخرى بما في ذلك." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

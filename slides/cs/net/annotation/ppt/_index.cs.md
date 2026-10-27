@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Odebrat PPT anotaci pomocí .NET
 weight: 4380
+title: Odebrání anotací z PPT pomocí .NET
 url: /cs/net/annotation/ppt/ 
-description: Zdrojový kód C# pro odstranění anotací formátu PPT na platformách .NET Framework, .NET Core, Windows Azure, Mono nebo Xamarin.
+description: Odeberte komentáře a autory komentářů z prezentací PPT v C#.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Odebrat komentáře a autory komentářů z PPT v C#" h2="Vytvářejte své vlastní aplikace .NET pro manipulaci s komentáři a autory v souborech dokumentů pomocí rozhraní API na straně serveru." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Odebrání komentářů a autorů komentářů z PPT v C#" h2="Vytvářejte aplikace .NET, které pomocí serverových API pracují s komentáři a autory v souborech prezentací." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Odebrat komentáře z PPT přes C#" %}}
-Abychom odstranili anotace ze souboru PPT, použijeme [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net) API, které je bohaté na funkce, výkonné a snadno použitelné API pro manipulaci s dokumenty pro platformu C#.
-{{% blocks/products/pf/agp/code-block title="Odstranit anotace z PPT - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Odebrání komentářů z PPT pomocí C#" variant="code" %}}
 
+Pomocí [Aspose.Slides for .NET](/slides/cs/net/) odeberete komentáře a autory komentářů ze souborů prezentací PPT. Následující příklad vyprázdní kolekci `Comments` každého autora a poté kolekci `CommentAuthors` prezentace.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Odstranění anotací z PPT – C#" >}}
 ```cs
+using var presentation = new Presentation("example.ppt");
 
-using (Presentation presentation = new Presentation("example.ppt"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.ppt", SaveFormat.Ppt);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak odebrat komentáře z PPT pomocí C#" intro="Postupujte podle těchto kroků a odeberte komentáře a autory komentářů z prezentace PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Nainstalujte Aspose.Slides for .NET. Viz [Instalace](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Načtěte soubor PPT pomocí třídy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Projděte kolekci `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vyprázdněte kolekci `Comments` každého autora komentářů.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Vyprázdněte kolekci `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Uložte aktualizovanou prezentaci pomocí `SaveFormat.Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak odstranit komentáře z PPT přes C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Vytvořeno pomocí Aspose.Slides" title="Odebrání komentářů z PPT online" description="Bezplatná aplikace Aspose.Slides Annotation je vytvořena pomocí [Aspose.Slides for .NET](https://products.aspose.com/slides/cs/net/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory PPT." button="Otevřít Aspose.Slides Annotation" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides odebírá komentáře, ještě než napíšete kód.
+- Odeberte všechny komentáře ze souboru PPT.
+- Stáhněte vyčištěný soubor.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované formáty pro anotace" subTitle="Pomocí C# můžete odebrat anotace i z dalších formátů." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/cs/net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Nainstalujte **Aspose.Slides for .NET**. Viz [**Instalace**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Načtěte PPT s instancí třídy Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterujte přes všechny autory načteného PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Odebrat všechny komentáře autora
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Na konci odeberte všechny autory
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Další podporované formáty anotací" subTitle="Pomocí C# lze snadno anotovat další formáty včetně." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/cs/net/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Usuń adnotację ODP za pomocą C++
 weight: 4380
+title: Usuwanie adnotacji z ODP za pomocą C++
 url: /pl/cpp/annotation/odp/ 
-description: Kod źródłowy C++ do usuwania adnotacji z ODP
+description: Kod źródłowy C++ do usuwania adnotacji z prezentacji ODP.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Usuń komentarze i autorów komentarzy z ODP w C++" h2="Twórz własne aplikacje C++ do manipulowania komentarzami i autorami w plikach dokumentów przy użyciu interfejsów API po stronie serwera." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Usuwanie komentarzy i autorów komentarzy z ODP w C++" h2="Twórz aplikacje C++, które zarządzają komentarzami i autorami w plikach prezentacji za pomocą interfejsów API po stronie serwera." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Usuń komentarze z ODP za pomocą C++" %}}
-Aby usunąć adnotacje z pliku ODP, użyjemy [Aspose.Slides for C++](https://products.aspose.com/slides/pl/cpp/) API, które jest bogate w funkcje, wydajne i łatwe w użyciu API do manipulacji dokumentami dla platformy C++.
-{{% blocks/products/pf/agp/code-block title="Usuń adnotacje z ODP — C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Usuwanie komentarzy z ODP w C++" variant="code" %}}
 
+Użyj [Aspose.Slides for C++](/slides/pl/cpp/), aby usunąć komentarze i autorów komentarzy z prezentacji ODP. Poniższy przykład czyści komentarze każdego autora z `get_CommentAuthors`, a następnie czyści kolekcję autorów komentarzy.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Usuwanie adnotacji z ODP – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.odp");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.odp");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Jak usunąć komentarze z ODP w C++" intro="Wykonaj poniższe kroki, aby usunąć komentarze i autorów komentarzy z prezentacji ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zainstaluj Aspose.Slides for C++. Zobacz [Instalacja](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wczytaj plik ODP za pomocą klasy `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Przejdź przez autorów komentarzy z `get_CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wyczyść komentarze każdego autora za pomocą `get_Comments()->Clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Wyczyść kolekcję autorów komentarzy.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz zaktualizowaną prezentację przy użyciu `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Jak usunąć komentarze z ODP przez C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Zbudowano z Aspose.Slides" title="Usuwanie komentarzy z ODP online" description="Bezpłatna aplikacja Aspose.Slides Annotation została zbudowana z użyciem [Aspose.Slides for C++](https://products.aspose.com/slides/pl/cpp/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami ODP." button="Otwórz Aspose.Slides Annotation" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides usuwa komentarze, zanim napiszesz kod.
+- Usuń wszystkie komentarze z pliku ODP.
+- Pobierz oczyszczony plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane formaty adnotacji" subTitle="Za pomocą C++ możesz także usuwać adnotacje z innych formatów." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/cpp/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/pl/cpp/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Zainstaluj **Aspose.Slides dla C++**. Zobacz [**Instalacja**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Załaduj ODP z instancją klasy Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iteruj przez wszystkich autorów załadowanego ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Usuń wszystkie komentarze autora
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Usuń wszystkich autorów na końcu
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Inne obsługiwane formaty adnotacji" subTitle="Używając C++, można łatwo dodawać adnotacje do innych formatów, w tym." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/pl/cpp/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

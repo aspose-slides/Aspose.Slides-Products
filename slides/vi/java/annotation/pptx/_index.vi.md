@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Xóa chú thích PPTX bằng Java
 weight: 360
+title: Xóa chú thích PPTX bằng Java
 url: /vi/java/annotation/pptx/ 
-description: Mã mẫu Java để xóa chú thích định dạng PPTX trên Môi trường thời gian chạy Java cho Ứng dụng JSP/JSF và Ứng dụng máy tính để bàn.
+description: Xóa nhận xét và tác giả nhận xét khỏi bản trình bày PPTX trong Java với Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Xóa Nhận xét và Tác giả Nhận xét khỏi PPTX trong Java" h2="Xây dựng ứng dụng Java của riêng bạn để thao tác nhận xét và tác giả trong tệp tài liệu bằng API phía máy chủ." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Xóa Nhận xét khỏi PPTX qua Java" %}}
-Để xóa chú thích khỏi tệp PPTX, chúng tôi sẽ sử dụng API [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/) API có nhiều tính năng, mạnh mẽ và dễ sử dụng API thao tác tài liệu cho nền tảng Java.
-{{% blocks/products/pf/agp/code-block title="Xóa chú thích khỏi PPTX - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Xóa nhận xét và tác giả nhận xét khỏi PPTX bằng Java" h2="Dùng Aspose.Slides for Java để xóa nhận xét và tác giả nhận xét khỏi tệp bản trình bày." related="ODP,PPT" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Xóa nhận xét khỏi PPTX qua Java" variant="code" %}}
+
+Aspose.Slides for Java cho phép bạn xóa nhận xét và tác giả nhận xét khỏi bản trình bày PPTX. Tải tệp bằng lớp `Presentation`, duyệt qua các đối tượng `ICommentAuthor` từ `getCommentAuthors`, xóa nhận xét của họ và lưu bản trình bày đã cập nhật.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Xóa chú thích khỏi PPTX – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cách xóa nhận xét khỏi PPTX qua Java" intro="Làm theo các bước sau để xóa nhận xét và tác giả nhận xét khỏi bản trình bày PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Cài đặt Aspose.Slides for Java. Xem [Cài đặt](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Tải tệp PPTX bằng lớp `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Duyệt qua các đối tượng `ICommentAuthor` từ `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Xóa nhận xét của từng tác giả bằng `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Xóa sạch tập hợp tác giả nhận xét và lưu tệp PPTX đã cập nhật.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cách xóa Nhận xét khỏi PPTX qua Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Được xây dựng bằng Aspose.Slides" title="Xóa nhận xét PPTX trực tuyến" description="Ứng dụng Aspose.Slides Annotation miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPTX của riêng bạn." button="Mở Aspose.Slides Annotation" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides xóa nhận xét trước khi bạn viết mã.
+- Xóa tất cả nhận xét khỏi tệp PPTX của bạn.
+- Tải xuống tệp đã được làm sạch.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các định dạng khác được hỗ trợ cho chú thích" subTitle="Với Java, bạn cũng có thể xóa chú thích khỏi các định dạng khác." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/vi/java/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Cài đặt **Aspose.Slides cho Java**. Xem [**Cài đặt**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Tải PPTX với một phiên bản của lớp Trình bày
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lặp lại tất cả các Tác giả của PPTX đã tải
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Xóa tất cả Nhận xét của một tác giả
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Xóa tất cả Tác giả ở cuối
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Các định dạng chú thích được hỗ trợ khác" subTitle="Sử dụng Java, người ta có thể dễ dàng chú thích các định dạng khác bao gồm." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/vi/java/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

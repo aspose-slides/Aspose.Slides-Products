@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Ta bort PPT Annotation med C++
 weight: 4380
+title: Ta bort PPT-anteckningar med C++
 url: /sv/cpp/annotation/ppt/ 
-description: C++ källkod för att ta bort kommentarer från PPT
+description: C++-källkod för att ta bort anteckningar från PPT-presentationer.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Ta bort kommentarer och kommentarsförfattare från PPT i C++" h2="Bygg dina egna C++-appar för att manipulera kommentarer och författare i dokumentfiler med hjälp av API:er på serversidan." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Ta bort kommentarer och kommentarsförfattare från PPT i C++" h2="Bygg C++-appar som hanterar kommentarer och författare i presentationsfiler med API:er på serversidan." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Ta bort kommentarer från PPT via C++" %}}
-För att ta bort kommentarer från PPT-filen använder vi [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/) API som är en funktionsrik, kraftfull och lättanvänd API för dokumentmanipulation för C++-plattform.
-{{% blocks/products/pf/agp/code-block title="Ta bort anteckningar från PPT - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Ta bort kommentarer från PPT via C++" variant="code" %}}
 
+Använd [Aspose.Slides for C++](/slides/sv/cpp/) för att ta bort kommentarer och kommentarsförfattare från PPT-presentationer. Exemplet nedan rensar kommentarerna för varje författare från `get_CommentAuthors` och tömmer sedan samlingen med kommentarsförfattare.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Radera anteckningar från PPT – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.ppt");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.ppt");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så tar du bort kommentarer från PPT via C++" intro="Följ de här stegen för att ta bort kommentarer och kommentarsförfattare från en PPT-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installera Aspose.Slides for C++. Se [Installation](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Läs in PPT-filen med klassen `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Gå igenom kommentarsförfattarna från `get_CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rensa varje författares kommentarer med `get_Comments()->Clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töm samlingen med kommentarsförfattare.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den uppdaterade presentationen med `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man tar bort kommentarer från PPT via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Byggd med Aspose.Slides" title="Ta bort PPT-kommentarer online" description="Den kostnadsfria appen Aspose.Slides Annotation är byggd med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPT-filer." button="Öppna Aspose.Slides Annotation" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides tar bort kommentarer innan du skriver kod.
+- Ta bort alla kommentarer från din PPT-fil.
+- Ladda ned den rensade filen.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för anteckningar" subTitle="Med C++ kan du även ta bort anteckningar från andra format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/cpp/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/cpp/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installera **Aspose.Slides för C++**. Se [**Installation**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ladda PPT med en instans av presentationsklassen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterera över alla författare av laddad PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort alla kommentarer från en författare
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ta bort alla författare i slutet
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra anteckningsformat som stöds" subTitle="Med C++ kan man enkelt kommentera andra format inklusive." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/cpp/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

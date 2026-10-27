@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++ kullanarak PPT Ek Açıklamasını kaldırın
 weight: 4380
+title: C++ ile PPT ek açıklamalarını kaldırma
 url: /tr/cpp/annotation/ppt/ 
-description: PPT'den açıklamaları silmek için C++ kaynak kodu
+description: PPT sunumlarından ek açıklamaları kaldırmak için C++ kaynak kodu.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++'da PPT'den Yorumları ve Yorum Yazarlarını Kaldırma" h2="Sunucu tarafı API'lerini kullanarak belge dosyalarındaki yorumları ve yazarları işlemek için kendi C++ uygulamalarınızı oluşturun." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++ ile PPT dosyasından yorumları ve yorum yazarlarını kaldırma" h2="Sunucu tarafı API'lerle sunum dosyalarındaki yorumları ve yazarları yöneten C++ uygulamaları oluşturun." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Yorumları C++ aracılığıyla PPT'den kaldırın" %}}
-Ek açıklamaları PPT dosyasından kaldırmak için zengin özelliklere sahip, güçlü ve kullanımı kolay [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/) API'sini kullanacağız. C++ platformu için belge işleme API'si.
-{{% blocks/products/pf/agp/code-block title="Açıklamaları PPT'den Sil - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++ ile PPT dosyasından yorumları kaldırma" variant="code" %}}
 
+PPT sunumlarından yorumları ve yorum yazarlarını kaldırmak için [Aspose.Slides for C++](/slides/tr/cpp/) kullanın. Aşağıdaki örnek, `get_CommentAuthors` içindeki her yazarın yorumlarını ve ardından yorum yazarı koleksiyonunu temizler.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT dosyasından ek açıklamaları silme – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.ppt");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.ppt");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++ ile PPT dosyasından yorumlar nasıl kaldırılır" intro="Bir PPT sunumundan yorumları ve yorum yazarlarını kaldırmak için bu adımları izleyin." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for C++'ı yükleyin. Bkz. [Kurulum](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT dosyasını `Presentation` sınıfıyla yükleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`get_CommentAuthors` içindeki yorum yazarlarında dolaşın.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Her yazarın yorumlarını `get_Comments()->Clear()` ile temizleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Yorum yazarı koleksiyonunu temizleyin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Güncellenen sunumu `SaveFormat::Ppt` ile kaydedin.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++ aracılığıyla PPT'den Yorumlar Nasıl Kaldırılır" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides ile geliştirildi" title="PPT yorumlarını çevrimiçi kaldırma" description="Ücretsiz Aspose.Slides Annotation uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for C++](https://products.aspose.com/slides/tr/cpp/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPT dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Annotation uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın yorumları nasıl kaldırdığını görün.
+- PPT dosyanızdaki tüm yorumları kaldırın.
+- Temizlenen dosyayı indirin.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Ek açıklamalar için desteklenen diğer biçimler" subTitle="C++ ile diğer biçimlerden de ek açıklamaları kaldırabilirsiniz." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/cpp/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/tr/cpp/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++** yükleyin. Bakınız [**Kurulum**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT'yi bir Presentation sınıfı örneğiyle yükleyin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Yüklenen PPT'nin tüm Yazarları üzerinde yineleme yapın
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Bir yazarın tüm Yorumlarını kaldır
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Sonunda tüm Yazarları kaldır
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Diğer Desteklenen Ek Açıklama Biçimleri" subTitle="C++ kullanılarak, aşağıdakiler de dahil olmak üzere diğer biçimlere kolayca açıklama eklenebilir." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/tr/cpp/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

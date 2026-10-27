@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: 使用 Python 刪除 ODP 註釋
 weight: 4380
+title: 使用 Python 從 ODP 移除註解
 url: /zh-hant/python-net/annotation/odp/ 
-description: 去除ODP演示文稿註釋的Python源碼
+description: 透過 Aspose.Slides for Python via .NET，使用 Python 從 ODP 簡報中移除註解和註解作者。
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="在 Python 中從 ODP 中刪除評論和評論作者" h2="構建您自己的 Python 腳本，以使用服務器端 API 操作文檔文件中的評論和作者。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="使用 Python 從 ODP 移除註解和註解作者" h2="使用 Aspose.Slides for Python via .NET 移除簡報註解及其相關作者。" related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="通過 Python 從 ODP 中刪除評論" %}}
-為了從 ODP 文件中刪除註釋，我們將使用 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh-hant/python-net/) API，這是一個功能豐富的 API，適用於 Python 平台的強大且易於使用的文檔操作 API。
-{{% blocks/products/pf/agp/code-block title="從 ODP 中刪除註釋 - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="透過 Python 從 ODP 移除註解" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/zh-hant/python-net/) 可存取 ODP 簡報中儲存的註解和註解作者。使用 `Presentation` 載入檔案，清空每位作者的 `comments` 集合，清空 `comment_authors`，然後以 ODP 格式儲存結果。
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="使用 Python 從 ODP 移除註解" >}}
 ```python
+with slides.Presentation("presentation.odp") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.odp") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.odp", slides.export.SaveFormat.ODP)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="如何透過 Python 從 ODP 移除註解" intro="依照下列步驟，從 ODP 簡報中移除所有註解和註解作者。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}安裝 [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/)。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `Presentation` 開啟 ODP 檔案。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}逐一處理 `comment_authors` 並清空每位作者的 `comments` 集合。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}清空 `comment_authors` 集合。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}使用 `SaveFormat.ODP` 呼叫 `save`，寫入更新後的 ODP 簡報。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="如何通過 Python 從 ODP 中刪除評論" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="以 Aspose.Slides 建置" title="線上移除 ODP 註解" description="免費的 Aspose.Slides Annotation 應用程式以 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh-hant/python-net/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 ODP 檔案。" button="開啟 Aspose.Slides Annotation" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先了解 Aspose.Slides 如何移除註解。
+- 移除 ODP 檔案中的所有註解。
+- 下載清理後的檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="註解支援的其他格式" subTitle="使用 Python，您也可以從其他格式移除註解。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/zh-hant/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-通過 .NET 安裝 **Aspose.Slides for Python**。請參閱 [**安裝**](https://docs.aspose.com/slides/python-net/installation/)。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-使用 Presentation 類的實例加載 ODP
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-遍歷加載的 ODP 的所有作者
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-刪除作者的所有評論
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-最後刪除所有作者
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="其他支持的註釋格式" subTitle="使用 Python，可以輕鬆地註釋其他格式，包括。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/zh-hant/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

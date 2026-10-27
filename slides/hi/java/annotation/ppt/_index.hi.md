@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: जावा का उपयोग करके पीपीटी एनोटेशन निकालें
 weight: 3630
+title: Java का उपयोग करके PPT एनोटेशन हटाएँ
 url: /hi/java/annotation/ppt/ 
-description: जेएसपी/जेएसएफ एप्लीकेशन और डेस्कटॉप एप्लीकेशन के लिए जावा रनटाइम पर्यावरण पर पीपीटी प्रारूप एनोटेशन को हटाने के लिए जावा नमूना कोड।
+description: Aspose.Slides for Java के साथ Java में PPT प्रेज़ेंटेशन से टिप्पणियाँ और टिप्पणी लेखक हटाएँ।
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="जावा में पीपीटी से टिप्पणियां और टिप्पणी लेखक हटाएं" h2="सर्वर-साइड एपीआई का उपयोग करके दस्तावेज़ फ़ाइलों में टिप्पणियों और लेखकों में हेरफेर करने के लिए अपने स्वयं के जावा ऐप बनाएं।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="पीपीटी से जावा के माध्यम से टिप्पणियाँ निकालें" %}}
-PPT फ़ाइल से एनोटेशन हटाने के लिए, हम [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) API का उपयोग करेंगे, जो सुविधाओं से भरपूर, शक्तिशाली और उपयोग में आसान है जावा प्लेटफॉर्म के लिए दस्तावेज़ हेरफेर एपीआई।
-{{% blocks/products/pf/agp/code-block title="पीपीटी - जावा से एनोटेशन हटाएं" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Java में PPT से टिप्पणियाँ और टिप्पणी लेखक हटाएँ" h2="प्रेज़ेंटेशन फ़ाइलों से टिप्पणियाँ और टिप्पणी लेखक हटाने के लिए Aspose.Slides for Java का उपयोग करें।" related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Java के ज़रिए PPT से टिप्पणियाँ हटाएँ" variant="code" %}}
+
+Aspose.Slides for Java आपको PPT प्रेज़ेंटेशन से टिप्पणियाँ और टिप्पणी लेखक हटाने देता है। `Presentation` क्लास से फ़ाइल लोड करें, `getCommentAuthors` से मिले `ICommentAuthor` ऑब्जेक्ट पर इटरेट करें, उनकी टिप्पणियाँ हटाएँ और अपडेट किया गया प्रेज़ेंटेशन सहेजें।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT से एनोटेशन हटाएँ – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Java के ज़रिए PPT से टिप्पणियाँ कैसे हटाएँ" intro="PPT प्रेज़ेंटेशन से टिप्पणियाँ और टिप्पणी लेखक हटाने के लिए इन चरणों का पालन करें।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for Java इंस्टॉल करें। देखें [इंस्टॉलेशन](https://docs.aspose.com/slides/java/installation/)।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPT फ़ाइल को `Presentation` क्लास से लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`getCommentAuthors` से मिले `ICommentAuthor` ऑब्जेक्ट पर इटरेट करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}हर लेखक की टिप्पणियाँ `getComments().clear()` से हटाएँ।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}टिप्पणी लेखक संग्रह खाली करें और अपडेट की गई PPT फ़ाइल सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="जावा के माध्यम से पीपीटी से टिप्पणियाँ कैसे निकालें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides से निर्मित" title="PPT टिप्पणियाँ ऑनलाइन हटाएँ" description="मुफ़्त Aspose.Slides Annotation ऐप [Aspose.Slides for Java](https://products.aspose.com/slides/hi/java/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPT फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Annotation खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टिप्पणियाँ कैसे हटाता है।
+- अपनी PPT फ़ाइल से सभी टिप्पणियाँ हटाएँ।
+- साफ़ की गई फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="एनोटेशन के लिए अन्य समर्थित फ़ॉर्मेट" subTitle="Java के साथ, आप अन्य फ़ॉर्मेट से भी एनोटेशन हटा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for Java** इंस्टॉल करें। देखें [**इंस्टॉलेशन**](https://docs.aspose.com/slides/java/installation/)।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-प्रेजेंटेशन क्लास के उदाहरण के साथ पीपीटी लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-लोड किए गए पीपीटी के सभी लेखकों पर पुनरावृति करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-किसी लेखक की सभी टिप्पणियाँ हटाएं
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-अंत में सभी लेखकों को हटा दें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित एनोटेशन प्रारूप" subTitle="जावा का उपयोग करके, कोई अन्य प्रारूपों को आसानी से एनोटेट कर सकता है।" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

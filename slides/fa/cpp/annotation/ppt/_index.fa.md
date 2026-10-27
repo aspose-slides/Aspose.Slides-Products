@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: حاشیه نویسی PPT را با استفاده از C++ حذف کنید
 weight: 4380
+title: حذف حاشیه‌نویسی‌های PPT با C++
 url: /fa/cpp/annotation/ppt/ 
-description: کد منبع C++ برای حذف حاشیه نویسی از PPT
+description: کد منبع C++ برای حذف حاشیه‌نویسی‌ها از ارائه‌های PPT.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="نظرات و نویسندگان نظرات را از PPT در C++ حذف کنید" h2="برنامه های C++ خود را بسازید تا نظرات و نویسندگان را در فایل های سند با استفاده از API های سمت سرور دستکاری کنید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="حذف نظرها و نویسندگان نظر از PPT در C++" h2="برنامه‌های C++ بسازید که با APIهای سمت سرور، نظرها و نویسندگان را در فایل‌های ارائه مدیریت می‌کنند." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="نظرات را از PPT از طریق C++ حذف کنید" %}}
-برای حذف حاشیه‌نویسی‌ها از فایل PPT، از [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp/) API استفاده می‌کنیم که دارای ویژگی‌های غنی، قدرتمند و آسان برای استفاده است. API دستکاری اسناد برای پلتفرم C++.
-{{% blocks/products/pf/agp/code-block title="حاشیه نویسی ها را از PPT - C++ حذف کنید" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف نظرها از PPT با C++" variant="code" %}}
 
+از [Aspose.Slides for C++](/slides/fa/cpp/) برای حذف نظرها و نویسندگان نظر از ارائه‌های PPT استفاده کنید. مثال زیر نظرهای هر نویسنده را از `get_CommentAuthors` پاک می‌کند و سپس مجموعه نویسندگان نظر را خالی می‌کند.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف حاشیه‌نویسی‌ها از PPT – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.ppt");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.ppt");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="چگونه نظرها را از PPT با C++ حذف کنیم" intro="برای حذف نظرها و نویسندگان نظر از یک ارائه PPT این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for C++ را نصب کنید. [نصب](https://docs.aspose.com/slides/cpp/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPT را با کلاس `Presentation` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نویسندگان نظر را از `get_CommentAuthors` پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نظرهای هر نویسنده را با `get_Comments()->Clear()` پاک کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مجموعه نویسندگان نظر را خالی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه به‌روزشده را با `SaveFormat::Ppt` ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف نظرات از PPT از طریق C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="ساخته شده با Aspose.Slides" title="حذف آنلاین نظرهای PPT" description="برنامه رایگان Aspose.Slides Annotation با [Aspose.Slides for C++](https://products.aspose.com/slides/fa/cpp/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPT شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Annotation" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه نظرها را حذف می‌کند.
+- همه نظرها را از فایل PPT خود حذف کنید.
+- فایل پاک‌شده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر قالب‌های پشتیبانی‌شده برای حاشیه‌نویسی" subTitle="با C++ می‌توانید حاشیه‌نویسی‌ها را از قالب‌های دیگر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/cpp/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای C++** نصب کنید. [**نصب**](https://docs.aspose.com/slides/cpp/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPT را با یک نمونه از کلاس Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تکرار روی همه نویسندگان PPT بارگذاری شده
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تمام نظرات یک نویسنده را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-در پایان تمام نویسندگان را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های حاشیه نویسی پشتیبانی شده" subTitle="با استفاده از C++، می توان به راحتی فرمت های دیگر از جمله حاشیه نویسی کرد." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/cpp/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

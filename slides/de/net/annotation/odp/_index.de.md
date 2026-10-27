@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Entfernen Sie die ODP-Anmerkung mit .NET
 weight: 4380
+title: ODP-Anmerkungen mit .NET entfernen
 url: /de/net/annotation/odp/ 
-description: C#-Quellcode zum Löschen von Anmerkungen im ODP-Format auf .NET Framework-, .NET Core-, Windows Azure-, Mono- oder Xamarin-Plattformen.
+description: Entfernen Sie Kommentare und Kommentarautoren aus ODP-Präsentationen in C#.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Kommentare und Kommentarautoren aus ODP in C# entfernen" h2="Erstellen Sie Ihre eigenen .NET-Apps, um Kommentare und Autoren in Dokumentdateien mithilfe serverseitiger APIs zu bearbeiten." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Kommentare und Kommentarautoren aus ODP in C# entfernen" h2="Entwickeln Sie .NET-Anwendungen, die mit serverseitigen APIs Kommentare und Autoren in Präsentationsdateien bearbeiten." related="PPT,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Kommentare aus ODP über C# entfernen" %}}
-Um Anmerkungen aus der ODP-Datei zu entfernen, verwenden wir die API [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net), die eine funktionsreiche, leistungsstarke und benutzerfreundliche API ist Dokumentbearbeitungs-API für die C#-Plattform.
-{{% blocks/products/pf/agp/code-block title="Anmerkungen aus ODP löschen – C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Kommentare aus ODP mit C# entfernen" variant="code" %}}
 
+Entfernen Sie mit [Aspose.Slides for .NET](/slides/de/net/) Kommentare und Kommentarautoren aus ODP-Präsentationsdateien. Das folgende Beispiel leert die `Comments`-Sammlung jedes Autors und anschließend die `CommentAuthors`-Sammlung der Präsentation.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Anmerkungen aus ODP löschen – C#" >}}
 ```cs
+using var presentation = new Presentation("example.odp");
 
-using (Presentation presentation = new Presentation("example.odp"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.odp", SaveFormat.Odp);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie Kommentare aus ODP mit C#" intro="Gehen Sie wie folgt vor, um Kommentare und Kommentarautoren aus einer ODP-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie Aspose.Slides for .NET. Siehe [Installation](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die ODP-Datei mit der Klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Durchlaufen Sie die Sammlung `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die `Comments`-Sammlung jedes Kommentarautors.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die Sammlung `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die aktualisierte Präsentation mit `SaveFormat.Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie Kommentare aus ODP über C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Entwickelt mit Aspose.Slides" title="ODP-Kommentare online entfernen" description="Die kostenlose App Aspose.Slides Annotation basiert auf [Aspose.Slides for .NET](https://products.aspose.com/slides/de/net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen ODP-Dateien leisten kann." button="Aspose.Slides Annotation öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Kommentare entfernt, bevor Sie Code schreiben.
+- Entfernen Sie alle Kommentare aus Ihrer ODP-Datei.
+- Laden Sie die bereinigte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Anmerkungen" subTitle="Mit C# können Sie Anmerkungen auch aus anderen Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installieren Sie **Aspose.Slides für .NET**. Siehe [**Installation**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie ODP mit einer Instanz der Präsentationsklasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Über alle Autoren des geladenen ODP iterieren
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Alle Kommentare eines Autors entfernen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie am Ende alle Autoren
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Anmerkungsformate" subTitle="Mit C# kann man problemlos andere Formate kommentieren, einschließlich." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

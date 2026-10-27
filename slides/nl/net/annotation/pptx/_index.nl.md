@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Verwijder PPTX-annotatie met .NET
 weight: 4380
+title: PPTX-aantekeningen verwijderen met .NET
 url: /nl/net/annotation/pptx/ 
-description: C#-broncode om annotaties in PPTX-indeling te verwijderen op .NET Framework-, .NET Core-, Windows Azure-, Mono- of Xamarin-platforms.
+description: Verwijder opmerkingen en opmerkingauteurs uit PPTX-presentaties in C#.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Opmerkingen en auteurs van opmerkingen verwijderen uit PPTX in C#" h2="Bouw uw eigen .NET-apps om opmerkingen en auteurs in documentbestanden te manipuleren met behulp van server-side API's." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Opmerkingen en opmerkingauteurs verwijderen uit PPTX in C#" h2="Bouw .NET-toepassingen die opmerkingen en auteurs in presentatiebestanden bewerken met server-side API's." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Opmerkingen verwijderen uit PPTX via C#" %}}
-Om annotaties uit het PPTX-bestand te verwijderen, gebruiken we [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net) API, een functierijke, krachtige en gebruiksvriendelijke API voor documentmanipulatie voor het C#-platform.
-{{% blocks/products/pf/agp/code-block title="Annotaties verwijderen uit PPTX - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Opmerkingen verwijderen uit PPTX via C#" variant="code" %}}
 
+Gebruik [Aspose.Slides for .NET](/slides/nl/net/) om opmerkingen en opmerkingauteurs uit PPTX-presentatiebestanden te verwijderen. Het onderstaande voorbeeld maakt de `Comments`-verzameling van elke auteur leeg en daarna de `CommentAuthors`-verzameling van de presentatie.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Aantekeningen verwijderen uit PPTX – C#" >}}
 ```cs
+using var presentation = new Presentation("example.pptx");
 
-using (Presentation presentation = new Presentation("example.pptx"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.pptx", SaveFormat.Pptx);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Opmerkingen verwijderen uit PPTX via C# – zo werkt het" intro="Volg deze stappen om opmerkingen en opmerkingauteurs uit een PPTX-presentatie te verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installeer Aspose.Slides for .NET. Zie [Installatie](https://docs.aspose.com/slides/net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laad het PPTX-bestand met de klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Doorloop de verzameling `CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Maak de `Comments`-verzameling van elke opmerkingauteur leeg.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Maak de verzameling `CommentAuthors` leeg.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla de bijgewerkte presentatie op met `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Opmerkingen verwijderen uit PPTX via C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Gebouwd met Aspose.Slides" title="PPTX-opmerkingen online verwijderen" description="De gratis app Aspose.Slides Annotation is gebouwd met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPTX-bestanden." button="Aspose.Slides Annotation openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides opmerkingen verwijdert voordat u code schrijft.
+- Verwijder alle opmerkingen uit uw PPTX-bestand.
+- Download het opgeschoonde bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde formaten voor aantekeningen" subTitle="Met C# kunt u ook aantekeningen uit andere formaten verwijderen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/nl/net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installeer **Aspose.Slides voor .NET**. Zie [**Installatie**](https://docs.aspose.com/slides/net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laad PPTX met een exemplaar van de Presentation-klasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Herhaal alle auteurs van geladen PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Verwijder alle opmerkingen van een auteur
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Verwijder alle auteurs aan het einde
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere ondersteunde annotatieformaten" subTitle="Met behulp van C# kan men eenvoudig andere formaten annoteren, waaronder." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/nl/net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

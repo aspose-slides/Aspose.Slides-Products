@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Supprimer l'annotation ODP à l'aide de C++
 weight: 4380
+title: Supprimer les annotations d'un ODP avec C++
 url: /fr/cpp/annotation/odp/ 
-description: Code source C++ pour supprimer les annotations d'ODP
+description: Code source C++ pour supprimer les annotations des présentations ODP.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Supprimer les commentaires et les auteurs de commentaires d'ODP en C++" h2="Créez vos propres applications C++ pour manipuler les commentaires et les auteurs dans les fichiers de document à l'aide d'API côté serveur." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Supprimer les commentaires et les auteurs de commentaires d'un ODP en C++" h2="Créez des applications C++ qui manipulent les commentaires et les auteurs des fichiers de présentation grâce à des API côté serveur." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Supprimer les commentaires d'ODP via C++" %}}
-Afin de supprimer les annotations du fichier ODP, nous utiliserons l'API [Aspose.Slides pour C++](https://products.aspose.com/slides/fr/cpp/) qui est riche en fonctionnalités, puissante et facile à utiliser API de manipulation de documents pour la plate-forme C++.
-{{% blocks/products/pf/agp/code-block title="Supprimer les annotations d'ODP - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Supprimer les commentaires d'un ODP via C++" variant="code" %}}
 
+Utilisez [Aspose.Slides for C++](/slides/fr/cpp/) pour supprimer les commentaires et les auteurs de commentaires des présentations ODP. L'exemple ci-dessous efface les commentaires de chaque auteur obtenu avec `get_CommentAuthors`, puis vide la collection des auteurs de commentaires.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Supprimer les annotations d'un ODP – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.odp");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.odp");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Comment supprimer les commentaires d'un ODP via C++" intro="Suivez ces étapes pour supprimer les commentaires et les auteurs de commentaires d'une présentation ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installez Aspose.Slides for C++. Consultez [Installation](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chargez le fichier ODP avec la classe `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Parcourez les auteurs de commentaires obtenus avec `get_CommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Effacez les commentaires de chaque auteur avec `get_Comments()->Clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Videz la collection des auteurs de commentaires.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez la présentation mise à jour avec `SaveFormat::Odp`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Comment supprimer des commentaires d'ODP via C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Conçu avec Aspose.Slides" title="Supprimer les commentaires d'un ODP en ligne" description="L'application gratuite Aspose.Slides Annotation est conçue avec [Aspose.Slides for C++](https://products.aspose.com/slides/fr/cpp/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers ODP." button="Ouvrir Aspose.Slides Annotation" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Voyez comment Aspose.Slides supprime les commentaires avant d'écrire du code.
+- Supprimez tous les commentaires de votre fichier ODP.
+- Téléchargez le fichier nettoyé.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres formats pris en charge pour les annotations" subTitle="Avec C++, vous pouvez également supprimer les annotations d'autres formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fr/cpp/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installez **Aspose.Slides pour C++**. Voir [**Installation**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Charger ODP avec une instance de la classe Presentation
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Itérer sur tous les auteurs de l'ODP chargé
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Supprimer tous les commentaires d'un auteur
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Supprimer tous les auteurs à la fin
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Autres formats d'annotation pris en charge" subTitle="En utilisant C++, on peut facilement annoter d'autres formats, y compris." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fr/cpp/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

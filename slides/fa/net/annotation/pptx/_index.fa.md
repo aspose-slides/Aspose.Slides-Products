@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: حاشیه نویسی PPTX را با استفاده از دات نت حذف کنید
 weight: 4380
+title: حذف حاشیه‌نویسی‌های PPTX با .NET
 url: /fa/net/annotation/pptx/ 
-description: کد منبع سی شارپ برای حذف حاشیه‌نویسی‌های فرمت PPTX در پلتفرم‌های NET Framework، NET Core، Windows Azure، Mono یا Xamarin.
+description: نظرها و نویسندگان نظر را از ارائه‌های PPTX در C# حذف کنید.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="حذف نظرات و نویسندگان نظرات از PPTX در سی شارپ" h2="برنامه های دات نت خود را برای دستکاری نظرات و نویسندگان در فایل های سند با استفاده از API های سمت سرور بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="حذف نظرها و نویسندگان نظر از PPTX در C#" h2="برنامه‌های .NET بسازید که با APIهای سمت سرور، نظرها و نویسندگان را در فایل‌های ارائه مدیریت می‌کنند." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="حذف نظرات از PPTX از طریق C#" %}}
-برای حذف حاشیه‌نویسی‌ها از فایل PPTX، از [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net) API استفاده می‌کنیم که دارای ویژگی‌های غنی، قدرتمند و آسان برای استفاده است. API دستکاری اسناد برای پلتفرم سی شارپ.
-{{% blocks/products/pf/agp/code-block title="حذف حاشیه نویسی از PPTX - C#" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف نظرها از PPTX با C#" variant="code" %}}
 
+از [Aspose.Slides for .NET](/slides/fa/net/) برای حذف نظرها و نویسندگان نظر از فایل‌های ارائه PPTX استفاده کنید. مثال زیر مجموعه `Comments` هر نویسنده و سپس مجموعه `CommentAuthors` ارائه را خالی می‌کند.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف حاشیه‌نویسی‌ها از PPTX – C#" >}}
 ```cs
+using var presentation = new Presentation("example.pptx");
 
-using (Presentation presentation = new Presentation("example.pptx"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.pptx", SaveFormat.Pptx);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="چگونه نظرها را از PPTX با C# حذف کنیم" intro="برای حذف نظرها و نویسندگان نظر از یک ارائه PPTX این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for .NET را نصب کنید. [نصب](https://docs.aspose.com/slides/net/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل PPTX را با کلاس `Presentation` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مجموعه `CommentAuthors` را پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مجموعه `Comments` هر نویسنده نظر را خالی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مجموعه `CommentAuthors` را خالی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ارائه به‌روزشده را با `SaveFormat.Pptx` ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف نظرات از PPTX از طریق C#" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="ساخته شده با Aspose.Slides" title="حذف آنلاین نظرهای PPTX" description="برنامه رایگان Aspose.Slides Annotation با [Aspose.Slides for .NET](https://products.aspose.com/slides/fa/net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPTX شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Annotation" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه نظرها را حذف می‌کند.
+- همه نظرها را از فایل PPTX خود حذف کنید.
+- فایل پاک‌شده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر قالب‌های پشتیبانی‌شده برای حاشیه‌نویسی" subTitle="با C# می‌توانید حاشیه‌نویسی‌ها را از قالب‌های دیگر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای NET** نصب کنید. [**نصب**](https://docs.aspose.com/slides/net/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX را با یک نمونه از کلاس Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تکرار روی همه نویسندگان PPTX بارگذاری شده
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تمام نظرات یک نویسنده را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-در پایان تمام نویسندگان را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های حاشیه نویسی پشتیبانی شده" subTitle="با استفاده از سی شارپ، می توان به راحتی فرمت های دیگر از جمله حاشیه نویسی کرد." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

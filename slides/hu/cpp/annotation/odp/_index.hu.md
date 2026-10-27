@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Távolítsa el az ODP-jegyzeteket a C++ használatával
 weight: 4380
+title: Jegyzetek eltávolítása ODP fájlból C++ segítségével
 url: /hu/cpp/annotation/odp/ 
-description: C++ forráskód a megjegyzések ODP-ből való törléséhez
+description: C++ forráskód jegyzetek eltávolításához ODP bemutatókból.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Távolítsa el a megjegyzéseket és a megjegyzés szerzőket az ODP-ből C++ nyelven" h2="Készítse el saját C++ alkalmazásait, hogy manipulálja a megjegyzéseket és a szerzőket a dokumentumfájlokban szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Megjegyzések és szerzőik eltávolítása ODP fájlból C++ nyelven" h2="Készítsen C++-alkalmazásokat, amelyek kiszolgálóoldali API-kkal kezelik a bemutatófájlok megjegyzéseit és szerzőit." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Távolítsa el a megjegyzéseket az ODP-ből a C++ segítségével" %}}
-A megjegyzések ODP-fájlból való eltávolításához az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) API-t használjuk, amely funkciókban gazdag, hatékony és könnyen használható. dokumentummanipulációs API C++ platformhoz.
-{{% blocks/products/pf/agp/code-block title="Annotációk törlése az ODP - C++ programból" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Megjegyzések eltávolítása ODP fájlból C++ segítségével" variant="code" %}}
 
+Az [Aspose.Slides for C++](/slides/hu/cpp/) segítségével eltávolíthatja a megjegyzéseket és szerzőiket ODP bemutatókból. Az alábbi példa törli a `get_CommentAuthors` által visszaadott minden szerző megjegyzéseit, majd kiüríti a megjegyzésszerzők gyűjteményét.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Jegyzetek törlése ODP fájlból – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.odp");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.odp");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.odp", SaveFormat::Odp);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan távolíthatók el a megjegyzések ODP fájlból C++ segítségével" intro="Az alábbi lépésekkel eltávolíthatja a megjegyzéseket és szerzőiket egy ODP bemutatóból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az Aspose.Slides for C++ csomagot. Lásd: [Telepítés](https://docs.aspose.com/slides/cpp/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a ODP fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Haladjon végig a `get_CommentAuthors` által visszaadott megjegyzésszerzőkön.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Törölje minden szerző megjegyzéseit a `get_Comments()->Clear()` hívással.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ürítse ki a megjegyzésszerzők gyűjteményét.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse a frissített bemutatót a `SaveFormat::Odp` értékkel.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hogyan távolítsunk el megjegyzéseket az ODP-ről C++-on keresztül" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Az Aspose.Slides segítségével készült" title="Megjegyzések eltávolítása ODP fájlból online" description="Az ingyenes Aspose.Slides Annotation alkalmazás az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját ODP fájljaival." button="Aspose.Slides Annotation megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan távolítja el az Aspose.Slides a megjegyzéseket, mielőtt kódot írna.
+- Távolítsa el az összes megjegyzést a ODP fájlból.
+- Töltse le a megtisztított fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok jegyzetekhez" subTitle="C++ használatával más formátumokból is eltávolíthatja a jegyzeteket." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/cpp/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for C++** alkalmazást. Lásd: [**Telepítés**](https://docs.aspose.com/slides/cpp/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Töltse be az ODP-t a Presentation osztály egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iteráljon a betöltött ODP összes szerzőjén
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Távolítsa el a szerző összes megjegyzését
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A végén távolítsa el az összes szerzőt
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott megjegyzésformátumok" subTitle="A C++ használatával könnyen megjegyzéseket fűzhet más formátumokhoz, beleértve." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/cpp/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

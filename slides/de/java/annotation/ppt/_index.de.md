@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Entfernen Sie die PPT-Anmerkung mit Java
 weight: 3630
+title: PPT-Anmerkungen mit Java entfernen
 url: /de/java/annotation/ppt/ 
-description: Java-Beispielcode zum Löschen von Annotationen im PPT-Format in Java Runtime Environment für JSP/JSF-Anwendung und Desktop-Anwendungen.
+description: Entfernen Sie Kommentare und Kommentarautoren aus PPT-Präsentationen in Java mit Aspose.Slides for Java.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Entfernen Sie Kommentare und Kommentarautoren aus PPT in Java" h2="Erstellen Sie Ihre eigenen Java-Apps, um Kommentare und Autoren in Dokumentdateien mithilfe serverseitiger APIs zu manipulieren." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Kommentare aus PPT über Java entfernen" %}}
-Um Anmerkungen aus der PPT-Datei zu entfernen, verwenden wir die API [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), die reich an Funktionen, leistungsstark und einfach zu bedienen ist Dokumentbearbeitungs-API für die Java-Plattform.
-{{% blocks/products/pf/agp/code-block title="Löschen Sie Anmerkungen aus PPT - Java" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Kommentare und Kommentarautoren aus PPT in Java entfernen" h2="Entfernen Sie mit Aspose.Slides for Java Kommentare und Kommentarautoren aus Präsentationsdateien." related="ODP,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Kommentare aus PPT mit Java entfernen" variant="code" %}}
+
+Mit Aspose.Slides for Java entfernen Sie Kommentare und Kommentarautoren aus PPT-Präsentationen. Laden Sie eine Datei mit der Klasse `Presentation`, durchlaufen Sie die `ICommentAuthor`-Objekte aus `getCommentAuthors`, löschen Sie deren Kommentare und speichern Sie die aktualisierte Präsentation.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Anmerkungen aus PPT löschen – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.ppt");
+Presentation presentation = new Presentation("presentation.ppt");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.ppt", SaveFormat.Ppt);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie Kommentare aus PPT mit Java" intro="Gehen Sie wie folgt vor, um Kommentare und Kommentarautoren aus einer PPT-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie Aspose.Slides for Java. Siehe [Installation](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Laden Sie die PPT-Datei mit der Klasse `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Durchlaufen Sie die `ICommentAuthor`-Objekte aus `getCommentAuthors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Löschen Sie die Kommentare jedes Autors mit `getComments().clear()`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die Sammlung der Kommentarautoren und speichern Sie die aktualisierte PPT-Datei.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie Kommentare aus PPT über Java" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Entwickelt mit Aspose.Slides" title="PPT-Kommentare online entfernen" description="Die kostenlose App Aspose.Slides Annotation basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPT-Dateien leisten kann." button="Aspose.Slides Annotation öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Kommentare entfernt, bevor Sie Code schreiben.
+- Entfernen Sie alle Kommentare aus Ihrer PPT-Datei.
+- Laden Sie die bereinigte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Anmerkungen" subTitle="Mit Java können Sie Anmerkungen auch aus anderen Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Installieren Sie **Aspose.Slides für Java**. Siehe [**Installation**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPT mit einer Instanz der Präsentationsklasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterieren Sie über alle Autoren der geladenen PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Alle Kommentare eines Autors entfernen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie am Ende alle Autoren
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Anmerkungsformate" subTitle="Mit Java kann man leicht andere Formate kommentieren, einschließlich." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/java/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,80 +1,57 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: .NET का उपयोग करके PPTX एनोटेशन निकालें
 weight: 4380
+title: .NET का उपयोग करके PPTX एनोटेशन हटाएँ
 url: /hi/net/annotation/pptx/ 
-description: .NET फ्रेमवर्क, .NET Core, Windows Azure, Mono या Xamarin प्लेटफॉर्म पर PPTX फॉर्मेट एनोटेशन को हटाने के लिए C# सोर्स कोड।
+description: C# में PPTX प्रेज़ेंटेशन से टिप्पणियाँ और टिप्पणी लेखक हटाएँ।
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="पीपीटीएक्स से टिप्पणियों और टिप्पणी लेखकों को सी # में हटाएं" h2="सर्वर-साइड एपीआई का उपयोग करके दस्तावेज़ फ़ाइलों में टिप्पणियों और लेखकों में हेरफेर करने के लिए अपने स्वयं के .NET ऐप्स बनाएं।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-net.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C# में PPTX से टिप्पणियाँ और टिप्पणी लेखक हटाएँ" h2="ऐसे .NET एप्लिकेशन बनाएँ जो सर्वर-साइड API के ज़रिए प्रेज़ेंटेशन फ़ाइलों में टिप्पणियों और लेखकों को प्रबंधित करें।" related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="पीपीटीएक्स से सी # के माध्यम से टिप्पणियां हटाएं" %}}
-PPTX फ़ाइल से एनोटेशन हटाने के लिए, हम [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net) API का उपयोग करेंगे, जो सुविधाओं से भरपूर, शक्तिशाली और उपयोग में आसान है सी # प्लेटफॉर्म के लिए दस्तावेज़ मैनिपुलेशन एपीआई।
-{{% blocks/products/pf/agp/code-block title="पीपीटीएक्स से एनोटेशन हटाएं - सी #" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C# के ज़रिए PPTX से टिप्पणियाँ हटाएँ" variant="code" %}}
 
+PPTX प्रेज़ेंटेशन फ़ाइलों से टिप्पणियाँ और टिप्पणी लेखक हटाने के लिए [Aspose.Slides for .NET](/slides/hi/net/) का उपयोग करें। नीचे दिया गया उदाहरण हर लेखक का `Comments` संग्रह खाली करता है और फिर प्रेज़ेंटेशन का `CommentAuthors` संग्रह खाली करता है।
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPTX से एनोटेशन हटाएँ – C#" >}}
 ```cs
+using var presentation = new Presentation("example.pptx");
 
-using (Presentation presentation = new Presentation("example.pptx"))
+foreach (var commentAuthor in presentation.CommentAuthors)
 {
-    // Deletes all comments from the presentation
-    foreach (var author in presentation.CommentAuthors)
-    {
-        author.Comments.Clear();
-    }
-
-    // Deletes all authors
-    presentation.CommentAuthors.Clear();
-
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+    commentAuthor.Comments.Clear();
 }
+
+presentation.CommentAuthors.Clear();
+
+presentation.Save("example_out.pptx", SaveFormat.Pptx);
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C# के ज़रिए PPTX से टिप्पणियाँ कैसे हटाएँ" intro="PPTX प्रेज़ेंटेशन से टिप्पणियाँ और टिप्पणी लेखक हटाने के लिए इन चरणों का पालन करें।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for .NET इंस्टॉल करें। देखें [इंस्टॉलेशन](https://docs.aspose.com/slides/net/installation/)।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}PPTX फ़ाइल को `Presentation` क्लास से लोड करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`CommentAuthors` संग्रह पर इटरेट करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}हर टिप्पणी लेखक का `Comments` संग्रह खाली करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`CommentAuthors` संग्रह खाली करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}अपडेट किए गए प्रेज़ेंटेशन को `SaveFormat.Pptx` के साथ सहेजें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="पीपीटीएक्स से सी # के माध्यम से टिप्पणियां कैसे निकालें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides से निर्मित" title="PPTX टिप्पणियाँ ऑनलाइन हटाएँ" description="मुफ़्त Aspose.Slides Annotation ऐप [Aspose.Slides for .NET](https://products.aspose.com/slides/hi/net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Annotation खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides टिप्पणियाँ कैसे हटाता है।
+- अपनी PPTX फ़ाइल से सभी टिप्पणियाँ हटाएँ।
+- साफ़ की गई फ़ाइल डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="एनोटेशन के लिए अन्य समर्थित फ़ॉर्मेट" subTitle="C# के साथ, आप अन्य फ़ॉर्मेट से भी एनोटेशन हटा सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for .NET** इंस्टॉल करें। [**इंस्टॉलेशन**](https://docs.aspose.com/slides/net/installation/) देखें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-PPTX को प्रेजेंटेशन क्लास के उदाहरण के साथ लोड करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-लोड किए गए PPTX के सभी लेखकों पर पुनरावृति करें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-किसी लेखक की सभी टिप्पणियाँ हटाएं
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-अंत में सभी लेखकों को हटा दें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित एनोटेशन प्रारूप" subTitle="सी # का उपयोग करके, कोई अन्य प्रारूपों को आसानी से एनोटेट कर सकता है।" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

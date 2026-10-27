@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: إزالة تعليق PPTX التوضيحي باستخدام Python
 weight: 4380
+title: إزالة التعليقات من PPTX باستخدام Python
 url: /ar/python-net/annotation/pptx/ 
-description: كود مصدر Python لإزالة تعليقات عرض PPTX
+description: أزل التعليقات ومؤلفي التعليقات من عروض PPTX التقديمية في Python باستخدام Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="إزالة التعليقات ومؤلفو التعليقات من PPTX في Python" h2="أنشئ نصوص Python النصية الخاصة بك للتعامل مع التعليقات والمؤلفين في ملفات المستندات باستخدام واجهات برمجة التطبيقات من جانب الخادم." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="إزالة التعليقات ومؤلفي التعليقات من PPTX باستخدام Python" h2="استخدم Aspose.Slides for Python via .NET لإزالة تعليقات العرض التقديمي ومؤلفيها." related="ODP,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="إزالة التعليقات من PPTX عبر Python" %}}
-لإزالة التعليقات التوضيحية من ملف PPTX ، سنستخدم [Aspose.Slides for Python عبر .NET](https://products.aspose.com/slides/ar/python-net/) واجهة برمجة تطبيقات غنية بالميزات ، واجهة برمجة تطبيقات معالجة المستندات قوية وسهلة الاستخدام لمنصة Python.
-{{% blocks/products/pf/agp/code-block title="حذف التعليقات التوضيحية من PPTX - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="إزالة التعليقات من PPTX عبر Python" variant="code" %}}
 
+يوفّر [Aspose.Slides for Python via .NET](/slides/ar/python-net/) الوصول إلى التعليقات ومؤلفي التعليقات المخزّنة في عرض تقديمي بتنسيق PPTX. حمّل الملف باستخدام `Presentation`، وفرّغ مجموعة `comments` لكل مؤلف، وفرّغ `comment_authors`، ثم احفظ النتيجة بتنسيق PPTX.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="إزالة التعليقات من PPTX باستخدام Python" >}}
 ```python
+with slides.Presentation("presentation.pptx") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.pptx") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.pptx", slides.export.SaveFormat.PPTX)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="كيفية إزالة التعليقات من PPTX عبر Python" intro="اتبع هذه الخطوات لإزالة جميع التعليقات ومؤلفي التعليقات من عرض تقديمي بتنسيق PPTX." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}ثبّت [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}افتح ملف PPTX باستخدام `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}كرّر عبر `comment_authors` وفرّغ مجموعة `comments` لكل مؤلف.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فرّغ مجموعة `comment_authors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}استدعِ `save` مع `SaveFormat.PPTX` لكتابة عرض PPTX التقديمي المحدّث.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="كيفية إزالة التعليقات من PPTX عبر Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="مبني باستخدام Aspose.Slides" title="إزالة تعليقات PPTX عبر الإنترنت" description="تطبيق Aspose.Slides Annotation المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Annotation" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يزيل Aspose.Slides التعليقات قبل أن تكتب الشيفرة.
+- أزل جميع التعليقات من ملف PPTX.
+- نزّل الملف المنظَّف.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="تنسيقات أخرى مدعومة للتعليقات التوضيحية" subTitle="باستخدام Python، يمكنك أيضًا إزالة التعليقات التوضيحية من تنسيقات أخرى." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ar/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ثبّت ** Aspose.Slides for Python عبر .NET **. راجع [** التثبيت **](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-قم بتحميل PPTX بمثيل لفئة العرض التقديمي
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-كرر على جميع مؤلفي PPTX المحملة
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة جميع تعليقات المؤلف
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-إزالة جميع المؤلفين في النهاية
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="تنسيقات التعليقات التوضيحية الأخرى المعتمدة" subTitle="باستخدام Python ، يمكن للمرء بسهولة التعليق على التنسيقات الأخرى بما في ذلك." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ar/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

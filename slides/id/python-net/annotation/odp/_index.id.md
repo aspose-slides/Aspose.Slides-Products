@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Hapus Anotasi ODP menggunakan Python
 weight: 4380
+title: Hapus Komentar dari ODP di Python
 url: /id/python-net/annotation/odp/ 
-description: Kode sumber Python untuk menghapus komentar presentasi ODP
+description: Hapus komentar dan penulis komentar dari presentasi ODP di Python dengan Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Hapus Komentar dan Penulis Komentar dari ODP dengan Python" h2="Bangun skrip Python Anda sendiri untuk memanipulasi komentar dan penulis dalam file dokumen menggunakan API sisi server." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Hapus Komentar dan Penulis Komentar dari ODP di Python" h2="Gunakan Aspose.Slides for Python via .NET untuk menghapus komentar presentasi beserta penulisnya." related="PPTX,PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Hapus Komentar dari ODP melalui Python" %}}
-Untuk menghapus anotasi dari file ODP, kami akan menggunakan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/) API yang kaya fitur, API manipulasi dokumen yang kuat dan mudah digunakan untuk platform Python.
-{{% blocks/products/pf/agp/code-block title="Hapus Anotasi dari ODP - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Hapus Komentar dari ODP melalui Python" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/id/python-net/) menyediakan akses ke komentar dan penulis komentar yang tersimpan dalam presentasi ODP. Muat file dengan `Presentation`, kosongkan koleksi `comments` milik setiap penulis, kosongkan `comment_authors`, lalu simpan hasilnya dalam format ODP.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Hapus Komentar dari ODP di Python" >}}
 ```python
+with slides.Presentation("presentation.odp") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.odp") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.odp", slides.export.SaveFormat.ODP)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Cara Menghapus Komentar dari ODP melalui Python" intro="Ikuti langkah-langkah ini untuk menghapus semua komentar dan penulis komentar dari presentasi ODP." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Instal [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Buka file ODP dengan `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Iterasi `comment_authors` dan kosongkan koleksi `comments` milik setiap penulis.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Kosongkan koleksi `comment_authors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Panggil `save` dengan `SaveFormat.ODP` untuk menulis presentasi ODP yang diperbarui.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Cara Menghapus Komentar dari ODP melalui Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Dibuat dengan Aspose.Slides" title="Hapus Komentar ODP Secara Online" description="Aplikasi Aspose.Slides Annotation gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file ODP Anda sendiri." button="Buka Aspose.Slides Annotation" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menghapus komentar sebelum Anda menulis kode.
+- Hapus semua komentar dari file ODP Anda.
+- Unduh file yang sudah dibersihkan.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Format Lain yang Didukung untuk Anotasi" subTitle="Dengan Python, Anda juga dapat menghapus anotasi dari format lain." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/annotation/pptx/" name="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/id/python-net/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Instal **Aspose.Slides untuk Python melalui .NET**. Lihat [**Penginstalan**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Muat ODP dengan instance kelas Presentasi
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ulangi semua Penulis ODP yang dimuat
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Komentar dari seorang penulis
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Hapus semua Penulis di bagian akhir
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Format Anotasi Lain yang Didukung" subTitle="Menggunakan Python, seseorang dapat dengan mudah membuat anotasi format lain termasuk." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/id/python-net/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

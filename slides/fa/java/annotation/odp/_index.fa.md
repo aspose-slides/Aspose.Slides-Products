@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: حاشیه نویسی ODP را با استفاده از جاوا حذف کنید
 weight: 1790
+title: حذف حاشیه‌نویسی‌های ODP با Java
 url: /fa/java/annotation/odp/ 
-description: کد نمونه جاوا برای حذف حاشیه نویسی های فرمت ODP در Java Runtime Environment برای JSP/JSF Application و Desktop Applications.
+description: نظرها و نویسندگان نظر را با Aspose.Slides for Java از ارائه‌های ODP در Java حذف کنید.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="نظرات و نویسندگان نظرات را از ODP در جاوا حذف کنید" h2="برای دستکاری نظرات و نویسندگان در فایل های سند با استفاده از API های سمت سرور، برنامه های جاوا خود را بسازید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="ODP" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="حذف نظرات از ODP از طریق جاوا" %}}
-برای حذف حاشیه‌نویسی‌ها از فایل ODP، از API [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/) استفاده می‌کنیم که یک ویژگی غنی، قدرتمند و آسان برای استفاده است. API دستکاری اسناد برای پلتفرم جاوا.
-{{% blocks/products/pf/agp/code-block title="حاشیه نویسی ها را از ODP - Java حذف کنید" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="حذف نظرها و نویسندگان نظر از ODP در Java" h2="از Aspose.Slides for Java برای حذف نظرها و نویسندگان نظر از فایل‌های ارائه استفاده کنید." related="PPT,PPTX" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="حذف نظرها از ODP با Java" variant="code" %}}
+
+Aspose.Slides for Java امکان حذف نظرها و نویسندگان نظر را از ارائه‌های ODP فراهم می‌کند. فایلی را با کلاس `Presentation` بارگذاری کنید، اشیای `ICommentAuthor` را از `getCommentAuthors` پیمایش کنید، نظرهای آن‌ها را پاک کنید و ارائه به‌روزشده را ذخیره کنید.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="حذف حاشیه‌نویسی‌ها از ODP – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.odp");
+Presentation presentation = new Presentation("presentation.odp");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.odp", SaveFormat.Odp);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="چگونه نظرها را از ODP با Java حذف کنیم" intro="برای حذف نظرها و نویسندگان نظر از یک ارائه ODP این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for Java را نصب کنید. [نصب](https://docs.aspose.com/slides/java/installation/) را ببینید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}فایل ODP را با کلاس `Presentation` بارگذاری کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}اشیای `ICommentAuthor` را از `getCommentAuthors` پیمایش کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}نظرهای هر نویسنده را با `getComments().clear()` پاک کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}مجموعه نویسندگان نظر را خالی کنید و فایل ODP به‌روزشده را ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه حذف نظرات از ODP از طریق جاوا" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="ساخته شده با Aspose.Slides" title="حذف آنلاین نظرهای ODP" description="برنامه رایگان Aspose.Slides Annotation با [Aspose.Slides for Java](https://products.aspose.com/slides/fa/java/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های ODP شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Annotation" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه نظرها را حذف می‌کند.
+- همه نظرها را از فایل ODP خود حذف کنید.
+- فایل پاک‌شده را دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر قالب‌های پشتیبانی‌شده برای حاشیه‌نویسی" subTitle="با Java می‌توانید حاشیه‌نویسی‌ها را از قالب‌های دیگر نیز حذف کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/java/annotation/ppt/" name="PPT" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/java/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides را برای جاوا** نصب کنید. [**نصب**](https://docs.aspose.com/slides/java/installation/) را ببینید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-ODP را با یک نمونه از کلاس Presentation بارگیری کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تکرار روی همه نویسندگان ODP بارگذاری شده
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-تمام نظرات یک نویسنده را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-در پایان تمام نویسندگان را حذف کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های حاشیه نویسی پشتیبانی شده" subTitle="با استفاده از جاوا، می توان به راحتی فرمت های دیگر از جمله حاشیه نویسی کرد." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/annotation/pptx/" name="PPTX" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/java/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

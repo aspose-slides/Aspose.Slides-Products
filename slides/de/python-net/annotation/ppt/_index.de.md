@@ -1,78 +1,52 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Entfernen Sie die PPT-Anmerkung mit Python
 weight: 4380
+title: Kommentare aus PPT in Python entfernen
 url: /de/python-net/annotation/ppt/ 
-description: Python-Quellcode zum Entfernen von PPT-Präsentationskommentaren
+description: Entfernen Sie Kommentare und Kommentarautoren aus PPT-Präsentationen in Python mit Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Entfernen Sie Kommentare und Kommentarautoren aus PPT in Python" h2="Erstellen Sie Ihre eigenen Python-Skripte, um Kommentare und Autoren in Dokumentdateien mithilfe serverseitiger APIs zu manipulieren." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Kommentare und Kommentarautoren aus PPT in Python entfernen" h2="Entfernen Sie mit Aspose.Slides for Python via .NET Präsentationskommentare und die zugehörigen Autoren." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Kommentare aus PPT über Python entfernen" %}}
-Um Anmerkungen aus der PPT-Datei zu entfernen, verwenden wir die API [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/de/python-net/), die eine funktionsreiche, leistungsstarke und benutzerfreundliche API zur Dokumentenbearbeitung für die Python-Plattform.
-{{% blocks/products/pf/agp/code-block title="Löschen Sie Anmerkungen aus PPT - Python" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Kommentare aus PPT mit Python entfernen" variant="code" %}}
 
+[Aspose.Slides for Python via .NET](/slides/de/python-net/) bietet Zugriff auf die Kommentare und Kommentarautoren einer PPT-Präsentation. Laden Sie die Datei mit `Presentation`, leeren Sie die `comments`-Sammlung jedes Autors und `comment_authors` und speichern Sie das Ergebnis im PPT-Format.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Kommentare aus PPT in Python entfernen" >}}
 ```python
+with slides.Presentation("presentation.ppt") as presentation:
+    for comment_author in presentation.comment_authors:
+        comment_author.comments.clear()
 
-import aspose.slides as slides
-
-with slides.Presentation("example.ppt") as presentation:
-    # Deletes all comments from the presentation
-    for author in presentation.comment_authors:
-        author.comments.clear()
-
-    # Deletes all authors
     presentation.comment_authors.clear()
-
-    presentation.save("example_out.pptx", slides.export.SaveFormat.PPTX)
+    presentation.save("presentation-without-comments.ppt", slides.export.SaveFormat.PPT)
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="So entfernen Sie Kommentare aus PPT mit Python" intro="Gehen Sie wie folgt vor, um alle Kommentare und Kommentarautoren aus einer PPT-Präsentation zu entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Installieren Sie [Aspose.Slides for Python via .NET](https://docs.aspose.com/slides/python-net/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Öffnen Sie die PPT-Datei mit `Presentation`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Durchlaufen Sie `comment_authors` und leeren Sie die `comments`-Sammlung jedes Autors.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Leeren Sie die Sammlung `comment_authors`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Rufen Sie `save` mit `SaveFormat.PPT` auf, um die aktualisierte PPT-Präsentation zu schreiben.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="So entfernen Sie Kommentare aus PPT über Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Entwickelt mit Aspose.Slides" title="PPT-Kommentare online entfernen" description="Die kostenlose App Aspose.Slides Annotation basiert auf [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/de/python-net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPT-Dateien leisten kann." button="Aspose.Slides Annotation öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Kommentare entfernt, bevor Sie Code schreiben.
+- Entfernen Sie alle Kommentare aus Ihrer PPT-Datei.
+- Laden Sie die bereinigte Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Weitere unterstützte Formate für Anmerkungen" subTitle="Mit Python können Sie Anmerkungen auch aus anderen Formaten entfernen." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/python-net/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/de/python-net/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Install **Aspose.Slides for Python via .NET**. See [**Installation**](https://docs.aspose.com/slides/python-net/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Laden Sie PPT mit einer Instanz der Präsentationsklasse
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Iterieren Sie über alle Autoren der geladenen PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Alle Kommentare eines Autors entfernen
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Entfernen Sie am Ende alle Autoren
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andere unterstützte Anmerkungsformate" subTitle="Mit Python kann man leicht andere Formate kommentieren, einschließlich." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/de/python-net/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

@@ -1,82 +1,60 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: C++를 사용하여 PPT 주석 제거
 weight: 4380
+title: C++로 PPT 주석 제거
 url: /ko/cpp/annotation/ppt/ 
-description: PPT에서 주석을 삭제하는 C++ 소스 코드
+description: PPT 프레젠테이션에서 주석을 제거하는 C++ 소스 코드입니다.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="C++의 PPT에서 주석 및 주석 작성자 제거" h2="서버 측 API를 사용하여 문서 파일에서 댓글과 작성자를 조작하는 고유한 C++ 앱을 빌드합니다." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-cpp.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for C++" downloadUrl="" fileiconsmall1="PPTX" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for C++" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="C++에서 PPT의 메모 및 메모 작성자 제거" h2="서버 측 API를 사용하여 프레젠테이션 파일의 메모와 작성자를 다루는 C++ 앱을 빌드하세요." related="ODP,PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="C++를 통해 PPT에서 주석 제거" %}}
-PPT 파일에서 주석을 제거하기 위해 기능이 풍부하고 강력하며 사용하기 쉬운 [Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp/) API를 사용합니다. C++ 플랫폼용 문서 조작 API.
-{{% blocks/products/pf/agp/code-block title="PPT에서 주석 삭제 - C++" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="C++로 PPT에서 메모 제거" variant="code" %}}
 
+[Aspose.Slides for C++](/slides/ko/cpp/)를 사용하여 PPT 프레젠테이션에서 메모와 메모 작성자를 제거하세요. 아래 예제는 `get_CommentAuthors`에서 가져온 각 작성자의 메모를 지운 다음 메모 작성자 컬렉션을 비웁니다.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="PPT에서 주석 삭제 – C++" >}}
 ```cpp
+auto presentation = MakeObject<Presentation>(u"example.ppt");
 
-using namespace Aspose::Slides;
-using namespace Aspose::Slides::Export;
-using namespace System::Drawing;
-
-auto presentation = System::MakeObject<Presentation>(u"example.ppt");
-
-// Deletes all comments from the presentation
+// Delete all comments from the presentation.
 for (auto author : presentation->get_CommentAuthors())
 {
     author->get_Comments()->Clear();
 }
-        
-// Deletes all authors
+
+// Delete all authors.
 presentation->get_CommentAuthors()->Clear();
-presentation->Save(u"example_out.pptx", SaveFormat::Pptx);
+
+presentation->Save(u"output.ppt", SaveFormat::Ppt);
+presentation->Dispose();
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="C++로 PPT에서 메모를 제거하는 방법" intro="PPT 프레젠테이션에서 메모와 메모 작성자를 제거하려면 다음 단계를 따르세요." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Aspose.Slides for C++를 설치합니다. [설치](https://docs.aspose.com/slides/cpp/installation/)를 참조하세요.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` 클래스로 PPT 파일을 로드합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`get_CommentAuthors`에서 가져온 메모 작성자를 반복합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`get_Comments()->Clear()`로 각 작성자의 메모를 지웁니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}메모 작성자 컬렉션을 비웁니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat::Ppt`로 업데이트된 프레젠테이션을 저장합니다.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="C++를 통해 PPT에서 주석을 제거하는 방법" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Aspose.Slides로 구축" title="온라인에서 PPT 메모 제거" description="무료 Aspose.Slides Annotation 앱은 위 코드와 동일한 API인 [Aspose.Slides for C++](https://products.aspose.com/slides/ko/cpp/)로 구축되었습니다. 앱을 열고 내 PPT 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Annotation 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 메모를 제거하는 방식을 확인하세요.
+- PPT 파일의 모든 메모를 제거합니다.
+- 정리된 파일을 다운로드합니다.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="주석에 지원되는 기타 형식" subTitle="C++를 사용하면 다른 형식에서도 주석을 제거할 수 있습니다." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/cpp/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ko/cpp/annotation/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-**Aspose.Slides for C++**를 설치합니다. [**설치**](https://docs.aspose.com/slides/cpp/installation/)를 참조하세요.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-프레젠테이션 클래스의 인스턴스로 PPT 로드
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-로드된 PPT의 모든 작성자에 대해 반복
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-작성자의 모든 주석 제거
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-마지막에 모든 작성자 제거
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="기타 지원되는 주석 형식" subTitle="C++를 사용하면 다음을 포함한 다른 형식에 쉽게 주석을 달 수 있습니다." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ko/cpp/annotation/pptx/" name="PPTX" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

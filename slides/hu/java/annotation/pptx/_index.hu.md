@@ -1,81 +1,59 @@
 ---
-lastmod: 2023-04-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Távolítsa el a PPTX megjegyzést Java használatával
 weight: 360
+title: Jegyzetek eltávolítása PPTX fájlból Java segítségével
 url: /hu/java/annotation/pptx/ 
-description: Java mintakód a PPTX formátumú megjegyzések törléséhez a Java Runtime Environment for JSP/JSF alkalmazásokhoz és asztali alkalmazásokhoz.
+description: Távolítsa el a megjegyzéseket és szerzőiket PPTX bemutatókból Java nyelven az Aspose.Slides for Java segítségével.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Távolítsa el a megjegyzéseket és a megjegyzés szerzőket a Java PPTX-ből" h2="Készítse el saját Java-alkalmazásait, hogy manipulálja a megjegyzéseket és a szerzőket a dokumentumfájlokban szerveroldali API-k segítségével." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-java.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Java" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="DOCX" fileiconsmall3="XLSX" fileiconsmall4="PDF" fileiconsmall5=" ODP " >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Java" >}}
-{{% blocks/products/pf/feature-page-section  h2="Távolítsa el a megjegyzéseket a PPTX-ből Java-n keresztül" %}}
-A megjegyzések PPTX-fájlból való eltávolításához az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) API-t használjuk, amely funkciókban gazdag, hatékony és könnyen használható. dokumentummanipulációs API Java platformhoz.
-{{% blocks/products/pf/agp/code-block title="Megjegyzések törlése a PPTX - Java programból" offSpacer="true" %}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Megjegyzések és szerzőik eltávolítása PPTX fájlból Java nyelven" h2="Az Aspose.Slides for Java segítségével eltávolíthatja a megjegyzéseket és szerzőiket a bemutatófájlokból." related="ODP,PPT" >}}
 
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Megjegyzések eltávolítása PPTX fájlból Java segítségével" variant="code" %}}
+
+Az Aspose.Slides for Java segítségével eltávolíthatja a megjegyzéseket és szerzőiket PPTX bemutatókból. Töltsön be egy fájlt a `Presentation` osztállyal, haladjon végig a `getCommentAuthors` által visszaadott `ICommentAuthor` objektumokon, törölje a megjegyzéseiket, és mentse a frissített bemutatót.
+
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Jegyzetek törlése PPTX fájlból – Java" >}}
 ```java
-
-Presentation presentation = new Presentation("example.pptx");
+Presentation presentation = new Presentation("presentation.pptx");
 try {
-    // Deletes all comments from the presentation
-    for (ICommentAuthor author : presentation.getCommentAuthors())
+    for (ICommentAuthor commentAuthor : presentation.getCommentAuthors())
     {
-        author.getComments().clear();
+        commentAuthor.getComments().clear();
     }
 
-    // Deletes all authors
     presentation.getCommentAuthors().clear();
 
-    presentation.save("example_out.pptx", SaveFormat.Pptx);
+    presentation.save("cleaned-presentation.pptx", SaveFormat.Pptx);
 } finally {
-    if (presentation != null) presentation.dispose();
+    presentation.dispose();
 }
 ```
-{{% /blocks/products/pf/agp/code-block %}}
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{< blocks/products/pf/agp/feature-section isGrey="true" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Hogyan távolíthatók el a megjegyzések PPTX fájlból Java segítségével" intro="Az alábbi lépésekkel eltávolíthatja a megjegyzéseket és szerzőiket egy PPTX bemutatóból." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Telepítse az Aspose.Slides for Java csomagot. Lásd: [Telepítés](https://docs.aspose.com/slides/java/installation/).{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Töltse be a PPTX fájlt a `Presentation` osztállyal.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Haladjon végig a `getCommentAuthors` által visszaadott `ICommentAuthor` objektumokon.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Törölje minden szerző megjegyzéseit a `getComments().clear()` hívással.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Ürítse ki a megjegyzésszerzők gyűjteményét, és mentse a frissített PPTX fájlt.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hogyan lehet eltávolítani a megjegyzéseket a PPTX-ből Java-n keresztül" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/annotation-app label="Az Aspose.Slides segítségével készült" title="Megjegyzések eltávolítása PPTX fájlból online" description="Az ingyenes Aspose.Slides Annotation alkalmazás az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Annotation megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan távolítja el az Aspose.Slides a megjegyzéseket, mielőtt kódot írna.
+- Távolítsa el az összes megjegyzést a PPTX fájlból.
+- Töltse le a megtisztított fájlt.
+{{< /blocks/products/pf/slides-design-update-10-2026/annotation-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="További támogatott formátumok jegyzetekhez" subTitle="Java használatával más formátumokból is eltávolíthatja a jegyzeteket." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/annotation/odp/" name="ODP" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hu/java/annotation/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Telepítse az **Aspose.Slides for Java** programot. Lásd: [**Telepítés**](https://docs.aspose.com/slides/java/installation/).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Töltse be a PPTX-t a Presentation osztály egy példányával
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Ismételje meg a betöltött PPTX összes szerzőjét
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Távolítsa el a szerző összes megjegyzését
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-A végén távolítsa el az összes szerzőt
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< /blocks/products/pf/agp/feature-section >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Egyéb támogatott megjegyzésformátumok" subTitle="A Java használatával könnyen feljegyezhet más formátumokat, beleértve." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/annotation/odp/" name="ODP" >}}
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hu/java/annotation/ppt/" name="PPT" >}}
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}
