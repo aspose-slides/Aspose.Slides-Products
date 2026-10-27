@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta TIFF a POT a través de la aplicación C ++
 weight: 6920
@@ -70,9 +70,12 @@ prs->Save(u"convertedFile.pot", Aspose::Slides::Export::SaveFormat::Pot);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplicación gratuita para convertir TIFF a POT"
-  description="[Pruebe nuestra aplicación gratuita Collage](https://products.aspose.app/slides/collage/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Creado con Aspose.Slides" title="Convertir TIFF a POT en línea" description="La aplicación gratuita Aspose.Slides Conversion está creada con [Aspose.Slides for C++](https://products.aspose.com/slides/es/cpp/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos TIFF." button="Abrir Aspose.Slides Conversion" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" upload="Arrastre o suba su archivo" saveAs="Guardar como" convert="Convertir" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides convierte archivos antes de escribir código.
+- Suba archivos TIFF y guárdelos como POT.
+- Descargue el resultado o convierta más archivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otras conversiones admitidas" subTitle="También puede convertir TIFF a muchos otros formatos de archivo, incluidos algunos de los que se enumeran a continuación." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/cpp/conversion/tiff-to-bmp/" name="TIFF TO BMP" description="Imagen de mapa de bits" >}}

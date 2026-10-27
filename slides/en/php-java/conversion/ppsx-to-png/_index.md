@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to PNG in PHP
 weight: 1980
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Convert PPSX slides to PNG images programmatically with [*Aspose.Slides for PHP via Java*](/slides/php-java/). Load a PowerPoint Open XML Slide Show, render each slide, and save the resulting image as a separate PNG file.
 
-Aspose.Slides renders slides through the `getImage` method and writes them with `IImage::save`. You can also try the presentation-to-PNG conversion in your [browser](https://products.aspose.app/slides/conversion/ppsx-to-png) before integrating it into your application.
+Aspose.Slides renders slides through the `getImage` method and writes them with `IImage::save`. You can also try the presentation-to-PNG conversion in your [browser](https://products.aspose.app/slides/conversion) before integrating it into your application.
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -85,9 +85,7 @@ try {
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPSX to PNG"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion/ppsx-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert PPSX to many other file formats. See other supported conversions below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

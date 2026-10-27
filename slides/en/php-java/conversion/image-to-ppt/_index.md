@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to PPT in PHP
 url: /php-java/conversion/image-to-ppt/
@@ -59,9 +59,7 @@ Aspose.Slides supports common raster and vector image formats and can save image
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the image to the slide with `addPictureFrame`, then save with `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert Image To Other Supported Formats" subTitle="You can also convert Image and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

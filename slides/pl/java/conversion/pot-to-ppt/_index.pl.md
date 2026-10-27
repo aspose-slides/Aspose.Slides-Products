@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj POT na PPT przez Javę
 weight: 2300
@@ -81,9 +81,12 @@ presentation.save("output.ppt", SaveFormat.Ppt);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Darmowa aplikacja do konwersji POT do PPT"
-  description="[Wypróbuj naszą bezpłatną aplikację Text To Gif](https://products.aspose.app/slides/text-to-gif/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Zbudowano z Aspose.Slides" title="Konwertuj POT na PPT online" description="Bezpłatna aplikacja Aspose.Slides Conversion została zbudowana z użyciem [Aspose.Slides for Java](https://products.aspose.com/slides/pl/java/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami POT." button="Otwórz Aspose.Slides Conversion" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" upload="Upuść lub prześlij plik" saveAs="Zapisz jako" convert="Konwertuj" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides konwertuje pliki, zanim napiszesz kod.
+- Prześlij pliki POT i zapisz je jako PPT.
+- Pobierz wynik lub przekonwertuj kolejne pliki.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane konwersje" subTitle="Możesz także przekonwertować POT na wiele innych formatów plików, w tym kilka wymienionych poniżej." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/java/conversion/pot-to-bmp/" name="POT TO BMP" description="Bitmapa" >}}

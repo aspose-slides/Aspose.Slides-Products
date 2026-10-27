@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python में PDF को EMF में बदलें
 weight: 680
@@ -78,9 +78,12 @@ with slides.Presentation() as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="मुफ्त ऐप PDF को EMF में कन्वर्ट करने के लिए"
-  description="[PDF को EMF को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/import/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides से निर्मित" title="PDF को EMF में ऑनलाइन बदलें" description="मुफ़्त Aspose.Slides Conversion ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PDF फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Conversion खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" upload="अपनी फ़ाइल छोड़ें या अपलोड करें" saveAs="इस रूप में सहेजें" convert="बदलें" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides फ़ाइलों को कैसे बदलता है।
+- PDF फ़ाइलें अपलोड करें और उन्हें EMF के रूप में सहेजें।
+- परिणाम डाउनलोड करें या और फ़ाइलें बदलें।
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित रूपांतरण" subTitle="आप पीडीएफ को कई अन्य फाइल फॉर्मेट में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/python-net/conversion/pdf-to-bmp/" name="PDF TO BMP" description="बिटमैप चित्र" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP'yi C# ile EMF'ye dönüştürün
 weight: 6180
@@ -69,9 +69,12 @@ presentation.Save("output.emf", SaveFormat.Emf);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="OTP 'a dönüştürmek için ücretsiz uygulama EMF"
-  description="[Ücretsiz Editor uygulamamızı deneyin](https://products.aspose.app/slides/editor/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides ile geliştirildi" title="OTP dosyasını çevrimiçi olarak EMF biçimine dönüştürün" description="Ücretsiz Aspose.Slides Conversion uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for .NET](https://products.aspose.com/slides/tr/net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi OTP dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Conversion uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" upload="Dosyanızı bırakın veya yükleyin" saveAs="Farklı kaydet" convert="Dönüştür" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın dosyaları nasıl dönüştürdüğünü görün.
+- OTP dosyalarını yükleyin ve EMF olarak kaydedin.
+- Sonucu indirin veya daha fazla dosya dönüştürün.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Desteklenen Diğer Dönüşümler" subTitle="Ayrıca, OTP'yi aşağıda listelenen birkaçı da dahil olmak üzere diğer birçok dosya biçimine dönüştürebilirsiniz." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap Görüntüsü" >}}

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert JPG to PPT in PHP
 url: /php-java/conversion/jpg-to-ppt/
@@ -59,9 +59,7 @@ Aspose.Slides can save JPG-based slides as PPT, PPTX, PDF, HTML, and other suppo
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the JPG image with `addPictureFrame`, then save the presentation with `SaveFormat::Ppt`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert JPG To Other Supported Formats" subTitle="You can also convert JPG and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

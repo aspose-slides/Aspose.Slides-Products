@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A FODP konvertálása JPG formátumra PHP-ben
 weight: 40
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Programozottan kell konvertálnia a FODP fájlokat JPG formátumba? Az [*Aspose.Slides for PHP Java segítségével*](https://products.aspose.com/slides/hu/php-java/) használatával bármely fejlesztő néhány sor PHP kóddal konvertálhatja a FODP fájlt JPG formátumba. .
 
-Modern prezentációfeldolgozási API-ként az Aspose.Slides for PHP gyorsan létrehozza a JPG fájlt a FODP formátumból. Tesztelje a FODP–JPG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion/ppt-to-jpg). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi, hogy a(z) FODP fájlokat számos népszerű formátumba konvertálja.
+Modern prezentációfeldolgozási API-ként az Aspose.Slides for PHP gyorsan létrehozza a JPG fájlt a FODP formátumból. Tesztelje a FODP–JPG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi, hogy a(z) FODP fájlokat számos népszerű formátumba konvertálja.
 
 A könyvtárat a [Composer](https://packagist.org/packages/aspose/slides) webhelyről telepítheti a következő paranccsal:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert FODP to JPG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Az Aspose.Slides segítségével készült" title="FODP konvertálása JPG formátumba online" description="Az ingyenes Aspose.Slides Conversion alkalmazás az [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/hu/php-java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját FODP fájljaival." button="Aspose.Slides Conversion megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" upload="Húzza ide vagy töltse fel a fájlt" saveAs="Mentés másként" convert="Konvertálás" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan konvertálja a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel FODP fájlokat, és mentse őket JPG formátumban.
+- Töltse le az eredményt, vagy konvertáljon további fájlokat.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="A(z) FODP fájlt sok más fájlformátumra is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/php-java/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Bittérképes kép" >}}  

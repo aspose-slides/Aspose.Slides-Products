@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera PPSX till POTM via C#
 weight: 1510
@@ -69,9 +69,12 @@ presentation.Save("output.potm", SaveFormat.Potm);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Gratis app att konvertera PPSX till POTM"
-  description="[Prova vår gratis Collage -app](https://products.aspose.app/slides/collage/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Byggd med Aspose.Slides" title="Konvertera PPSX till POTM online" description="Den kostnadsfria appen Aspose.Slides Conversion är byggd med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPSX-filer." button="Öppna Aspose.Slides Conversion" note="[Alla gratisappar](https://products.aspose.app/slides/family)" upload="Släpp eller ladda upp din fil" saveAs="Spara som" convert="Konvertera" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides konverterar filer innan du skriver kod.
+- Ladda upp PPSX-filer och spara dem som POTM.
+- Ladda ned resultatet eller konvertera fler filer.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra omvandlingar som stöds" subTitle="Du kan också konvertera PPSX till många andra filformat, inklusive några som anges nedan." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/net/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Bitmappsbild" >}}

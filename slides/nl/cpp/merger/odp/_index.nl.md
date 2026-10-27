@@ -82,9 +82,12 @@ presentation1->Save(outputFilePath, SaveFormat::Odp);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF-bestanden online samenvoegen"
-  description="[PDF samenvoegen in Python](https://products.aspose.com/slides/nl/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Gebouwd met Aspose.Slides" title="ODP-bestanden online samenvoegen" description="De gratis app Aspose.Slides Merger is gebouwd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen ODP-bestanden." button="Aspose.Slides Merger openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden samenvoegt voordat u code schrijft.
+- Upload meerdere ODP-bestanden en voeg ze samen tot één bestand.
+- Download het samengevoegde resultaat als één bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 

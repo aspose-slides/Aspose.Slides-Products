@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中将 Image 转换为 PDF
 url: /zh/java/conversion/image-to-pdf/
@@ -48,9 +48,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}将结果保存为 PDF 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="免费在线转换器"
-  description="[如何在 Python 中将 PPT 转换为 HTML](https://products.aspose.com/slides/zh/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="基于 Aspose.Slides 构建" title="在线将 图像 转换为 PDF" description="免费的 Aspose.Slides Conversion 应用基于 [Aspose.Slides for Java](https://products.aspose.com/slides/zh/java/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 图像 文件。" button="打开 Aspose.Slides Conversion" note="[所有免费应用](https://products.aspose.app/slides/family)" upload="拖放或上传您的文件" saveAs="另存为" convert="转换" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先看看 Aspose.Slides 如何转换文件。
+- 上传 图像 文件并将其另存为 PDF。
+- 下载结果或转换更多文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="将 Image 转换为其他支持的格式" subTitle="您还可以转换 Image 并保存为其他文件格式。查看下面所有支持的格式" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}

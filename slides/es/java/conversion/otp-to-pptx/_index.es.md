@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convierta OTP a PPTX a través de Java
 weight: 5810
@@ -81,9 +81,12 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplicación gratuita para convertir OTP a PPTX"
-  description="[Pruebe nuestra aplicación gratuita MP4 To MP3](https://products.aspose.app/slides/video/mp4-to-mp3/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Creado con Aspose.Slides" title="Convertir OTP a PPTX en línea" description="La aplicación gratuita Aspose.Slides Conversion está creada con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos OTP." button="Abrir Aspose.Slides Conversion" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" upload="Arrastre o suba su archivo" saveAs="Guardar como" convert="Convertir" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides convierte archivos antes de escribir código.
+- Suba archivos OTP y guárdelos como PPTX.
+- Descargue el resultado o convierta más archivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otras conversiones admitidas" subTitle="También puede convertir OTP a muchos otros formatos de archivo, incluidos algunos que se enumeran a continuación." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/java/conversion/otp-to-bmp/" name="OTP TO BMP" description="Imagen de mapa de bits" >}}

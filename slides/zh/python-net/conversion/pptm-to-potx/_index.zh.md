@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 PPTM 转换为 POTX
 weight: 2550
@@ -75,9 +75,12 @@ with slides.Presentation("presentation.pptm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="免費應用程序將PPTM轉換為POTX"
-  description="[嘗試我們的免費Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="基于 Aspose.Slides 构建" title="在线将 PPTM 转换为 POTX" description="免费的 Aspose.Slides Conversion 应用基于 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh/python-net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 PPTM 文件。" button="打开 Aspose.Slides Conversion" note="[所有免费应用](https://products.aspose.app/slides/family)" upload="拖放或上传您的文件" saveAs="另存为" convert="转换" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先看看 Aspose.Slides 如何转换文件。
+- 上传 PPTM 文件并将其另存为 POTX。
+- 下载结果或转换更多文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的转换" subTitle="您还可以将 PPTM 转换为许多其他文件格式。请参阅下面的其他支持的转换" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="位图图像" >}}  

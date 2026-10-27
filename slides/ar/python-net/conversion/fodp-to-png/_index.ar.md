@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تحويل FODP إلى PNG في Python
 weight: 90
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 هل تحتاج إلى تحويل ملفات FODP إلى PNG برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/ar/python-net/) يمكن لأي مطور تحويل FODP إلى تنسيق PNG ببضعة أسطر فقط من كود Python.
 
-بصفتها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء PNG من FODP بسرعة. اختبر جودة تحويل FODP إلى PNG في [المتصفح] مباشرة (https://products.aspose.app/slides/conversion/ppt-to-png). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات FODP إلى العديد من التنسيقات الشائعة.
+بصفتها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء PNG من FODP بسرعة. اختبر جودة تحويل FODP إلى PNG في [المتصفح] مباشرة (https://products.aspose.app/slides/conversion). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات FODP إلى العديد من التنسيقات الشائعة.
 
 يمكنك تثبيت المكتبة من [PyPI](https://pypi.org/project/Aspose.Slides/) باستخدام أمر pip التالي:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.fodp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="تطبيق مجاني لتحويل FODP إلى PNG"
-  description="[جرب التطبيق لدينا Video](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="مبني باستخدام Aspose.Slides" title="تحويل FODP إلى PNG عبر الإنترنت" description="تطبيق Aspose.Slides Conversion المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات FODP الخاصة بك." button="افتح Aspose.Slides Conversion" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" upload="أفلت ملفك أو ارفعه" saveAs="حفظ بتنسيق" convert="تحويل" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يحوّل Aspose.Slides الملفات قبل أن تكتب الكود.
+- ارفع ملفات FODP واحفظها بتنسيق PNG.
+- نزّل النتيجة أو حوّل المزيد من الملفات.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="التحويلات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل FODP إلى العديد من تنسيقات الملفات الأخرى. انظر التحويلات الأخرى المدعومة أدناه" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="سيب" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C＃を介してOTPをODPに変換する
 weight: 8620
@@ -69,9 +69,12 @@ presentation.Save("output.odp", SaveFormat.Odp);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="OTPをODPに変換するための無料アプリ"
-  description="[無料のText To Gifアプリを試してください](https://products.aspose.app/slides/text-to-gif/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides で構築" title="OTP を ODP にオンラインで変換" description="無料の Aspose.Slides Conversion アプリは、上記のコードと同じ API である [Aspose.Slides for .NET](https://products.aspose.com/slides/ja/net/) で構築されています。アプリを開いて、ご自身の OTP ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Conversion を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" upload="ファイルをドロップまたはアップロード" saveAs="保存形式" convert="変換" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がファイルをどう変換するかを確認できます。
+- OTP ファイルをアップロードして、ODP として保存できます。
+- 結果をダウンロードするか、さらにファイルを変換できます。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他のサポートされている変換" subTitle="OTPを、以下にリストされているいくつかを含む他の多くのファイル形式に変換することもできます。" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/net/conversion/otp-to-bmp/" name="OTP TO BMP" description="ビットマップ画像" >}}

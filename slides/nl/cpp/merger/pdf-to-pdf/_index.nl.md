@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PDF-bestanden samenvoegen in C++
 url: /nl/cpp/merger/pdf-to-pdf/
@@ -45,9 +45,12 @@ pres->Save(u"pres.pdf", SaveFormat::Pdf);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla de resulterende PDF op.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF-bestanden online samenvoegen"
-  description="[PDF samenvoegen in Python](https://products.aspose.com/slides/nl/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Gebouwd met Aspose.Slides" title="PDF-bestanden online samenvoegen" description="De gratis app Aspose.Slides Merger is gebouwd met [Aspose.Slides for C++](https://products.aspose.com/slides/nl/cpp/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PDF-bestanden." button="Aspose.Slides Merger openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden samenvoegt voordat u code schrijft.
+- Upload meerdere PDF-bestanden en voeg ze samen tot één bestand.
+- Download het samengevoegde resultaat als één bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere bestanden samenvoegen" subTitle="Je kunt ook bestanden in andere formaten combineren om een ​​enkel bestand te krijgen" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/cpp/merger/jpg-to-jpg/" name="JPG to JPG" >}}  

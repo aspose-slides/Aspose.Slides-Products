@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Combinar archivos PPSX usando PHP
 url: /es/php-java/merger/ppsx/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el documento PPSX resultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Combinar archivos PDF en línea"
-  description="[Cómo fusionar PDF en Python](https://products.aspose.com/slides/es/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Creado con Aspose.Slides" title="Combinar archivos PPSX en línea" description="La aplicación gratuita Aspose.Slides Merger está creada con [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/es/php-java/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPSX." button="Abrir Aspose.Slides Merger" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides combina archivos antes de escribir código.
+- Suba varios archivos PPSX y combínelos en uno.
+- Descargue el resultado combinado como un solo archivo.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Exportar PPSX a otros formatos admitidos" subTitle="También puede combinar PPSX y guardar en otros formatos de archivo. Ver todos los formatos admitidos a continuación" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/php-java/merger/ppt/" name="PPT" >}}

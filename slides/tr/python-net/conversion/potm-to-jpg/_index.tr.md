@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python'da POTM'yi JPG'ye Dönüştür
 weight: 1160
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 POTM dosyalarını programlı olarak JPG'ye dönüştürmeniz mi gerekiyor? [*Aspose.Slides for Python aracılığıyla .NET*](https://products.aspose.com/slides/tr/python-net/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır Python koduyla POTM'yi JPG formatına dönüştürebilir.
 
-Modern bir sunum işleme API'si olan Aspose.Slides for Python, POTM'den hızlı bir şekilde JPG oluşturur. POTM'den JPG'ye dönüştürme kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion/ppt-to-jpg) test edin. Aspose PowerPoint PPTX kitaplığı, POTM dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
+Modern bir sunum işleme API'si olan Aspose.Slides for Python, POTM'den hızlı bir şekilde JPG oluşturur. POTM'den JPG'ye dönüştürme kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion) test edin. Aspose PowerPoint PPTX kitaplığı, POTM dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
 
 Aşağıdaki pip komutunu kullanarak kitaplığı [PyPI](https://pypi.org/project/Aspose.Slides/) adresinden yükleyebilirsiniz:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.potm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="POTM 'a dönüştürmek için ücretsiz uygulama JPG"
-  description="[PPT için JPG dönüştürmek için ücretsiz uygulamamızı deneyin.](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides ile geliştirildi" title="POTM dosyasını çevrimiçi olarak JPG biçimine dönüştürün" description="Ücretsiz Aspose.Slides Conversion uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/tr/python-net/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi POTM dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Conversion uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" upload="Dosyanızı bırakın veya yükleyin" saveAs="Farklı kaydet" convert="Dönüştür" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın dosyaları nasıl dönüştürdüğünü görün.
+- POTM dosyalarını yükleyin ve JPG olarak kaydedin.
+- Sonucu indirin veya daha fazla dosya dönüştürün.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Desteklenen Diğer Dönüşümler" subTitle="POTM'yi diğer birçok dosya formatına da dönüştürebilirsiniz. Aşağıda desteklenen diğer dönüşümleri görün" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/python-net/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmap Görüntüsü" >}}  

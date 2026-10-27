@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar SVG para PNG em Java
 url: /pt/java/merger/svg-to-png/
@@ -55,9 +55,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Salve a imagem PNG resultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Mesclar arquivos PDF on-line"
-  description="[Como mesclar PDF em Python](https://products.aspose.com/slides/pt/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Criado com Aspose.Slides" title="Mesclar SVG em PNG online" description="O aplicativo gratuito Aspose.Slides Merger é criado com [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos SVG." button="Abrir Aspose.Slides Merger" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides mescla arquivos antes de escrever código.
+- Envie vários arquivos SVG e combine-os em um único arquivo PNG.
+- Baixe o resultado mesclado como um único arquivo.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Mesclar outros arquivos" subTitle="Você também pode combinar arquivos em outros formatos para obter um único arquivo" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Převeďte POTM do PNG v PHP
 weight: 1140
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Potřebujete převést soubory POTM do PNG programově? Pomocí [*Aspose.Slides pro PHP přes Java*](https://products.aspose.com/slides/cs/php-java/) může každý vývojář převést POTM do formátu PNG pomocí několika řádků kódu PHP .
 
-Aspose.Slides pro PHP jako moderní API pro zpracování prezentací rychle vytváří PNG z POTM. Otestujte kvalitu převodu POTM na PNG přímo ve svém [prohlížeči](https://products.aspose.app/slides/conversion/ppt-to-png). Knihovna Aspose PowerPoint PPTX vám umožňuje převádět soubory POTM do mnoha oblíbených formátů.
+Aspose.Slides pro PHP jako moderní API pro zpracování prezentací rychle vytváří PNG z POTM. Otestujte kvalitu převodu POTM na PNG přímo ve svém [prohlížeči](https://products.aspose.app/slides/conversion). Knihovna Aspose PowerPoint PPTX vám umožňuje převádět soubory POTM do mnoha oblíbených formátů.
 
 Knihovnu můžete nainstalovat z [Composer](https://packagist.org/packages/aspose/slides) pomocí následujícího příkazu:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert POTM to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Vytvořeno pomocí Aspose.Slides" title="Převod POTM na PNG online" description="Bezplatná aplikace Aspose.Slides Conversion je vytvořena pomocí [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/cs/php-java/), stejného API jako ve výše uvedeném kódu. Otevřete ji a vyzkoušejte, co API dokáže s vašimi vlastními soubory POTM." button="Otevřít Aspose.Slides Conversion" note="[Všechny bezplatné aplikace](https://products.aspose.app/slides/family)" upload="Přetáhněte nebo nahrajte soubor" saveAs="Uložit jako" convert="Převést" >}}
+- Běží ve vašem prohlížeči, nic není třeba instalovat.
+- Podívejte se, jak Aspose.Slides převádí soubory, ještě než začnete psát kód.
+- Nahrajte soubory POTM a uložte je jako PNG.
+- Stáhněte výsledek nebo převeďte další soubory.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Další podporované konverze" subTitle="Můžete také převést POTM do mnoha dalších formátů souborů. Další podporované konverze naleznete níže" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/cs/php-java/conversion/potm-to-bmp/" name="POTM TO BMP" description="Bitmapový obrázek" >}}  

@@ -94,9 +94,12 @@ prest1.save("merged-presentation.pptm", SaveFormat.Pptm);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF-Dateien online zusammenführen"
-  description="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Entwickelt mit Aspose.Slides" title="PPTM-Dateien online zusammenführen" description="Die kostenlose App Aspose.Slides Merger basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPTM-Dateien leisten kann." button="Aspose.Slides Merger öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien zusammenführt, bevor Sie Code schreiben.
+- Laden Sie mehrere PPTM-Dateien hoch und führen Sie sie zu einer zusammen.
+- Laden Sie das zusammengeführte Ergebnis als eine Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 

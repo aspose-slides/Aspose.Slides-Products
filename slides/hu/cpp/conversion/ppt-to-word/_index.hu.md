@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PPT-t Word-be C++-ban
 url: /hu/cpp/conversion/ppt-to-word/
@@ -59,9 +59,12 @@ for (const auto& slide : presentation->get_Slides())
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Mentse el a kapott Word-dokumentumot.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Ingyenes online konverter"
-  description="[Hogyan lehet PPT-t HTML-re konvertálni a Pythonban](https://products.aspose.com/slides/hu/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Az Aspose.Slides segítségével készült" title="PPT konvertálása Word formátumba online" description="Az ingyenes Aspose.Slides Conversion alkalmazás az [Aspose.Slides for C++](https://products.aspose.com/slides/hu/cpp/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPT fájljaival." button="Aspose.Slides Conversion megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" upload="Húzza ide vagy töltse fel a fájlt" saveAs="Mentés másként" convert="Konvertálás" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan konvertálja a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel PPT fájlokat, és mentse őket Word formátumban.
+- Töltse le az eredményt, vagy konvertáljon további fájlokat.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="A PowerPointot más formátumú fájlokká is konvertálhatja" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/cpp/conversion/ppt-to-html/" name="PPT TO HTML" >}}

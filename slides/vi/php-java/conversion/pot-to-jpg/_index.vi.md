@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi POT sang JPG trong PHP
 weight: 890
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Bạn cần chuyển đổi tệp POT thành JPG theo cách lập trình? Sử dụng [* Aspose.Slides cho PHP qua Java *](https://products.aspose.com/slides/vi/php-java/), bất kỳ nhà phát triển nào cũng có thể chuyển đổi định dạng POT sang JPG chỉ với một vài dòng mã PHP .
 
-Là một API xử lý bản trình bày hiện đại, Aspose.Slides for PHP tạo JPG từ POT một cách nhanh chóng. Kiểm tra chất lượng của chuyển đổi POT sang JPG ngay trong [browser] của bạn (https://products.aspose.app/slides/conversion/ppt-to-jpg). Thư viện Aspose PowerPoint PPTX cho phép bạn chuyển đổi tệp POT sang nhiều định dạng phổ biến.
+Là một API xử lý bản trình bày hiện đại, Aspose.Slides for PHP tạo JPG từ POT một cách nhanh chóng. Kiểm tra chất lượng của chuyển đổi POT sang JPG ngay trong [browser] của bạn (https://products.aspose.app/slides/conversion). Thư viện Aspose PowerPoint PPTX cho phép bạn chuyển đổi tệp POT sang nhiều định dạng phổ biến.
 
 Bạn có thể cài đặt thư viện từ [Composer](https://packagist.org/packages/aspose/slides) bằng lệnh sau:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert POT to JPG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Được xây dựng bằng Aspose.Slides" title="Chuyển đổi POT sang JPG trực tuyến" description="Ứng dụng Aspose.Slides Conversion miễn phí được xây dựng bằng [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/vi/php-java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp POT của riêng bạn." button="Mở Aspose.Slides Conversion" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" upload="Thả hoặc tải lên tệp của bạn" saveAs="Lưu dưới dạng" convert="Chuyển đổi" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides chuyển đổi tệp trước khi bạn viết mã.
+- Tải lên các tệp POT và lưu chúng dưới dạng JPG.
+- Tải xuống kết quả hoặc chuyển đổi thêm tệp.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các chuyển đổi được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi POT sang nhiều định dạng tệp khác. Xem các chuyển đổi được hỗ trợ khác bên dưới" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/conversion/pot-to-bmp/" name="POT TO BMP" description="Hình ảnh bitmap" >}}  

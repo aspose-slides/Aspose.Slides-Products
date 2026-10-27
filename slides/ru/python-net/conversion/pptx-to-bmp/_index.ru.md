@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Конвертировать PPTX в BMP в Python
 weight: 2650
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pptx-to-bmp"
-  title="Бесплатное приложение для преобразования PPTX в BMP"
-  description="[Попробуйте наше бесплатное приложение, чтобы преобразовать PPT в BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Создано на основе Aspose.Slides" title="Конвертировать PPTX в BMP онлайн" description="Бесплатное приложение Aspose.Slides Conversion создано на основе [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ru/python-net/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PPTX." button="Открыть Aspose.Slides Conversion" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" upload="Перетащите или загрузите файл" saveAs="Сохранить как" convert="Конвертировать" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides конвертирует файлы, прежде чем писать код.
+- Загрузите файлы PPTX и сохраните их в BMP.
+- Скачайте результат или конвертируйте другие файлы.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые преобразования" subTitle="Вы также можете конвертировать PPTX во многие другие форматы файлов. Смотрите другие поддерживаемые преобразования ниже" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/python-net/conversion/pptx-to-emf/" name="PPTX TO EMF" description="Расширенный формат метафайла" >}}  

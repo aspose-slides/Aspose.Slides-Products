@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में ODP को JPG में बदलें
 weight: 280
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 ODP फ़ाइलों को प्रोग्रामेटिक रूप से JPG में कनवर्ट करने की आवश्यकता है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर पाइथन कोड की कुछ पंक्तियों के साथ ODP को JPG प्रारूप में बदल सकता है।
 
-एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से ODP से JPG बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion/ppt-to-jpg) में ODP से JPG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको ODP फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
+एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से ODP से JPG बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में ODP से JPG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको ODP फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
 आप निम्न पाइप कमांड का उपयोग करके [PyPI](https://pypi.org/project/Aspose.Slides/) से पुस्तकालय स्थापित कर सकते हैं:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.odp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="odp-to-jpg"
-  title="मुफ्त ऐप ODP को JPG में कन्वर्ट करने के लिए"
-  description="[PPT को JPG को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides से निर्मित" title="ODP को JPG में ऑनलाइन बदलें" description="मुफ़्त Aspose.Slides Conversion ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी ODP फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Conversion खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" upload="अपनी फ़ाइल छोड़ें या अपलोड करें" saveAs="इस रूप में सहेजें" convert="बदलें" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides फ़ाइलों को कैसे बदलता है।
+- ODP फ़ाइलें अपलोड करें और उन्हें JPG के रूप में सहेजें।
+- परिणाम डाउनलोड करें या और फ़ाइलें बदलें।
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित रूपांतरण" subTitle="आप ODP को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="बिटमैप चित्र" >}}  

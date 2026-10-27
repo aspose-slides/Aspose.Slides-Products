@@ -94,9 +94,12 @@ prest1.save("merged-presentation.pot", SaveFormat.Pot);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Hợp nhất các tệp PDF trực tuyến"
-  description="[Cách hợp nhất PDF trong Python](https://products.aspose.com/slides/vi/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Được xây dựng bằng Aspose.Slides" title="Hợp nhất tệp POT trực tuyến" description="Ứng dụng Aspose.Slides Merger miễn phí được xây dựng bằng [Aspose.Slides for Java](https://products.aspose.com/slides/vi/java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp POT của riêng bạn." button="Mở Aspose.Slides Merger" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides hợp nhất tệp trước khi bạn viết mã.
+- Tải lên nhiều tệp POT và kết hợp chúng thành một.
+- Tải xuống kết quả đã hợp nhất dưới dạng một tệp.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POT Files using .NET
 weight: 7360
@@ -77,9 +77,7 @@ mergedPresentation.Save("merged.pot", SaveFormat.Pot);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension="pot"
-  title="Merge POT Files Online"
-  description="Combine files online with Aspose.Slides Merger." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app />}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 

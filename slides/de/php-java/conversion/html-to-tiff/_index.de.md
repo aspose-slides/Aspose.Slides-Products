@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie HTML in TIFF in PHP
 url: /de/php-java/conversion/html-to-tiff/
@@ -63,9 +63,12 @@ Als moderne Dokumentverarbeitungs-API exportiert Aspose.Slides für PHP schnell 
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Ergebnis als TIFF-Datei speichern.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Kostenloser Online-Konverter"
-  description="[So konvertieren Sie PPT in HTML in Python](https://products.aspose.com/slides/de/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Entwickelt mit Aspose.Slides" title="HTML online in TIFF konvertieren" description="Die kostenlose App Aspose.Slides Conversion basiert auf [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/de/php-java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen HTML-Dateien leisten kann." button="Aspose.Slides Conversion öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" upload="Datei ablegen oder hochladen" saveAs="Speichern als" convert="Konvertieren" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien konvertiert, bevor Sie Code schreiben.
+- Laden Sie HTML-Dateien hoch und speichern Sie sie als TIFF.
+- Laden Sie das Ergebnis herunter oder konvertieren Sie weitere Dateien.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konvertieren Sie HTML in andere unterstützte Formate" subTitle="Sie können HTML auch konvertieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/conversion/html-to-image/" name="HTML TO IMAGE" >}}

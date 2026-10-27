@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: قم بتحويل PPTX إلى PNG في Python
 weight: 2740
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 هل تحتاج إلى تحويل ملفات PPTX إلى PNG برمجيًا؟ باستخدام [* Aspose.Slides for Python عبر .NET *](https://products.aspose.com/slides/ar/python-net/) يمكن لأي مطور تحويل PPTX إلى تنسيق PNG ببضعة أسطر فقط من كود Python.
 
-بصفتها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء PNG من PPTX بسرعة. اختبر جودة تحويل PPTX إلى PNG في [المتصفح] مباشرة (https://products.aspose.app/slides/conversion/ppt-to-png). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات PPTX إلى العديد من التنسيقات الشائعة.
+بصفتها واجهة برمجة تطبيقات حديثة لمعالجة العروض التقديمية ، تقوم Aspose.Slides for Python بإنشاء PNG من PPTX بسرعة. اختبر جودة تحويل PPTX إلى PNG في [المتصفح] مباشرة (https://products.aspose.app/slides/conversion). تسمح لك مكتبة Aspose PowerPoint PPTX بتحويل ملفات PPTX إلى العديد من التنسيقات الشائعة.
 
 يمكنك تثبيت المكتبة من [PyPI](https://pypi.org/project/Aspose.Slides/) باستخدام أمر pip التالي:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pptx-to-png"
-  title="تطبيق مجاني لتحويل PPTX إلى PNG"
-  description="[جرب تطبيقنا المجاني لتحويل PPT إلى PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="مبني باستخدام Aspose.Slides" title="تحويل PPTX إلى PNG عبر الإنترنت" description="تطبيق Aspose.Slides Conversion المجاني مبني باستخدام [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ar/python-net/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات PPTX الخاصة بك." button="افتح Aspose.Slides Conversion" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" upload="أفلت ملفك أو ارفعه" saveAs="حفظ بتنسيق" convert="تحويل" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يحوّل Aspose.Slides الملفات قبل أن تكتب الكود.
+- ارفع ملفات PPTX واحفظها بتنسيق PNG.
+- نزّل النتيجة أو حوّل المزيد من الملفات.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="التحويلات المدعومة الأخرى" subTitle="يمكنك أيضًا تحويل PPTX إلى العديد من تنسيقات الملفات الأخرى. انظر التحويلات الأخرى المدعومة أدناه" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="سيب" >}}  

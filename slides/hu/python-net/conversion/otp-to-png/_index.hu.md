@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja az OTP-t PNG-re Pythonban
 weight: 530
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Programozottan kell konvertálnia az OTP fájlokat PNG formátumba? Az [*Aspose.Slides for Python for .NET segítségével*](https://products.aspose.com/slides/hu/python-net/) használatával bármely fejlesztő néhány sor Python kóddal PNG formátumba konvertálhatja az OTP-t.
 
-Modern prezentációfeldolgozási API-ként az Aspose.Slides for Python gyorsan hoz létre PNG-t az OTP-ből. Tesztelje az OTP-PNG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion/ppt-to-png). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi az OTP-fájlok számos népszerű formátumba való konvertálását.
+Modern prezentációfeldolgozási API-ként az Aspose.Slides for Python gyorsan hoz létre PNG-t az OTP-ből. Tesztelje az OTP-PNG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi az OTP-fájlok számos népszerű formátumba való konvertálását.
 
 A könyvtárat a [PyPI]-ről (https://pypi.org/project/Aspose.Slides/) telepítheti a következő pip paranccsal:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.otp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Ingyenes alkalmazás a OTP konvertálásához PNG -re"
-  description="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PNG -re](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Az Aspose.Slides segítségével készült" title="OTP konvertálása PNG formátumba online" description="Az ingyenes Aspose.Slides Conversion alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját OTP fájljaival." button="Aspose.Slides Conversion megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" upload="Húzza ide vagy töltse fel a fájlt" saveAs="Mentés másként" convert="Konvertálás" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan konvertálja a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel OTP fájlokat, és mentse őket PNG formátumban.
+- Töltse le az eredményt, vagy konvertáljon további fájlokat.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="Az OTP-t sok más fájlformátumra is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bittérképes kép" >}}  

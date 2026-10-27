@@ -93,9 +93,12 @@ var ps1 = new Presentation("presen1.odp");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Scal pliki PDF online"
-  description="[Jak scalić PDF w Pythonie](https://products.aspose.com/slides/pl/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Zbudowano z Aspose.Slides" title="Scalaj pliki ODP online" description="Bezpłatna aplikacja Aspose.Slides Merger została zbudowana z użyciem [Aspose.Slides for .NET](https://products.aspose.com/slides/pl/net/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami ODP." button="Otwórz Aspose.Slides Merger" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides scala pliki, zanim napiszesz kod.
+- Prześlij kilka plików ODP i połącz je w jeden.
+- Pobierz scalony wynik jako jeden plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 

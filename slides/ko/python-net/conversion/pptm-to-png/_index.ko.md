@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Python에서 PPTM을 PNG로 변환
 weight: 2520
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 프로그래밍 방식으로 PPTM 파일을 PNG로 변환해야 합니까? [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/ko/python-net/)을 사용하면 모든 개발자가 몇 줄의 Python 코드로 PPTM을 PNG 형식으로 변환할 수 있습니다.
 
-최신 프레젠테이션 처리 API인 Aspose.Slides for Python은 PPTM에서 PNG를 빠르게 생성합니다. [브라우저](https://products.aspose.app/slides/conversion/ppt-to-png)에서 PPTM에서 PNG로 변환하는 품질을 바로 테스트하세요. Aspose PowerPoint PPTX 라이브러리를 사용하면 PPTM 파일을 널리 사용되는 형식으로 변환할 수 있습니다.
+최신 프레젠테이션 처리 API인 Aspose.Slides for Python은 PPTM에서 PNG를 빠르게 생성합니다. [브라우저](https://products.aspose.app/slides/conversion)에서 PPTM에서 PNG로 변환하는 품질을 바로 테스트하세요. Aspose PowerPoint PPTX 라이브러리를 사용하면 PPTM 파일을 널리 사용되는 형식으로 변환할 수 있습니다.
 
 다음 pip 명령을 사용하여 [PyPI](https://pypi.org/project/Aspose.Slides/)에서 라이브러리를 설치할 수 있습니다.
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="PPTM을 PNG로 변환하는 무료 앱"
-  description="[PPT을 PNG로 변환하려면 무료 앱을 사용해보십시오.](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides로 구축" title="PPTM에서 PNG로 온라인 변환" description="무료 Aspose.Slides Conversion 앱은 위 코드와 동일한 API인 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ko/python-net/)로 구축되었습니다. 앱을 열고 내 PPTM 파일로 API가 무엇을 할 수 있는지 확인해 보세요." button="Aspose.Slides Conversion 열기" note="[모든 무료 앱](https://products.aspose.app/slides/family)" upload="파일을 끌어다 놓거나 업로드하세요" saveAs="다른 이름으로 저장" convert="변환" >}}
+- 브라우저에서 실행되며 설치가 필요 없습니다.
+- 코드를 작성하기 전에 Aspose.Slides가 파일을 어떻게 변환하는지 확인해 보세요.
+- PPTM 파일을 업로드하고 PNG로 저장하세요.
+- 결과를 다운로드하거나 더 많은 파일을 변환하세요.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="기타 지원되는 변환" subTitle="PPTM을 다른 많은 파일 형식으로 변환할 수도 있습니다. 아래에서 지원되는 다른 변환을 참조하세요." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ko/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="비트맵 이미지" >}}  

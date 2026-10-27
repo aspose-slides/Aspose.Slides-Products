@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP में POTX को PNG में बदलें
 weight: 1350
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 प्रोग्राम के रूप में POTX फ़ाइलों को PNG में कनवर्ट करने की आवश्यकता है? [*Aspose.Slides for PHP by Java*](https://products.aspose.com/slides/hi/php-java/) का उपयोग करके कोई भी डेवलपर PHP कोड की कुछ पंक्तियों के साथ POTX को PNG फ़ॉर्मैट में बदल सकता है .
 
-एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for PHP POTX से PNG जल्दी से बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion/ppt-to-png) में POTX से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको POTX फाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
+एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for PHP POTX से PNG जल्दी से बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में POTX से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको POTX फाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
 आप निम्न आदेश का उपयोग करके [संगीतकार](https://packagist.org/packages/aspose/slides) से पुस्तकालय स्थापित कर सकते हैं:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert POTX to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides से निर्मित" title="POTX को PNG में ऑनलाइन बदलें" description="मुफ़्त Aspose.Slides Conversion ऐप [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/hi/php-java/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी POTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Conversion खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" upload="अपनी फ़ाइल छोड़ें या अपलोड करें" saveAs="इस रूप में सहेजें" convert="बदलें" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides फ़ाइलों को कैसे बदलता है।
+- POTX फ़ाइलें अपलोड करें और उन्हें PNG के रूप में सहेजें।
+- परिणाम डाउनलोड करें या और फ़ाइलें बदलें।
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित रूपांतरण" subTitle="आप POTX को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/php-java/conversion/potx-to-bmp/" name="POTX TO BMP" description="बिटमैप चित्र" >}}  

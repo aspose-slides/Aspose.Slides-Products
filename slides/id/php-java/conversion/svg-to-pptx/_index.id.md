@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversikan SVG ke PPTX di PHP
 url: /id/php-java/conversion/svg-to-pptx/
@@ -66,9 +66,12 @@ Sebagai API pemrosesan dokumen modern, Aspose.Slides untuk PHP mengekspor file S
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan hasilnya sebagai file PPTX.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Konverter Daring Gratis"
-  description="[Cara Mengonversi PPT ke HTML dengan Python](https://products.aspose.com/slides/id/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Dibuat dengan Aspose.Slides" title="Konversi SVG ke PPTX Secara Online" description="Aplikasi Aspose.Slides Conversion gratis dibuat dengan [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/id/php-java/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file SVG Anda sendiri." button="Buka Aspose.Slides Conversion" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" upload="Letakkan atau unggah file Anda" saveAs="Simpan sebagai" convert="Konversi" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides mengonversi file sebelum Anda menulis kode.
+- Unggah file SVG dan simpan sebagai PPTX.
+- Unduh hasilnya atau konversi lebih banyak file.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversikan SVG Ke Format Lain yang Didukung" subTitle="Anda juga dapat mengonversi SVG dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah ini" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/conversion/svg-to-png/" name="SVG TO PNG" >}}

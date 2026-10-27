@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert OTP to JPG in PHP
 weight: 470
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Use [*Aspose.Slides for PHP via Java*](/slides/php-java/) to load an OTP presentation and render each slide as a JPG image.
 
-Call `getImage` for each slide and save the rendered image with `ImageFormat::Jpeg`. You can also test presentation-to-JPG conversion in your [browser](https://products.aspose.app/slides/conversion/otp-to-jpeg).
+Call `getImage` for each slide and save the rendered image with `ImageFormat::Jpeg`. You can also test presentation-to-JPG conversion in your [browser](https://products.aspose.app/slides/conversion).
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -85,9 +85,7 @@ try {
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert OTP to JPG"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion/otp-to-jpeg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert OTP to many other file formats. See other supported conversions below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-10-27
 title: Convert HTML to XML in C++
 url: /cpp/conversion/html-to-xml/
 keywords: HTML to XML, Convert HTML to XML, PowerPoint XML Presentation, C++ API, C++ Library, HTML, XML
@@ -46,9 +46,7 @@ The generated XML represents a presentation rather than a generic transformation
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `Save` with the output file path and `SaveFormat::Xml`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert HTML to Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi PPT sang BMP thông qua ứng dụng C ++
 weight: 7880
@@ -87,9 +87,12 @@ bitmap->Save(u"output.bmp", ImageFormat::get_Bmp());
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="ppt-to-bmp"
-  title="Ứng dụng miễn phí để chuyển đổi PPT thành BMP"
-  description="[Hãy thử ứng dụng miễn phí của chúng tôi để chuyển đổi PPT sang BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Được xây dựng bằng Aspose.Slides" title="Chuyển đổi PPT sang BMP trực tuyến" description="Ứng dụng Aspose.Slides Conversion miễn phí được xây dựng bằng [Aspose.Slides for C++](https://products.aspose.com/slides/vi/cpp/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp PPT của riêng bạn." button="Mở Aspose.Slides Conversion" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" upload="Thả hoặc tải lên tệp của bạn" saveAs="Lưu dưới dạng" convert="Chuyển đổi" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides chuyển đổi tệp trước khi bạn viết mã.
+- Tải lên các tệp PPT và lưu chúng dưới dạng BMP.
+- Tải xuống kết quả hoặc chuyển đổi thêm tệp.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Các chuyển đổi được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi PPT thành nhiều định dạng tệp khác, bao gồm một số định dạng được liệt kê dưới đây." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/cpp/conversion/ppt-to-emf/" name="PPT TO EMF" description="Định dạng siêu tệp nâng cao" >}}

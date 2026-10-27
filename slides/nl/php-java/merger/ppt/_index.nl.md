@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Voeg PPT bestanden samen met behulp van PHP
 url: /nl/php-java/merger/ppt/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Sla het resulterende PPT-document op.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF-bestanden online samenvoegen"
-  description="[PDF samenvoegen in Python](https://products.aspose.com/slides/nl/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Gebouwd met Aspose.Slides" title="PPT-bestanden online samenvoegen" description="De gratis app Aspose.Slides Merger is gebouwd met [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/nl/php-java/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPT-bestanden." button="Aspose.Slides Merger openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden samenvoegt voordat u code schrijft.
+- Upload meerdere PPT-bestanden en voeg ze samen tot één bestand.
+- Download het samengevoegde resultaat als één bestand.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Exporteer PPT naar andere ondersteunde formaten" subTitle="U kunt PPT ook combineren en opslaan in andere bestandsindelingen. Bekijk hieronder alle ondersteunde formaten" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/merger/pptx/" name="PPTX" >}}

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to SVG in Python
 weight: 2390
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PPT presentation slides to SVG images programmatically. Load the presentation, iterate through `Presentation.slides`, and export each slide by using `Slide.write_as_svg`.
 
-SVG output remains sharp at any scale, making it suitable for web pages and other resolution-independent uses. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/ppt-to-svg) or use the Python API in your application.
+SVG output remains sharp at any scale, making it suitable for web pages and other resolution-independent uses. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save PPT as SVG in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/ppt-to-svg) to see the PPT-to-SVG conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the PPT-to-SVG conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

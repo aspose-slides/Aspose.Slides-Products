@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT en Word en Java
 url: /fr/java/conversion/ppt-to-word/
@@ -63,9 +63,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le document Word résultant.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Convertisseur en ligne gratuit"
-  description="[Comment convertir PPT en HTML en Python](https://products.aspose.com/slides/fr/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Conçu avec Aspose.Slides" title="Convertir PPT en Word en ligne" description="L'application gratuite Aspose.Slides Conversion est conçue avec [Aspose.Slides for Java](https://products.aspose.com/slides/fr/java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Conversion" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" upload="Déposez ou importez votre fichier" saveAs="Enregistrer sous" convert="Convertir" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides convertit les fichiers avant d'écrire du code.
+- Téléchargez des fichiers PPT et enregistrez-les au format Word.
+- Téléchargez le résultat ou convertissez d'autres fichiers.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir PowerPoint en fichiers dans d'autres formats" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}

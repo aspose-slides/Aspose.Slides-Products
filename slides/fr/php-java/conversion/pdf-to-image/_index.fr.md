@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PDF en Image en PHP
 url: /fr/php-java/conversion/pdf-to-image/
@@ -64,9 +64,12 @@ En tant qu'API de traitement de documents moderne, Aspose.Slides pour PHP export
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le résultat en tant que fichier Image.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Convertisseur en ligne gratuit"
-  description="[Comment convertir PPT en HTML en Python](https://products.aspose.com/slides/fr/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Conçu avec Aspose.Slides" title="Convertir PDF en Image en ligne" description="L'application gratuite Aspose.Slides Conversion est conçue avec [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/fr/php-java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PDF." button="Ouvrir Aspose.Slides Conversion" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" upload="Déposez ou importez votre fichier" saveAs="Enregistrer sous" convert="Convertir" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides convertit les fichiers avant d'écrire du code.
+- Téléchargez des fichiers PDF et enregistrez-les au format Image.
+- Téléchargez le résultat ou convertissez d'autres fichiers.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convertir PDF vers d'autres formats pris en charge" subTitle="Vous pouvez également convertir PDF et enregistrer dans d'autres formats de fichiers. Voir tous les formats pris en charge ci-dessous" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/conversion/pdf-to-jpg/" name="PDF TO JPG" >}}

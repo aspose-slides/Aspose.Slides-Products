@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer POTX naar TIFF via C#
 weight: 570
@@ -69,9 +69,12 @@ presentation.Save("output.tiff", SaveFormat.Tiff);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Gratis app om POTX te converteren naar TIFF"
-  description="[Probeer onze gratis Text To Gif app](https://products.aspose.app/slides/text-to-gif/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Gebouwd met Aspose.Slides" title="POTX online converteren naar TIFF" description="De gratis app Aspose.Slides Conversion is gebouwd met [Aspose.Slides for .NET](https://products.aspose.com/slides/nl/net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen POTX-bestanden." button="Aspose.Slides Conversion openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" upload="Sleep of upload uw bestand" saveAs="Opslaan als" convert="Converteren" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden converteert voordat u code schrijft.
+- Upload POTX-bestanden en sla ze op als TIFF.
+- Download het resultaat of converteer meer bestanden.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde conversies" subTitle="U kunt POTX ook converteren naar vele andere bestandsindelingen, waaronder enkele die hieronder worden vermeld." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Bitmap afbeelding" >}}

@@ -94,9 +94,12 @@ prest1.save("merged-presentation.pot", SaveFormat.Pot);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="รวมไฟล์ PDF ออนไลน์"
-  description="[วิธีผสาน PDF ใน Python](https://products.aspose.com/slides/th/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="สร้างด้วย Aspose.Slides" title="รวมไฟล์ POT ออนไลน์" description="แอป Aspose.Slides Merger ฟรีนี้สร้างด้วย [Aspose.Slides for Java](https://products.aspose.com/slides/th/java/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ POT ของคุณเอง" button="เปิด Aspose.Slides Merger" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides รวมไฟล์อย่างไรก่อนที่คุณจะเขียนโค้ด
+- อัปโหลดไฟล์ POT หลายไฟล์แล้วรวมเป็นไฟล์เดียว
+- ดาวน์โหลดผลลัพธ์ที่รวมแล้วเป็นไฟล์เดียว
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 

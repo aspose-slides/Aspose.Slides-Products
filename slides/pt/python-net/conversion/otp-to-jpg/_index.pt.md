@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter OTP para JPG em Python
 weight: 500
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Precisa converter arquivos OTP para JPG programaticamente? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/pt/python-net/) qualquer desenvolvedor pode converter OTP para o formato JPG com apenas algumas linhas de código Python.
 
-Como uma API de processamento de apresentação moderna, o Aspose.Slides for Python cria JPG a partir do OTP rapidamente. Teste a qualidade da conversão de OTP para JPG diretamente no seu [navegador](https://products.aspose.app/slides/conversion/ppt-to-jpg). A biblioteca Aspose PowerPoint PPTX permite converter arquivos OTP para muitos formatos populares.
+Como uma API de processamento de apresentação moderna, o Aspose.Slides for Python cria JPG a partir do OTP rapidamente. Teste a qualidade da conversão de OTP para JPG diretamente no seu [navegador](https://products.aspose.app/slides/conversion). A biblioteca Aspose PowerPoint PPTX permite converter arquivos OTP para muitos formatos populares.
 
 Você pode instalar a biblioteca de [PyPI](https://pypi.org/project/Aspose.Slides/) usando o seguinte comando pip:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.otp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplicativo gratuito para converter OTP para JPG"
-  description="[Experimente nosso aplicativo gratuito para converter PPT para JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Criado com Aspose.Slides" title="Converter OTP para JPG online" description="O aplicativo gratuito Aspose.Slides Conversion é criado com [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/pt/python-net/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos OTP." button="Abrir Aspose.Slides Conversion" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" upload="Arraste ou envie seu arquivo" saveAs="Salvar como" convert="Converter" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides converte arquivos antes de escrever código.
+- Envie arquivos OTP e salve-os como JPG.
+- Baixe o resultado ou converta mais arquivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outras conversões compatíveis" subTitle="Você também pode converter OTP para muitos outros formatos de arquivo. Veja outras conversões compatíveis abaixo" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/python-net/conversion/otp-to-bmp/" name="OTP TO BMP" description="Imagem em formato bitmap" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPT naar PNG in Python
 weight: 2300
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Wilt u PPT-bestanden programmatisch naar PNG converteren? Met behulp van [*Aspose.Slides voor Python via .NET*](https://products.aspose.com/slides/nl/python-net/) kan elke ontwikkelaar PPT naar PNG-indeling converteren met slechts een paar regels Python-code.
 
-Als een moderne API voor het verwerken van presentaties, maakt Aspose.Slides voor Python snel PNG van PPT. Test de kwaliteit van PPT naar PNG-conversie rechtstreeks in uw [browser](https://products.aspose.app/slides/conversion/ppt-to-png). Met de Aspose PowerPoint PPTX-bibliotheek kunt u PPT-bestanden converteren naar veel populaire formaten.
+Als een moderne API voor het verwerken van presentaties, maakt Aspose.Slides voor Python snel PNG van PPT. Test de kwaliteit van PPT naar PNG-conversie rechtstreeks in uw [browser](https://products.aspose.app/slides/conversion). Met de Aspose PowerPoint PPTX-bibliotheek kunt u PPT-bestanden converteren naar veel populaire formaten.
 
 U kunt de bibliotheek installeren vanaf [PyPI](https://pypi.org/project/Aspose.Slides/) met behulp van de volgende pip-opdracht:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.ppt") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="ppt-to-png"
-  title="Gratis app om PPT te converteren naar PNG"
-  description="[Probeer onze gratis app om PPT te converteren naar PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Gebouwd met Aspose.Slides" title="PPT online converteren naar PNG" description="De gratis app Aspose.Slides Conversion is gebouwd met [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/nl/python-net/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPT-bestanden." button="Aspose.Slides Conversion openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" upload="Sleep of upload uw bestand" saveAs="Opslaan als" convert="Converteren" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden converteert voordat u code schrijft.
+- Upload PPT-bestanden en sla ze op als PNG.
+- Download het resultaat of converteer meer bestanden.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde conversies" subTitle="U kunt PPT ook naar vele andere bestandsindelingen converteren. Bekijk hieronder andere ondersteunde conversies" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/python-net/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bitmap afbeelding" >}}  

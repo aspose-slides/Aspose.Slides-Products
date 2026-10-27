@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertálja a PPT-t SVG-vé Java segítségével
 weight: 5350
@@ -94,9 +94,12 @@ try {
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="ppt-to-svg"
-  title="Ingyenes alkalmazás a PPT konvertálásához SVG -re"
-  description="[Próbálja ki az ingyenes Editor alkalmazást](https://products.aspose.app/slides/editor/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Az Aspose.Slides segítségével készült" title="PPT konvertálása SVG formátumba online" description="Az ingyenes Aspose.Slides Conversion alkalmazás az [Aspose.Slides for Java](https://products.aspose.com/slides/hu/java/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPT fájljaival." button="Aspose.Slides Conversion megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" upload="Húzza ide vagy töltse fel a fájlt" saveAs="Mentés másként" convert="Konvertálás" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan konvertálja a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel PPT fájlokat, és mentse őket SVG formátumban.
+- Töltse le az eredményt, vagy konvertáljon további fájlokat.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="A PPT-t sok más fájlformátumra is konvertálhatja, köztük néhány alább felsorolt ​​fájlformátumra." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/java/conversion/ppt-to-bmp/" name="PPT TO BMP" description="Bittérképes kép" >}}

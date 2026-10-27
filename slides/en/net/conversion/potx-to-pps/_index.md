@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to PPS in C#
 weight: 1380
@@ -59,9 +59,7 @@ presentation.Save("output.pps", SaveFormat.Pps);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert POTX to PPS"
-  description="[Try our free MP4 To MP3 app](https://products.aspose.app/slides/video/mp4-to-mp3/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert POTX into many other file formats including a few listed below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Объединить файлы ODP с помощью PHP
 url: /ru/php-java/merger/odp/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните полученный документ ODP.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Объединить PDF-файлы онлайн"
-  description="[Как объединить PDF в Python](https://products.aspose.com/slides/ru/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Создано на основе Aspose.Slides" title="Объединить файлы ODP онлайн" description="Бесплатное приложение Aspose.Slides Merger создано на основе [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/ru/php-java/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами ODP." button="Открыть Aspose.Slides Merger" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides объединяет файлы, прежде чем писать код.
+- Загрузите несколько файлов ODP и объедините их в один.
+- Скачайте объединённый результат одним файлом.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Экспорт ODP в другие поддерживаемые форматы" subTitle="Вы также можете комбинировать ODP и сохранять в файлы других форматов. См. все поддерживаемые форматы ниже" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/php-java/merger/ppt/" name="PPT" >}}

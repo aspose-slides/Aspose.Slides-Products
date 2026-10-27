@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج JPG إلى PDF في C++
 url: /ar/cpp/merger/jpg-to-pdf/
@@ -46,9 +46,12 @@ pres->Save(u"pres.pdf", SaveFormat::Pdf);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}احفظ ملف PDF الناتج.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="دمج ملفات PDF على الإنترنت"
-  description="[كيفية دمج ملفات PDF في بايثون](https://products.aspose.com/slides/ar/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="مبني باستخدام Aspose.Slides" title="دمج JPG في PDF عبر الإنترنت" description="تطبيق Aspose.Slides Merger المجاني مبني باستخدام [Aspose.Slides for C++](https://products.aspose.com/slides/ar/cpp/)، وهي نفس واجهة برمجة التطبيقات المستخدمة في الكود أعلاه. افتحه واكتشف ما يمكن لواجهة برمجة التطبيقات فعله بملفات JPG الخاصة بك." button="افتح Aspose.Slides Merger" note="[جميع التطبيقات المجانية](https://products.aspose.app/slides/family)" >}}
+- يعمل في متصفحك، دون الحاجة إلى تثبيت أي شيء.
+- شاهد كيف يدمج Aspose.Slides الملفات قبل أن تكتب الكود.
+- ارفع عدة ملفات JPG وادمجها في ملف PDF واحد.
+- نزّل النتيجة المدمجة كملف واحد.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="دمج الملفات الأخرى" subTitle="يمكنك أيضًا دمج الملفات بتنسيقات أخرى للحصول على ملف واحد" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ar/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

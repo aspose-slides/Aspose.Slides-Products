@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-09-30
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to JPG in PHP
 url: /php-java/conversion/image-to-jpg/
@@ -44,9 +44,7 @@ The image API uses `Images::fromFile` to load the source image, `save` to write 
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the image with `save` and `ImageFormat::Jpeg`, then call `dispose` to release it.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert Image To Other Supported Formats" subTitle="You can also convert Image and save to other file formats. See all supported formats below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Java 中將 PNG 轉換為 PPT
 url: /zh-hant/java/conversion/png-to-ppt/
@@ -47,9 +47,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}將生成的文件另存為 PPT 演示文稿。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="免費在線轉換器"
-  description="[如何在 Python 中將 PPT 轉換為 HTML](https://products.aspose.com/slides/zh-hant/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="以 Aspose.Slides 建置" title="線上將 PNG 轉換為 PPT" description="免費的 Aspose.Slides Conversion 應用程式以 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 PNG 檔案。" button="開啟 Aspose.Slides Conversion" note="[所有免費應用程式](https://products.aspose.app/slides/family)" upload="拖放或上傳您的檔案" saveAs="另存為" convert="轉換" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先看看 Aspose.Slides 如何轉換檔案。
+- 上傳 PNG 檔案並將其另存為 PPT。
+- 下載結果或轉換更多檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的 PowerPoint 轉換" subTitle="您還可以將其他格式的文件轉換為 PowerPoint" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/java/conversion/jpg-to-pptx/" name="JPG TO PPTX" >}}

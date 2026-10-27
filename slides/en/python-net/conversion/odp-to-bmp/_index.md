@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert ODP to BMP in Python
 weight: 230
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert ODP presentations to BMP images programmatically. Load the presentation, render each slide with `Slide.get_image`, and save the resulting `IImage` object in BMP format.
 
-The API preserves slide content and formatting during rendering. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/odp-to-bmp) or use the Python API to process presentations in your application.
+The API preserves slide content and formatting during rendering. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API to process presentations in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -38,7 +38,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save ODP as BMP in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/odp-to-bmp) to see the ODP-to-BMP conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the ODP-to-BMP conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

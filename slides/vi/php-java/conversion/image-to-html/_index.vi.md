@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chuyển đổi Image thành HTML trong PHP
 url: /vi/php-java/conversion/image-to-html/
@@ -65,9 +65,12 @@ Là một API xử lý tài liệu hiện đại, Aspose.Slides dành cho PHP xu
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu kết quả dưới dạng tệp HTML.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Chuyển đổi trực tuyến miễn phí"
-  description="[Cách chuyển đổi PPT sang HTML bằng Python](https://products.aspose.com/slides/vi/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Được xây dựng bằng Aspose.Slides" title="Chuyển đổi Hình ảnh sang HTML trực tuyến" description="Ứng dụng Aspose.Slides Conversion miễn phí được xây dựng bằng [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/vi/php-java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp Hình ảnh của riêng bạn." button="Mở Aspose.Slides Conversion" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" upload="Thả hoặc tải lên tệp của bạn" saveAs="Lưu dưới dạng" convert="Chuyển đổi" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides chuyển đổi tệp trước khi bạn viết mã.
+- Tải lên các tệp Hình ảnh và lưu chúng dưới dạng HTML.
+- Tải xuống kết quả hoặc chuyển đổi thêm tệp.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Chuyển đổi Image sang các định dạng được hỗ trợ khác" subTitle="Bạn cũng có thể chuyển đổi Image và lưu sang các định dạng tệp khác. Xem tất cả các định dạng được hỗ trợ bên dưới" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/conversion/image-to-jpg/" name="IMAGE TO JPG" >}}

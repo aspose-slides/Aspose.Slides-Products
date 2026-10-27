@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert OTP to ODP in Python
 weight: 510
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert OTP presentation templates to ODP presentations programmatically. Load the OTP file into a `Presentation` instance and save it by using `Presentation.save` with `SaveFormat.ODP`.
 
-The conversion produces an editable OpenDocument presentation. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/otp-to-odp) or use the Python API in your application.
+The conversion produces an editable OpenDocument presentation. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save OTP as ODP in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/otp-to-odp) to see the OTP-to-ODP conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the OTP-to-ODP conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

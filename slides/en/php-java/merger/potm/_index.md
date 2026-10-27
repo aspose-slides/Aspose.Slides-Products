@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-20
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge POTM Files in PHP
 url: /php-java/merger/potm/
@@ -51,9 +51,7 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `save` with the output file path and `SaveFormat::Potm`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension="potm"
-  title="Merge POTM Files Online"
-  description="Combine POTM presentations online with Aspose.Slides Merger." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge POTM with Other Supported Formats" subTitle="You can also combine POTM with presentations in other supported formats." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/php-java/merger/ppt/" name="PPT" >}}

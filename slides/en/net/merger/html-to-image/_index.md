@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge HTML to Image in C#
 url: /net/merger/html-to-image/
@@ -47,9 +47,7 @@ foreach (var slide in presentation.Slides)
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slides with `GetImage` and save the images.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Merge HTML Files Online"
-  description="Combine files online with Aspose.Slides Merger." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge other files" subTitle="You can also combine files in other formats to get a single file" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/net/merger/jpg-to-jpg/" name="JPG TO JPG" >}}

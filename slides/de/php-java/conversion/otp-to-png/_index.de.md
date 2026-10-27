@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie OTP in PNG in PHP
 weight: 500
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Müssen Sie OTP-Dateien programmgesteuert in PNG konvertieren? Mit [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/de/php-java/) kann jeder Entwickler mit nur wenigen Zeilen PHP-Code das Format OTP in das Format PNG konvertieren .
 
-Als moderne Präsentationsverarbeitungs-API erstellt Aspose.Slides für PHP schnell PNG aus OTP. Testen Sie die Qualität der Umwandlung von OTP in PNG direkt in Ihrem [Browser](https://products.aspose.app/slides/conversion/ppt-to-png). Mit der Aspose PowerPoint PPTX-Bibliothek können Sie OTP-Dateien in viele gängige Formate konvertieren.
+Als moderne Präsentationsverarbeitungs-API erstellt Aspose.Slides für PHP schnell PNG aus OTP. Testen Sie die Qualität der Umwandlung von OTP in PNG direkt in Ihrem [Browser](https://products.aspose.app/slides/conversion). Mit der Aspose PowerPoint PPTX-Bibliothek können Sie OTP-Dateien in viele gängige Formate konvertieren.
 
 Sie können die Bibliothek von [Composer](https://packagist.org/packages/aspose/slides) mit dem folgenden Befehl installieren:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert OTP to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Entwickelt mit Aspose.Slides" title="OTP online in PNG konvertieren" description="Die kostenlose App Aspose.Slides Conversion basiert auf [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/de/php-java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen OTP-Dateien leisten kann." button="Aspose.Slides Conversion öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" upload="Datei ablegen oder hochladen" saveAs="Speichern als" convert="Konvertieren" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien konvertiert, bevor Sie Code schreiben.
+- Laden Sie OTP-Dateien hoch und speichern Sie sie als PNG.
+- Laden Sie das Ergebnis herunter oder konvertieren Sie weitere Dateien.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere unterstützte Konvertierungen" subTitle="Sie können OTP auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/php-java/conversion/otp-to-bmp/" name="OTP TO BMP" description="Bitmap-Bild" >}}  

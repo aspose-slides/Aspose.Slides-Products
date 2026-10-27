@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 Python 中将 FODP 转换为 PNG
 weight: 90
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 需要以编程方式将 FODP 文件转换为 PNG？使用 [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/zh/python-net/) 任何开发人员只需几行 Python 代码即可将 FODP 转换为 PNG 格式。
 
-作为现代演示处理 API，Aspose.Slides for Python 可以快速从 FODP 创建 PNG。在您的 [浏览器](https://products.aspose.app/slides/conversion/ppt-to-png) 中测试 FODP 到 PNG 转换的质量。 Aspose PowerPoint PPTX 库允许您将 FODP 文件转换为许多流行的格式。
+作为现代演示处理 API，Aspose.Slides for Python 可以快速从 FODP 创建 PNG。在您的 [浏览器](https://products.aspose.app/slides/conversion) 中测试 FODP 到 PNG 转换的质量。 Aspose PowerPoint PPTX 库允许您将 FODP 文件转换为许多流行的格式。
 
 您可以使用以下 pip 命令从 [PyPI](https://pypi.org/project/Aspose.Slides/) 安装库：
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.fodp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="免費應用程序將FODP轉換為PNG"
-  description="[嘗試我們的免費Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="基于 Aspose.Slides 构建" title="在线将 FODP 转换为 PNG" description="免费的 Aspose.Slides Conversion 应用基于 [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/zh/python-net/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 FODP 文件。" button="打开 Aspose.Slides Conversion" note="[所有免费应用](https://products.aspose.app/slides/family)" upload="拖放或上传您的文件" saveAs="另存为" convert="转换" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先看看 Aspose.Slides 如何转换文件。
+- 上传 FODP 文件并将其另存为 PNG。
+- 下载结果或转换更多文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的转换" subTitle="您还可以将 FODP 转换为许多其他文件格式。请参阅下面的其他支持的转换" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="位图图像" >}}  

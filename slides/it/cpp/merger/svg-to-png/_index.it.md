@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci SVG a PNG in C++
 url: /it/cpp/merger/svg-to-png/
@@ -50,9 +50,12 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva l'immagine PNG risultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Unisci file PDF online"
-  description="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Realizzato con Aspose.Slides" title="Unisci SVG in PNG online" description="L'app gratuita Aspose.Slides Merger è realizzata con [Aspose.Slides for C++](https://products.aspose.com/slides/it/cpp/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file SVG." button="Apri Aspose.Slides Merger" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides unisce i file prima di scrivere codice.
+- Carica più file SVG e combinali in un unico file PNG.
+- Scarica il risultato unito come un unico file.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Unisci altri file" subTitle="Puoi anche combinare file in altri formati per ottenere un unico file" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

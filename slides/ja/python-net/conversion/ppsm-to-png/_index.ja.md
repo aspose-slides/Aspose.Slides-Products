@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PythonでPPSMをPNGに変換する
 weight: 1860
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 プログラムでPPSMファイルをPNGに変換する必要がありますか？ [* Aspose.Slides for Python via .NET *](https://products.aspose.com/slides/ja/python-net/)を使用すると、開発者は数行のPythonコードでPPSMをPNG形式に変換できます。
 
-最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPPSMからPNGをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion/ppt-to-png)でPPSMからPNGへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、PPSMファイルを多くの一般的な形式に変換できます。
+最新のプレゼンテーション処理APIとして、Aspose.SlidesforPythonはPPSMからPNGをすばやく作成します。 [ブラウザ](https://products.aspose.app/slides/conversion)でPPSMからPNGへの変換の品質をテストします。 Aspose PowerPoint PPTXライブラリを使用すると、PPSMファイルを多くの一般的な形式に変換できます。
 
 次のpipコマンドを使用して、[PyPI](https://pypi.org/project/Aspose.Slides/)からライブラリをインストールできます。
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.ppsm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="PPSMをPNGに変換するための無料アプリ"
-  description="[PPTをPNGに変換するために無料のアプリを試してみてください](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides で構築" title="PPSM を PNG にオンラインで変換" description="無料の Aspose.Slides Conversion アプリは、上記のコードと同じ API である [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ja/python-net/) で構築されています。アプリを開いて、ご自身の PPSM ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Conversion を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" upload="ファイルをドロップまたはアップロード" saveAs="保存形式" convert="変換" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がファイルをどう変換するかを確認できます。
+- PPSM ファイルをアップロードして、PNG として保存できます。
+- 結果をダウンロードするか、さらにファイルを変換できます。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="その他のサポートされている変換" subTitle="PPSMを他の多くのファイル形式に変換することもできます。以下のサポートされている他の変換を参照してください" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="ビットマップ画像" >}}  

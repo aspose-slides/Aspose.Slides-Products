@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konwertuj ODP na PNG w PHP
 weight: 290
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Chcesz programowo przekonwertować pliki ODP na PNG? Używając [*Aspose.Slides dla PHP przez Javę*](https://products.aspose.com/slides/pl/php-java/) każdy programista może przekonwertować format ODP na PNG za pomocą zaledwie kilku linii kodu PHP .
 
-Jako nowoczesny interfejs API do przetwarzania prezentacji, Aspose.Slides for PHP szybko tworzy PNG z ODP. Przetestuj jakość konwersji ODP na PNG bezpośrednio w [przeglądarce](https://products.aspose.app/slides/conversion/ppt-to-png). Biblioteka Aspose PowerPoint PPTX umożliwia konwersję plików ODP do wielu popularnych formatów.
+Jako nowoczesny interfejs API do przetwarzania prezentacji, Aspose.Slides for PHP szybko tworzy PNG z ODP. Przetestuj jakość konwersji ODP na PNG bezpośrednio w [przeglądarce](https://products.aspose.app/slides/conversion). Biblioteka Aspose PowerPoint PPTX umożliwia konwersję plików ODP do wielu popularnych formatów.
 
 Bibliotekę możesz zainstalować z [Composer](https://packagist.org/packages/aspose/slides) za pomocą następującego polecenia:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert ODP to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Zbudowano z Aspose.Slides" title="Konwertuj ODP na PNG online" description="Bezpłatna aplikacja Aspose.Slides Conversion została zbudowana z użyciem [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/pl/php-java/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami ODP." button="Otwórz Aspose.Slides Conversion" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" upload="Upuść lub prześlij plik" saveAs="Zapisz jako" convert="Konwertuj" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides konwertuje pliki, zanim napiszesz kod.
+- Prześlij pliki ODP i zapisz je jako PNG.
+- Pobierz wynik lub przekonwertuj kolejne pliki.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Inne obsługiwane konwersje" subTitle="Możesz także przekonwertować ODP na wiele innych formatów plików. Zobacz inne obsługiwane konwersje poniżej" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/php-java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Bitmapa" >}}  

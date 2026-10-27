@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert ODP to XPS in Python
 weight: 440
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert ODP presentations to XPS documents programmatically. Load the source file into a `Presentation` instance and export it by using `Presentation.save` with `SaveFormat.XPS`.
 
-XPS preserves a fixed page layout, which makes the output suitable for consistent viewing and printing. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/odp-to-xps) or use the Python API in your application.
+XPS preserves a fixed page layout, which makes the output suitable for consistent viewing and printing. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save ODP as XPS in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/odp-to-xps) to see the ODP-to-XPS conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the ODP-to-XPS conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

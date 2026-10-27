@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSM to PNG in Python
 weight: 1860
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PPSM slide shows to PNG images programmatically. Load the slide show, render each slide with `Slide.get_image`, and save the resulting `IImage` object in PNG format.
 
-The API renders every slide as a separate raster image. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/ppsm-to-png) or use the Python API to process slide shows in your application.
+The API renders every slide as a separate raster image. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API to process slide shows in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save PPSM as PNG in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/ppsm-to-png) to see the PPSM-to-PNG conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the PPSM-to-PNG conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

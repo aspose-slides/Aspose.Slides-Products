@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام فایل‌های OTP با استفاده از PHP
 url: /fa/php-java/merger/otp/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}سند OTP حاصل را ذخیره کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="ادغام فایل های PDF به صورت آنلاین"
-  description="[نحوه ادغام PDF در پایتون](https://products.aspose.com/slides/fa/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="ساخته شده با Aspose.Slides" title="ادغام آنلاین فایل‌های OTP" description="برنامه رایگان Aspose.Slides Merger با [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/fa/php-java/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های OTP شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Merger" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه فایل‌ها را ادغام می‌کند.
+- چند فایل OTP را بارگذاری کنید و آن‌ها را در یک فایل ترکیب کنید.
+- نتیجه ادغام‌شده را به‌صورت یک فایل دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="OTP را به سایر قالب‌های پشتیبانی شده صادر کنید" subTitle="همچنین می‌توانید OTP را ترکیب کرده و در قالب‌های دیگر فایل ذخیره کنید. تمام فرمت های پشتیبانی شده را در زیر مشاهده کنید" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/php-java/merger/ppt/" name="PPT" >}}

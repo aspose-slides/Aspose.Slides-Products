@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi FODP ke PNG dengan Python
 weight: 90
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Perlu mengonversi file FODP ke PNG secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi FODP ke format PNG hanya dengan beberapa baris kode Python.
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat PNG dari FODP dengan cepat. Uji kualitas konversi FODP ke PNG langsung di [browser](https://products.aspose.app/slides/conversion/ppt-to-png) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file FODP ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat PNG dari FODP dengan cepat. Uji kualitas konversi FODP ke PNG langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file FODP ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [PyPI](https://pypi.org/project/Aspose.Slides/) menggunakan perintah pip berikut:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.fodp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplikasi gratis untuk mengonversi FODP ke PNG"
-  description="[Coba aplikasi Video gratis kami](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Dibuat dengan Aspose.Slides" title="Konversi FODP ke PNG Secara Online" description="Aplikasi Aspose.Slides Conversion gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file FODP Anda sendiri." button="Buka Aspose.Slides Conversion" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" upload="Letakkan atau unggah file Anda" saveAs="Simpan sebagai" convert="Konversi" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides mengonversi file sebelum Anda menulis kode.
+- Unggah file FODP dan simpan sebagai PNG.
+- Unduh hasilnya atau konversi lebih banyak file.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi FODP ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="Gambar bitmap" >}}  

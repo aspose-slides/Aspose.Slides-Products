@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTX to HTML in Python
 weight: 1370
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert POTX presentation templates to HTML5 documents programmatically. Load the POTX file into a `Presentation` instance and call `Presentation.save` with `SaveFormat.HTML5`.
 
-The HTML5 output renders slide content in a browser without requiring Microsoft PowerPoint. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/potx-to-html) or use the Python API in your application.
+The HTML5 output renders slide content in a browser without requiring Microsoft PowerPoint. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save POTX as HTML in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/potx-to-html) to see the POTX-to-HTML conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the POTX-to-HTML conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

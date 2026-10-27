@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert Image to PPT in C++
 url: /cpp/conversion/image-to-ppt/
@@ -47,9 +47,7 @@ Aspose.Slides for C++ can convert image content to PPT presentations and other p
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the result as a PPT file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert Image to Other Supported Formats" subTitle="You can also convert images and save them to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

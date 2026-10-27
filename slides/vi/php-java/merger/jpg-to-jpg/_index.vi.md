@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Hợp nhất hình ảnh JPG trong PHP
 url: /vi/php-java/merger/jpg-to-jpg/
@@ -77,9 +77,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Lưu hình ảnh JPG kết quả.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Hợp nhất các tệp PDF trực tuyến"
-  description="[Cách hợp nhất PDF trong Python](https://products.aspose.com/slides/vi/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Được xây dựng bằng Aspose.Slides" title="Hợp nhất tệp JPG trực tuyến" description="Ứng dụng Aspose.Slides Merger miễn phí được xây dựng bằng [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/vi/php-java/), cùng API với đoạn mã ở trên. Hãy mở ứng dụng và xem API có thể làm gì với các tệp JPG của riêng bạn." button="Mở Aspose.Slides Merger" note="[Tất cả ứng dụng miễn phí](https://products.aspose.app/slides/family)" >}}
+- Chạy trong trình duyệt, không cần cài đặt gì.
+- Xem cách Aspose.Slides hợp nhất tệp trước khi bạn viết mã.
+- Tải lên nhiều tệp JPG và kết hợp chúng thành một.
+- Tải xuống kết quả đã hợp nhất dưới dạng một tệp.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Hợp nhất các tệp khác" subTitle="Bạn cũng có thể kết hợp các tệp ở các định dạng khác để có được một tệp duy nhất" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/vi/php-java/merger/png-to-png/" name="PNG TO PNG" >}}  

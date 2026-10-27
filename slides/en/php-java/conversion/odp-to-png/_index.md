@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert ODP to PNG in PHP 
 weight: 290
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Use [*Aspose.Slides for PHP via Java*](/slides/php-java/) to load an ODP presentation and render each slide as a PNG image.
 
-Call `getImage` for each slide and save the rendered image with `ImageFormat::Png`. You can also test presentation-to-PNG conversion in your [browser](https://products.aspose.app/slides/conversion/odp-to-png).
+Call `getImage` for each slide and save the rendered image with `ImageFormat::Png`. You can also test presentation-to-PNG conversion in your [browser](https://products.aspose.app/slides/conversion).
 
 You can install the library from [Composer](https://packagist.org/packages/aspose/slides) using the following command:
 
@@ -85,9 +85,7 @@ try {
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert ODP to PNG"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion/odp-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="You can also convert ODP to many other file formats. See other supported conversions below:" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPT a Word en Java
 url: /es/java/conversion/ppt-to-word/
@@ -63,9 +63,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Guarde el documento de Word resultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Convertidor en línea gratuito"
-  description="[Cómo convertir PPT a HTML en Python](https://products.aspose.com/slides/es/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Creado con Aspose.Slides" title="Convertir PPT a Word en línea" description="La aplicación gratuita Aspose.Slides Conversion está creada con [Aspose.Slides for Java](https://products.aspose.com/slides/es/java/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos PPT." button="Abrir Aspose.Slides Conversion" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" upload="Arrastre o suba su archivo" saveAs="Guardar como" convert="Convertir" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides convierte archivos antes de escribir código.
+- Suba archivos PPT y guárdelos como Word.
+- Descargue el resultado o convierta más archivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otras conversiones admitidas" subTitle="También puede convertir PowerPoint a archivos en otros formatos" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/java/conversion/ppt-to-html/" name="PPT TO HTML" >}}

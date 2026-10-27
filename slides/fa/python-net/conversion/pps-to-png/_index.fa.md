@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPS به PNG در پایتون
 weight: 1640
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 آیا نیاز به تبدیل فایل های PPS به PNG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند PPS را تنها با چند خط کد پایتون به فرمت PNG تبدیل کند.
 
-Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت PNG را از PPS ایجاد می کند. کیفیت تبدیل PPS به PNG را درست در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion/ppt-to-png). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPS را به بسیاری از فرمت های محبوب تبدیل کنید.
+Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت PNG را از PPS ایجاد می کند. کیفیت تبدیل PPS به PNG را درست در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPS را به بسیاری از فرمت های محبوب تبدیل کنید.
 
 می‌توانید کتابخانه را از [PyPI](https://pypi.org/project/Aspose.Slides/) با استفاده از دستور pip زیر نصب کنید:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pps") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="برنامه رایگان برای تبدیل PPS به PNG"
-  description="[برنامه رایگان ما را برای تبدیل PPT به PNG امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="ساخته شده با Aspose.Slides" title="تبدیل آنلاین PPS به PNG" description="برنامه رایگان Aspose.Slides Conversion با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPS شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Conversion" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" upload="فایل خود را رها یا بارگذاری کنید" saveAs="ذخیره با فرمت" convert="تبدیل" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه فایل‌ها را تبدیل می‌کند.
+- فایل‌های PPS را بارگذاری کنید و آن‌ها را با فرمت PNG ذخیره کنید.
+- نتیجه را دانلود کنید یا فایل‌های بیشتری را تبدیل کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید PPS را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/pps-to-bmp/" name="PPS TO BMP" description="تصویر بیت مپ" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge Image to PDF in Java
 url: /java/merger/image-to-pdf/
@@ -53,9 +53,7 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the presentation with `SaveFormat.Pdf`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension="image-to-pdf"
-  title="Merge Files Online"
-  description="Merge presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge other files" subTitle="You can also combine files in other formats to get a single file." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}

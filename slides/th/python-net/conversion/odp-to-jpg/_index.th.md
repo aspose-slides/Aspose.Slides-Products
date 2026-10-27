@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: แปลง ODP เป็น JPG ใน Python
 weight: 280
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 ต้องการแปลงไฟล์ ODP เป็น JPG โดยทางโปรแกรม? การใช้ [*Aspose.Slides สำหรับ Python ผ่าน .NET*](https://products.aspose.com/slides/th/python-net/) นักพัฒนาซอฟต์แวร์ทุกคนสามารถแปลง ODP เป็นรูปแบบ JPG ด้วยโค้ด Python เพียงไม่กี่บรรทัด
 
-ในฐานะที่เป็น API การประมวลผลการนำเสนอที่ทันสมัย ​​Aspose.Slides สำหรับ Python จะสร้าง JPG จาก ODP ได้อย่างรวดเร็ว ทดสอบคุณภาพของการแปลง ODP เป็น JPG ใน [เบราว์เซอร์](https://products.aspose.app/slides/conversion/ppt-to-jpg) ของคุณ Aspose ไลบรารี PowerPoint PPTX ช่วยให้คุณสามารถแปลงไฟล์ ODP เป็นรูปแบบยอดนิยมได้มากมาย
+ในฐานะที่เป็น API การประมวลผลการนำเสนอที่ทันสมัย ​​Aspose.Slides สำหรับ Python จะสร้าง JPG จาก ODP ได้อย่างรวดเร็ว ทดสอบคุณภาพของการแปลง ODP เป็น JPG ใน [เบราว์เซอร์](https://products.aspose.app/slides/conversion) ของคุณ Aspose ไลบรารี PowerPoint PPTX ช่วยให้คุณสามารถแปลงไฟล์ ODP เป็นรูปแบบยอดนิยมได้มากมาย
 
 คุณสามารถติดตั้งไลบรารีจาก [PyPI](https://pypi.org/project/Aspose.Slides/) โดยใช้คำสั่ง pip ต่อไปนี้:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.odp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="odp-to-jpg"
-  title="แอปฟรีเพื่อแปลง ODP เป็น JPG"
-  description="[ลองใช้แอปฟรีของเราเพื่อแปลง PPT เพื่อ JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="สร้างด้วย Aspose.Slides" title="แปลง ODP เป็น JPG ออนไลน์" description="แอป Aspose.Slides Conversion ฟรีนี้สร้างด้วย [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/th/python-net/) ซึ่งเป็น API เดียวกับโค้ดด้านบน เปิดแอปแล้วดูว่า API ทำอะไรได้บ้างกับไฟล์ ODP ของคุณเอง" button="เปิด Aspose.Slides Conversion" note="[แอปฟรีทั้งหมด](https://products.aspose.app/slides/family)" upload="วางหรืออัปโหลดไฟล์ของคุณ" saveAs="บันทึกเป็น" convert="แปลง" >}}
+- ทำงานในเบราว์เซอร์ ไม่ต้องติดตั้งสิ่งใด
+- ดูว่า Aspose.Slides แปลงไฟล์อย่างไรก่อนที่คุณจะเขียนโค้ด
+- อัปโหลดไฟล์ ODP แล้วบันทึกเป็น JPG
+- ดาวน์โหลดผลลัพธ์หรือแปลงไฟล์เพิ่มเติม
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="การแปลงอื่น ๆ ที่รองรับ" subTitle="คุณยังสามารถแปลง ODP เป็นรูปแบบไฟล์อื่นๆ ได้อีกมากมาย ดูคอนเวอร์ชั่นอื่นที่รองรับด้านล่าง" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/th/python-net/conversion/odp-to-bmp/" name="ODP TO BMP" description="ภาพบิตแมป" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP で PNG 画像をマージする
 url: /ja/php-java/merger/png-to-png/
@@ -77,9 +77,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}結果の PNG 画像を保存します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDFファイルをオンラインで結合"
-  description="[Python で PDF をマージする方法](https://products.aspose.com/slides/ja/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Aspose.Slides で構築" title="PNG ファイルをオンラインで結合" description="無料の Aspose.Slides Merger アプリは、上記のコードと同じ API である [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/ja/php-java/) で構築されています。アプリを開いて、ご自身の PNG ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Merger を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がファイルをどう結合するかを確認できます。
+- 複数の PNG ファイルをアップロードして、1 つにまとめられます。
+- 結合した結果を 1 つのファイルとしてダウンロードできます。
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="他のファイルをマージする" subTitle="他の形式のファイルを結合して 1 つのファイルにすることもできます" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ja/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}    

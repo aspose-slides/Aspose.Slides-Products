@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie HTML in PPTX in Java
 url: /de/java/conversion/html-to-pptx/
@@ -52,9 +52,12 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die resultierende Datei als PPTX-Präsentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Kostenloser Online-Konverter"
-  description="[So konvertieren Sie PPT in HTML in Python](https://products.aspose.com/slides/de/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Entwickelt mit Aspose.Slides" title="HTML online in PPTX konvertieren" description="Die kostenlose App Aspose.Slides Conversion basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen HTML-Dateien leisten kann." button="Aspose.Slides Conversion öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" upload="Datei ablegen oder hochladen" saveAs="Speichern als" convert="Konvertieren" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien konvertiert, bevor Sie Code schreiben.
+- Laden Sie HTML-Dateien hoch und speichern Sie sie als PPTX.
+- Laden Sie das Ergebnis herunter oder konvertieren Sie weitere Dateien.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere unterstützte PowerPoint-Konvertierungen" subTitle="Sie können auch Dateien in anderen Formaten in PowerPoint konvertieren" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/java/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}

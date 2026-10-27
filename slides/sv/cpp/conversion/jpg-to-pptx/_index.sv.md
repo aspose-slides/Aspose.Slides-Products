@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-14
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera JPG till PPTX i C++
 url: /sv/cpp/conversion/jpg-to-pptx/
@@ -44,9 +44,12 @@ pres->Save(u"pres.pptx", SaveFormat::Pptx);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den resulterande filen som en PPTX-presentation.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Gratis onlinekonverterare"
-  description="[Hur man konverterar PPT till HTML i Python](https://products.aspose.com/slides/sv/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Byggd med Aspose.Slides" title="Konvertera JPG till PPTX online" description="Den kostnadsfria appen Aspose.Slides Conversion är byggd med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna JPG-filer." button="Öppna Aspose.Slides Conversion" note="[Alla gratisappar](https://products.aspose.app/slides/family)" upload="Släpp eller ladda upp din fil" saveAs="Spara som" convert="Konvertera" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides konverterar filer innan du skriver kod.
+- Ladda upp JPG-filer och spara dem som PPTX.
+- Ladda ned resultatet eller konvertera fler filer.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra PowerPoint-konverteringar som stöds" subTitle="Du kan också konvertera filer i andra format till PowerPoint" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/cpp/conversion/jpg-to-ppt/" name="JPG TO PPT" >}}

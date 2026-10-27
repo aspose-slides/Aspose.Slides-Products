@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование ODP в PNG в PHP
 weight: 290
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Нужно программно преобразовать файлы ODP в PNG? Используя [*Aspose.Slides для PHP через Java*](https://products.aspose.com/slides/ru/php-java/), любой разработчик может преобразовать формат ODP в формат PNG всего несколькими строками кода PHP. .
 
-Как современный API обработки презентаций, Aspose.Slides для PHP быстро создает PNG из ODP. Проверьте качество преобразования ODP в PNG прямо в вашем [браузере](https://products.aspose.app/slides/conversion/ppt-to-png). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы ODP во многие популярные форматы.
+Как современный API обработки презентаций, Aspose.Slides для PHP быстро создает PNG из ODP. Проверьте качество преобразования ODP в PNG прямо в вашем [браузере](https://products.aspose.app/slides/conversion). Библиотека Aspose PowerPoint PPTX позволяет конвертировать файлы ODP во многие популярные форматы.
 
 Вы можете установить библиотеку из [Composer](https://packagist.org/packages/aspose/slides), используя следующую команду:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert ODP to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Создано на основе Aspose.Slides" title="Конвертировать ODP в PNG онлайн" description="Бесплатное приложение Aspose.Slides Conversion создано на основе [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/ru/php-java/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами ODP." button="Открыть Aspose.Slides Conversion" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" upload="Перетащите или загрузите файл" saveAs="Сохранить как" convert="Конвертировать" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides конвертирует файлы, прежде чем писать код.
+- Загрузите файлы ODP и сохраните их в PNG.
+- Скачайте результат или конвертируйте другие файлы.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Другие поддерживаемые преобразования" subTitle="Вы также можете конвертировать ODP во многие другие форматы файлов. Смотрите другие поддерживаемые преобразования ниже" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/php-java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Растровое изображение" >}}  

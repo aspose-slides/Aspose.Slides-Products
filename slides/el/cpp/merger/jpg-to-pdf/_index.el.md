@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση JPG σε PDF σε C++
 url: /el/cpp/merger/jpg-to-pdf/
@@ -46,9 +46,12 @@ pres->Save(u"pres.pdf", SaveFormat::Pdf);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Αποθηκεύστε το αρχείο PDF που προκύπτει.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Συγχώνευση αρχείων PDF στο Διαδίκτυο"
-  description="[Πώς να συγχωνεύσετε το PDF στην Python](https://products.aspose.com/slides/el/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Δημιουργήθηκε με το Aspose.Slides" title="Συγχώνευση JPG σε PDF online" description="Η δωρεάν εφαρμογή Aspose.Slides Merger έχει δημιουργηθεί με το [Aspose.Slides for C++](https://products.aspose.com/slides/el/cpp/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία JPG." button="Άνοιγμα Aspose.Slides Merger" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides συγχωνεύει αρχεία πριν γράψετε κώδικα.
+- Ανεβάστε πολλά αρχεία JPG και συνδυάστε τα σε ένα αρχείο PDF.
+- Κατεβάστε το συγχωνευμένο αποτέλεσμα ως ένα αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Συγχώνευση άλλων αρχείων" subTitle="Μπορείτε επίσης να συνδυάσετε αρχεία σε άλλες μορφές για να αποκτήσετε ένα μόνο αρχείο" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/el/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

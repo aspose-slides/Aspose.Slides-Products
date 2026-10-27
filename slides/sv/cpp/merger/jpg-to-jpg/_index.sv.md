@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman JPG-bilder i C++
 url: /sv/cpp/merger/jpg-to-jpg/
@@ -51,9 +51,12 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara den resulterande JPG-bilden.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Slå samman PDF-filer online"
-  description="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Byggd med Aspose.Slides" title="Slå samman JPG-filer online" description="Den kostnadsfria appen Aspose.Slides Merger är byggd med [Aspose.Slides for C++](https://products.aspose.com/slides/sv/cpp/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna JPG-filer." button="Öppna Aspose.Slides Merger" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides slår samman filer innan du skriver kod.
+- Ladda upp flera JPG-filer och slå samman dem till en.
+- Ladda ned det sammanslagna resultatet som en fil.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Slå ihop andra filer" subTitle="Du kan också kombinera filer i andra format för att få en enda fil" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/cpp/merger/png-to-png/" name="PNG TO PNG" >}}  

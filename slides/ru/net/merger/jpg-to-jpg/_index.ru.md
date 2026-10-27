@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Слияние изображений JPG в C#
 url: /ru/net/merger/jpg-to-jpg/
@@ -47,9 +47,12 @@ using (Presentation pres = new Presentation())
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохраните полученное изображение в формате JPG.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Объединить PDF-файлы онлайн"
-  description="[Как объединить PDF в Python](https://products.aspose.com/slides/ru/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Создано на основе Aspose.Slides" title="Объединить файлы JPG онлайн" description="Бесплатное приложение Aspose.Slides Merger создано на основе [Aspose.Slides for .NET](https://products.aspose.com/slides/ru/net/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами JPG." button="Открыть Aspose.Slides Merger" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides объединяет файлы, прежде чем писать код.
+- Загрузите несколько файлов JPG и объедините их в один.
+- Скачайте объединённый результат одним файлом.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Объединить другие файлы" subTitle="Вы также можете комбинировать файлы в других форматах, чтобы получить один файл." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/net/merger/png-to-png/" name="PNG TO PNG" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-30
+lastmod: 2026-10-27
 title: Convert HTML to TIFF in C++
 url: /cpp/conversion/html-to-tiff/
 keywords: HTML to TIFF, Convert HTML to TIFF, C++ API, C++ Library, HTML, TIFF
@@ -46,9 +46,7 @@ Aspose.Slides for C++ can convert HTML content to TIFF images and other presenta
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the result as a TIFF file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert HTML to Other Supported Formats" subTitle="You can also convert HTML and save it to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

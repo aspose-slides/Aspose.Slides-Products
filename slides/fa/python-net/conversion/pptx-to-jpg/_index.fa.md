@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: تبدیل PPTX به JPG در پایتون
 weight: 2700
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 آیا نیاز به تبدیل فایل های PPTX به JPG دارید؟ با استفاده از [*Aspose.Slides برای Python از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند PPTX را تنها با چند خط کد پایتون به فرمت JPG تبدیل کند.
 
-Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت JPG را از PPTX ایجاد می کند. کیفیت تبدیل PPTX به JPG را دقیقاً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion/ppt-to-jpg). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPTX را به بسیاری از فرمت های محبوب تبدیل کنید.
+Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت JPG را از PPTX ایجاد می کند. کیفیت تبدیل PPTX به JPG را دقیقاً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های PPTX را به بسیاری از فرمت های محبوب تبدیل کنید.
 
 می‌توانید کتابخانه را از [PyPI](https://pypi.org/project/Aspose.Slides/) با استفاده از دستور pip زیر نصب کنید:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pptx-to-jpg"
-  title="برنامه رایگان برای تبدیل PPTX به JPG"
-  description="[برنامه رایگان ما را برای تبدیل PPT به JPG امتحان کنید](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="ساخته شده با Aspose.Slides" title="تبدیل آنلاین PPTX به JPG" description="برنامه رایگان Aspose.Slides Conversion با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPTX شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Conversion" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" upload="فایل خود را رها یا بارگذاری کنید" saveAs="ذخیره با فرمت" convert="تبدیل" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه فایل‌ها را تبدیل می‌کند.
+- فایل‌های PPTX را بارگذاری کنید و آن‌ها را با فرمت JPG ذخیره کنید.
+- نتیجه را دانلود کنید یا فایل‌های بیشتری را تبدیل کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر تبدیل های پشتیبانی شده" subTitle="همچنین می توانید PPTX را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="تصویر بیت مپ" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPS-filer med PHP
 url: /sv/php-java/merger/pps/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara det resulterande PPS-dokumentet.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Slå samman PDF-filer online"
-  description="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Byggd med Aspose.Slides" title="Slå samman PPS-filer online" description="Den kostnadsfria appen Aspose.Slides Merger är byggd med [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/sv/php-java/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPS-filer." button="Öppna Aspose.Slides Merger" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides slår samman filer innan du skriver kod.
+- Ladda upp flera PPS-filer och slå samman dem till en.
+- Ladda ned det sammanslagna resultatet som en fil.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Exportera PPS till andra format som stöds" subTitle="Du kan också kombinera PPS och spara till andra filformat. Se alla format som stöds nedan" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/sv/php-java/merger/ppt/" name="PPT" >}}

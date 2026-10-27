@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to JPG in Python
 weight: 940
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert POT presentation templates to JPG images programmatically. Load the template, render each `Slide` with `Slide.get_image`, and save the result in JPEG format.
 
-Each slide is written to a separate JPG file. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/pot-to-jpeg) or use the Python API in your application.
+Each slide is written to a separate JPG file. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save POT as JPG in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/pot-to-jpeg) to see the POT-to-JPG conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the POT-to-JPG conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

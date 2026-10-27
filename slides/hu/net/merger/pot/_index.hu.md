@@ -94,9 +94,12 @@ var ps1 = new Presentation("presen1.pot");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF fájlok online egyesítése"
-  description="[Hogyan lehet PDF-et egyesíteni Pythonban](https://products.aspose.com/slides/hu/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Az Aspose.Slides segítségével készült" title="POT fájlok egyesítése online" description="Az ingyenes Aspose.Slides Merger alkalmazás az [Aspose.Slides for .NET](https://products.aspose.com/slides/hu/net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját POT fájljaival." button="Aspose.Slides Merger megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan egyesíti a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel több POT fájlt, és egyesítse őket egyetlen fájlba.
+- Töltse le az egyesített eredményt egyetlen fájlként.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 

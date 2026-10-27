@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File POTX Menggunakan PHP
 url: /id/php-java/merger/potx/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Simpan dokumen POTX yang dihasilkan.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Menggabungkan File PDF Online"
-  description="[Cara Menggabungkan PDF dengan Python](https://products.aspose.com/slides/id/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Dibuat dengan Aspose.Slides" title="Gabungkan File POTX Secara Online" description="Aplikasi Aspose.Slides Merger gratis dibuat dengan [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/id/php-java/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file POTX Anda sendiri." button="Buka Aspose.Slides Merger" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides menggabungkan file sebelum Anda menulis kode.
+- Unggah beberapa file POTX dan gabungkan menjadi satu.
+- Unduh hasil penggabungan sebagai satu file.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Ekspor POTX Ke Format Lain yang Didukung" subTitle="Anda juga dapat menggabungkan POTX dan menyimpan ke format file lain. Lihat semua format yang didukung di bawah" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/php-java/merger/ppt/" name="PPT" >}}

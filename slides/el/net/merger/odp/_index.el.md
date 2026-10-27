@@ -94,9 +94,12 @@ var ps1 = new Presentation("presen1.odp");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Συγχώνευση αρχείων PDF στο Διαδίκτυο"
-  description="[Πώς να συγχωνεύσετε το PDF στην Python](https://products.aspose.com/slides/el/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Δημιουργήθηκε με το Aspose.Slides" title="Συγχώνευση αρχείων ODP online" description="Η δωρεάν εφαρμογή Aspose.Slides Merger έχει δημιουργηθεί με το [Aspose.Slides for .NET](https://products.aspose.com/slides/el/net/), το ίδιο API με τον παραπάνω κώδικα. Ανοίξτε την και δείτε τι μπορεί να κάνει το API με τα δικά σας αρχεία ODP." button="Άνοιγμα Aspose.Slides Merger" note="[Όλες οι δωρεάν εφαρμογές](https://products.aspose.app/slides/family)" >}}
+- Λειτουργεί στο πρόγραμμα περιήγησής σας, χωρίς εγκατάσταση.
+- Δείτε πώς το Aspose.Slides συγχωνεύει αρχεία πριν γράψετε κώδικα.
+- Ανεβάστε πολλά αρχεία ODP και συνδυάστε τα σε ένα.
+- Κατεβάστε το συγχωνευμένο αποτέλεσμα ως ένα αρχείο.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 

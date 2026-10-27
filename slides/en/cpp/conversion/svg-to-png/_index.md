@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert SVG to PNG in C++
 url: /cpp/conversion/svg-to-png/
@@ -55,9 +55,7 @@ presentation->Dispose();
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slide with `GetImage` and save the image with `ImageFormat::Png`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="svg-to-png"
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert SVG to Other Supported Formats" subTitle="You can also convert SVG images and save them to other file formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

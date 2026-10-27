@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-20
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert SVG to PPTX in PHP
 url: /php-java/conversion/svg-to-pptx/
@@ -53,9 +53,7 @@ Load the SVG content into a `SvgImage`, add it to the presentation image collect
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Add the SVG image with `addPictureFrame`, then call `save` with `SaveFormat::Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert SVG to Other Supported Formats" subTitle="You can also convert SVG files and save them to other supported formats." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

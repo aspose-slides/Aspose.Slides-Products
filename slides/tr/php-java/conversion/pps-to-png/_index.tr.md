@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PHP'de PPS öğesini PNG biçimine dönüştürün
 weight: 1560
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 PPS dosyalarını programlı olarak PNG biçimine dönüştürmeniz mi gerekiyor? [*Aspose.Slides for PHP with Java*](https://products.aspose.com/slides/tr/php-java/) kullanarak herhangi bir geliştirici, yalnızca birkaç satır PHP koduyla PPS biçimini PNG biçimine dönüştürebilir. .
 
-Modern bir sunum işleme API'si olarak Aspose.Slides for PHP, PPS öğesinden hızlı bir şekilde PNG oluşturur. PPS - PNG dönüşümünün kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion/ppt-to-png) test edin. Aspose PowerPoint PPTX kitaplığı, PPS dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
+Modern bir sunum işleme API'si olarak Aspose.Slides for PHP, PPS öğesinden hızlı bir şekilde PNG oluşturur. PPS - PNG dönüşümünün kalitesini doğrudan [tarayıcınızda](https://products.aspose.app/slides/conversion) test edin. Aspose PowerPoint PPTX kitaplığı, PPS dosyalarını birçok popüler formata dönüştürmenize olanak tanır.
 
 Aşağıdaki komutu kullanarak kitaplığı [Composer](https://packagist.org/packages/aspose/slides) adresinden yükleyebilirsiniz:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPS to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides ile geliştirildi" title="PPS dosyasını çevrimiçi olarak PNG biçimine dönüştürün" description="Ücretsiz Aspose.Slides Conversion uygulaması, yukarıdaki kodla aynı API olan [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/tr/php-java/) ile geliştirilmiştir. Uygulamayı açın ve API'nin kendi PPS dosyalarınızla neler yapabildiğini görün." button="Aspose.Slides Conversion uygulamasını aç" note="[Tüm ücretsiz uygulamalar](https://products.aspose.app/slides/family)" upload="Dosyanızı bırakın veya yükleyin" saveAs="Farklı kaydet" convert="Dönüştür" >}}
+- Tarayıcınızda çalışır, hiçbir şey yüklemeniz gerekmez.
+- Kod yazmadan önce Aspose.Slides'ın dosyaları nasıl dönüştürdüğünü görün.
+- PPS dosyalarını yükleyin ve PNG olarak kaydedin.
+- Sonucu indirin veya daha fazla dosya dönüştürün.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Desteklenen Diğer Dönüşümler" subTitle="PPS dosyasını başka birçok dosya biçimine de dönüştürebilirsiniz. Aşağıda desteklenen diğer dönüşümleri görün" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/tr/php-java/conversion/pps-to-bmp/" name="PPS TO BMP" description="Bitmap Görüntüsü" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-09
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PNG to JPG in C++
 url: /cpp/conversion/png-to-jpg/
@@ -57,9 +57,7 @@ Aspose.Slides for C++ can place PNG images on slides and render the result as JP
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slide and save it as a JPG image.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="png-to-jpg"
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PNG to Other Supported Formats" subTitle="You can also convert PNG images and save them to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

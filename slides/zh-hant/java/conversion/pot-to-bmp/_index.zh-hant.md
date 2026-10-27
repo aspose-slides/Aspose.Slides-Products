@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 Java 將 POT 轉換為 BMP
 weight: 3970
@@ -94,9 +94,12 @@ for (ISlide sld : presentation.getSlides())
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="免費應用程序將POT轉換為BMP"
-  description="[嘗試我們的免費應用程序將PPT轉換為BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="以 Aspose.Slides 建置" title="線上將 POT 轉換為 BMP" description="免費的 Aspose.Slides Conversion 應用程式以 [Aspose.Slides for Java](https://products.aspose.com/slides/zh-hant/java/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 POT 檔案。" button="開啟 Aspose.Slides Conversion" note="[所有免費應用程式](https://products.aspose.app/slides/family)" upload="拖放或上傳您的檔案" saveAs="另存為" convert="轉換" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先看看 Aspose.Slides 如何轉換檔案。
+- 上傳 POT 檔案並將其另存為 BMP。
+- 下載結果或轉換更多檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="其他支持的轉換" subTitle="您還可以將 POT 轉換為許多其他文件格式，包括下面列出的一些文件格式。" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/java/conversion/pot-to-gif/" name="POT TO GIF" description="圖形交換格式" >}}

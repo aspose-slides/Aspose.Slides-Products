@@ -94,9 +94,12 @@ var ps1 = new Presentation("presen1.ppt");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Fusionner des fichiers PDF en ligne"
-  description="[Comment fusionner un PDF en Python](https://products.aspose.com/slides/fr/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Conçu avec Aspose.Slides" title="Fusionner des fichiers PPT en ligne" description="L'application gratuite Aspose.Slides Merger est conçue avec [Aspose.Slides for .NET](https://products.aspose.com/slides/fr/net/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPT." button="Ouvrir Aspose.Slides Merger" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides fusionne les fichiers avant d'écrire du code.
+- Importez plusieurs fichiers PPT et combinez-les en un seul.
+- Téléchargez le résultat fusionné sous forme d'un seul fichier.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 

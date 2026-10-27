@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert SVG to PNG in C#
 weight: 250
@@ -67,9 +67,7 @@ image.Save("image.png", ImageFormat.Png);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="png"
-  title="Free App to Convert SVG to PNG"
-  description="[Try our free app to convert SVG to PNG](https://products.aspose.app/slides/conversion/svg-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Conversions" subTitle="Aspose.Slides supports conversion operations for many file formats" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

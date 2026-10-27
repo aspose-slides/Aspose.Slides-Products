@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: FODP را در پایتون به JPG تبدیل کنید
 weight: 50
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 آیا نیاز به تبدیل فایل های FODP به JPG دارید؟ با استفاده از [*Aspose.Slides برای پایتون از طریق .NET*](https://products.aspose.com/slides/fa/python-net/) هر توسعه دهنده می تواند FODP را تنها با چند خط کد پایتون به فرمت JPG تبدیل کند.
 
-Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت JPG را از FODP ایجاد می کند. کیفیت تبدیل FODP به JPG را دقیقاً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion/ppt-to-jpg). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های FODP را به بسیاری از فرمت های محبوب تبدیل کنید.
+Aspose.Slides برای Python به عنوان یک API پردازش ارائه مدرن، به سرعت JPG را از FODP ایجاد می کند. کیفیت تبدیل FODP به JPG را دقیقاً در [مرورگر] خود آزمایش کنید (https://products.aspose.app/slides/conversion). کتابخانه Aspose PowerPoint PPTX به شما امکان می دهد فایل های FODP را به بسیاری از فرمت های محبوب تبدیل کنید.
 
 می‌توانید کتابخانه را از [PyPI](https://pypi.org/project/Aspose.Slides/) با استفاده از دستور pip زیر نصب کنید:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.fodp") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="برنامه رایگان برای تبدیل FODP به JPG"
-  description="[برنامه رایگان MP4 To MP3 ما را امتحان کنید](https://products.aspose.app/slides/video/mp4-to-mp3/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="ساخته شده با Aspose.Slides" title="تبدیل آنلاین FODP به JPG" description="برنامه رایگان Aspose.Slides Conversion با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های FODP شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Conversion" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" upload="فایل خود را رها یا بارگذاری کنید" saveAs="ذخیره با فرمت" convert="تبدیل" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه فایل‌ها را تبدیل می‌کند.
+- فایل‌های FODP را بارگذاری کنید و آن‌ها را با فرمت JPG ذخیره کنید.
+- نتیجه را دانلود کنید یا فایل‌های بیشتری را تبدیل کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر تبدیل های پشتیبانی شده" subTitle="شما همچنین می توانید FODP را به بسیاری از فرمت های فایل دیگر تبدیل کنید. سایر تبدیل های پشتیبانی شده را در زیر مشاهده کنید" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fa/python-net/conversion/fodp-to-bmp/" name="FODP TO BMP" description="تصویر بیت مپ" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: A PPTX konvertálása PNG-re Pythonban
 weight: 2740
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Programozottan kell konvertálnia a PPTX fájlokat PNG formátumba? Az [*Aspose.Slides for Python .NET-en keresztüli használatával*](https://products.aspose.com/slides/hu/python-net/) bármely fejlesztő képes konvertálni a PPTX-et PNG formátumba, mindössze néhány sor Python kóddal.
 
-Modern prezentációfeldolgozási API-ként az Aspose.Slides for Python gyorsan létrehozza a PNG-t PPTX-ből. Tesztelje a PPTX-PNG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion/ppt-to-png). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi a PPTX fájlok számos népszerű formátumba való konvertálását.
+Modern prezentációfeldolgozási API-ként az Aspose.Slides for Python gyorsan létrehozza a PNG-t PPTX-ből. Tesztelje a PPTX-PNG konverzió minőségét közvetlenül a [böngészőjében](https://products.aspose.app/slides/conversion). Az Aspose PowerPoint PPTX könyvtár lehetővé teszi a PPTX fájlok számos népszerű formátumba való konvertálását.
 
 A könyvtárat a [PyPI]-ről (https://pypi.org/project/Aspose.Slides/) telepítheti a következő pip paranccsal:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pptx-to-png"
-  title="Ingyenes alkalmazás a PPTX konvertálásához PNG -re"
-  description="[Próbálja ki az ingyenes alkalmazást a PPT konvertálásához PNG -re](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Az Aspose.Slides segítségével készült" title="PPTX konvertálása PNG formátumba online" description="Az ingyenes Aspose.Slides Conversion alkalmazás az [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hu/python-net/) segítségével készült, ugyanazzal az API-val, mint a fenti kód. Nyissa meg, és nézze meg, mire képes az API a saját PPTX fájljaival." button="Aspose.Slides Conversion megnyitása" note="[Az összes ingyenes alkalmazás](https://products.aspose.app/slides/family)" upload="Húzza ide vagy töltse fel a fájlt" saveAs="Mentés másként" convert="Konvertálás" >}}
+- A böngészőben fut, semmit sem kell telepíteni.
+- Nézze meg, hogyan konvertálja a fájlokat az Aspose.Slides, mielőtt kódot írna.
+- Töltsön fel PPTX fájlokat, és mentse őket PNG formátumban.
+- Töltse le az eredményt, vagy konvertáljon további fájlokat.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Egyéb támogatott konverziók" subTitle="A PPTX-t számos más fájlformátumba is konvertálhatja. Lásd alább a többi támogatott konverziót" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hu/python-net/conversion/pptx-to-bmp/" name="PPTX TO BMP" description="Bittérképes kép" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to XML in C++
 url: /cpp/conversion/pdf-to-xml/
@@ -44,9 +44,7 @@ The generated XML represents the imported presentation; it is not a generic XML 
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Save the presentation with `SaveFormat::Xml` to create a PowerPoint XML Presentation file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pdf-to-xml"
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files and save them to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

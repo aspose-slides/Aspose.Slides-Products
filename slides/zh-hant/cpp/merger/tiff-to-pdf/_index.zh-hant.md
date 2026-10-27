@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 C++ 中將 TIFF 合併為 PDF
 url: /zh-hant/cpp/merger/tiff-to-pdf/
@@ -46,9 +46,12 @@ pres->Save(u"pres.pdf", SaveFormat::Pdf);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}保存生成的 PDF。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="在線合併 PDF 文件"
-  description="[如何在 Python 中合併 PDF](https://products.aspose.com/slides/zh-hant/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="以 Aspose.Slides 建置" title="線上將 TIFF 合併為 PDF" description="免費的 Aspose.Slides Merger 應用程式以 [Aspose.Slides for C++](https://products.aspose.com/slides/zh-hant/cpp/) 建置，與上方程式碼使用的是同一個 API。開啟它，看看 API 能如何處理您自己的 TIFF 檔案。" button="開啟 Aspose.Slides Merger" note="[所有免費應用程式](https://products.aspose.app/slides/family)" >}}
+- 在瀏覽器中執行，無需安裝任何軟體。
+- 在撰寫程式碼之前，先看看 Aspose.Slides 如何合併檔案。
+- 上傳多個 TIFF 檔案並將它們合併為一個 PDF 檔案。
+- 將合併結果下載為一個檔案。
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="合併其他文件" subTitle="您還可以合併其他格式的文件以獲得單個文件" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh-hant/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

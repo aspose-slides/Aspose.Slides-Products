@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Unisci i file POT utilizzando PHP
 url: /it/php-java/merger/pot/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Salva il documento POT risultante.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Unisci file PDF online"
-  description="[Come unire PDF in Python](https://products.aspose.com/slides/it/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Realizzato con Aspose.Slides" title="Unisci file POT online" description="L'app gratuita Aspose.Slides Merger è realizzata con [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/it/php-java/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file POT." button="Apri Aspose.Slides Merger" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides unisce i file prima di scrivere codice.
+- Carica più file POT e combinali in uno solo.
+- Scarica il risultato unito come un unico file.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Esporta POT in altri formati supportati" subTitle="Puoi anche combinare POT e salvare in altri formati di file. Vedi tutti i formati supportati di seguito" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/merger/ppt/" name="PPT" >}}

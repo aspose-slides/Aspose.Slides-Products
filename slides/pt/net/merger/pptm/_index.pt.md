@@ -94,9 +94,12 @@ var ps1 = new Presentation("presen1.pptm");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Mesclar arquivos PDF on-line"
-  description="[Como mesclar PDF em Python](https://products.aspose.com/slides/pt/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Criado com Aspose.Slides" title="Mesclar arquivos PPTM online" description="O aplicativo gratuito Aspose.Slides Merger é criado com [Aspose.Slides for .NET](https://products.aspose.com/slides/pt/net/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPTM." button="Abrir Aspose.Slides Merger" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides mescla arquivos antes de escrever código.
+- Envie vários arquivos PPTM e combine-os em um só.
+- Baixe o resultado mesclado como um único arquivo.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 

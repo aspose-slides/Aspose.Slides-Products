@@ -94,9 +94,12 @@ var ps1 = new Presentation("presen1.potm");
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Slå samman PDF-filer online"
-  description="[Hur man sammanfogar PDF i Python](https://products.aspose.com/slides/sv/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Byggd med Aspose.Slides" title="Slå samman POTM-filer online" description="Den kostnadsfria appen Aspose.Slides Merger är byggd med [Aspose.Slides for .NET](https://products.aspose.com/slides/sv/net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna POTM-filer." button="Öppna Aspose.Slides Merger" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides slår samman filer innan du skriver kod.
+- Ladda upp flera POTM-filer och slå samman dem till en.
+- Ladda ned det sammanslagna resultatet som en fil.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 

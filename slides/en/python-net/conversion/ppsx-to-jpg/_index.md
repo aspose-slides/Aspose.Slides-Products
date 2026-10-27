@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to JPG in Python
 weight: 2040
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you render PPSX slides as JPG images programmatically. Load the slide show, access each slide through a `Slide` variable, create an image by using `Slide.get_image`, and save it in JPEG format.
 
-The API preserves slide content and formatting during rendering and does not require Microsoft PowerPoint. Test the conversion in the free [online app](https://products.aspose.app/slides/conversion/ppsx-to-jpeg) or integrate the Python API into your application.
+The API preserves slide content and formatting during rendering and does not require Microsoft PowerPoint. Test the conversion in the free [online app](https://products.aspose.app/slides/conversion) or integrate the Python API into your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save PPSX as JPG in Python" %}}
 
-Use the free [online conversion app](https://products.aspose.app/slides/conversion/ppsx-to-jpeg) to see the PPSX-to-JPG conversion process in action.
+Use the free [online conversion app](https://products.aspose.app/slides/conversion) to see the PPSX-to-JPG conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

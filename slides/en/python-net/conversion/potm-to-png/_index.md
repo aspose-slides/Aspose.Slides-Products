@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POTM to PNG in Python
 weight: 1200
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 Use [*Aspose.Slides for Python via .NET*](/slides/python-net/) to convert POTM slides to PNG images programmatically. Load a macro-enabled PowerPoint template with `Presentation`, render each `Slide` by calling `get_image`, and save the result with `ImageFormat.PNG`.
 
-Aspose.Slides performs the conversion without requiring Microsoft PowerPoint. You can evaluate POTM-to-PNG output with the free [online conversion app](https://products.aspose.app/slides/conversion/potm-to-png). The same API supports many other presentation and image formats.
+Aspose.Slides performs the conversion without requiring Microsoft PowerPoint. You can evaluate POTM-to-PNG output with the free [online conversion app](https://products.aspose.app/slides/conversion). The same API supports many other presentation and image formats.
 
 Install the package from [PyPI](https://pypi.org/project/aspose-slides/) using `pip`:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save POTM as PNG in Python" %}}
 
-Try the free [online conversion app](https://products.aspose.app/slides/conversion/potm-to-png) to see the POTM-to-PNG conversion process.
+Try the free [online conversion app](https://products.aspose.app/slides/conversion) to see the POTM-to-PNG conversion process.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

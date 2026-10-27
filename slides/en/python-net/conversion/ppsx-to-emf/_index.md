@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPSX to EMF in Python
 weight: 2000
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PPSX slide shows to EMF files programmatically. Load the presentation, access each slide, and write its content to a binary stream with `Slide.write_as_emf`.
 
-The API exports slide content as vector graphics suitable for scaling and further processing. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/ppsx-to-emf) or use the Python API in your application.
+The API exports slide content as vector graphics suitable for scaling and further processing. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save PPSX as EMF in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/ppsx-to-emf) to see the PPSX-to-EMF conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the PPSX-to-EMF conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

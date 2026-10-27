@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie SVG in PNG in Java
 url: /de/java/conversion/svg-to-png/
@@ -56,9 +56,12 @@ Als moderne Dokumentverarbeitungs-API exportiert Aspose.Slides für Java schnell
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Ergebnis als PNG-Datei speichern.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Kostenloser Online-Konverter"
-  description="[So konvertieren Sie PPT in HTML in Python](https://products.aspose.com/slides/de/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Entwickelt mit Aspose.Slides" title="SVG online in PNG konvertieren" description="Die kostenlose App Aspose.Slides Conversion basiert auf [Aspose.Slides for Java](https://products.aspose.com/slides/de/java/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen SVG-Dateien leisten kann." button="Aspose.Slides Conversion öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" upload="Datei ablegen oder hochladen" saveAs="Speichern als" convert="Konvertieren" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien konvertiert, bevor Sie Code schreiben.
+- Laden Sie SVG-Dateien hoch und speichern Sie sie als PNG.
+- Laden Sie das Ergebnis herunter oder konvertieren Sie weitere Dateien.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konvertieren Sie SVG in andere unterstützte Formate" subTitle="Sie können SVG auch konvertieren und in anderen Dateiformaten speichern. Siehe unten alle unterstützten Formate" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

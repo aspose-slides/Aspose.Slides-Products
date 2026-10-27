@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Преобразование PDF в PPT в C++
 url: /ru/cpp/conversion/pdf-to-ppt/
@@ -43,9 +43,12 @@ pres->Save(u"pres.ppt", SaveFormat::Ppt);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Сохранить результат как файл PPT.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Бесплатный онлайн-конвертер"
-  description="[Как преобразовать PPT в HTML в Python](https://products.aspose.com/slides/ru/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Создано на основе Aspose.Slides" title="Конвертировать PDF в PPT онлайн" description="Бесплатное приложение Aspose.Slides Conversion создано на основе [Aspose.Slides for C++](https://products.aspose.com/slides/ru/cpp/) — того же API, что и в коде выше. Откройте его и посмотрите, что API может сделать с вашими собственными файлами PDF." button="Открыть Aspose.Slides Conversion" note="[Все бесплатные приложения](https://products.aspose.app/slides/family)" upload="Перетащите или загрузите файл" saveAs="Сохранить как" convert="Конвертировать" >}}
+- Работает в браузере, ничего не нужно устанавливать.
+- Посмотрите, как Aspose.Slides конвертирует файлы, прежде чем писать код.
+- Загрузите файлы PDF и сохраните их в PPT.
+- Скачайте результат или конвертируйте другие файлы.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Конвертировать PDF в другие поддерживаемые форматы" subTitle="Вы также можете конвертировать PDF и сохранять в файлы других форматов. См. все поддерживаемые форматы ниже" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/ru/cpp/conversion/pdf-to-html/" name="PDF TO HTML" >}}

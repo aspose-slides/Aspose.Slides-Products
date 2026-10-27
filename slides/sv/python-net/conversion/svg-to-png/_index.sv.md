@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-03-21
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertera SVG till PNG i Python
 url: /sv/python-net/conversion/svg-to-png/
@@ -52,9 +52,12 @@ Som ett modernt dokumentbearbetnings-API exporterar Aspose.Slides for Python sna
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Spara resultatet som PNG-fil.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Gratis onlinekonverterare"
-  description="[Hur man konverterar PPT till HTML i Python](https://products.aspose.com/slides/sv/python-net/conversion/ppt-to-html/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Byggd med Aspose.Slides" title="Konvertera SVG till PNG online" description="Den kostnadsfria appen Aspose.Slides Conversion är byggd med [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/sv/python-net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna SVG-filer." button="Öppna Aspose.Slides Conversion" note="[Alla gratisappar](https://products.aspose.app/slides/family)" upload="Släpp eller ladda upp din fil" saveAs="Spara som" convert="Konvertera" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides konverterar filer innan du skriver kod.
+- Ladda upp SVG-filer och spara dem som PNG.
+- Ladda ned resultatet eller konvertera fler filer.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konvertera SVG till andra format som stöds" subTitle="Du kan också konvertera SVG och spara till andra filformat. Se alla format som stöds nedan" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

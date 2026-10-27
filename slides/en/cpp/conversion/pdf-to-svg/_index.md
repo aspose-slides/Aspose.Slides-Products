@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-06-18
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PDF to SVG in C++
 url: /cpp/conversion/pdf-to-svg/
@@ -54,9 +54,7 @@ Aspose.Slides for C++ can convert PDF content to SVG and other presentation-rela
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Write each slide to an SVG file.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pdf-to-svg"
-  title="Free Online Converter"
-  description="Convert presentations and slides online." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Convert PDF to Other Supported Formats" subTitle="You can also convert PDF files and save them to other file formats. See all supported formats below." >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

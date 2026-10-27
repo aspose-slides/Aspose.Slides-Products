@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Bild zu BMP in C++ zusammenführen
 url: /de/cpp/merger/image-to-bmp/
@@ -51,9 +51,12 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Speichern Sie die resultierende BMP-Datei.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="PDF-Dateien online zusammenführen"
-  description="[Wie man PDF in Python zusammenführt](https://products.aspose.com/slides/de/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Entwickelt mit Aspose.Slides" title="Bild online zu BMP zusammenführen" description="Die kostenlose App Aspose.Slides Merger basiert auf [Aspose.Slides for C++](https://products.aspose.com/slides/de/cpp/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen Bild-Dateien leisten kann." button="Aspose.Slides Merger öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien zusammenführt, bevor Sie Code schreiben.
+- Laden Sie mehrere Bild-Dateien hoch und führen Sie sie zu einer BMP-Datei zusammen.
+- Laden Sie das zusammengeführte Ergebnis als eine Datei herunter.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere Dateien zusammenführen" subTitle="Sie können auch Dateien in anderen Formaten kombinieren, um eine einzige Datei zu erhalten" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/cpp/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

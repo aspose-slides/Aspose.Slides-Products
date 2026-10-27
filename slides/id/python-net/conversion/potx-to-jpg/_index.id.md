@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konversi POTX ke JPG dengan Python
 weight: 1380
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Perlu mengonversi file POTX ke JPG secara terprogram? Menggunakan [*Aspose.Slides untuk Python melalui .NET*](https://products.aspose.com/slides/id/python-net/) pengembang mana pun dapat mengonversi format POTX ke JPG hanya dengan beberapa baris kode Python.
 
-Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat JPG dari POTX dengan cepat. Uji kualitas konversi POTX ke JPG langsung di [browser](https://products.aspose.app/slides/conversion/ppt-to-jpg) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file POTX ke banyak format populer.
+Sebagai API pemrosesan presentasi modern, Aspose.Slides untuk Python membuat JPG dari POTX dengan cepat. Uji kualitas konversi POTX ke JPG langsung di [browser](https://products.aspose.app/slides/conversion) Anda. Perpustakaan Aspose PowerPoint PPTX memungkinkan Anda untuk mengonversi file POTX ke banyak format populer.
 
 Anda dapat menginstal perpustakaan dari [PyPI](https://pypi.org/project/Aspose.Slides/) menggunakan perintah pip berikut:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.potx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplikasi gratis untuk mengonversi POTX ke JPG"
-  description="[Coba aplikasi gratis kami untuk mengonversi PPT ke JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Dibuat dengan Aspose.Slides" title="Konversi POTX ke JPG Secara Online" description="Aplikasi Aspose.Slides Conversion gratis dibuat dengan [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/id/python-net/), API yang sama dengan kode di atas. Buka aplikasinya dan lihat apa yang dapat dilakukan API dengan file POTX Anda sendiri." button="Buka Aspose.Slides Conversion" note="[Semua aplikasi gratis](https://products.aspose.app/slides/family)" upload="Letakkan atau unggah file Anda" saveAs="Simpan sebagai" convert="Konversi" >}}
+- Berjalan di browser Anda, tanpa perlu menginstal apa pun.
+- Lihat cara Aspose.Slides mengonversi file sebelum Anda menulis kode.
+- Unggah file POTX dan simpan sebagai JPG.
+- Unduh hasilnya atau konversi lebih banyak file.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Konversi lain yang Didukung" subTitle="Anda juga dapat mengonversi POTX ke banyak format file lainnya. Lihat konversi lain yang didukung di bawah" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/id/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="Gambar bitmap" >}}  

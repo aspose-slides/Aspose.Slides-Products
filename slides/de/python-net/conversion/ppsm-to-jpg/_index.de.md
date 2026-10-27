@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Konvertieren Sie PPSM in JPG in Python
 weight: 1820
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Müssen Sie PPSM-Dateien programmgesteuert in JPG konvertieren? Mit [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/de/python-net/) kann jeder Entwickler mit nur wenigen Zeilen Python-Code PPSM in das JPG-Format konvertieren.
 
-Als moderne Präsentationsverarbeitungs-API erstellt Aspose.Slides für Python schnell JPG aus PPSM. Testen Sie die Qualität der Umwandlung von PPSM in JPG direkt in Ihrem [Browser](https://products.aspose.app/slides/conversion/ppt-to-jpg). Mit der Aspose PowerPoint PPTX-Bibliothek können Sie PPSM-Dateien in viele gängige Formate konvertieren.
+Als moderne Präsentationsverarbeitungs-API erstellt Aspose.Slides für Python schnell JPG aus PPSM. Testen Sie die Qualität der Umwandlung von PPSM in JPG direkt in Ihrem [Browser](https://products.aspose.app/slides/conversion). Mit der Aspose PowerPoint PPTX-Bibliothek können Sie PPSM-Dateien in viele gängige Formate konvertieren.
 
 Sie können die Bibliothek von [PyPI](https://pypi.org/project/Aspose.Slides/) mit dem folgenden Pip-Befehl installieren:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.ppsm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Kostenlose App, um PPSM in JPG zu konvertieren"
-  description="[Versuchen Sie unsere kostenlose App, um PPT in JPG konvertieren zu können](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Entwickelt mit Aspose.Slides" title="PPSM online in JPG konvertieren" description="Die kostenlose App Aspose.Slides Conversion basiert auf [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/de/python-net/), derselben API wie im obigen Code. Öffnen Sie sie und sehen Sie, was die API mit Ihren eigenen PPSM-Dateien leisten kann." button="Aspose.Slides Conversion öffnen" note="[Alle kostenlosen Apps](https://products.aspose.app/slides/family)" upload="Datei ablegen oder hochladen" saveAs="Speichern als" convert="Konvertieren" >}}
+- Läuft im Browser, keine Installation erforderlich.
+- Sehen Sie, wie Aspose.Slides Dateien konvertiert, bevor Sie Code schreiben.
+- Laden Sie PPSM-Dateien hoch und speichern Sie sie als JPG.
+- Laden Sie das Ergebnis herunter oder konvertieren Sie weitere Dateien.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere unterstützte Konvertierungen" subTitle="Sie können PPSM auch in viele andere Dateiformate konvertieren. Weitere unterstützte Konvertierungen finden Sie weiter unten" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/de/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap-Bild" >}}  

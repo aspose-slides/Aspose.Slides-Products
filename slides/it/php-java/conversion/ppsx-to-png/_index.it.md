@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPSX in PNG in PHP
 weight: 1980
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Devi convertire i file PPSX in PNG a livello di codice? Utilizzando [*Aspose.Slides per PHP via Java*](https://products.aspose.com/slides/it/php-java/) qualsiasi sviluppatore può convertire il formato PPSX in PNG con poche righe di codice PHP .
 
-In quanto moderna API di elaborazione delle presentazioni, Aspose.Slides per PHP crea rapidamente PNG da PPSX. Verifica la qualità della conversione da PPSX a PNG direttamente nel tuo [browser](https://products.aspose.app/slides/conversion/ppt-to-png). La libreria Aspose PowerPoint PPTX ti consente di convertire i file PPSX in molti formati popolari.
+In quanto moderna API di elaborazione delle presentazioni, Aspose.Slides per PHP crea rapidamente PNG da PPSX. Verifica la qualità della conversione da PPSX a PNG direttamente nel tuo [browser](https://products.aspose.app/slides/conversion). La libreria Aspose PowerPoint PPTX ti consente di convertire i file PPSX in molti formati popolari.
 
 È possibile installare la libreria da [Composer](https://packagist.org/packages/aspose/slides) utilizzando il comando seguente:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPSX to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Realizzato con Aspose.Slides" title="Converti PPSX in PNG online" description="L'app gratuita Aspose.Slides Conversion è realizzata con [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/it/php-java/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPSX." button="Apri Aspose.Slides Conversion" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" upload="Trascina o carica il tuo file" saveAs="Salva come" convert="Converti" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides converte i file prima di scrivere codice.
+- Carica file PPSX e salvali come PNG.
+- Scarica il risultato o converti altri file.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altre conversioni supportate" subTitle="Puoi anche convertire PPSX in molti altri formati di file. Vedi altre conversioni supportate di seguito" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/php-java/conversion/ppsx-to-bmp/" name="PPSX TO BMP" description="Immagine bitmap" >}}  

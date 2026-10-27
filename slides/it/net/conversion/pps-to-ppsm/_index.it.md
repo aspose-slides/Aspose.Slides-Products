@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converti PPS in PPSM tramite C#
 weight: 6760
@@ -69,9 +69,12 @@ presentation.Save("output.ppsm", SaveFormat.Ppsm);
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="App gratuita da convertire PPS in PPSM"
-  description="[Prova la nostra app gratuita Collage](https://products.aspose.app/slides/collage/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Realizzato con Aspose.Slides" title="Converti PPS in PPSM online" description="L'app gratuita Aspose.Slides Conversion è realizzata con [Aspose.Slides for .NET](https://products.aspose.com/slides/it/net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPS." button="Apri Aspose.Slides Conversion" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" upload="Trascina o carica il tuo file" saveAs="Salva come" convert="Converti" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides converte i file prima di scrivere codice.
+- Carica file PPS e salvali come PPSM.
+- Scarica il risultato o converti altri file.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altre conversioni supportate" subTitle="Puoi anche convertire PPS in molti altri formati di file, inclusi alcuni elencati di seguito." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/it/net/conversion/pps-to-bmp/" name="PPS TO BMP" description="Immagine bitmap" >}}

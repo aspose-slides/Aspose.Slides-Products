@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 在 PHP 中将图像合并为 BMP
 url: /zh/php-java/merger/image-to-bmp/
@@ -77,9 +77,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}保存生成的 BMP 文件。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="在线合并 PDF 文件"
-  description="[如何在 Python 中合并 PDF](https://products.aspose.com/slides/zh/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="基于 Aspose.Slides 构建" title="在线将 图像 合并为 BMP" description="免费的 Aspose.Slides Merger 应用基于 [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/zh/php-java/) 构建，与上方代码使用的是同一 API。打开它，看看 API 能如何处理您自己的 图像 文件。" button="打开 Aspose.Slides Merger" note="[所有免费应用](https://products.aspose.app/slides/family)" >}}
+- 在浏览器中运行，无需安装任何软件。
+- 在编写代码之前，先看看 Aspose.Slides 如何合并文件。
+- 上传多个 图像 文件并将它们合并为一个 BMP 文件。
+- 将合并结果下载为一个文件。
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="合并其他文件" subTitle="您还可以合并其他格式的文件以获取单个文件" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/zh/php-java/merger/jpg-to-jpg/" name="JPG TO JPG" >}}  

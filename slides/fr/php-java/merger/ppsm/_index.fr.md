@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner les fichiers PPSM à l'aide de PHP
 url: /fr/php-java/merger/ppsm/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Enregistrez le document PPSM résultant.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Fusionner des fichiers PDF en ligne"
-  description="[Comment fusionner un PDF en Python](https://products.aspose.com/slides/fr/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Conçu avec Aspose.Slides" title="Fusionner des fichiers PPSM en ligne" description="L'application gratuite Aspose.Slides Merger est conçue avec [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/fr/php-java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPSM." button="Ouvrir Aspose.Slides Merger" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides fusionne les fichiers avant d'écrire du code.
+- Importez plusieurs fichiers PPSM et combinez-les en un seul.
+- Téléchargez le résultat fusionné sous forme d'un seul fichier.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Exporter PPSM vers d'autres formats pris en charge" subTitle="Vous pouvez également combiner PPSM et enregistrer dans d'autres formats de fichier. Voir tous les formats pris en charge ci-dessous" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/merger/ppt/" name="PPT" >}}

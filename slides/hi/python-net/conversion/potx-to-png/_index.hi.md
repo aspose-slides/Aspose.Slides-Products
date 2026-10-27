@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: पायथन में POTX को PNG में बदलें
 weight: 1420
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 पीओटीएक्स फाइलों को पीएनजी में प्रोग्रामेटिक रूप से कनवर्ट करने की आवश्यकता है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से [*Aspose.Slides for Python का उपयोग करके कोई भी डेवलपर POTX को PNG प्रारूप में केवल कुछ पंक्तियों के साथ Python कोड में परिवर्तित कर सकता है।
 
-एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से POTX से PNG बनाता है। अपने [ब्राउज़र](https://products.aspose.app/slides/conversion/ppt-to-png) में POTX से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको POTX फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
+एक आधुनिक प्रेजेंटेशन प्रोसेसिंग एपीआई के रूप में, Aspose.Slides for Python जल्दी से POTX से PNG बनाता है। अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में POTX से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको POTX फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
 आप निम्न पाइप कमांड का उपयोग करके [PyPI](https://pypi.org/project/Aspose.Slides/) से पुस्तकालय स्थापित कर सकते हैं:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.potx") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="मुफ्त ऐप POTX को PNG में कन्वर्ट करने के लिए"
-  description="[PPT को PNG को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides से निर्मित" title="POTX को PNG में ऑनलाइन बदलें" description="मुफ़्त Aspose.Slides Conversion ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी POTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Conversion खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" upload="अपनी फ़ाइल छोड़ें या अपलोड करें" saveAs="इस रूप में सहेजें" convert="बदलें" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides फ़ाइलों को कैसे बदलता है।
+- POTX फ़ाइलें अपलोड करें और उन्हें PNG के रूप में सहेजें।
+- परिणाम डाउनलोड करें या और फ़ाइलें बदलें।
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित रूपांतरण" subTitle="आप POTX को कई अन्य फ़ाइल स्वरूपों में भी परिवर्तित कर सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/python-net/conversion/potx-to-bmp/" name="POTX TO BMP" description="बिटमैप चित्र" >}}  

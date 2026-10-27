@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PPSX para BMP em PHP
 weight: 1900
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPSX to BMP"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Criado com Aspose.Slides" title="Converter PPSX para BMP online" description="O aplicativo gratuito Aspose.Slides Conversion é criado com [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/pt/php-java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPSX." button="Abrir Aspose.Slides Conversion" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" upload="Arraste ou envie seu arquivo" saveAs="Salvar como" convert="Converter" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides converte arquivos antes de escrever código.
+- Envie arquivos PPSX e salve-os como BMP.
+- Baixe o resultado ou converta mais arquivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outras conversões compatíveis" subTitle="Você também pode converter PPSX para muitos outros formatos de arquivo. Veja outras conversões compatíveis abaixo" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/php-java/conversion/ppsx-to-fodp/" name="PPSX TO FODP" description="Apresentação XML Plana OpenDocument" >}}  

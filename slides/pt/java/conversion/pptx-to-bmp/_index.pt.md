@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter PPTX para BMP via Java
 weight: 2950
@@ -94,9 +94,12 @@ for (ISlide sld : presentation.getSlides())
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension="pptx-to-bmp"
-  title="Aplicativo gratuito para converter PPTX para BMP"
-  description="[Experimente nosso aplicativo gratuito para converter PPT para BMP](https://products.aspose.app/slides/conversion/ppt-to-bmp)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Criado com Aspose.Slides" title="Converter PPTX para BMP online" description="O aplicativo gratuito Aspose.Slides Conversion é criado com [Aspose.Slides for Java](https://products.aspose.com/slides/pt/java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos PPTX." button="Abrir Aspose.Slides Conversion" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" upload="Arraste ou envie seu arquivo" saveAs="Salvar como" convert="Converter" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides converte arquivos antes de escrever código.
+- Envie arquivos PPTX e salve-os como BMP.
+- Baixe o resultado ou converta mais arquivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outras conversões compatíveis" subTitle="Você também pode converter PPTX em muitos outros formatos de arquivo, incluindo alguns listados abaixo." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/java/conversion/pptx-to-gif/" name="PPTX TO GIF" description="Formato de intercâmbio gráfico" >}}

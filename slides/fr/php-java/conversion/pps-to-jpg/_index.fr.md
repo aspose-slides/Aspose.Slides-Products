@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPS en JPG en PHP
 weight: 1520
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Besoin de convertir des fichiers PPS en JPG par programmation ? En utilisant [*Aspose.Slides pour PHP via Java*](https://products.aspose.com/slides/fr/php-java/), n'importe quel développeur peut convertir le format PPS au format JPG avec seulement quelques lignes de code PHP .
 
-En tant qu'API de traitement de présentation moderne, Aspose.Slides pour PHP crée rapidement JPG à partir de PPS. Testez la qualité de la conversion de PPS à JPG directement dans votre [navigateur](https://products.aspose.app/slides/conversion/ppt-to-jpg). La bibliothèque Aspose PowerPoint PPTX vous permet de convertir des fichiers PPS vers de nombreux formats populaires.
+En tant qu'API de traitement de présentation moderne, Aspose.Slides pour PHP crée rapidement JPG à partir de PPS. Testez la qualité de la conversion de PPS à JPG directement dans votre [navigateur](https://products.aspose.app/slides/conversion). La bibliothèque Aspose PowerPoint PPTX vous permet de convertir des fichiers PPS vers de nombreux formats populaires.
 
 Vous pouvez installer la bibliothèque depuis [Composer](https://packagist.org/packages/aspose/slides) à l'aide de la commande suivante :
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPS to JPG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Conçu avec Aspose.Slides" title="Convertir PPS en JPG en ligne" description="L'application gratuite Aspose.Slides Conversion est conçue avec [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/fr/php-java/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPS." button="Ouvrir Aspose.Slides Conversion" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" upload="Déposez ou importez votre fichier" saveAs="Enregistrer sous" convert="Convertir" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides convertit les fichiers avant d'écrire du code.
+- Téléchargez des fichiers PPS et enregistrez-les au format JPG.
+- Téléchargez le résultat ou convertissez d'autres fichiers.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir PPS vers de nombreux autres formats de fichiers. Voir les autres conversions prises en charge ci-dessous" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/php-java/conversion/pps-to-bmp/" name="PPS TO BMP" description="Image bitmap" >}}  

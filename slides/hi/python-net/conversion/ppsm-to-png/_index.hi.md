@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSM को Python में PNG में बदलें
 weight: 1860
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 पीपीएसएम फाइलों को प्रोग्रामेटिक रूप से पीएनजी में बदलने की जरूरत है? .NET*](https://products.aspose.com/slides/hi/python-net/) के माध्यम से पाइथॉन के लिए [*Aspose.Slides का उपयोग करके कोई भी डेवलपर PPSM को PNG प्रारूप में केवल कुछ पंक्तियों में Python कोड के साथ परिवर्तित कर सकता है।
 
-एक आधुनिक प्रस्तुति प्रसंस्करण API के रूप में, Aspose.Slides for Python, PPSM से शीघ्रता से PNG बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion/ppt-to-png) में PPSM से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको PPSM फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
+एक आधुनिक प्रस्तुति प्रसंस्करण API के रूप में, Aspose.Slides for Python, PPSM से शीघ्रता से PNG बनाता है। सीधे अपने [ब्राउज़र](https://products.aspose.app/slides/conversion) में PPSM से PNG रूपांतरण की गुणवत्ता का परीक्षण करें। Aspose PowerPoint PPTX लाइब्रेरी आपको PPSM फ़ाइलों को कई लोकप्रिय प्रारूपों में बदलने की अनुमति देती है।
 
 आप निम्न पाइप कमांड का उपयोग करके [PyPI](https://pypi.org/project/Aspose.Slides/) से पुस्तकालय स्थापित कर सकते हैं:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.ppsm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="मुफ्त ऐप PPSM को PNG में कन्वर्ट करने के लिए"
-  description="[PPT को PNG को रूपांतरित करने के लिए हमारे निःशुल्क ऐप को आज़माएं](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Aspose.Slides से निर्मित" title="PPSM को PNG में ऑनलाइन बदलें" description="मुफ़्त Aspose.Slides Conversion ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPSM फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Conversion खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" upload="अपनी फ़ाइल छोड़ें या अपलोड करें" saveAs="इस रूप में सहेजें" convert="बदलें" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides फ़ाइलों को कैसे बदलता है।
+- PPSM फ़ाइलें अपलोड करें और उन्हें PNG के रूप में सहेजें।
+- परिणाम डाउनलोड करें या और फ़ाइलें बदलें।
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="अन्य समर्थित रूपांतरण" subTitle="आप PPSM को कई अन्य फ़ाइल स्वरूपों में भी बदल सकते हैं। अन्य समर्थित रूपांतरण नीचे देखें" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/hi/python-net/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="बिटमैप चित्र" >}}  

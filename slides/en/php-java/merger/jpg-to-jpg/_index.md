@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-20
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Merge JPG Images in PHP
 url: /php-java/merger/jpg-to-jpg/
@@ -69,9 +69,7 @@ try {
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Render the slide with `getImage` and save the result with `ImageFormat::Jpeg`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension="jpg-to-jpg"
-  title="Merge JPG Images Online"
-  description="[Try the free Aspose.Slides Merger](https://products.aspose.app/slides/merger)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Merge Other Files" subTitle="You can also combine files in other supported formats." >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/php-java/merger/png-to-png/" name="PNG TO PNG" >}}

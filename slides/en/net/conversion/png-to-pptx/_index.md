@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-07-31
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PNG to PPTX in C#
 url: /net/conversion/png-to-pptx/
@@ -44,9 +44,7 @@ presentation.Save("presentation.pptx", SaveFormat.Pptx);
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Call the `Save` method with the output file path and `SaveFormat.Pptx`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free Online Converter"
-  description="[Try our free Conversion app](https://products.aspose.app/slides/conversion)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app />}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported PowerPoint Conversions" subTitle="You can also convert files in other formats to PowerPoint" >}}{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 

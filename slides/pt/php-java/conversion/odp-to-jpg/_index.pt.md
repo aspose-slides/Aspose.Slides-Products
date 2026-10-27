@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converter ODP para JPG em PHP
 weight: 260
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Precisa converter arquivos ODP para JPG programaticamente? Usando [*Aspose.Slides for PHP via Java*](https://products.aspose.com/slides/pt/php-java/) qualquer desenvolvedor pode converter o formato ODP para JPG com apenas algumas linhas de código PHP .
 
-Como uma API de processamento de apresentação moderna, o Aspose.Slides for PHP cria JPG a partir de ODP rapidamente. Teste a qualidade da conversão de ODP para JPG diretamente no seu [navegador](https://products.aspose.app/slides/conversion/ppt-to-jpg). A biblioteca Aspose PowerPoint PPTX permite converter arquivos ODP para muitos formatos populares.
+Como uma API de processamento de apresentação moderna, o Aspose.Slides for PHP cria JPG a partir de ODP rapidamente. Teste a qualidade da conversão de ODP para JPG diretamente no seu [navegador](https://products.aspose.app/slides/conversion). A biblioteca Aspose PowerPoint PPTX permite converter arquivos ODP para muitos formatos populares.
 
 Você pode instalar a biblioteca do [Composer](https://packagist.org/packages/aspose/slides) usando o seguinte comando:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert ODP to JPG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Criado com Aspose.Slides" title="Converter ODP para JPG online" description="O aplicativo gratuito Aspose.Slides Conversion é criado com [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/pt/php-java/), a mesma API do código acima. Abra-o e veja o que a API pode fazer com seus próprios arquivos ODP." button="Abrir Aspose.Slides Conversion" note="[Todos os aplicativos gratuitos](https://products.aspose.app/slides/family)" upload="Arraste ou envie seu arquivo" saveAs="Salvar como" convert="Converter" >}}
+- Funciona no seu navegador, sem instalar nada.
+- Veja como o Aspose.Slides converte arquivos antes de escrever código.
+- Envie arquivos ODP e salve-os como JPG.
+- Baixe o resultado ou converta mais arquivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Outras conversões compatíveis" subTitle="Você também pode converter ODP para muitos outros formatos de arquivo. Veja outras conversões compatíveis abaixo" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pt/php-java/conversion/odp-to-bmp/" name="ODP TO BMP" description="Imagem em formato bitmap" >}}  

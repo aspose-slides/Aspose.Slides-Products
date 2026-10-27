@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir POT a JPG en Python
 weight: 940
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 ¿Necesita convertir archivos POT a JPG mediante programación? Usando [*Aspose.Slides for Python via .NET*](https://products.aspose.com/slides/es/python-net/) cualquier desarrollador puede convertir POT a formato JPG con solo unas pocas líneas de código de Python.
 
-Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a JPG directamente en su [navegador](https://products.aspose.app/slides/conversion/ppt-to-jpg). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
+Como una API moderna de procesamiento de presentaciones, Aspose.Slides for Python crea JPG a partir de POT rápidamente. Pruebe la calidad de la conversión de POT a JPG directamente en su [navegador](https://products.aspose.app/slides/conversion). La biblioteca Aspose PowerPoint PPTX le permite convertir archivos POT a muchos formatos populares.
 
 Puede instalar la biblioteca desde [PyPI](https://pypi.org/project/Aspose.Slides/) usando el siguiente comando pip:
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pot") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Aplicación gratuita para convertir POT a JPG"
-  description="[Pruebe nuestra aplicación gratuita para convertir PPT a JPG](https://products.aspose.app/slides/conversion/ppt-to-jpg)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Creado con Aspose.Slides" title="Convertir POT a JPG en línea" description="La aplicación gratuita Aspose.Slides Conversion está creada con [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/es/python-net/), la misma API que el código anterior. Ábrala y descubra lo que la API puede hacer con sus propios archivos POT." button="Abrir Aspose.Slides Conversion" note="[Todas las aplicaciones gratuitas](https://products.aspose.app/slides/family)" upload="Arrastre o suba su archivo" saveAs="Guardar como" convert="Convertir" >}}
+- Funciona en su navegador, sin instalar nada.
+- Vea cómo Aspose.Slides convierte archivos antes de escribir código.
+- Suba archivos POT y guárdelos como JPG.
+- Descargue el resultado o convierta más archivos.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Otras conversiones admitidas" subTitle="También puede convertir POT a muchos otros formatos de archivo. Vea otras conversiones admitidas a continuación" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/es/python-net/conversion/pot-to-bmp/" name="POT TO BMP" description="Imagen de mapa de bits" >}}  

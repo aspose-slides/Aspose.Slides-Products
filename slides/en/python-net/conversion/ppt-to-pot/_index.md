@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert PPT to POT in Python
 weight: 2310
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert PPT files to POT presentation templates programmatically. Load the file into a `Presentation` instance and call `Presentation.save` with `SaveFormat.POT`.
 
-The API saves the presentation in the PowerPoint 97-2003 Template format. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/ppt-to-pot) or use the Python API in your application.
+The API saves the presentation in the PowerPoint 97-2003 Template format. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save PPT as POT in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/ppt-to-pot) to see the PPT-to-POT conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the PPT-to-POT conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

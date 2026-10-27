@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convertir PPTM en PNG en Python
 weight: 2520
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Besoin de convertir des fichiers PPTM en PNG par programmation ? En utilisant [*Aspose.Slides pour Python via .NET*](https://products.aspose.com/slides/fr/python-net/), n'importe quel développeur peut convertir PPTM au format PNG avec seulement quelques lignes de code Python.
 
-En tant qu'API de traitement de présentation moderne, Aspose.Slides pour Python crée rapidement des PNG à partir de PPTM. Testez la qualité de la conversion PPTM en PNG directement dans votre [navigateur](https://products.aspose.app/slides/conversion/ppt-to-png). La bibliothèque Aspose PowerPoint PPTX vous permet de convertir des fichiers PPTM dans de nombreux formats populaires.
+En tant qu'API de traitement de présentation moderne, Aspose.Slides pour Python crée rapidement des PNG à partir de PPTM. Testez la qualité de la conversion PPTM en PNG directement dans votre [navigateur](https://products.aspose.app/slides/conversion). La bibliothèque Aspose PowerPoint PPTX vous permet de convertir des fichiers PPTM dans de nombreux formats populaires.
 
 Vous pouvez installer la bibliothèque à partir de [PyPI](https://pypi.org/project/Aspose.Slides/) à l'aide de la commande pip suivante :
 
@@ -76,9 +76,12 @@ with slides.Presentation("presentation.pptm") as presentation:
 {{% /blocks/products/pf/slides-design-update-10-2026/requirements %}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Application gratuite pour convertir PPTM en PNG"
-  description="[Essayez notre application gratuite pour convertir PPT en PNG](https://products.aspose.app/slides/conversion/ppt-to-png)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Conçu avec Aspose.Slides" title="Convertir PPTM en PNG en ligne" description="L'application gratuite Aspose.Slides Conversion est conçue avec [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fr/python-net/), la même API que le code ci-dessus. Ouvrez-la et découvrez ce que l'API peut faire avec vos propres fichiers PPTM." button="Ouvrir Aspose.Slides Conversion" note="[Toutes les applications gratuites](https://products.aspose.app/slides/family)" upload="Déposez ou importez votre fichier" saveAs="Enregistrer sous" convert="Convertir" >}}
+- Fonctionne dans votre navigateur, rien à installer.
+- Découvrez comment Aspose.Slides convertit les fichiers avant d'écrire du code.
+- Téléchargez des fichiers PPTM et enregistrez-les au format PNG.
+- Téléchargez le résultat ou convertissez d'autres fichiers.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Autres conversions prises en charge" subTitle="Vous pouvez également convertir PPTM en de nombreux autres formats de fichiers. Voir les autres conversions prises en charge ci-dessous" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/fr/python-net/conversion/pptm-to-bmp/" name="PPTM TO BMP" description="Image bitmap" >}}  

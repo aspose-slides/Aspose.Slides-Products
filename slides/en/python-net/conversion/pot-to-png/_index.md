@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Convert POT to PNG in Python
 weight: 980
@@ -23,7 +23,7 @@ slides_design_update_10_2026: true
 
 [*Aspose.Slides for Python via .NET*](/slides/python-net/) lets you convert POT presentation templates to PNG images programmatically. Load the template, render each slide by using `Slide.get_image`, and save the resulting `IImage` object in PNG format.
 
-The API renders every slide as a separate raster image. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion/pot-to-png) or use the Python API in your application.
+The API renders every slide as a separate raster image. You can test the conversion in your [browser](https://products.aspose.app/slides/conversion) or use the Python API in your application.
 
 Install the library from [PyPI](https://pypi.org/project/aspose-slides/) by using the following command:
 
@@ -39,7 +39,7 @@ pip install aspose-slides
 
 {{% blocks/products/pf/slides-design-update-10-2026/section h2="Save POT as PNG in Python" %}}
 
-Use the [free online app](https://products.aspose.app/slides/conversion/pot-to-png) to see the POT-to-PNG conversion process in action.
+Use the [free online app](https://products.aspose.app/slides/conversion) to see the POT-to-PNG conversion process in action.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 

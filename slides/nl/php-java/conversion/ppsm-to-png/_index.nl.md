@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Converteer PPSM naar PNG in PHP
 weight: 1770
@@ -22,7 +22,7 @@ slides_design_update_10_2026: true
 
 Wilt u PPSM-bestanden programmatisch naar PNG converteren? Met behulp van [*Aspose.Slides voor PHP via Java*](https://products.aspose.com/slides/nl/php-java/) kan elke ontwikkelaar PPSM naar PNG-indeling converteren met slechts een paar regels PHP-code .
 
-Als een moderne API voor het verwerken van presentaties, maakt Aspose.Slides voor PHP snel PNG van PPSM. Test de kwaliteit van de conversie van PPSM naar PNG rechtstreeks in uw [browser](https://products.aspose.app/slides/conversion/ppt-to-png). Met de Aspose PowerPoint PPTX-bibliotheek kunt u PPSM-bestanden converteren naar veel populaire formaten.
+Als een moderne API voor het verwerken van presentaties, maakt Aspose.Slides voor PHP snel PNG van PPSM. Test de kwaliteit van de conversie van PPSM naar PNG rechtstreeks in uw [browser](https://products.aspose.app/slides/conversion). Met de Aspose PowerPoint PPTX-bibliotheek kunt u PPSM-bestanden converteren naar veel populaire formaten.
 
 U kunt de bibliotheek installeren vanaf [Composer](https://packagist.org/packages/aspose/slides) met behulp van de volgende opdracht:
 
@@ -91,9 +91,12 @@ finally
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/pair >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="conversion" extension=""
-  title="Free App to Convert PPSM to PNG"
-  description="[Try our free Video app](https://products.aspose.app/slides/video/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/conversion-app label="Gebouwd met Aspose.Slides" title="PPSM online converteren naar PNG" description="De gratis app Aspose.Slides Conversion is gebouwd met [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/nl/php-java/), dezelfde API als in de bovenstaande code. Open de app en ontdek wat de API kan met uw eigen PPSM-bestanden." button="Aspose.Slides Conversion openen" note="[Alle gratis apps](https://products.aspose.app/slides/family)" upload="Sleep of upload uw bestand" saveAs="Opslaan als" convert="Converteren" >}}
+- Werkt in uw browser, niets te installeren.
+- Bekijk hoe Aspose.Slides bestanden converteert voordat u code schrijft.
+- Upload PPSM-bestanden en sla ze op als PNG.
+- Download het resultaat of converteer meer bestanden.
+{{< /blocks/products/pf/slides-design-update-10-2026/conversion-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andere ondersteunde conversies" subTitle="U kunt PPSM ook naar vele andere bestandsindelingen converteren. Bekijk hieronder andere ondersteunde conversies" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/nl/php-java/conversion/ppsm-to-bmp/" name="PPSM TO BMP" description="Bitmap afbeelding" >}}  

@@ -1,5 +1,5 @@
 ---
-lastmod: 2023-04-07
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Połącz pliki PPT za pomocą PHP
 url: /pl/php-java/merger/ppt/
@@ -61,9 +61,12 @@ finally
 {{< blocks/products/pf/slides-design-update-10-2026/step >}}Zapisz wynikowy dokument PPT.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
 {{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/slides-design-update-10-2026/converter appName="merger" extension=""
-  title="Scal pliki PDF online"
-  description="[Jak scalić PDF w Pythonie](https://products.aspose.com/slides/pl/python-net/merge/pdf/)" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/merger-app label="Zbudowano z Aspose.Slides" title="Scalaj pliki PPT online" description="Bezpłatna aplikacja Aspose.Slides Merger została zbudowana z użyciem [Aspose.Slides for PHP via Java](https://products.aspose.com/slides/pl/php-java/), tego samego API co w powyższym kodzie. Otwórz ją i zobacz, co API potrafi zrobić z Twoimi plikami PPT." button="Otwórz Aspose.Slides Merger" note="[Wszystkie bezpłatne aplikacje](https://products.aspose.app/slides/family)" >}}
+- Działa w przeglądarce, nie trzeba niczego instalować.
+- Zobacz, jak Aspose.Slides scala pliki, zanim napiszesz kod.
+- Prześlij kilka plików PPT i połącz je w jeden.
+- Pobierz scalony wynik jako jeden plik.
+{{< /blocks/products/pf/slides-design-update-10-2026/merger-app >}}
 
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Eksportuj PPT do innych obsługiwanych formatów" subTitle="Możesz też łączyć PPT i zapisywać w innych formatach plików. Zobacz wszystkie obsługiwane formaty poniżej" >}}
 {{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="https://products.aspose.com/slides/pl/php-java/merger/pptx/" name="PPTX" >}}
