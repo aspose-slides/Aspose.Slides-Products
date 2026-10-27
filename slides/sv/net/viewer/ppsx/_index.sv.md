@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visa PPSX i C#
 keywords: Visa PPSX, Öppna PPSX, PPSX-visare, PPSX, PowerPoint, C# API, .NET-bibliotek
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+En PPSX-fil är ett PowerPoint-bildspel i Open XML-format som skapas med Microsoft PowerPoint 2007 eller senare. Det är Open XML-efterföljaren till PPS-formatet från PowerPoint 97–2003. Till skillnad från en PPTX-fil, som som standard öppnas i redigeringsläge, startar en PPSX-fil direkt som bildspel. Den behåller presentationens bildordning och kan innehålla foton, ljud och andra inbäddade medier.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

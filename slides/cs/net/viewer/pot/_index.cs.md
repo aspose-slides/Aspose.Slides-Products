@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zobrazení POT v C#
 keywords: Zobrazit POT, Otevřít POT, Prohlížeč POT, POT, PowerPoint, C# API, Knihovna .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Soubory s příponou .POT jsou binární šablony prezentací Microsoft PowerPoint. Formát patří do rodiny formátů souborů PowerPoint 97-2003. Soubory POT ukládají opakovaně použitelná rozložení snímků, motivy, styly, pozadí, barevná schémata, písma a další formátování pro tvorbu nových prezentací.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

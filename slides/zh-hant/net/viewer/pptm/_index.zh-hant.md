@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C# 檢視 PPTM
 keywords: 檢視 PPTM, 開啟 PPTM, PPTM 檢視器, PPTM, PowerPoint, C# API, .NET 程式庫
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+副檔名為 `.PPTM` 的檔案是隨 Microsoft PowerPoint 2007 推出的支援巨集簡報檔案。它們與 PPTX 檔案相似，但 PPTM 檔案可以儲存 VBA 巨集程式碼，而 PPTX 檔案不行。PPTM 檔案可以在 Microsoft PowerPoint 中開啟和編輯。相關的 PPSM 格式預設在投影片放映檢視中開啟，但也可以在 PowerPoint 中開啟進行編輯。與 PPTX 檔案一樣，PPTM 檔案可以包含文字、影像、影片、圖表和其他簡報內容。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

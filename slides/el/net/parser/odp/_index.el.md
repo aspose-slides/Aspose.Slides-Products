@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: Εξαγωγή κειμένου από αρχεία ODP με .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+Τα αρχεία ODP χρησιμοποιούν τη μορφή OpenDocument Presentation. Μια παρουσίαση περιέχει διαφάνειες με κείμενο, εικόνες, μορφοποίηση, κινούμενα εφέ και άλλα πολυμέσα. Τα αρχεία ODP ανοίγουν με εφαρμογές που υποστηρίζουν τη μορφή OpenDocument, όπως το OpenOffice και το StarOffice.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

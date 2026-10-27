@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zobrazení POTX v C#
 keywords: Zobrazit POTX, Otevřít POTX, Prohlížeč POTX, POTX, PowerPoint, C# API, Knihovna .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Soubory s příponou .POTX jsou šablony prezentací Microsoft PowerPoint ve formátu Open XML. Na rozdíl od binárního formátu POT je POTX založen na standardu Office Open XML. Soubory POTX ukládají opakovaně použitelná rozložení snímků, motivy, styly, pozadí, barevná schémata, písma a další formátování pro tvorbu nových prezentací.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

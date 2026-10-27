@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2780
 title: استخراج النص من عروض PPT التقديمية باستخدام C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.
+ملف PPT هو ملف عرض تقديمي من Microsoft PowerPoint 97-2003. يخزّن الشرائح والنصوص والصور والوسائط المتعددة والكائنات المضمنة بتنسيق ملفات PowerPoint الثنائي المستخدم قبل تنسيق Open XML المسمى PPTX.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

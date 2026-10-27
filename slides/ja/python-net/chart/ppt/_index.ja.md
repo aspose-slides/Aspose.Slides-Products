@@ -1,166 +1,83 @@
 ---
-lastmod: 2023-06-01
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python を使用して、PPT プレゼンテーション ファイルにグラフを作成します
+title: Python で PPT プレゼンテーションにグラフを作成
 url: /ja/python-net/chart/ppt/
-keywords: チャートの作成、散布図の作成、円グラフの作成、ツリーマップ チャートの作成、株価チャートの作成、箱ひげ図の作成、ヒストグラム チャートの作成、ファネル チャートの作成、サンバースト チャート、マルチカテゴリ チャート、PowerPoint プレゼンテーション、Python
-description: PPT プレゼンテーションでグラフを作成するための Python ソース コード。
+description: Python と Aspose.Slides for Python via .NET を使用して、PPT プレゼンテーションにグラフを作成し、カスタマイズします。
+keywords: グラフの作成, 散布図の作成, 円グラフの作成, ツリーマップの作成, 株価チャートの作成, 箱ひげ図の作成, ヒストグラムの作成, じょうごグラフの作成, サンバースト図, 複数カテゴリのグラフ, PowerPoint プレゼンテーション, Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Python を使用して PowerPoint のグラフと図を PPT に追加します" h2="独自の Python アプリを構築し、サーバー側 API を使用してプレゼンテーション ファイルに完全にカスタマイズ可能なグラフを作成します。新しいシリーズとカテゴリをグラフに追加する方法を学びます。" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python で PPT プレゼンテーションにグラフを作成" h2="独自のカテゴリ、データ系列、ラベル、書式でカスタマイズ可能なプレゼンテーション グラフを作成する Python アプリケーションを構築します。" related="PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python 経由で円グラフを PPT プレゼンテーションに追加します" %}}
-円グラフは、特にデータに数値を含むカテゴリラベルが含まれている場合に、データ内の部分と全体の関係を示すために使用されます。 Aspose.Slides for Python via .NET は、PowerPoint プレゼンテーションで円グラフを作成するための強力な API を提供します。 Aspose.Slides for Python API を使用した円グラフのカスタマイズの詳細については、この [リンク](https://docs.aspose.com/slides/python-net/pie-chart/) でご覧いただけます。
-{{% blocks/products/pf/agp/code-block title="次のコード サンプルは、Python の PowerPoint PPT で円グラフを作成する方法を示しています。" offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python で PPT プレゼンテーションに円グラフを作成" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/ja/python-net/) を使用すると、円グラフを作成し、既定のカテゴリと系列を置き換え、ラベルと色をカスタマイズできます。円グラフは、少数の数値カテゴリが全体にどれだけ寄与しているかを示すのに最適です。その他のオプションについては、[プレゼンテーションの円グラフをカスタマイズする](https://docs.aspose.com/slides/python-net/pie-chart/) を参照してください。
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-# Create presentation (or load existing one) 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python で PPT プレゼンテーションに円グラフを作成" >}}
+```python
 with slides.Presentation() as presentation:
-
-    # Access first slide
     slide = presentation.slides[0]
-
-    # Add chart with default data
     chart = slide.shapes.add_chart(slides.charts.ChartType.PIE, 100, 100, 400, 400)
 
-    # Set chart title
-    chart.chart_title.add_text_frame_for_overriding("Sample Title")
-    chart.chart_title.text_frame_for_overriding.text_frame_format.center_text = slides.NullableBool(True)
-    chart.chart_title.height = 20
     chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Quarterly Sales")
+    chart.chart_title.height = 20
 
-    # Set first series to show values
-    chart.chart_data.series[0].labels.default_data_label_format.show_value = True
-
-    # Set the index of chart data sheet
-    defaultWorksheetIndex = 0
-
-    # Get the chart data worksheet
-    fact = chart.chart_data.chart_data_workbook
-
-    # Delete default generated series and categories
+    worksheet_index = 0
+    workbook = chart.chart_data.chart_data_workbook
     chart.chart_data.series.clear()
     chart.chart_data.categories.clear()
 
-    # Add new categories
-    chart.chart_data.categories.add(fact.get_cell(0, 1, 0, "First Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 2, 0, "2nd Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 3, 0, "3rd Qtr"))
+    categories = ("First Quarter", "Second Quarter", "Third Quarter")
+    values = (20, 50, 30)
 
-    # Add new series
-    series = chart.chart_data.series.add(fact.get_cell(0, 0, 1, "Series 1"), chart.type)
+    for row_index, category in enumerate(categories, start=1):
+        category_cell = workbook.get_cell(worksheet_index, row_index, 0, category)
+        chart.chart_data.categories.add(category_cell)
 
-    # Populate series data
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 1, 1, 20))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 2, 1, 50))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 3, 1, 30))
+    series_name_cell = workbook.get_cell(worksheet_index, 0, 1, "Sales")
+    series = chart.chart_data.series.add(series_name_cell, chart.type)
 
-    # Add new points and set sector color
-    chart.chart_data.series_groups[0].is_color_varied = True
+    for row_index, value in enumerate(values, start=1):
+        value_cell = workbook.get_cell(worksheet_index, row_index, 1, value)
+        series.data_points.add_data_point_for_pie_series(value_cell)
 
-    point = series.data_points[0]
-    point.format.fill.fill_type = slides.FillType.SOLID
-    point.format.fill.solid_fill_color.color = drawing.Color.orange
+    series.labels.default_data_label_format.show_percentage = True
+    series.parent_series_group.is_color_varied = True
+    series.parent_series_group.first_slice_angle = 180
 
-    # Set sector border
-    point.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point.format.line.fill_format.solid_fill_color.color = drawing.Color.gray
-    point.format.line.width = 3.0
+    fill_colors = (drawing.Color.orange, drawing.Color.blue_violet, drawing.Color.yellow_green)
 
+    for data_point_index, fill_color in enumerate(fill_colors):
+        data_point = series.data_points[data_point_index]
+        data_point.format.fill.fill_type = slides.FillType.SOLID
+        data_point.format.fill.solid_fill_color.color = fill_color
 
-    point1 = series.data_points[1]
-    point1.format.fill.fill_type = slides.FillType.SOLID
-    point1.format.fill.solid_fill_color.color = drawing.Color.blue_violet
-
-    # Set sector border
-    point1.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point1.format.line.fill_format.solid_fill_color.color = drawing.Color.blue
-    point1.format.line.width = 3.0
-    # point1.format.line.style = slides.LineStyle.SINGLE
-    # point1.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT
-
-    point2 = series.data_points[2]
-    point2.format.fill.fill_type = slides.FillType.SOLID
-    point2.format.fill.solid_fill_color.color = drawing.Color.yellow_green
-
-    # Set sector border
-    point2.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point2.format.line.fill_format.solid_fill_color.color = drawing.Color.red
-    point2.format.line.width = 2.0
-    # point2.format.line.style = slides.LineStyle.THIN_THIN
-    # point2.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT_DOT
-
-    # Create custom labels for each of categories for new series
-    lbl1 = series.data_points[0].label
-
-    # lbl.show_category_name = True
-    lbl1.data_label_format.show_value = True
-
-    lbl2 = series.data_points[1].label
-    lbl2.data_label_format.show_value = True
-    lbl2.data_label_format.show_legend_key = True
-    lbl2.data_label_format.show_percentage = True
-
-    lbl3 = series.data_points[2].label
-    lbl3.data_label_format.show_series_name = True
-    lbl3.data_label_format.show_percentage = True
-
-    # Show leader lines for chart
-    # series.labels.default_data_label_format.show_leader_lines = True
-
-    # Set rotation angle for pie chart sectors
-    chart.chart_data.series_groups[0].first_slice_angle = 180
-
-    # Save presentation
     presentation.save("pie-chart.ppt", slides.export.SaveFormat.PPT)
-
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python で PPT に円グラフを作成してカスタマイズする方法" intro="PPT プレゼンテーションに円グラフを追加するには、次の手順に従います。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`Presentation` インスタンスを作成し、`slide` 変数を通じて目的のスライドにアクセスします。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`ChartType.PIE` を指定して `add_chart` を呼び出し、スライドに円グラフを追加します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`chart_data_workbook` を使用して既定のカテゴリと系列を置き換え、ラベル、色、`first_slice_angle` を設定します。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`SaveFormat.PPT` を指定して `save` を呼び出し、プレゼンテーションを PPT 形式で書き込みます。{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python 経由で PPT で円グラフを作成およびカスタマイズする方法" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app label="Aspose.Slides で構築" title="PPT グラフをオンラインで作成" description="無料の Aspose.Slides Chart アプリは、上記のコードと同じ API である [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/ja/python-net/) で構築されています。アプリを開いて、ご自身の PPT ファイルで API に何ができるかをお確かめください。" button="Aspose.Slides Chart を開く" note="[すべての無料アプリ](https://products.aspose.app/slides/family)" >}}
+- ブラウザーで動作し、インストールは不要です。
+- コードを書く前に、Aspose.Slides がグラフを作成するしくみを確認できます。
+- Excel またはテーブルのデータからグラフを作成します。
+- PPT ファイルまたは画像としてダウンロードします。
+{{< /blocks/products/pf/slides-design-update-10-2026/chart-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="これらは、円グラフを PPT ファイルに追加する手順です。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="グラフでサポートされるその他の形式" subTitle="Python を使用すると、他の形式でもグラフを作成できます。" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/ja/python-net/chart/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-まず、PPT プレゼンテーション クラスのインスタンスを作成します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-add_chart(...) メソッドを使用して、デフォルト データを含む円グラフを追加します。
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-円グラフの必要なプロパティを構成します (グラフ タイトルの設定、グラフ データの変更、系列とカテゴリへの書式設定の適用)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-結果を PPT 形式で保存
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="オンライン PPT チャートの作成ライブ デモ" sectionDescription="オンラインでチャートを作成する" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="その他のサポートされている形式" subTitle="Python を使用すると、次の形式でグラフを追加することもできます。" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/ja/python-net/chart/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

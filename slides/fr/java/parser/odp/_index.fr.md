@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 5200
 title: Extraire le texte de documents ODP avec Java
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with the ODP extension use the OpenDocument Presentation format. An ODP file stores slides that can contain text, images, formatting, animations, and other presentation content.
+Les fichiers portant l’extension ODP utilisent le format OpenDocument Presentation. Un fichier ODP stocke des diapositives pouvant contenir du texte, des images, une mise en forme, des animations et d’autres contenus de présentation.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

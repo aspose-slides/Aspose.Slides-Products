@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 Java 合并 PPSX 文件
 weight: 5500
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.ppsx", SaveFormat.Ppsx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+扩展名为 `.PPSX` 的文件是用 Microsoft PowerPoint 2007 或更高版本创建的 PowerPoint 幻灯片放映文件。`PPSX` 文件会直接以幻灯片放映的形式打开，并保留演示文稿内容。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

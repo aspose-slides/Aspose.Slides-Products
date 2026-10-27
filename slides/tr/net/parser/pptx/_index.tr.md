@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: .NET ile PPTX dosyalarından metin çıkarma
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+PPTX dosyaları, Microsoft PowerPoint ile oluşturulan sunulardır. İkili PPT biçiminin aksine PPTX, Office Open XML biçimini kullanır. Bir sunu; slayt gösterisi olarak sunulan, metin, görüntü, biçimlendirme, animasyon ve diğer medyaları içeren slaytlardan oluşur.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

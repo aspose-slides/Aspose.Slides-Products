@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Java를 통해 POTM 파일 병합
 weight: 6620
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.potm", SaveFormat.Potm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+확장자가 `.POTM`인 파일은 매크로를 지원하는 Microsoft PowerPoint 템플릿 파일입니다. `POTM` 파일은 새 프레젠테이션을 만드는 데 사용되는 레이아웃, 스타일, 테마, 기본값 및 매크로를 저장할 수 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

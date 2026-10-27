@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 合併 ODP 文件
 weight: 4610
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.odp");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+副檔名為 `.ODP` 的檔案使用由 OASIS OpenDocument 標準定義的 OpenDocument Presentation 格式。ODP 檔案包含一組投影片，可包括文字、影像、格式、動畫和其他媒體。支援 OpenDocument 簡報的應用程式（例如 LibreOffice Impress 和 Apache OpenOffice Impress）可以開啟 ODP 檔案。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

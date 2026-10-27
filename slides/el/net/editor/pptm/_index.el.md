@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Επεξεργασία αρχείων PPTM μέσω .NET
 url: /el/net/editor/pptm/ 
@@ -77,7 +77,7 @@ presentation.Save("document.pptm", SaveFormat.Pptm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+Τα αρχεία με επέκταση PPTM είναι αρχεία παρουσιάσεων PowerPoint με υποστήριξη μακροεντολών. Μπορούν να περιέχουν διαφάνειες, μορφοποίηση, πολυμέσα και μακροεντολές για αυτοματοποίηση ή προσαρμοσμένη συμπεριφορά.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

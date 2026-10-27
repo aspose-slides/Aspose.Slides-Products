@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++を介してPPTファイルをマージする
 weight: 4840
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+拡張子 .ppt のファイルは、スライド ショーで使うスライドの集まりを含む PowerPoint プレゼンテーションです。Microsoft PowerPoint 97–2003 がサポートするバイナリ ファイル形式を使用します。PPT ファイルには、テキスト、箇条書き、画像、マルチメディア、その他の埋め込み OLE オブジェクトなど、さまざまなコンテンツを含めることができます。PowerPoint 2007 以降、Microsoft はこのバイナリ形式ではなく Office Open XML に基づく新しい PPTX 形式を導入しました。OpenOffice Impress や Apple Keynote など、ほかのアプリケーションでも PPT ファイルを作成できます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX-Dateien über .NET zusammenführen
 weight: 6100
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppsx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+Eine PPSX-Datei ist eine PowerPoint-Bildschirmpräsentation im Open XML-Format, die mit Microsoft PowerPoint 2007 oder höher erstellt wird. Sie ist der Open XML-Nachfolger des PPS-Formats von PowerPoint 97–2003. Anders als eine PPTX-Datei, die sich standardmäßig im Bearbeitungsmodus öffnet, startet eine PPSX-Datei direkt als Bildschirmpräsentation. Sie behält die Folienreihenfolge der Präsentation bei und kann Bilder, Audio und andere eingebettete Medien enthalten.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

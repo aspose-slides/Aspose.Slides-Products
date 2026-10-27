@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 7140
 title: Java से PPT दस्तावेज़ों से टेक्स्ट निकालें
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file stores a PowerPoint 97-2003 presentation in the binary file format. It can contain slides with text, images, charts, multimedia, and embedded objects.
+PPT फ़ाइल एक PowerPoint 97-2003 प्रेज़ेंटेशन को बाइनरी फ़ाइल फ़ॉर्मैट में संग्रहीत करती है। इसमें टेक्स्ट, इमेज, चार्ट, मल्टीमीडिया और एम्बेड किए गए ऑब्जेक्ट वाली स्लाइड्स हो सकती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

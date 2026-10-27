@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 Java 合併 PPTM 文件
 weight: 6010
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.pptm", SaveFormat.Pptm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+副檔名為 `.PPTM` 的檔案是以 Microsoft PowerPoint 2007 或更新版本建立的支援巨集簡報檔案。`PPTM` 檔案可以儲存投影片、媒體、格式和巨集。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

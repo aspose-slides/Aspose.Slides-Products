@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Afficher PPTX en C#
 keywords: Afficher PPTX, Ouvrir PPTX, Visionneuse PPTX, PPTX, PowerPoint, API C#, Bibliothèque .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+Les fichiers portant l’extension `.PPTX` utilisent le format de présentation PowerPoint Open XML introduit avec PowerPoint 2007. Contrairement à l’ancien format binaire PPT, PPTX stocke les données de présentation dans un package Office Open XML. Un fichier PPTX contient un ensemble de diapositives pouvant inclure du texte, des images, une mise en forme, des animations et d’autres médias, ainsi que les paramètres de la présentation.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

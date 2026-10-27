@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: 使用 .NET 從 PPTX 檔案擷取文字
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+PPTX 檔案是以 Microsoft PowerPoint 建立的簡報。與二進位 PPT 格式不同，PPTX 使用 Office Open XML 格式。簡報包含帶有文字、影像、格式、動畫和其他媒體的投影片，並以投影片放映的方式展示。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

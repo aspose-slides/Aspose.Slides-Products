@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPTX عبر C ++
 weight: 1830
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+تستخدم الملفات ذات الامتداد `.PPTX` تنسيق العروض التقديمية PowerPoint Open XML الذي ظهر مع PowerPoint 2007. وعلى خلاف التنسيق الثنائي الأقدم PPT، يخزّن PPTX بيانات العرض التقديمي في حزمة Office Open XML. يحتوي ملف PPTX على مجموعة من الشرائح التي قد تتضمن نصوصًا وصورًا وتنسيقات ورسومًا متحركة ووسائط أخرى، إلى جانب إعدادات العرض التقديمي.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

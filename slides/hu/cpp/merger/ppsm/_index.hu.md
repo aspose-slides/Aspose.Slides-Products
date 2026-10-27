@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPSM fájlokat C++ segítségével
 weight: 290
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppsm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" %}}
 
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
+A PPSM kiterjesztésű fájlok makrókat támogató diavetítések, amelyeket a Microsoft PowerPoint 2007 vezetett be. A PPTM-mel ellentétben a PPSM alapértelmezés szerint diavetítés nézetben nyílik meg. Ez az alapértelmezett megnyitási mód nem fájlvédelem: a PPSM-fájl szerkesztésre is megnyitható a Microsoft PowerPointban.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: استخراج النص من عروض PPTX التقديمية باستخدام C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+ملف PPTX هو ملف عرض تقديمي من Microsoft PowerPoint بتنسيق Open XML. يخزّن الشرائح والنصوص والصور والتنسيقات والرسوم المتحركة وغيرها من محتوى العرض في حزمة مضغوطة مبنية على XML.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

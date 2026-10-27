@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPSX を表示
 keywords: PPSX 表示, PPSX を開く, PPSX ビューアー, PPSX, PowerPoint, C# API, .NET ライブラリ
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+PPSX ファイルは、Microsoft PowerPoint 2007 以降で作成される Open XML 形式の PowerPoint スライド ショーです。PowerPoint 97–2003 で使われる PPS 形式の、Open XML による後継形式です。既定で編集モードで開く PPTX ファイルとは異なり、PPSX ファイルは直接スライド ショーとして開きます。プレゼンテーションのスライドの順序を保持し、画像、音声、その他の埋め込みメディアを含めることができます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

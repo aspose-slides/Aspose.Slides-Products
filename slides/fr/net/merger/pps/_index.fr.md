@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des fichiers PPS via .NET
 weight: 5830
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pps");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (diaporama PowerPoint) est le format de diaporama binaire utilisé par PowerPoint 97–2003. PPSX est le format de diaporama plus récent, fondé sur la norme Office Open XML. Les versions actuelles de PowerPoint peuvent ouvrir les fichiers PPS et enregistrer encore des présentations au format PPS. Ouvert normalement, un fichier PPS démarre en mode diaporama, alors qu’un fichier PPT s’ouvre en mode modification.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

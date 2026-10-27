@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 7140
 title: 使用 Java 從 PPT 文件擷取文字
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file stores a PowerPoint 97-2003 presentation in the binary file format. It can contain slides with text, images, charts, multimedia, and embedded objects.
+PPT 檔案以二進位檔案格式儲存 PowerPoint 97-2003 簡報。它可以包含帶有文字、影像、圖表、多媒體和內嵌物件的投影片。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

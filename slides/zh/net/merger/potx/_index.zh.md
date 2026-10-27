@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 .NET 合并 POTX 文件
 weight: 2510
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.potx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+扩展名为 .POTX 的文件是 Open XML 格式的 Microsoft PowerPoint 演示文稿模板。与二进制 POT 格式不同，POTX 基于 Office Open XML 标准。POTX 文件存储可重复使用的幻灯片布局、主题、样式、背景、配色方案、字体和其他格式，用于创建新的演示文稿。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 5200
 title: 使用 Java 從 ODP 文件擷取文字
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with the ODP extension use the OpenDocument Presentation format. An ODP file stores slides that can contain text, images, formatting, animations, and other presentation content.
+副檔名為 ODP 的檔案使用 OpenDocument Presentation 格式。ODP 檔案儲存的投影片可以包含文字、影像、格式、動畫和其他簡報內容。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

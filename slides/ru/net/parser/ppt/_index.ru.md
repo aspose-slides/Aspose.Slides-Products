@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 70
 title: Извлечение текста из файлов PPT с помощью .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation in the binary file format. It contains slides with text, bulleted lists, images, multimedia, and embedded OLE objects. Newer versions of PowerPoint use the Office Open XML-based PPTX format. Applications such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Файл PPT — это презентация Microsoft PowerPoint 97-2003 в двоичном формате файлов. Он содержит слайды с текстом, маркированными списками, изображениями, мультимедиа и встроенными объектами OLE. Более новые версии PowerPoint используют формат PPTX, основанный на Office Open XML. Файлы PPT могут создавать и такие приложения, как OpenOffice Impress и Apple Keynote.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

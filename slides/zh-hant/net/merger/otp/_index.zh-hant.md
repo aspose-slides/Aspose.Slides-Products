@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 合併 OTP 文件
 weight: 7430
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.otp");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+副檔名為 `.OTP` 的檔案是 OpenDocument 簡報範本。它們儲存可重複使用的版面配置、樣式、格式、背景和其他內容，用於建立設計一致的新簡報。OTP 檔案可以由支援 OpenDocument Format (ODF) 的應用程式建立和開啟。此格式相當於 Microsoft PowerPoint 的 POT 和 POTX 範本格式。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 5200
 title: Java로 ODP 문서에서 텍스트 추출
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with the ODP extension use the OpenDocument Presentation format. An ODP file stores slides that can contain text, images, formatting, animations, and other presentation content.
+확장자가 ODP인 파일은 OpenDocument Presentation 형식을 사용합니다. ODP 파일은 텍스트, 이미지, 서식, 애니메이션 및 기타 프레젠테이션 콘텐츠를 포함할 수 있는 슬라이드를 저장합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

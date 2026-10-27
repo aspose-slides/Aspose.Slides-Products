@@ -1,166 +1,83 @@
 ---
-lastmod: 2023-06-01
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Skapa diagram i PPTX presentationsfiler med Python
+title: Skapa diagram i PPTX-presentationer med Python
 url: /sv/python-net/chart/pptx/
-keywords: Skapa diagram, skapa spridda diagram, skapa cirkeldiagram, skapa trädkarta, skapa aktiediagram, skapa box- och whiskerdiagram, skapa histogramdiagram, skapa trattdiagram, sunburst-diagram, flerkategoridiagram, PowerPoint-presentation, Python
-description: Python källkod för att skapa diagram i PPTX presentation.
+description: Skapa och anpassa diagram i PPTX-presentationer med Python och Aspose.Slides for Python via .NET.
+keywords: skapa diagram, skapa punktdiagram, skapa cirkeldiagram, skapa treemap-diagram, skapa börsdiagram, skapa låddiagram, skapa histogram, skapa trattdiagram, solstrålediagram, diagram med flera kategorier, PowerPoint-presentation, Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Lägg till PowerPoint-diagram och diagram i PPTX med Python" h2="Bygg dina egna Python-appar för att skapa helt anpassningsbara diagram i presentationsfiler med hjälp av API:er på serversidan. Lär dig hur du lägger till nya serier och kategorier i diagrammet." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Skapa diagram i PPTX-presentationer med Python" h2="Bygg Python-program som skapar anpassningsbara presentationsdiagram med egna kategorier, dataserier, etiketter och formatering." related="PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Lägg till cirkeldiagram i PPTX presentation via Python" %}}
-Cirkeldiagram används för att visa förhållandet del-till-helhet i data, särskilt när data innehåller kategoriska etiketter med numeriska värden. Aspose.Slides for Python via .NET tillhandahåller ett kraftfullt API för att skapa cirkeldiagram i PowerPoint-presentationer. Du kan hitta mer information om att anpassa cirkeldiagram med Aspose.Slides för Python API i denna [länk](https://docs.aspose.com/slides/python-net/pie-chart/).
-{{% blocks/products/pf/agp/code-block title="Följande kodexempel visar hur man skapar ett cirkeldiagram i PowerPoint PPTX på Python." offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Skapa ett cirkeldiagram i en PPTX-presentation med Python" variant="code" %}}
 
-```py
+Med [Aspose.Slides for Python via .NET](/slides/sv/python-net/) kan du skapa ett cirkeldiagram, ersätta dess standardkategorier och -serier och anpassa etiketter och färger. Cirkeldiagram passar bäst för att visa hur ett fåtal numeriska kategorier bidrar till en helhet. Fler alternativ finns i [Anpassa cirkeldiagram i presentationer](https://docs.aspose.com/slides/python-net/pie-chart/).
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-# Create presentation (or load existing one) 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Skapa ett cirkeldiagram i en PPTX-presentation med Python" >}}
+```python
 with slides.Presentation() as presentation:
-
-    # Access first slide
     slide = presentation.slides[0]
-
-    # Add chart with default data
     chart = slide.shapes.add_chart(slides.charts.ChartType.PIE, 100, 100, 400, 400)
 
-    # Set chart title
-    chart.chart_title.add_text_frame_for_overriding("Sample Title")
-    chart.chart_title.text_frame_for_overriding.text_frame_format.center_text = slides.NullableBool(True)
-    chart.chart_title.height = 20
     chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Quarterly Sales")
+    chart.chart_title.height = 20
 
-    # Set first series to show values
-    chart.chart_data.series[0].labels.default_data_label_format.show_value = True
-
-    # Set the index of chart data sheet
-    defaultWorksheetIndex = 0
-
-    # Get the chart data worksheet
-    fact = chart.chart_data.chart_data_workbook
-
-    # Delete default generated series and categories
+    worksheet_index = 0
+    workbook = chart.chart_data.chart_data_workbook
     chart.chart_data.series.clear()
     chart.chart_data.categories.clear()
 
-    # Add new categories
-    chart.chart_data.categories.add(fact.get_cell(0, 1, 0, "First Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 2, 0, "2nd Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 3, 0, "3rd Qtr"))
+    categories = ("First Quarter", "Second Quarter", "Third Quarter")
+    values = (20, 50, 30)
 
-    # Add new series
-    series = chart.chart_data.series.add(fact.get_cell(0, 0, 1, "Series 1"), chart.type)
+    for row_index, category in enumerate(categories, start=1):
+        category_cell = workbook.get_cell(worksheet_index, row_index, 0, category)
+        chart.chart_data.categories.add(category_cell)
 
-    # Populate series data
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 1, 1, 20))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 2, 1, 50))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 3, 1, 30))
+    series_name_cell = workbook.get_cell(worksheet_index, 0, 1, "Sales")
+    series = chart.chart_data.series.add(series_name_cell, chart.type)
 
-    # Add new points and set sector color
-    chart.chart_data.series_groups[0].is_color_varied = True
+    for row_index, value in enumerate(values, start=1):
+        value_cell = workbook.get_cell(worksheet_index, row_index, 1, value)
+        series.data_points.add_data_point_for_pie_series(value_cell)
 
-    point = series.data_points[0]
-    point.format.fill.fill_type = slides.FillType.SOLID
-    point.format.fill.solid_fill_color.color = drawing.Color.orange
+    series.labels.default_data_label_format.show_percentage = True
+    series.parent_series_group.is_color_varied = True
+    series.parent_series_group.first_slice_angle = 180
 
-    # Set sector border
-    point.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point.format.line.fill_format.solid_fill_color.color = drawing.Color.gray
-    point.format.line.width = 3.0
+    fill_colors = (drawing.Color.orange, drawing.Color.blue_violet, drawing.Color.yellow_green)
 
+    for data_point_index, fill_color in enumerate(fill_colors):
+        data_point = series.data_points[data_point_index]
+        data_point.format.fill.fill_type = slides.FillType.SOLID
+        data_point.format.fill.solid_fill_color.color = fill_color
 
-    point1 = series.data_points[1]
-    point1.format.fill.fill_type = slides.FillType.SOLID
-    point1.format.fill.solid_fill_color.color = drawing.Color.blue_violet
-
-    # Set sector border
-    point1.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point1.format.line.fill_format.solid_fill_color.color = drawing.Color.blue
-    point1.format.line.width = 3.0
-    # point1.format.line.style = slides.LineStyle.SINGLE
-    # point1.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT
-
-    point2 = series.data_points[2]
-    point2.format.fill.fill_type = slides.FillType.SOLID
-    point2.format.fill.solid_fill_color.color = drawing.Color.yellow_green
-
-    # Set sector border
-    point2.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point2.format.line.fill_format.solid_fill_color.color = drawing.Color.red
-    point2.format.line.width = 2.0
-    # point2.format.line.style = slides.LineStyle.THIN_THIN
-    # point2.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT_DOT
-
-    # Create custom labels for each of categories for new series
-    lbl1 = series.data_points[0].label
-
-    # lbl.show_category_name = True
-    lbl1.data_label_format.show_value = True
-
-    lbl2 = series.data_points[1].label
-    lbl2.data_label_format.show_value = True
-    lbl2.data_label_format.show_legend_key = True
-    lbl2.data_label_format.show_percentage = True
-
-    lbl3 = series.data_points[2].label
-    lbl3.data_label_format.show_series_name = True
-    lbl3.data_label_format.show_percentage = True
-
-    # Show leader lines for chart
-    # series.labels.default_data_label_format.show_leader_lines = True
-
-    # Set rotation angle for pie chart sectors
-    chart.chart_data.series_groups[0].first_slice_angle = 180
-
-    # Save presentation
     presentation.save("pie-chart.pptx", slides.export.SaveFormat.PPTX)
-
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Så skapar och anpassar du ett cirkeldiagram i PPTX med Python" intro="Följ de här stegen för att lägga till ett cirkeldiagram i en PPTX-presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Skapa en `Presentation`-instans och kom åt önskad bild via en variabel `slide`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `add_chart` med `ChartType.PIE` för att lägga till ett cirkeldiagram i bilden.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Använd `chart_data_workbook` för att ersätta standardkategorierna och -serierna och konfigurera sedan etiketter, färger och `first_slice_angle`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Anropa `save` med `SaveFormat.PPTX` för att skriva presentationen i PPTX-format.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Hur man skapar och anpassar cirkeldiagram i PPTX via Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app label="Byggd med Aspose.Slides" title="Skapa PPTX-diagram online" description="Den kostnadsfria appen Aspose.Slides Chart är byggd med [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/sv/python-net/), samma API som i koden ovan. Öppna den och se vad API:et kan göra med dina egna PPTX-filer." button="Öppna Aspose.Slides Chart" note="[Alla gratisappar](https://products.aspose.app/slides/family)" >}}
+- Körs i webbläsaren, inget att installera.
+- Se hur Aspose.Slides skapar diagram innan du skriver kod.
+- Skapa ett diagram från Excel- eller tabelldata.
+- Ladda ned det som en PPTX-fil eller en bild.
+{{< /blocks/products/pf/slides-design-update-10-2026/chart-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Det här är stegen för att lägga till cirkeldiagram i PPTX-filer." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Andra format som stöds för diagram" subTitle="Med Python kan du även skapa diagram i andra format." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/sv/python-net/chart/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Skapa först en instans av klassen PPTX Presentation.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Lägg till ett cirkeldiagram med standarddata med metoden add_chart(...).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Konfigurera de nödvändiga egenskaperna för cirkeldiagrammet (Ange diagramtitel, ändra diagramdata, tillämpa formatering på serier och kategorier)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Spara resultatet i formatet PPTX
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPTX Skapa diagram livedemos" sectionDescription="Skapa diagram online" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Andra format som stöds" subTitle="Med Python kan du också lägga till diagram i följande format:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/sv/python-net/chart/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

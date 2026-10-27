@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 통해 POTX 파일 편집
 url: /ko/net/editor/potx/ 
@@ -77,7 +77,7 @@ presentation.Save("document.potx", SaveFormat.Potx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+확장자가 POTX인 파일은 Open XML 형식의 PowerPoint 템플릿 파일입니다. 새 프레젠테이션을 만드는 데 사용할 수 있는 슬라이드 레이아웃, 스타일, 테마 및 기타 템플릿 설정을 저장합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

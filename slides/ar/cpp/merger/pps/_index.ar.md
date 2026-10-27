@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPS عبر C ++
 weight: 8570
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pps);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (عرض شرائح PowerPoint) هو تنسيق عرض الشرائح الثنائي الذي يستخدمه PowerPoint 97–2003. أما PPSX فهو تنسيق عرض الشرائح الأحدث المبني على معيار Office Open XML. يمكن لإصدارات PowerPoint الحالية فتح ملفات PPS، ولا يزال بإمكانها حفظ العروض التقديمية بتنسيق PPS. عند فتح ملف PPS بالطريقة المعتادة يبدأ في وضع عرض الشرائح، بينما يُفتح ملف PPT في وضع التحرير.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

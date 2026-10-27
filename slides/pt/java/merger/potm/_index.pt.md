@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POTM via Java
 weight: 6620
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.potm", SaveFormat.Potm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+Arquivos com a extensão `.POTM` são modelos do Microsoft PowerPoint com suporte a macros. Um arquivo `POTM` pode armazenar layouts, estilos, temas, valores padrão e macros usados para criar novas apresentações.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

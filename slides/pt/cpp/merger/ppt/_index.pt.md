@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPT via C++
 weight: 4840
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Um arquivo com a extensão .ppt é uma apresentação do PowerPoint que contém um conjunto de slides para uso em uma apresentação de slides. Ele usa o formato de arquivo binário compatível com o Microsoft PowerPoint 97–2003. Um arquivo PPT pode conter vários tipos de conteúdo, como texto, listas com marcadores, imagens, multimídia e outros objetos OLE incorporados. A partir do PowerPoint 2007, a Microsoft introduziu o formato PPTX, mais recente, baseado em Office Open XML em vez desse formato binário. Outros aplicativos, como OpenOffice Impress e Apple Keynote, também podem criar arquivos PPT.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

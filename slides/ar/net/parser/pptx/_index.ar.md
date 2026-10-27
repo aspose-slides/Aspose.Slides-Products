@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: استخراج النص من ملفات PPTX باستخدام .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+ملفات PPTX هي عروض تقديمية تُنشأ باستخدام Microsoft PowerPoint. وعلى خلاف التنسيق الثنائي PPT، يستخدم PPTX تنسيق Office Open XML. يحتوي العرض التقديمي على شرائح بها نصوص وصور وتنسيقات ورسوم متحركة ووسائط أخرى تُعرض كعرض شرائح.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

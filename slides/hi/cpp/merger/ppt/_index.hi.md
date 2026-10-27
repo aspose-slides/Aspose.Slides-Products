@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C++ के माध्यम से PPT फ़ाइलें मर्ज करें
 weight: 4840
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+.ppt एक्सटेंशन वाली फ़ाइल एक PowerPoint प्रेज़ेंटेशन है, जिसमें स्लाइड शो में उपयोग के लिए स्लाइड्स का संग्रह होता है। यह Microsoft PowerPoint 97–2003 द्वारा सपोर्ट किए जाने वाले बाइनरी फ़ाइल फ़ॉर्मैट का उपयोग करती है। PPT फ़ाइल में कई तरह की सामग्री हो सकती है, जैसे टेक्स्ट, बुलेट सूचियाँ, इमेज, मल्टीमीडिया और अन्य एम्बेड किए गए OLE ऑब्जेक्ट। PowerPoint 2007 से Microsoft ने नया PPTX फ़ॉर्मैट पेश किया, जो इस बाइनरी फ़ॉर्मैट के बजाय Office Open XML पर आधारित है। OpenOffice Impress और Apple Keynote जैसे अन्य ऐप्लिकेशन भी PPT फ़ाइलें बना सकते हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

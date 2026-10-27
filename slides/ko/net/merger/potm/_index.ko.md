@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 통해 POTM 파일 병합
 weight: 4860
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.potm");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+확장자가 `.POTM`인 파일은 PowerPoint 2007과 함께 도입된 매크로 지원 Microsoft PowerPoint 템플릿입니다. 레이아웃, 스타일, 배경, 색상표, 글꼴, 기본 서식, VBA 매크로 등 재사용 가능한 프레젠테이션 설정을 저장할 수 있습니다. PowerPoint 2007 이상에서 POTM 파일을 열고 편집할 수 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

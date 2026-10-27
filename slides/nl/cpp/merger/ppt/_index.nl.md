@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT-bestanden samenvoegen via C++
 weight: 4840
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Een bestand met de extensie .ppt is een PowerPoint-presentatie met een verzameling dia's voor een diavoorstelling. Het gebruikt het binaire bestandsformaat dat door Microsoft PowerPoint 97–2003 wordt ondersteund. Een PPT-bestand kan verschillende soorten inhoud bevatten, zoals tekst, opsommingen, afbeeldingen, multimedia en andere ingesloten OLE-objecten. Vanaf PowerPoint 2007 introduceerde Microsoft het nieuwere PPTX-formaat, dat op Office Open XML is gebaseerd in plaats van op dit binaire formaat. Ook andere toepassingen, zoals OpenOffice Impress en Apple Keynote, kunnen PPT-bestanden maken.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

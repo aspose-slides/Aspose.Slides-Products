@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 5200
 title: Trích xuất văn bản từ tài liệu ODP bằng Java
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with the ODP extension use the OpenDocument Presentation format. An ODP file stores slides that can contain text, images, formatting, animations, and other presentation content.
+Các tệp có phần mở rộng ODP sử dụng định dạng OpenDocument Presentation. Tệp ODP lưu trữ các trang chiếu có thể chứa văn bản, hình ảnh, định dạng, hiệu ứng động và nội dung trình bày khác.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX megtekintése C#-ban
 keywords: PPSX megtekintése, PPSX megnyitása, PPSX megjelenítő, PPSX, PowerPoint, C# API, .NET könyvtár
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+A PPSX-fájl Open XML formátumú PowerPoint-diavetítés, amely a Microsoft PowerPoint 2007 vagy újabb verziójával készül. A PowerPoint 97–2003 által használt PPS formátum Open XML alapú utódja. A PPTX-fájllal ellentétben, amely alapértelmezés szerint szerkesztési módban nyílik meg, a PPSX-fájl közvetlenül diavetítésként indul. Megőrzi a diák sorrendjét, és képeket, hangot és egyéb beágyazott médiát tartalmazhat.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

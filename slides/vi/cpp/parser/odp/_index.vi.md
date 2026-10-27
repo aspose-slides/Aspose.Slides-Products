@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 460
 title: Trích xuất văn bản từ bản trình bày ODP bằng C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-An ODP file is an OpenDocument presentation file used by applications such as OpenOffice Impress and LibreOffice Impress. It stores slides, text, images, formatting, animations, and other presentation content in an open XML-based package.
+Tệp ODP là tệp bản trình bày OpenDocument được các ứng dụng như OpenOffice Impress và LibreOffice Impress sử dụng. Tệp lưu trữ trang chiếu, văn bản, hình ảnh, định dạng, hiệu ứng động và nội dung trình bày khác trong một gói mở dựa trên XML.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

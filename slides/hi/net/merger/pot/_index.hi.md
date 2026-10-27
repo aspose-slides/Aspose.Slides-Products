@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET . के माध्यम से पॉट फ़ाइलें मर्ज करें
 weight: 7360
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pot");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+.POT एक्सटेंशन वाली फ़ाइलें बाइनरी Microsoft PowerPoint प्रेज़ेंटेशन टेम्पलेट हैं। यह फ़ॉर्मैट PowerPoint 97-2003 फ़ाइल फ़ॉर्मैट परिवार का हिस्सा है। POT फ़ाइलें नए प्रेज़ेंटेशन बनाने के लिए दोबारा उपयोग किए जा सकने वाले स्लाइड लेआउट, थीम, स्टाइल, बैकग्राउंड, कलर स्कीम, फ़ॉन्ट और अन्य फ़ॉर्मैटिंग संग्रहीत करती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

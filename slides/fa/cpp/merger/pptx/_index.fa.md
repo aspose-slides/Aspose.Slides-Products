@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: فایل های PPTX را از طریق C++ ادغام کنید
 weight: 1830
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+فایل‌هایی با پسوند `.PPTX` از قالب ارائه PowerPoint Open XML استفاده می‌کنند که همراه با PowerPoint 2007 معرفی شد. برخلاف قالب دودویی قدیمی‌تر PPT، قالب PPTX داده‌های ارائه را در یک بسته Office Open XML ذخیره می‌کند. فایل PPTX مجموعه‌ای از اسلایدهاست که می‌توانند متن، تصویر، قالب‌بندی، پویانمایی و رسانه‌های دیگر داشته باشند و تنظیمات ارائه را نیز در بر می‌گیرد.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

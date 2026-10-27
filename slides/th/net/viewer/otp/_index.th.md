@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ดู OTP ใน C#
 keywords: ดู OTP, เปิด OTP, โปรแกรมดู OTP, OTP, C# API, ไลบรารี .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+ไฟล์ที่มีนามสกุล `.OTP` คือเทมเพลตงานนำเสนอ OpenDocument ไฟล์นี้จัดเก็บเค้าโครง สไตล์ การจัดรูปแบบ พื้นหลัง และเนื้อหาอื่นที่นำกลับมาใช้ได้ เพื่อสร้างงานนำเสนอใหม่ที่มีดีไซน์สอดคล้องกัน ไฟล์ OTP สร้างและเปิดได้ด้วยแอปพลิเคชันที่รองรับ OpenDocument Format (ODF) รูปแบบนี้เทียบได้กับรูปแบบเทมเพลต Microsoft PowerPoint อย่าง POT และ POTX
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

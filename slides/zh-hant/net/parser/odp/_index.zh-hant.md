@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: 使用 .NET 從 ODP 檔案擷取文字
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+ODP 檔案使用 OpenDocument Presentation 格式。簡報包含帶有文字、影像、格式、動畫和其他媒體的投影片。OpenOffice 和 StarOffice 等支援 OpenDocument 格式的應用程式可以開啟 ODP 檔案。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

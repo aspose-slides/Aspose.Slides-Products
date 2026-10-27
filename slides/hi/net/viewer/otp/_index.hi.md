@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# में OTP देखें
 keywords: OTP देखें, OTP खोलें, OTP व्यूअर, OTP, C# API, .NET लाइब्रेरी
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+`.OTP` एक्सटेंशन वाली फ़ाइलें OpenDocument प्रेज़ेंटेशन टेम्पलेट हैं। ये एक जैसे डिज़ाइन वाले नए प्रेज़ेंटेशन बनाने के लिए दोबारा उपयोग किए जा सकने वाले लेआउट, स्टाइल, फ़ॉर्मैटिंग, बैकग्राउंड और अन्य सामग्री संग्रहीत करती हैं। OTP फ़ाइलें OpenDocument Format (ODF) को सपोर्ट करने वाले ऐप्लिकेशन में बनाई और खोली जा सकती हैं। यह फ़ॉर्मैट Microsoft PowerPoint के टेम्पलेट फ़ॉर्मैट POT और POTX के समान है।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET . के माध्यम से पीपीएस फाइलों को मर्ज करें
 weight: 5830
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pps");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (PowerPoint Slide Show) वह बाइनरी स्लाइड शो फ़ॉर्मैट है, जिसका उपयोग PowerPoint 97–2003 करता है। PPSX नया स्लाइड शो फ़ॉर्मैट है, जो Office Open XML मानक पर आधारित है। मौजूदा PowerPoint संस्करण PPS फ़ाइलें खोल सकते हैं और अब भी प्रेज़ेंटेशन को PPS फ़ॉर्मैट में सहेज सकते हैं। सामान्य रूप से खोलने पर PPS फ़ाइल स्लाइड शो मोड में शुरू होती है, जबकि PPT फ़ाइल एडिट मोड में खुलती है।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NETを介してOTPファイルをマージする
 weight: 7430
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.otp");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+拡張子 `.OTP` のファイルは、OpenDocument のプレゼンテーション テンプレートです。統一されたデザインで新しいプレゼンテーションを作成するために、再利用できるレイアウト、スタイル、書式、背景、その他のコンテンツを格納します。OTP ファイルは、OpenDocument Format (ODF) に対応したアプリケーションで作成したり開いたりできます。この形式は、Microsoft PowerPoint のテンプレート形式である POT や POTX に相当します。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

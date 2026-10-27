@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 5200
 title: Szöveg kinyerése ODP dokumentumokból Java nyelven
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with the ODP extension use the OpenDocument Presentation format. An ODP file stores slides that can contain text, images, formatting, animations, and other presentation content.
+Az ODP kiterjesztésű fájlok az OpenDocument Presentation formátumot használják. Az ODP-fájl olyan diákat tárol, amelyek szöveget, képeket, formázást, animációkat és egyéb bemutatótartalmat tartalmazhatnak.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

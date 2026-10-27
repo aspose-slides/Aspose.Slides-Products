@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Chỉnh sửa tệp POT qua .NET
 url: /vi/net/editor/pot/ 
@@ -77,7 +77,7 @@ presentation.Save("document.pot", SaveFormat.Pot);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Các tệp có phần mở rộng POT là tệp mẫu PowerPoint 97-2003. Chúng lưu trữ bố cục trang chiếu, kiểu, nền, phông chữ và các thiết lập mẫu khác có thể dùng để tạo bản trình bày mới.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

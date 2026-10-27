@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: 使用 C++ 从 PPTX 演示文稿中提取文本
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+PPTX 文件是采用 Open XML 格式的 Microsoft PowerPoint 演示文稿文件。它将幻灯片、文本、图像、格式、动画和其他演示内容存储在一个 ZIP 压缩的基于 XML 的包中。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

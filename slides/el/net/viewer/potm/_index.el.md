@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή POTM σε C#
 keywords: Προβολή POTM, Άνοιγμα POTM, Πρόγραμμα προβολής POTM, POTM, PowerPoint, C# API, Βιβλιοθήκη .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+Τα αρχεία με επέκταση `.POTM` είναι πρότυπα Microsoft PowerPoint με υποστήριξη μακροεντολών, που εισήχθησαν με το PowerPoint 2007. Μπορούν να αποθηκεύουν επαναχρησιμοποιήσιμες ρυθμίσεις παρουσίασης, όπως διατάξεις, στυλ, φόντα, παλέτες χρωμάτων, γραμματοσειρές, προεπιλεγμένη μορφοποίηση και μακροεντολές VBA. Το PowerPoint 2007 και οι νεότερες εκδόσεις μπορούν να ανοίξουν και να επεξεργαστούν αρχεία POTM.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

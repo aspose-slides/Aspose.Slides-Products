@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Xem PPTM bằng C#
 keywords: Xem PPTM, Mở PPTM, Trình xem PPTM, PPTM, PowerPoint, API C#, Thư viện .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+Các tệp có phần mở rộng `.PPTM` là tệp bản trình bày hỗ trợ macro, được giới thiệu cùng Microsoft PowerPoint 2007. Chúng tương tự tệp PPTX, nhưng tệp PPTM có thể lưu mã macro VBA, còn tệp PPTX thì không. Tệp PPTM có thể được mở và chỉnh sửa trong Microsoft PowerPoint. Định dạng liên quan PPSM mặc định mở ở dạng xem Trình chiếu nhưng cũng có thể được mở trong PowerPoint để chỉnh sửa. Giống như tệp PPTX, tệp PPTM có thể chứa văn bản, hình ảnh, video, biểu đồ và nội dung trình bày khác.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 合併 PPT 文件
 weight: 7610
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppt");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+副檔名為 .ppt 的檔案是包含一組投影片、用於投影片放映的 PowerPoint 簡報。它使用 Microsoft PowerPoint 97–2003 支援的二進位檔案格式。PPT 檔案可以包含多種內容，例如文字、項目符號清單、影像、多媒體和其他內嵌的 OLE 物件。自 PowerPoint 2007 起，Microsoft 推出了較新的 PPTX 格式，它以 Office Open XML 為基礎，而非這種二進位格式。OpenOffice Impress 和 Apple Keynote 等其他應用程式也可以建立 PPT 檔案。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

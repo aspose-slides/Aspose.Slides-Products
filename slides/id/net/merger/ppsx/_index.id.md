@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPSX melalui .NET
 weight: 6100
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppsx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+File PPSX adalah tayangan slide PowerPoint berformat Open XML yang dibuat dengan Microsoft PowerPoint 2007 atau yang lebih baru. File ini merupakan penerus Open XML untuk format PPS yang digunakan PowerPoint 97–2003. Berbeda dengan file PPTX yang secara default terbuka dalam mode edit, file PPSX langsung terbuka sebagai tayangan slide. File ini mempertahankan urutan slide presentasi dan dapat berisi gambar, audio, dan media tersemat lainnya.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal pliki OTP za pomocą Java
 weight: 920
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.otp", SaveFormat.Otp);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+Pliki z rozszerzeniem `.OTP` to szablony prezentacji utworzone w standardowym formacie OASIS OpenDocument. Plik `OTP` przechowuje układ slajdów, style i inne informacje używane do tworzenia nowych prezentacji.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: POTX bekijken in C#
 keywords: POTX bekijken, POTX openen, POTX-viewer, POTX, PowerPoint, C# API, .NET-bibliotheek
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Bestanden met de extensie .POTX zijn Microsoft PowerPoint-presentatiesjablonen in Open XML-formaat. Anders dan het binaire POT-formaat is POTX gebaseerd op de standaard Office Open XML. POTX-bestanden slaan herbruikbare dia-indelingen, thema's, stijlen, achtergronden, kleurenschema's, lettertypen en andere opmaak op voor nieuwe presentaties.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPTX-Dateien über .NET zusammenführen
 weight: 3150
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pptx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+Dateien mit der Erweiterung `.PPTX` verwenden das PowerPoint Open XML-Präsentationsformat, das mit PowerPoint 2007 eingeführt wurde. Anders als das ältere binäre PPT-Format speichert PPTX Präsentationsdaten in einem Office Open XML-Paket. Eine PPTX-Datei enthält eine Sammlung von Folien mit Text, Bildern, Formatierungen, Animationen und anderen Medien sowie die Präsentationseinstellungen.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

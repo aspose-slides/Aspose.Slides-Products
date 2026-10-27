@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: .NET으로 PPTX 파일에서 텍스트 추출
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+PPTX 파일은 Microsoft PowerPoint로 만든 프레젠테이션입니다. 바이너리 형식인 PPT와 달리 PPTX는 Office Open XML 형식을 사용합니다. 프레젠테이션에는 텍스트, 이미지, 서식, 애니메이션 및 기타 미디어가 포함된 슬라이드가 들어 있으며 슬라이드 쇼로 표시됩니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा के माध्यम से ODP फ़ाइलें मर्ज करें
 weight: 2500
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.odp", SaveFormat.Odp);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+`ODP` एक्सटेंशन वाली फ़ाइलें OpenDocument Presentation फ़ॉर्मैट का उपयोग करती हैं, जिसे OpenOffice और OpenDocument मानक को सपोर्ट करने वाले अन्य ऐप्लिकेशन इस्तेमाल करते हैं। `ODP` प्रेज़ेंटेशन में टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य मीडिया वाली स्लाइड्स होती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

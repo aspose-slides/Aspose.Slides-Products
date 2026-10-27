@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Gabungkan File PPTX melalui Java
 weight: 3900
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+File dengan ekstensi `.PPTX` adalah file presentasi berdasarkan format Microsoft PowerPoint Open XML. File `PPTX` berisi slide dengan teks, gambar, pemformatan, animasi, dan media lainnya.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

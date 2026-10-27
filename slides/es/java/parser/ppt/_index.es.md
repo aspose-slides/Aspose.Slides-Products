@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 7140
 title: Extraer texto de documentos PPT con Java
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file stores a PowerPoint 97-2003 presentation in the binary file format. It can contain slides with text, images, charts, multimedia, and embedded objects.
+Un archivo PPT almacena una presentación de PowerPoint 97-2003 en formato de archivo binario. Puede contener diapositivas con texto, imágenes, gráficos, multimedia y objetos incrustados.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

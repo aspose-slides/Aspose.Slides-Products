@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2780
 title: 使用 C++ 從 PPT 簡報擷取文字
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.
+PPT 檔案是 Microsoft PowerPoint 97-2003 簡報檔案。它以 PowerPoint 二進位檔案格式儲存投影片、文字、影像、多媒體和內嵌物件，此格式在 Open XML 格式的 PPTX 推出之前使用。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

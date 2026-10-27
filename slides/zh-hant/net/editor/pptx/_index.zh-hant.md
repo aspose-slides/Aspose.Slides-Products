@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 編輯 PPTX 文件
 url: /zh-hant/net/editor/pptx/ 
@@ -77,7 +77,7 @@ presentation.Save("document.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+副檔名為 PPTX 的檔案使用 Office Open XML 簡報格式。PPTX 檔案可以包含帶有文字、圖表、影像、格式、動畫和其他簡報內容的投影片。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

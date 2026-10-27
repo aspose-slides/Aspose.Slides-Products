@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPT μέσω .NET
 weight: 7610
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppt");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Ένα αρχείο με επέκταση .ppt είναι παρουσίαση PowerPoint που περιέχει μια συλλογή διαφανειών για προβολή. Χρησιμοποιεί τη δυαδική μορφή αρχείων που υποστηρίζει το Microsoft PowerPoint 97–2003. Ένα αρχείο PPT μπορεί να περιέχει διάφορους τύπους περιεχομένου, όπως κείμενο, λίστες με κουκκίδες, εικόνες, πολυμέσα και άλλα ενσωματωμένα αντικείμενα OLE. Από το PowerPoint 2007 και μετά, η Microsoft εισήγαγε τη νεότερη μορφή PPTX, που βασίζεται στο Office Open XML αντί για αυτή τη δυαδική μορφή. Αρχεία PPT μπορούν να δημιουργήσουν και άλλες εφαρμογές, όπως το OpenOffice Impress και το Apple Keynote.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

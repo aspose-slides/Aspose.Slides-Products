@@ -1,166 +1,83 @@
 ---
-lastmod: 2023-06-01
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Python का उपयोग करके PPTX प्रस्तुतिकरण फ़ाइलों में चार्ट बनाएं
+title: Python का उपयोग करके PPTX प्रेज़ेंटेशन में चार्ट बनाएँ
 url: /hi/python-net/chart/pptx/
-keywords: चार्ट बनाएं, बिखरा हुआ चार्ट बनाएं, पाई चार्ट बनाएं, ट्रीमैप चार्ट बनाएं, स्टॉक चार्ट बनाएं, बॉक्स और व्हिस्कर चार्ट बनाएं, हिस्टोग्राम चार्ट बनाएं, फ़नल चार्ट बनाएं, सनबर्स्ट चार्ट, बहुश्रेणी चार्ट, पॉवरपॉइंट प्रस्तुति, {उत्पाद_लैंग}
-description: PPTX प्रस्तुतिकरण में चार्ट बनाने के लिए Python स्रोत कोड.
+description: Python और Aspose.Slides for Python via .NET का उपयोग करके PPTX प्रेज़ेंटेशन में चार्ट बनाएँ और अनुकूलित करें।
+keywords: चार्ट बनाएँ, स्कैटर चार्ट बनाएँ, पाई चार्ट बनाएँ, ट्रीमैप चार्ट बनाएँ, स्टॉक चार्ट बनाएँ, बॉक्स और व्हिस्कर चार्ट बनाएँ, हिस्टोग्राम चार्ट बनाएँ, फ़नल चार्ट बनाएँ, सनबर्स्ट चार्ट, मल्टीकैटेगरी चार्ट, PowerPoint प्रेज़ेंटेशन, Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="{Product_lang} का उपयोग करके PPTX में PowerPoint चार्ट और आरेख जोड़ें" h2="सर्वर-साइड API का उपयोग करके प्रस्तुतिकरण फ़ाइलों में पूरी तरह से अनुकूलन योग्य चार्ट बनाने के लिए अपने स्वयं के Python एप्लिकेशन बनाएं. चार्ट में नई शृंखला और श्रेणियां जोड़ना सीखें।" logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Python का उपयोग करके PPTX प्रेज़ेंटेशन में चार्ट बनाएँ" h2="ऐसे Python एप्लिकेशन बनाएँ जो आपकी अपनी श्रेणियों, डेटा सीरीज़, लेबल और फ़ॉर्मेटिंग के साथ अनुकूलन योग्य प्रेज़ेंटेशन चार्ट बनाएँ।" related="PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Python द्वारा PPTX प्रस्तुतिकरण में पाई चार्ट जोड़ें" %}}
-पाई चार्ट का उपयोग डेटा में आंशिक-से-संबंध दिखाने के लिए किया जाता है, खासकर जब डेटा में संख्यात्मक मानों के साथ श्रेणीबद्ध लेबल होते हैं। Aspose.Slides for Python via .NET PowerPoint प्रस्तुतियों में पाई चार्ट बनाने के लिए एक शक्तिशाली API प्रदान करता है। आप इस [लिंक](https://docs.aspose.com/slides/python-net/pie-chart/) में Aspose.Slides for Python API का उपयोग करके पाई चार्ट को कस्टमाइज़ करने के बारे में अधिक जानकारी प्राप्त कर सकते हैं।
-{{% blocks/products/pf/agp/code-block title="निम्न कोड नमूना दिखाता है कि PowerPoint PPTX में Python में पाई चार्ट कैसे बनाया जाता है." offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Python के साथ PPTX प्रेज़ेंटेशन में पाई चार्ट बनाएँ" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/hi/python-net/) से आप पाई चार्ट बना सकते हैं, उसकी डिफ़ॉल्ट श्रेणियाँ और सीरीज़ बदल सकते हैं, और उसके लेबल और रंग अनुकूलित कर सकते हैं। पाई चार्ट यह दिखाने के लिए सबसे उपयुक्त हैं कि कुछ संख्यात्मक श्रेणियाँ पूरे में कितना योगदान देती हैं। अधिक विकल्पों के लिए [प्रेज़ेंटेशन में पाई चार्ट अनुकूलित करें](https://docs.aspose.com/slides/python-net/pie-chart/) देखें।
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-# Create presentation (or load existing one) 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Python के साथ PPTX प्रेज़ेंटेशन में पाई चार्ट बनाएँ" >}}
+```python
 with slides.Presentation() as presentation:
-
-    # Access first slide
     slide = presentation.slides[0]
-
-    # Add chart with default data
     chart = slide.shapes.add_chart(slides.charts.ChartType.PIE, 100, 100, 400, 400)
 
-    # Set chart title
-    chart.chart_title.add_text_frame_for_overriding("Sample Title")
-    chart.chart_title.text_frame_for_overriding.text_frame_format.center_text = slides.NullableBool(True)
-    chart.chart_title.height = 20
     chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Quarterly Sales")
+    chart.chart_title.height = 20
 
-    # Set first series to show values
-    chart.chart_data.series[0].labels.default_data_label_format.show_value = True
-
-    # Set the index of chart data sheet
-    defaultWorksheetIndex = 0
-
-    # Get the chart data worksheet
-    fact = chart.chart_data.chart_data_workbook
-
-    # Delete default generated series and categories
+    worksheet_index = 0
+    workbook = chart.chart_data.chart_data_workbook
     chart.chart_data.series.clear()
     chart.chart_data.categories.clear()
 
-    # Add new categories
-    chart.chart_data.categories.add(fact.get_cell(0, 1, 0, "First Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 2, 0, "2nd Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 3, 0, "3rd Qtr"))
+    categories = ("First Quarter", "Second Quarter", "Third Quarter")
+    values = (20, 50, 30)
 
-    # Add new series
-    series = chart.chart_data.series.add(fact.get_cell(0, 0, 1, "Series 1"), chart.type)
+    for row_index, category in enumerate(categories, start=1):
+        category_cell = workbook.get_cell(worksheet_index, row_index, 0, category)
+        chart.chart_data.categories.add(category_cell)
 
-    # Populate series data
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 1, 1, 20))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 2, 1, 50))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 3, 1, 30))
+    series_name_cell = workbook.get_cell(worksheet_index, 0, 1, "Sales")
+    series = chart.chart_data.series.add(series_name_cell, chart.type)
 
-    # Add new points and set sector color
-    chart.chart_data.series_groups[0].is_color_varied = True
+    for row_index, value in enumerate(values, start=1):
+        value_cell = workbook.get_cell(worksheet_index, row_index, 1, value)
+        series.data_points.add_data_point_for_pie_series(value_cell)
 
-    point = series.data_points[0]
-    point.format.fill.fill_type = slides.FillType.SOLID
-    point.format.fill.solid_fill_color.color = drawing.Color.orange
+    series.labels.default_data_label_format.show_percentage = True
+    series.parent_series_group.is_color_varied = True
+    series.parent_series_group.first_slice_angle = 180
 
-    # Set sector border
-    point.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point.format.line.fill_format.solid_fill_color.color = drawing.Color.gray
-    point.format.line.width = 3.0
+    fill_colors = (drawing.Color.orange, drawing.Color.blue_violet, drawing.Color.yellow_green)
 
+    for data_point_index, fill_color in enumerate(fill_colors):
+        data_point = series.data_points[data_point_index]
+        data_point.format.fill.fill_type = slides.FillType.SOLID
+        data_point.format.fill.solid_fill_color.color = fill_color
 
-    point1 = series.data_points[1]
-    point1.format.fill.fill_type = slides.FillType.SOLID
-    point1.format.fill.solid_fill_color.color = drawing.Color.blue_violet
-
-    # Set sector border
-    point1.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point1.format.line.fill_format.solid_fill_color.color = drawing.Color.blue
-    point1.format.line.width = 3.0
-    # point1.format.line.style = slides.LineStyle.SINGLE
-    # point1.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT
-
-    point2 = series.data_points[2]
-    point2.format.fill.fill_type = slides.FillType.SOLID
-    point2.format.fill.solid_fill_color.color = drawing.Color.yellow_green
-
-    # Set sector border
-    point2.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point2.format.line.fill_format.solid_fill_color.color = drawing.Color.red
-    point2.format.line.width = 2.0
-    # point2.format.line.style = slides.LineStyle.THIN_THIN
-    # point2.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT_DOT
-
-    # Create custom labels for each of categories for new series
-    lbl1 = series.data_points[0].label
-
-    # lbl.show_category_name = True
-    lbl1.data_label_format.show_value = True
-
-    lbl2 = series.data_points[1].label
-    lbl2.data_label_format.show_value = True
-    lbl2.data_label_format.show_legend_key = True
-    lbl2.data_label_format.show_percentage = True
-
-    lbl3 = series.data_points[2].label
-    lbl3.data_label_format.show_series_name = True
-    lbl3.data_label_format.show_percentage = True
-
-    # Show leader lines for chart
-    # series.labels.default_data_label_format.show_leader_lines = True
-
-    # Set rotation angle for pie chart sectors
-    chart.chart_data.series_groups[0].first_slice_angle = 180
-
-    # Save presentation
     presentation.save("pie-chart.pptx", slides.export.SaveFormat.PPTX)
-
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Python के साथ PPTX में पाई चार्ट कैसे बनाएँ और अनुकूलित करें" intro="PPTX प्रेज़ेंटेशन में पाई चार्ट जोड़ने के लिए इन चरणों का पालन करें।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}एक `Presentation` इंस्टेंस बनाएँ और `slide` वेरिएबल के ज़रिए वांछित स्लाइड तक पहुँचें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}स्लाइड में पाई चार्ट जोड़ने के लिए `ChartType.PIE` के साथ `add_chart` कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}डिफ़ॉल्ट श्रेणियाँ और सीरीज़ बदलने के लिए `chart_data_workbook` का उपयोग करें, फिर लेबल, रंग और `first_slice_angle` कॉन्फ़िगर करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}प्रेज़ेंटेशन को PPTX फ़ॉर्मेट में लिखने के लिए `SaveFormat.PPTX` के साथ `save` कॉल करें।{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Python के माध्यम से PPTX में पाई चार्ट कैसे बनाएं और कस्टमाइज़ करें" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app label="Aspose.Slides से निर्मित" title="PPTX चार्ट ऑनलाइन बनाएँ" description="मुफ़्त Aspose.Slides Chart ऐप [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/hi/python-net/) से बना है, वही API जो ऊपर दिए गए कोड में है। इसे खोलें और देखें कि API आपकी अपनी PPTX फ़ाइलों के साथ क्या कर सकता है।" button="Aspose.Slides Chart खोलें" note="[सभी मुफ़्त ऐप्स](https://products.aspose.app/slides/family)" >}}
+- आपके ब्राउज़र में चलता है, कुछ भी इंस्टॉल करने की ज़रूरत नहीं।
+- कोड लिखने से पहले देखें कि Aspose.Slides चार्ट कैसे बनाता है।
+- Excel या टेबल डेटा से चार्ट बनाएँ।
+- इसे PPTX फ़ाइल या इमेज के रूप में डाउनलोड करें।
+{{< /blocks/products/pf/slides-design-update-10-2026/chart-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="पाई चार्ट को PPTX फ़ाइलों में जोड़ने के लिए ये चरण हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="चार्ट के लिए अन्य समर्थित फ़ॉर्मेट" subTitle="Python के साथ, आप अन्य फ़ॉर्मेट में भी चार्ट बना सकते हैं।" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/hi/python-net/chart/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-सबसे पहले, PPTX प्रस्तुति वर्ग का एक उदाहरण बनाएं।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Add_chart(...) पद्धति का उपयोग करके डिफ़ॉल्ट डेटा के साथ पाई चार्ट जोड़ें।
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-पाई चार्ट के आवश्यक गुणों को कॉन्फ़िगर करें (चार्ट शीर्षक सेट करें, चार्ट डेटा संशोधित करें, श्रृंखला और श्रेणियों के लिए स्वरूपण लागू करें)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-परिणाम PPTX प्रारूप में सहेजें
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="ऑनलाइन PPTX चार्ट लाइव डेमो बनाएं" sectionDescription="ऑनलाइन चार्ट बनाएं" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="अन्य समर्थित प्रारूप" subTitle="{Product_lang} का इस्तेमाल करके, आप नीचे दिए गए फ़ॉर्मैट में चार्ट भी जोड़ सकते हैं:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/hi/python-net/chart/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

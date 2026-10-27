@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 PPT 보기
 keywords: PPT 보기, PPT 열기, PPT 뷰어, PPT, PowerPoint, C# API, .NET 라이브러리
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+확장자가 .ppt인 파일은 슬라이드 쇼에 사용할 슬라이드 모음이 들어 있는 PowerPoint 프레젠테이션입니다. Microsoft PowerPoint 97–2003에서 지원하는 바이너리 파일 형식을 사용합니다. PPT 파일에는 텍스트, 글머리 기호 목록, 이미지, 멀티미디어 및 기타 포함된 OLE 개체 등 여러 유형의 콘텐츠가 들어갈 수 있습니다. PowerPoint 2007부터 Microsoft는 이 바이너리 형식 대신 Office Open XML을 기반으로 하는 최신 PPTX 형식을 도입했습니다. OpenOffice Impress, Apple Keynote 같은 다른 애플리케이션에서도 PPT 파일을 만들 수 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

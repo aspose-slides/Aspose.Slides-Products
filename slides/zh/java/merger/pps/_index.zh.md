@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 Java 合并 PPS 文件
 weight: 3930
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.pps", SaveFormat.Pps);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+扩展名为 `.PPS` 的文件是用 Microsoft PowerPoint 97-2003 创建的 PowerPoint 幻灯片放映文件。`PPS` 文件会直接以幻灯片放映的形式打开，而不是在编辑模式下打开。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

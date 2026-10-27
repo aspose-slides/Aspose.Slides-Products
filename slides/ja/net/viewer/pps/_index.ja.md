@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPS を表示
 keywords: PPS 表示, PPS を開く, PPS ビューアー, PPS, PowerPoint, C# API, .NET ライブラリ
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (PowerPoint スライド ショー) は、PowerPoint 97–2003 で使われるバイナリ形式のスライド ショー形式です。PPSX は、Office Open XML 標準に基づく新しいスライド ショー形式です。現在のバージョンの PowerPoint でも PPS ファイルを開くことができ、プレゼンテーションを PPS 形式で保存することもできます。通常の方法で開くと、PPS ファイルはスライド ショー モードで始まり、PPT ファイルは編集モードで開きます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

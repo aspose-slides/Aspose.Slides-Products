@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 460
 title: Extraire le texte de présentations ODP avec C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-An ODP file is an OpenDocument presentation file used by applications such as OpenOffice Impress and LibreOffice Impress. It stores slides, text, images, formatting, animations, and other presentation content in an open XML-based package.
+Un fichier ODP est un fichier de présentation OpenDocument utilisé par des applications comme OpenOffice Impress et LibreOffice Impress. Il stocke les diapositives, le texte, les images, la mise en forme, les animations et d’autres contenus de présentation dans un package ouvert basé sur XML.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: C++ ile PPTX sunularından metin çıkarma
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+PPTX dosyası, Open XML biçiminde bir Microsoft PowerPoint sunu dosyasıdır. Slaytları, metinleri, görüntüleri, biçimlendirmeyi, animasyonları ve diğer sunu içeriklerini sıkıştırılmış, XML tabanlı bir pakette saklar.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

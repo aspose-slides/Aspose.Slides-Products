@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: Szöveg kinyerése ODP fájlokból .NET-tel
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+Az ODP-fájlok az OpenDocument Presentation formátumot használják. A bemutató szöveget, képeket, formázást, animációkat és egyéb médiát tartalmazó diákból áll. Az ODP-fájlokat az OpenDocument formátumot támogató alkalmazások, például az OpenOffice és a StarOffice nyithatják meg.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

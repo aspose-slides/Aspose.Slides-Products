@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: OTP Dosyalarını .NET ile Birleştirme
 weight: 7430
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.otp");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+`.OTP` uzantılı dosyalar OpenDocument sunu şablonlarıdır. Tutarlı tasarıma sahip yeni sunular oluşturmak için yeniden kullanılabilir düzenleri, stilleri, biçimlendirmeyi, arka planları ve diğer içerikleri saklar. OTP dosyaları, OpenDocument Format (ODF) destekleyen uygulamalarla oluşturulabilir ve açılabilir. Bu biçim, Microsoft PowerPoint şablon biçimleri POT ve POTX ile karşılaştırılabilir.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos ODP via .NET
 weight: 4610
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.odp");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+Arquivos com a extensão `.ODP` usam o formato OpenDocument Presentation definido pelo padrão OASIS OpenDocument. Um arquivo ODP contém um conjunto de slides que podem incluir texto, imagens, formatação, animações e outras mídias. Aplicativos compatíveis com apresentações OpenDocument, como LibreOffice Impress e Apache OpenOffice Impress, podem abrir arquivos ODP.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 460
 title: แยกข้อความจากงานนำเสนอ ODP ด้วย C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-An ODP file is an OpenDocument presentation file used by applications such as OpenOffice Impress and LibreOffice Impress. It stores slides, text, images, formatting, animations, and other presentation content in an open XML-based package.
+ไฟล์ ODP คือไฟล์งานนำเสนอ OpenDocument ที่ใช้โดยแอปพลิเคชันอย่าง OpenOffice Impress และ LibreOffice Impress ไฟล์นี้จัดเก็บสไลด์ ข้อความ รูปภาพ การจัดรูปแบบ ภาพเคลื่อนไหว และเนื้อหางานนำเสนออื่นๆ ไว้ในแพ็กเกจแบบเปิดที่อิง XML
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

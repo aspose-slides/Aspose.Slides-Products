@@ -1,21 +1,22 @@
 ---
-lastmod: 2026-07-22
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Create Charts in PPTX Presentations Using Python
 url: /python-net/chart/pptx/
 keywords: Create chart, create scattered chart, create pie chart, create treemap chart, create stock chart, create box and whisker chart, create histogram chart, create funnel chart, sunburst chart, multicategory chart, PowerPoint presentation, Python
 description: Create and customize charts in PPTX presentations using Python and Aspose.Slides for Python via .NET.
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Create Charts in PPTX Presentations Using Python" h2="Build Python applications that create customizable presentation charts with your own categories, data series, labels, and formatting." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPTX" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides" subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Create Charts in PPTX Presentations Using Python" h2="Build Python applications that create customizable presentation charts with your own categories, data series, labels, and formatting." related="PPT" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Create a Pie Chart in a PPTX Presentation with Python" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Create a Pie Chart in a PPTX Presentation with Python" variant="code" %}}
+
 [Aspose.Slides for Python via .NET](/slides/python-net/) lets you create a pie chart, replace its default categories and series, and customize its labels and colors. Pie charts work best when showing how a small number of numeric categories contribute to a whole. For more options, see [Customize Pie Charts in Presentations](https://docs.aspose.com/slides/python-net/pie-chart/).
-{{% blocks/products/pf/agp/code-block title="Create a Pie Chart in a PPTX Presentation with Python" offSpacer="true" %}}
 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Create a Pie Chart in a PPTX Presentation with Python" >}}
 ```python
 with slides.Presentation() as presentation:
     slide = presentation.slides[0]
@@ -57,45 +58,21 @@ with slides.Presentation() as presentation:
 
     presentation.save("pie-chart.pptx", slides.export.SaveFormat.PPTX)
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="How to Create and Customize a Pie Chart in PPTX with Python" intro="Follow these steps to add a pie chart to a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Create a `Presentation` instance and access the desired slide through a `slide` variable.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `add_chart` with `ChartType.PIE` to add a pie chart to the slide.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Use `chart_data_workbook` to replace the default categories and series, then configure the labels, colors, and `first_slice_angle`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Call `save` with `SaveFormat.PPTX` to write the presentation in PPTX format.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="How to Create and Customize a Pie Chart in PPTX with Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app />}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Follow these steps to add a pie chart to a PPTX presentation." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Other Supported Chart Formats" subTitle="Using Python, you can also create charts in other formats." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/python-net/chart/ppt/" name="PPT" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{% blocks/products/pf/agp/step-autogen %}}
-Create a `Presentation` instance and access the desired slide through a `slide` variable.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `add_chart` with `ChartType.PIE` to add a pie chart to the slide.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Use `chart_data_workbook` to replace the default categories and series, then configure the labels, colors, and `first_slice_angle`.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{% blocks/products/pf/agp/step-autogen %}}
-Call `save` with `SaveFormat.PPTX` to write the presentation in PPTX format.
-{{% /blocks/products/pf/agp/step-autogen %}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Create Charts in PPTX Online" sectionDescription="Try the online chart creation demos." >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Other Supported Chart Formats" subTitle="You can also create charts in other supported presentation formats." >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="/slides/python-net/chart/ppt/" name="PPT" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

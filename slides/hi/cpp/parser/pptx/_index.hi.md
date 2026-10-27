@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: C++ से PPTX प्रेज़ेंटेशन से टेक्स्ट निकालें
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+PPTX फ़ाइल Open XML फ़ॉर्मैट में एक Microsoft PowerPoint प्रेज़ेंटेशन फ़ाइल है। यह स्लाइड्स, टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य प्रेज़ेंटेशन सामग्री को एक संपीड़ित XML-आधारित पैकेज में संग्रहीत करती है।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

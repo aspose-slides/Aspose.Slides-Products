@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: .NET से ODP फ़ाइलों से टेक्स्ट निकालें
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+ODP फ़ाइलें OpenDocument Presentation फ़ॉर्मैट का उपयोग करती हैं। प्रेज़ेंटेशन में टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य मीडिया वाली स्लाइड्स होती हैं। OpenDocument फ़ॉर्मैट को सपोर्ट करने वाले ऐप्लिकेशन, जैसे OpenOffice और StarOffice, ODP फ़ाइलें खोल सकते हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

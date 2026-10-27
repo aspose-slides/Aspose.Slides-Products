@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Visualizar OTP em C#
 keywords: Visualizar OTP, Abrir OTP, Visualizador de OTP, OTP, API C#, Biblioteca .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+Arquivos com a extensão `.OTP` são modelos de apresentação OpenDocument. Eles armazenam layouts, estilos, formatação, planos de fundo e outros conteúdos reutilizáveis para criar novas apresentações com um design consistente. Arquivos OTP podem ser criados e abertos por aplicativos compatíveis com o OpenDocument Format (ODF). O formato é comparável aos formatos de modelo do Microsoft PowerPoint POT e POTX.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

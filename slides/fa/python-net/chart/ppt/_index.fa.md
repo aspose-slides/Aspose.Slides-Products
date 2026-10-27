@@ -1,166 +1,83 @@
 ---
-lastmod: 2023-06-01
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: ایجاد نمودار در فایل‌های ارائه PPT با استفاده از Python
+title: ایجاد نمودار در ارائه‌های PPT با Python
 url: /fa/python-net/chart/ppt/
-keywords: ایجاد نمودار، ایجاد نمودار پراکنده، ایجاد نمودار دایره ای، ایجاد نمودار نقشه درختی، ایجاد نمودار سهام، ایجاد نمودار جعبه و سبیل، ایجاد نمودار هیستوگرام، ایجاد نمودار قیف، نمودار آفتاب انفجار، نمودار چند دسته، ارائه پاورپوینت، Python
-description: کد منبع Python برای ایجاد نمودار در ارائه PPT.
+description: با Python و Aspose.Slides for Python via .NET در ارائه‌های PPT نمودار ایجاد و سفارشی کنید.
+keywords: ایجاد نمودار، ایجاد نمودار پراکندگی، ایجاد نمودار دایره‌ای، ایجاد نمودار نقشه درختی، ایجاد نمودار سهام، ایجاد نمودار جعبه‌ای، ایجاد هیستوگرام، ایجاد نمودار قیفی، نمودار آفتابی، نمودار چنددسته‌ای، ارائه PowerPoint، Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="با استفاده از Python نمودار و نمودار پاورپوینت را به PPT اضافه کنید" h2="برای ایجاد نمودارهای کاملاً قابل تنظیم در فایل های ارائه با استفاده از API های سمت سرور، برنامه های Python خود را بسازید. با نحوه افزودن سری ها و دسته بندی های جدید به نمودار آشنا شوید." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="ایجاد نمودار در ارائه‌های PPT با Python" h2="برنامه‌های Python بسازید که نمودارهای ارائه قابل‌سفارشی‌سازی را با دسته‌ها، سری‌های داده، برچسب‌ها و قالب‌بندی دلخواه شما ایجاد می‌کنند." related="PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="اضافه کردن نمودار دایره ای به ارائه PPT از طریق Python" %}}
-نمودارهای دایره ای برای نشان دادن رابطه جزء به کل در داده ها استفاده می شود، به خصوص زمانی که داده ها دارای برچسب های طبقه بندی با مقادیر عددی هستند. Aspose.Slides for Python via .NET یک API قدرتمند برای ایجاد نمودارهای پای در ارائه‌های پاورپوینت ارائه می‌کند. می توانید اطلاعات بیشتری درباره سفارشی کردن نمودارهای دایره ای با استفاده از Aspose.Slides for Python API در این [پیوند](https://docs.aspose.com/slides/python-net/pie-chart/) بیابید.
-{{% blocks/products/pf/agp/code-block title="نمونه کد زیر نحوه ایجاد نمودار دایره ای در پاورپوینت PPT در Python را نشان می دهد." offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="ایجاد نمودار دایره‌ای در ارائه PPT با Python" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/fa/python-net/) به شما امکان می‌دهد نمودار دایره‌ای ایجاد کنید، دسته‌ها و سری‌های پیش‌فرض آن را جایگزین کنید و برچسب‌ها و رنگ‌های آن را سفارشی کنید. نمودارهای دایره‌ای برای نشان دادن سهم تعداد کمی دسته عددی از یک کل مناسب‌ترند. برای گزینه‌های بیشتر، [سفارشی‌سازی نمودارهای دایره‌ای در ارائه‌ها](https://docs.aspose.com/slides/python-net/pie-chart/) را ببینید.
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-# Create presentation (or load existing one) 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="ایجاد نمودار دایره‌ای در ارائه PPT با Python" >}}
+```python
 with slides.Presentation() as presentation:
-
-    # Access first slide
     slide = presentation.slides[0]
-
-    # Add chart with default data
     chart = slide.shapes.add_chart(slides.charts.ChartType.PIE, 100, 100, 400, 400)
 
-    # Set chart title
-    chart.chart_title.add_text_frame_for_overriding("Sample Title")
-    chart.chart_title.text_frame_for_overriding.text_frame_format.center_text = slides.NullableBool(True)
-    chart.chart_title.height = 20
     chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Quarterly Sales")
+    chart.chart_title.height = 20
 
-    # Set first series to show values
-    chart.chart_data.series[0].labels.default_data_label_format.show_value = True
-
-    # Set the index of chart data sheet
-    defaultWorksheetIndex = 0
-
-    # Get the chart data worksheet
-    fact = chart.chart_data.chart_data_workbook
-
-    # Delete default generated series and categories
+    worksheet_index = 0
+    workbook = chart.chart_data.chart_data_workbook
     chart.chart_data.series.clear()
     chart.chart_data.categories.clear()
 
-    # Add new categories
-    chart.chart_data.categories.add(fact.get_cell(0, 1, 0, "First Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 2, 0, "2nd Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 3, 0, "3rd Qtr"))
+    categories = ("First Quarter", "Second Quarter", "Third Quarter")
+    values = (20, 50, 30)
 
-    # Add new series
-    series = chart.chart_data.series.add(fact.get_cell(0, 0, 1, "Series 1"), chart.type)
+    for row_index, category in enumerate(categories, start=1):
+        category_cell = workbook.get_cell(worksheet_index, row_index, 0, category)
+        chart.chart_data.categories.add(category_cell)
 
-    # Populate series data
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 1, 1, 20))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 2, 1, 50))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 3, 1, 30))
+    series_name_cell = workbook.get_cell(worksheet_index, 0, 1, "Sales")
+    series = chart.chart_data.series.add(series_name_cell, chart.type)
 
-    # Add new points and set sector color
-    chart.chart_data.series_groups[0].is_color_varied = True
+    for row_index, value in enumerate(values, start=1):
+        value_cell = workbook.get_cell(worksheet_index, row_index, 1, value)
+        series.data_points.add_data_point_for_pie_series(value_cell)
 
-    point = series.data_points[0]
-    point.format.fill.fill_type = slides.FillType.SOLID
-    point.format.fill.solid_fill_color.color = drawing.Color.orange
+    series.labels.default_data_label_format.show_percentage = True
+    series.parent_series_group.is_color_varied = True
+    series.parent_series_group.first_slice_angle = 180
 
-    # Set sector border
-    point.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point.format.line.fill_format.solid_fill_color.color = drawing.Color.gray
-    point.format.line.width = 3.0
+    fill_colors = (drawing.Color.orange, drawing.Color.blue_violet, drawing.Color.yellow_green)
 
+    for data_point_index, fill_color in enumerate(fill_colors):
+        data_point = series.data_points[data_point_index]
+        data_point.format.fill.fill_type = slides.FillType.SOLID
+        data_point.format.fill.solid_fill_color.color = fill_color
 
-    point1 = series.data_points[1]
-    point1.format.fill.fill_type = slides.FillType.SOLID
-    point1.format.fill.solid_fill_color.color = drawing.Color.blue_violet
-
-    # Set sector border
-    point1.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point1.format.line.fill_format.solid_fill_color.color = drawing.Color.blue
-    point1.format.line.width = 3.0
-    # point1.format.line.style = slides.LineStyle.SINGLE
-    # point1.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT
-
-    point2 = series.data_points[2]
-    point2.format.fill.fill_type = slides.FillType.SOLID
-    point2.format.fill.solid_fill_color.color = drawing.Color.yellow_green
-
-    # Set sector border
-    point2.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point2.format.line.fill_format.solid_fill_color.color = drawing.Color.red
-    point2.format.line.width = 2.0
-    # point2.format.line.style = slides.LineStyle.THIN_THIN
-    # point2.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT_DOT
-
-    # Create custom labels for each of categories for new series
-    lbl1 = series.data_points[0].label
-
-    # lbl.show_category_name = True
-    lbl1.data_label_format.show_value = True
-
-    lbl2 = series.data_points[1].label
-    lbl2.data_label_format.show_value = True
-    lbl2.data_label_format.show_legend_key = True
-    lbl2.data_label_format.show_percentage = True
-
-    lbl3 = series.data_points[2].label
-    lbl3.data_label_format.show_series_name = True
-    lbl3.data_label_format.show_percentage = True
-
-    # Show leader lines for chart
-    # series.labels.default_data_label_format.show_leader_lines = True
-
-    # Set rotation angle for pie chart sectors
-    chart.chart_data.series_groups[0].first_slice_angle = 180
-
-    # Save presentation
     presentation.save("pie-chart.ppt", slides.export.SaveFormat.PPT)
-
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="چگونه با Python در PPT نمودار دایره‌ای ایجاد و سفارشی کنیم" intro="برای افزودن نمودار دایره‌ای به یک ارائه PPT این مراحل را دنبال کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}یک نمونه `Presentation` ایجاد کنید و از طریق متغیر `slide` به اسلاید موردنظر دسترسی پیدا کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`add_chart` را با `ChartType.PIE` فراخوانی کنید تا نمودار دایره‌ای به اسلاید اضافه شود.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}از `chart_data_workbook` برای جایگزینی دسته‌ها و سری‌های پیش‌فرض استفاده کنید، سپس برچسب‌ها، رنگ‌ها و `first_slice_angle` را پیکربندی کنید.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}`save` را با `SaveFormat.PPT` فراخوانی کنید تا ارائه در قالب PPT نوشته شود.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="نحوه ایجاد و سفارشی کردن نمودار پای در PPT از طریق Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app label="ساخته شده با Aspose.Slides" title="ایجاد آنلاین نمودارهای PPT" description="برنامه رایگان Aspose.Slides Chart با [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/fa/python-net/) ساخته شده است، همان API که در کد بالا استفاده شده است. آن را باز کنید و ببینید API با فایل‌های PPT شما چه کارهایی می‌تواند انجام دهد." button="باز کردن Aspose.Slides Chart" note="[همه برنامه‌های رایگان](https://products.aspose.app/slides/family)" >}}
+- در مرورگر شما اجرا می‌شود، بدون نیاز به نصب.
+- پیش از نوشتن کد ببینید Aspose.Slides چگونه نمودار ایجاد می‌کند.
+- از داده‌های Excel یا جدول نمودار بسازید.
+- آن را به‌صورت فایل PPT یا تصویر دانلود کنید.
+{{< /blocks/products/pf/slides-design-update-10-2026/chart-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="این مراحل برای افزودن نمودار پای به فایل‌های PPT است." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="سایر قالب‌های پشتیبانی‌شده برای نمودار" subTitle="با Python می‌توانید در قالب‌های دیگر نیز نمودار ایجاد کنید." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/fa/python-net/chart/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-ابتدا یک نمونه از کلاس Presentation PPT ایجاد کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-با استفاده از روش add_chart(...) یک نمودار دایره ای با داده های پیش فرض اضافه کنید.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-پیکربندی ویژگی های لازم نمودار دایره ای (تنظیم عنوان نمودار، تغییر داده های نمودار، اعمال قالب بندی برای سری ها و دسته ها)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-نتیجه را در قالب PPT ذخیره کنید
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="آنلاین PPT نمایش‌های نمایشی زنده نمودارها را ایجاد کنید" sectionDescription="نمودارها را به صورت آنلاین ایجاد کنید" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="سایر فرمت های پشتیبانی شده" subTitle="با استفاده از Python، می‌توانید نمودارها را نیز به قالب‌های زیر اضافه کنید:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/fa/python-net/chart/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

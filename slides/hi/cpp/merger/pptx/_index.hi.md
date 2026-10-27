@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी ++ के माध्यम से पीपीटीएक्स फाइलों को मर्ज करें
 weight: 1830
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+`.PPTX` एक्सटेंशन वाली फ़ाइलें PowerPoint 2007 के साथ पेश किए गए PowerPoint Open XML प्रेज़ेंटेशन फ़ॉर्मैट का उपयोग करती हैं। पुराने बाइनरी PPT फ़ॉर्मैट के विपरीत, PPTX प्रेज़ेंटेशन डेटा को Office Open XML पैकेज में संग्रहीत करता है। PPTX फ़ाइल में स्लाइड्स का संग्रह होता है, जिनमें टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य मीडिया के साथ प्रेज़ेंटेशन सेटिंग्स भी होती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

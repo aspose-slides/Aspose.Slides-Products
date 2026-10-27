@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET . के माध्यम से PPTM फ़ाइलें मर्ज करें
 weight: 5580
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pptm");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+`.PPTM` एक्सटेंशन वाली फ़ाइलें मैक्रो सपोर्ट वाली प्रेज़ेंटेशन फ़ाइलें हैं, जिन्हें Microsoft PowerPoint 2007 के साथ पेश किया गया था। ये PPTX फ़ाइलों जैसी होती हैं, लेकिन PPTM फ़ाइलें VBA मैक्रो कोड संग्रहीत कर सकती हैं, जबकि PPTX फ़ाइलें नहीं कर सकतीं। PPTM फ़ाइलों को Microsoft PowerPoint में खोला और संपादित किया जा सकता है। संबंधित PPSM फ़ॉर्मैट डिफ़ॉल्ट रूप से स्लाइड शो व्यू में खुलता है, लेकिन इसे भी संपादन के लिए PowerPoint में खोला जा सकता है। PPTX फ़ाइलों की तरह, PPTM फ़ाइलों में भी टेक्स्ट, इमेज, वीडियो, चार्ट और अन्य प्रेज़ेंटेशन सामग्री हो सकती है।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

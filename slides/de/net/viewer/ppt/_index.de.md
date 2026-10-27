@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPT in C# anzeigen
 keywords: PPT anzeigen, PPT öffnen, PPT-Viewer, PPT, PowerPoint, C#-API, .NET-Bibliothek
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Eine Datei mit der Erweiterung .ppt ist eine PowerPoint-Präsentation mit einer Sammlung von Folien für eine Bildschirmpräsentation. Sie verwendet das binäre Dateiformat von Microsoft PowerPoint 97–2003. Eine PPT-Datei kann verschiedene Inhalte enthalten, etwa Text, Aufzählungen, Bilder, Multimedia und andere eingebettete OLE-Objekte. Mit PowerPoint 2007 führte Microsoft das neuere PPTX-Format ein, das statt auf diesem Binärformat auf Office Open XML basiert. Auch andere Anwendungen wie OpenOffice Impress und Apple Keynote können PPT-Dateien erstellen.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

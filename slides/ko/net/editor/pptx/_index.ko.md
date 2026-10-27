@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 통해 PPTX 파일 편집
 url: /ko/net/editor/pptx/ 
@@ -77,7 +77,7 @@ presentation.Save("document.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+확장자가 PPTX인 파일은 Office Open XML 프레젠테이션 형식을 사용합니다. PPTX 파일에는 텍스트, 차트, 이미지, 서식, 애니메이션 및 기타 프레젠테이션 콘텐츠가 포함된 슬라이드가 들어갈 수 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

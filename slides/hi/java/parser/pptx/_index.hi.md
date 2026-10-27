@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1000
 title: Java से PPTX दस्तावेज़ों से टेक्स्ट निकालें
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with the PPTX extension use the Office Open XML presentation format. A PPTX file stores slides that can contain text, images, formatting, animations, and other presentation content.
+PPTX एक्सटेंशन वाली फ़ाइलें Office Open XML प्रेज़ेंटेशन फ़ॉर्मैट का उपयोग करती हैं। PPTX फ़ाइल ऐसी स्लाइड्स संग्रहीत करती है, जिनमें टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य प्रेज़ेंटेशन सामग्री हो सकती है।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

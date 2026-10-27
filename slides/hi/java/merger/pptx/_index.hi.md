@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: जावा के माध्यम से पीपीटीएक्स फाइलों को मर्ज करें
 weight: 3900
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.pptx", SaveFormat.Pptx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+`.PPTX` एक्सटेंशन वाली फ़ाइलें Microsoft PowerPoint Open XML फ़ॉर्मैट पर आधारित प्रेज़ेंटेशन फ़ाइलें हैं। `PPTX` फ़ाइल में टेक्स्ट, इमेज, फ़ॉर्मैटिंग, एनिमेशन और अन्य मीडिया वाली स्लाइड्स होती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: .NET으로 ODP 파일에서 텍스트 추출
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+ODP 파일은 OpenDocument Presentation 형식을 사용합니다. 프레젠테이션에는 텍스트, 이미지, 서식, 애니메이션 및 기타 미디어가 포함된 슬라이드가 들어 있습니다. OpenOffice, StarOffice처럼 OpenDocument 형식을 지원하는 애플리케이션에서 ODP 파일을 열 수 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

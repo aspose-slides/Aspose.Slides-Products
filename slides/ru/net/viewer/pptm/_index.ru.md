@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Просмотр PPTM на C#
 keywords: Просмотр PPTM, Открыть PPTM, Просмотрщик PPTM, PPTM, PowerPoint, C# API, Библиотека .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+Файлы с расширением `.PPTM` — это файлы презентаций с поддержкой макросов, появившиеся в Microsoft PowerPoint 2007. Они похожи на файлы PPTX, но файлы PPTM могут хранить код макросов VBA, а файлы PPTX — нет. Файлы PPTM можно открывать и редактировать в Microsoft PowerPoint. Родственный формат PPSM по умолчанию открывается в режиме показа слайдов, но его тоже можно открыть для редактирования в PowerPoint. Как и файлы PPTX, файлы PPTM могут содержать текст, изображения, видео, диаграммы и другое содержимое презентации.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

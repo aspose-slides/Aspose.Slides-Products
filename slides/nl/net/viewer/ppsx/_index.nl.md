@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: PPSX bekijken in C#
 keywords: PPSX bekijken, PPSX openen, PPSX-viewer, PPSX, PowerPoint, C# API, .NET-bibliotheek
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+Een PPSX-bestand is een PowerPoint-diavoorstelling in Open XML-formaat, gemaakt met Microsoft PowerPoint 2007 of hoger. Het is de Open XML-opvolger van het PPS-formaat van PowerPoint 97–2003. Anders dan een PPTX-bestand, dat standaard in de bewerkingsmodus opent, start een PPSX-bestand direct als diavoorstelling. Het behoudt de diavolgorde van de presentatie en kan afbeeldingen, audio en andere ingesloten media bevatten.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

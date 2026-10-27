@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1000
 title: แยกข้อความจากเอกสาร PPTX ด้วย Java
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with the PPTX extension use the Office Open XML presentation format. A PPTX file stores slides that can contain text, images, formatting, animations, and other presentation content.
+ไฟล์ที่มีนามสกุล PPTX ใช้รูปแบบงานนำเสนอ Office Open XML ไฟล์ PPTX จัดเก็บสไลด์ที่อาจมีข้อความ รูปภาพ การจัดรูปแบบ ภาพเคลื่อนไหว และเนื้อหางานนำเสนออื่นๆ
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で POTM を表示
 keywords: POTM 表示, POTM を開く, POTM ビューアー, POTM, PowerPoint, C# API, .NET ライブラリ
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+拡張子 `.POTM` のファイルは、PowerPoint 2007 で導入されたマクロ対応の Microsoft PowerPoint テンプレートです。レイアウト、スタイル、背景、カラーパレット、フォント、既定の書式、VBA マクロなど、再利用可能なプレゼンテーション設定を格納できます。PowerPoint 2007 以降で POTM ファイルを開いて編集できます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

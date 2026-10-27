@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通过 C++ 合并 PPS 文件
 weight: 8570
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pps);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS（PowerPoint 幻灯片放映）是 PowerPoint 97–2003 使用的二进制幻灯片放映格式。PPSX 是基于 Office Open XML 标准的较新幻灯片放映格式。当前版本的 PowerPoint 可以打开 PPS 文件，并且仍可将演示文稿保存为 PPS 格式。正常打开时，PPS 文件以幻灯片放映模式启动，而 PPT 文件在编辑模式下打开。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

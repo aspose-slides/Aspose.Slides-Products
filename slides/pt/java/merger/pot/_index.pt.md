@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos POT via Java
 weight: 1100
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.pot", SaveFormat.Pot);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+Arquivos com a extensão `.POT` são modelos do Microsoft PowerPoint criados no PowerPoint 97-2003. Um arquivo `POT` pode armazenar layouts, temas, estilos, planos de fundo, fontes e configurações padrão usados para criar novas apresentações.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2780
 title: C++로 PPT 프레젠테이션에서 텍스트 추출
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.
+PPT 파일은 Microsoft PowerPoint 97-2003 프레젠테이션 파일입니다. 슬라이드, 텍스트, 이미지, 멀티미디어 및 포함된 개체를 Open XML 형식인 PPTX 이전에 사용된 PowerPoint 바이너리 파일 형식으로 저장합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

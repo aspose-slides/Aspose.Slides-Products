@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات PPT عبر C ++
 weight: 4840
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppt);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+الملف ذو الامتداد .ppt هو عرض تقديمي من PowerPoint يحتوي على مجموعة من الشرائح لاستخدامها في عرض الشرائح. يستخدم تنسيق الملفات الثنائي الذي يدعمه Microsoft PowerPoint 97–2003. قد يحتوي ملف PPT على عدة أنواع من المحتوى، مثل النصوص والقوائم النقطية والصور والوسائط المتعددة وكائنات OLE المضمنة الأخرى. بدءًا من PowerPoint 2007 قدمت Microsoft تنسيق PPTX الأحدث، المبني على Office Open XML بدلًا من هذا التنسيق الثنائي. ويمكن لتطبيقات أخرى، مثل OpenOffice Impress و Apple Keynote، إنشاء ملفات PPT أيضًا.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

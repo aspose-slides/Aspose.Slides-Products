@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Wyświetlanie PPS w C#
 keywords: Wyświetl PPS, Otwórz PPS, Przeglądarka PPS, PPS, PowerPoint, API C#, Biblioteka .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS (pokaz slajdów PowerPoint) to binarny format pokazów slajdów używany przez PowerPoint 97–2003. PPSX to nowszy format pokazów slajdów oparty na standardzie Office Open XML. Obecne wersje PowerPoint mogą otwierać pliki PPS i nadal zapisywać prezentacje w formacie PPS. Po zwykłym otwarciu plik PPS uruchamia się w trybie pokazu slajdów, a plik PPT otwiera się w trybie edycji.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

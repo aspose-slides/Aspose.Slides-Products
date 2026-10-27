@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 3070
 title: Extrair texto de arquivos ODP com .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-ODP files use the OpenDocument Presentation format. A presentation contains slides with text, images, formatting, animations, and other media. Applications that support the OpenDocument format, such as OpenOffice and StarOffice, can open ODP files.
+Arquivos ODP usam o formato OpenDocument Presentation. Uma apresentação contém slides com texto, imagens, formatação, animações e outras mídias. Aplicativos compatíveis com o formato OpenDocument, como OpenOffice e StarOffice, podem abrir arquivos ODP.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

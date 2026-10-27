@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Scal pliki PPSX przez .NET
 weight: 6100
@@ -99,7 +99,7 @@ var ps1 = new Presentation("presen1.ppsx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+Plik PPSX to pokaz slajdów PowerPoint w formacie Open XML utworzony w Microsoft PowerPoint 2007 lub nowszym. Jest następcą formatu PPS używanego przez PowerPoint 97–2003 w wersji Open XML. W przeciwieństwie do pliku PPTX, który domyślnie otwiera się w trybie edycji, plik PPSX otwiera się od razu jako pokaz slajdów. Zachowuje kolejność slajdów prezentacji i może zawierać obrazy, dźwięk i inne osadzone multimedia.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

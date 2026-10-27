@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Egyesítse a PPTM-fájlokat .NET-en keresztül
 weight: 5580
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pptm");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+A `.PPTM` kiterjesztésű fájlok makrókat támogató bemutatófájlok, amelyeket a Microsoft PowerPoint 2007 vezetett be. Hasonlítanak a PPTX-fájlokhoz, de a PPTM-fájlok VBA-makrókódot is tárolhatnak, a PPTX-fájlok viszont nem. A PPTM-fájlok megnyithatók és szerkeszthetők a Microsoft PowerPointban. A rokon PPSM formátum alapértelmezés szerint diavetítés nézetben nyílik meg, de a PowerPointban szerkesztésre is megnyitható. A PPTX-fájlokhoz hasonlóan a PPTM-fájlok is tartalmazhatnak szöveget, képeket, videókat, diagramokat és egyéb bemutatótartalmat.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

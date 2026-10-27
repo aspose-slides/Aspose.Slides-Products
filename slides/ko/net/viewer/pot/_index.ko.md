@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 POT 보기
 keywords: POT 보기, POT 열기, POT 뷰어, POT, PowerPoint, C# API, .NET 라이브러리
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+확장자가 .POT인 파일은 바이너리 형식의 Microsoft PowerPoint 프레젠테이션 템플릿입니다. 이 형식은 PowerPoint 97-2003 파일 형식 제품군에 속합니다. POT 파일은 새 프레젠테이션을 만들기 위한 재사용 가능한 슬라이드 레이아웃, 테마, 스타일, 배경, 색 구성표, 글꼴 및 기타 서식을 저장합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

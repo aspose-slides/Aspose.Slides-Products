@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων PPS μέσω C++
 weight: 8570
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pps);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+Το PPS (προβολή διαφανειών PowerPoint) είναι η δυαδική μορφή προβολής διαφανειών που χρησιμοποιεί το PowerPoint 97–2003. Το PPSX είναι η νεότερη μορφή προβολής διαφανειών που βασίζεται στο πρότυπο Office Open XML. Οι τρέχουσες εκδόσεις του PowerPoint ανοίγουν αρχεία PPS και μπορούν ακόμη να αποθηκεύουν παρουσιάσεις σε μορφή PPS. Όταν ανοίγει κανονικά, ένα αρχείο PPS ξεκινά σε λειτουργία προβολής διαφανειών, ενώ ένα αρχείο PPT ανοίγει σε λειτουργία επεξεργασίας.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

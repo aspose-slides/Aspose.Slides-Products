@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: Εξαγωγή κειμένου από παρουσιάσεις PPTX με C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+Ένα αρχείο PPTX είναι αρχείο παρουσίασης Microsoft PowerPoint σε μορφή Open XML. Αποθηκεύει διαφάνειες, κείμενο, εικόνες, μορφοποίηση, κινούμενα εφέ και άλλο περιεχόμενο παρουσίασης σε ένα συμπιεσμένο πακέτο βασισμένο σε XML.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

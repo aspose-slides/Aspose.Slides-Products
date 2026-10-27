@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 OTP 보기
 keywords: OTP 보기, OTP 열기, OTP 뷰어, OTP, C# API, .NET 라이브러리
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+확장자가 `.OTP`인 파일은 OpenDocument 프레젠테이션 템플릿입니다. 일관된 디자인으로 새 프레젠테이션을 만들 수 있도록 재사용 가능한 레이아웃, 스타일, 서식, 배경 및 기타 콘텐츠를 저장합니다. OTP 파일은 OpenDocument Format (ODF)을 지원하는 애플리케이션에서 만들고 열 수 있습니다. 이 형식은 Microsoft PowerPoint 템플릿 형식인 POT 및 POTX에 해당합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# ile ODP görüntüleme
 keywords: ODP görüntüle, ODP aç, ODP görüntüleyici, ODP, C# API, .NET kütüphanesi
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+`.ODP` uzantılı dosyalar, OASIS OpenDocument standardında tanımlanan OpenDocument Presentation biçimini kullanır. Bir ODP dosyası; metin, görüntü, biçimlendirme, animasyon ve diğer medyaları içerebilen slaytlardan oluşur. LibreOffice Impress ve Apache OpenOffice Impress gibi OpenDocument sunularını destekleyen uygulamalar ODP dosyalarını açabilir.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

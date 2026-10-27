@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2290
 title: Извлечение текста из презентаций PPTX на C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-A PPTX file is a Microsoft PowerPoint Open XML presentation file. It stores slides, text, images, formatting, animations, and other presentation content in a zipped XML-based package.
+Файл PPTX — это файл презентации Microsoft PowerPoint в формате Open XML. Он хранит слайды, текст, изображения, форматирование, анимацию и другое содержимое презентации в сжатом пакете на основе XML.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

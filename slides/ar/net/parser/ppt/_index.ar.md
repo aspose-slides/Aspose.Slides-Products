@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 70
 title: استخراج النص من ملفات PPT باستخدام .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation in the binary file format. It contains slides with text, bulleted lists, images, multimedia, and embedded OLE objects. Newer versions of PowerPoint use the Office Open XML-based PPTX format. Applications such as OpenOffice Impress and Apple Keynote can also create PPT files.
+ملف PPT هو عرض تقديمي من Microsoft PowerPoint 97-2003 بتنسيق الملفات الثنائي. يحتوي على شرائح بها نصوص وقوائم نقطية وصور ووسائط متعددة وكائنات OLE مضمنة. تستخدم إصدارات PowerPoint الأحدث تنسيق PPTX المبني على Office Open XML. ويمكن لتطبيقات مثل OpenOffice Impress وApple Keynote إنشاء ملفات PPT أيضًا.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

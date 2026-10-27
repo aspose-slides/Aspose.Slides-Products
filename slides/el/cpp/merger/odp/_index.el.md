@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Συγχώνευση αρχείων ODP μέσω C++
 weight: 7420
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Odp);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+Τα αρχεία με επέκταση `.ODP` χρησιμοποιούν τη μορφή OpenDocument Presentation που ορίζεται από το πρότυπο OASIS OpenDocument. Ένα αρχείο ODP περιέχει μια συλλογή διαφανειών που μπορούν να περιλαμβάνουν κείμενο, εικόνες, μορφοποίηση, κινούμενα εφέ και άλλα πολυμέσα. Εφαρμογές που υποστηρίζουν παρουσιάσεις OpenDocument, όπως το LibreOffice Impress και το Apache OpenOffice Impress, μπορούν να ανοίξουν αρχεία ODP.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: Ekstrak Teks dari File PPTX menggunakan .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+File PPTX adalah presentasi yang dibuat dengan Microsoft PowerPoint. Berbeda dengan format biner PPT, PPTX menggunakan format Office Open XML. Presentasi berisi slide dengan teks, gambar, pemformatan, animasi, dan media lainnya yang ditampilkan sebagai tayangan slide.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

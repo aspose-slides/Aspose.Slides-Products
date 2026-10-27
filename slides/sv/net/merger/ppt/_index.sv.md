@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Slå samman PPT-filer via .NET
 weight: 7610
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppt");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+En fil med filändelsen .ppt är en PowerPoint-presentation med en samling bilder som ska visas i ett bildspel. Den använder det binära filformat som stöds av Microsoft PowerPoint 97–2003. En PPT-fil kan innehålla flera typer av innehåll, till exempel text, punktlistor, foton, multimedia och andra inbäddade OLE-objekt. Från och med PowerPoint 2007 införde Microsoft det nyare PPTX-formatet, som bygger på Office Open XML i stället för detta binära format. Även andra program, till exempel OpenOffice Impress och Apple Keynote, kan skapa PPT-filer.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

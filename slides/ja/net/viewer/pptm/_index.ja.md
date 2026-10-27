@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C# で PPTM を表示
 keywords: PPTM 表示, PPTM を開く, PPTM ビューアー, PPTM, PowerPoint, C# API, .NET ライブラリ
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+拡張子 `.PPTM` のファイルは、Microsoft PowerPoint 2007 で導入されたマクロ対応のプレゼンテーション ファイルです。PPTX ファイルに似ていますが、PPTM ファイルは VBA マクロ コードを格納でき、PPTX ファイルは格納できません。PPTM ファイルは Microsoft PowerPoint で開いて編集できます。関連する PPSM 形式は既定でスライド ショー ビューで開きますが、PowerPoint で開いて編集することもできます。PPTX ファイルと同様に、PPTM ファイルにはテキスト、画像、動画、グラフ、その他のプレゼンテーション コンテンツを含めることができます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

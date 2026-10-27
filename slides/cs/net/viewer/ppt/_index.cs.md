@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Zobrazení PPT v C#
 keywords: Zobrazit PPT, Otevřít PPT, Prohlížeč PPT, PPT, PowerPoint, C# API, Knihovna .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow. It specifies the Binary File Format used by Microsoft PowerPoint 97-2003. A PPT file can contain several different types of information such as text, bulleted points, images, multimedia and other embedded OLE objects. Microsoft came up with newer file format for PowerPoint, known as PPTX, from 2007 onwards that is based on Office OpenXML and is different from this binary file format. Several other application programs such as OpenOffice Impress and Apple Keynote can also create PPT files.
+Soubor s příponou .ppt je prezentace PowerPoint obsahující sadu snímků k promítání. Používá binární formát souborů podporovaný aplikací Microsoft PowerPoint 97–2003. Soubor PPT může obsahovat různé typy obsahu, například text, odrážkové seznamy, obrázky, multimédia a další vložené objekty OLE. Od verze PowerPoint 2007 Microsoft zavedl novější formát PPTX, který místo tohoto binárního formátu vychází z Office Open XML. Soubory PPT mohou vytvářet i jiné aplikace, například OpenOffice Impress a Apple Keynote.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 .NET 編輯 PPSX 文件
 url: /zh-hant/net/editor/ppsx/ 
@@ -77,7 +77,7 @@ presentation.Save("document.ppsx", SaveFormat.Ppsx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+副檔名為 PPSX 的檔案是 Open XML 格式的 PowerPoint 投影片放映檔。它們會直接以投影片放映的方式開啟，並且可以包含投影片、文字、影像、多媒體和格式。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

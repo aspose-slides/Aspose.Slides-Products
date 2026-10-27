@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET के माध्यम से पीओटी फाइलों को संपादित करें
 url: /hi/net/editor/pot/ 
@@ -77,7 +77,7 @@ presentation.Save("document.pot", SaveFormat.Pot);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+POT एक्सटेंशन वाली फ़ाइलें PowerPoint 97-2003 टेम्पलेट फ़ाइलें हैं। ये स्लाइड लेआउट, स्टाइल, बैकग्राउंड, फ़ॉन्ट और अन्य टेम्पलेट सेटिंग्स संग्रहीत करती हैं, जिनसे नए प्रेज़ेंटेशन बनाए जा सकते हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

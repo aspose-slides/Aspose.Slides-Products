@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2780
 title: แยกข้อความจากงานนำเสนอ PPT ด้วย C++
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.
+ไฟล์ PPT คือไฟล์งานนำเสนอ Microsoft PowerPoint 97-2003 ไฟล์นี้จัดเก็บสไลด์ ข้อความ รูปภาพ มัลติมีเดีย และวัตถุฝังตัวในรูปแบบไฟล์ไบนารีของ PowerPoint ที่ใช้ก่อนรูปแบบ Open XML อย่าง PPTX
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

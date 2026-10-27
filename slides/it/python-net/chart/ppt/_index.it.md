@@ -1,166 +1,83 @@
 ---
-lastmod: 2023-06-01
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
-title: Crea grafico nei file di presentazione PPT utilizzando Python
+title: Creare grafici in presentazioni PPT con Python
 url: /it/python-net/chart/ppt/
-keywords: Crea grafico, crea grafico sparso, crea grafico a torta, crea grafico ad albero, crea grafico azionario, crea grafico a scatola e baffi, crea grafico istogramma, crea grafico a imbuto, grafico sunburst, grafico multicategoria, presentazione PowerPoint, Python
-description: Python codice sorgente per creare un grafico in PPT Presentazione.
+description: Crea e personalizza grafici in presentazioni PPT con Python e Aspose.Slides for Python via .NET.
+keywords: creare grafico, creare grafico a dispersione, creare grafico a torta, creare grafico treemap, creare grafico azionario, creare grafico box and whisker, creare istogramma, creare grafico a imbuto, grafico sunburst, grafico multicategoria, presentazione PowerPoint, Python
+slides_design_update_10_2026: true
 ---
 
-{{< blocks/products/pf/main-wrap-class isAutogenPage="true">}}
-{{< blocks/products/pf/upper-banner h1="Aggiungi grafico e diagramma di PowerPoint a PPT utilizzando Python" h2="Crea le tue app Python per creare grafici completamente personalizzabili nei file di presentazione utilizzando le API lato server. Scopri come aggiungere nuove serie e categorie al grafico." logoImageSrc="https://www.aspose.cloud/templates/aspose/img/products/slides/aspose_slides-for-python.svg" sourceAdditionalConversionTag="" additionalConversionTag="PPT" pfName="Aspose.Slides" subTitlepfName="for Python via .NET" downloadUrl="" fileiconsmall1="PPT" fileiconsmall2="PPTX" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/page >}}
 
-{{< blocks/products/pf/main-container pfName="Aspose.Slides " subTitlepfName="for Python via .NET" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/hero h1="Creare grafici in presentazioni PPT con Python" h2="Sviluppa applicazioni Python che creano grafici di presentazione personalizzabili con categorie, serie di dati, etichette e formattazione personalizzate." related="PPTX" >}}
 
-{{% blocks/products/pf/feature-page-section  h2="Aggiungi il grafico a torta alla presentazione in PPT tramite Python" %}}
-I grafici a torta vengono utilizzati per mostrare la relazione parte-tutto nei dati, in particolare quando i dati contengono etichette categoriali con valori numerici. Aspose.Slides for Python via .NET fornisce una potente API per la creazione di grafici a torta nelle presentazioni PowerPoint. Puoi trovare ulteriori informazioni sulla personalizzazione dei grafici a torta utilizzando Aspose.Slides per l'API Python in questo [link](https://docs.aspose.com/slides/python-net/pie-chart/).
-{{% blocks/products/pf/agp/code-block title="L'esempio di codice seguente mostra come creare un grafico a torta in PowerPoint PPT in Python." offSpacer="true" %}}
+{{% blocks/products/pf/slides-design-update-10-2026/section h2="Creare un grafico a torta in una presentazione PPT con Python" variant="code" %}}
 
-```py
+[Aspose.Slides for Python via .NET](/slides/it/python-net/) consente di creare un grafico a torta, sostituirne le categorie e le serie predefinite e personalizzarne etichette e colori. I grafici a torta sono ideali per mostrare come poche categorie numeriche contribuiscono a un totale. Per altre opzioni, vedi [Personalizzare i grafici a torta nelle presentazioni](https://docs.aspose.com/slides/python-net/pie-chart/).
 
-import aspose.slides as slides
-import aspose.pydrawing as drawing
-
-# Create presentation (or load existing one) 
+{{< blocks/products/pf/slides-design-update-10-2026/code title="Creare un grafico a torta in una presentazione PPT con Python" >}}
+```python
 with slides.Presentation() as presentation:
-
-    # Access first slide
     slide = presentation.slides[0]
-
-    # Add chart with default data
     chart = slide.shapes.add_chart(slides.charts.ChartType.PIE, 100, 100, 400, 400)
 
-    # Set chart title
-    chart.chart_title.add_text_frame_for_overriding("Sample Title")
-    chart.chart_title.text_frame_for_overriding.text_frame_format.center_text = slides.NullableBool(True)
-    chart.chart_title.height = 20
     chart.has_title = True
+    chart.chart_title.add_text_frame_for_overriding("Quarterly Sales")
+    chart.chart_title.height = 20
 
-    # Set first series to show values
-    chart.chart_data.series[0].labels.default_data_label_format.show_value = True
-
-    # Set the index of chart data sheet
-    defaultWorksheetIndex = 0
-
-    # Get the chart data worksheet
-    fact = chart.chart_data.chart_data_workbook
-
-    # Delete default generated series and categories
+    worksheet_index = 0
+    workbook = chart.chart_data.chart_data_workbook
     chart.chart_data.series.clear()
     chart.chart_data.categories.clear()
 
-    # Add new categories
-    chart.chart_data.categories.add(fact.get_cell(0, 1, 0, "First Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 2, 0, "2nd Qtr"))
-    chart.chart_data.categories.add(fact.get_cell(0, 3, 0, "3rd Qtr"))
+    categories = ("First Quarter", "Second Quarter", "Third Quarter")
+    values = (20, 50, 30)
 
-    # Add new series
-    series = chart.chart_data.series.add(fact.get_cell(0, 0, 1, "Series 1"), chart.type)
+    for row_index, category in enumerate(categories, start=1):
+        category_cell = workbook.get_cell(worksheet_index, row_index, 0, category)
+        chart.chart_data.categories.add(category_cell)
 
-    # Populate series data
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 1, 1, 20))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 2, 1, 50))
-    series.data_points.add_data_point_for_pie_series(fact.get_cell(defaultWorksheetIndex, 3, 1, 30))
+    series_name_cell = workbook.get_cell(worksheet_index, 0, 1, "Sales")
+    series = chart.chart_data.series.add(series_name_cell, chart.type)
 
-    # Add new points and set sector color
-    chart.chart_data.series_groups[0].is_color_varied = True
+    for row_index, value in enumerate(values, start=1):
+        value_cell = workbook.get_cell(worksheet_index, row_index, 1, value)
+        series.data_points.add_data_point_for_pie_series(value_cell)
 
-    point = series.data_points[0]
-    point.format.fill.fill_type = slides.FillType.SOLID
-    point.format.fill.solid_fill_color.color = drawing.Color.orange
+    series.labels.default_data_label_format.show_percentage = True
+    series.parent_series_group.is_color_varied = True
+    series.parent_series_group.first_slice_angle = 180
 
-    # Set sector border
-    point.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point.format.line.fill_format.solid_fill_color.color = drawing.Color.gray
-    point.format.line.width = 3.0
+    fill_colors = (drawing.Color.orange, drawing.Color.blue_violet, drawing.Color.yellow_green)
 
+    for data_point_index, fill_color in enumerate(fill_colors):
+        data_point = series.data_points[data_point_index]
+        data_point.format.fill.fill_type = slides.FillType.SOLID
+        data_point.format.fill.solid_fill_color.color = fill_color
 
-    point1 = series.data_points[1]
-    point1.format.fill.fill_type = slides.FillType.SOLID
-    point1.format.fill.solid_fill_color.color = drawing.Color.blue_violet
-
-    # Set sector border
-    point1.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point1.format.line.fill_format.solid_fill_color.color = drawing.Color.blue
-    point1.format.line.width = 3.0
-    # point1.format.line.style = slides.LineStyle.SINGLE
-    # point1.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT
-
-    point2 = series.data_points[2]
-    point2.format.fill.fill_type = slides.FillType.SOLID
-    point2.format.fill.solid_fill_color.color = drawing.Color.yellow_green
-
-    # Set sector border
-    point2.format.line.fill_format.fill_type = slides.FillType.SOLID
-    point2.format.line.fill_format.solid_fill_color.color = drawing.Color.red
-    point2.format.line.width = 2.0
-    # point2.format.line.style = slides.LineStyle.THIN_THIN
-    # point2.format.line.dash_style = slides.LineDashStyle.LARGE_DASH_DOT_DOT
-
-    # Create custom labels for each of categories for new series
-    lbl1 = series.data_points[0].label
-
-    # lbl.show_category_name = True
-    lbl1.data_label_format.show_value = True
-
-    lbl2 = series.data_points[1].label
-    lbl2.data_label_format.show_value = True
-    lbl2.data_label_format.show_legend_key = True
-    lbl2.data_label_format.show_percentage = True
-
-    lbl3 = series.data_points[2].label
-    lbl3.data_label_format.show_series_name = True
-    lbl3.data_label_format.show_percentage = True
-
-    # Show leader lines for chart
-    # series.labels.default_data_label_format.show_leader_lines = True
-
-    # Set rotation angle for pie chart sectors
-    chart.chart_data.series_groups[0].first_slice_angle = 180
-
-    # Save presentation
     presentation.save("pie-chart.ppt", slides.export.SaveFormat.PPT)
-
 ```
+{{< /blocks/products/pf/slides-design-update-10-2026/code >}}
 
-{{% /blocks/products/pf/agp/code-block %}}
+{{% /blocks/products/pf/slides-design-update-10-2026/section %}}
 
-{{% /blocks/products/pf/feature-page-section %}}
+{{< blocks/products/pf/slides-design-update-10-2026/steps title="Come creare e personalizzare un grafico a torta in PPT con Python" intro="Segui questi passaggi per aggiungere un grafico a torta a una presentazione PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Crea un’istanza di `Presentation` e accedi alla diapositiva desiderata tramite una variabile `slide`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chiama `add_chart` con `ChartType.PIE` per aggiungere un grafico a torta alla diapositiva.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Usa `chart_data_workbook` per sostituire le categorie e le serie predefinite, quindi configura etichette, colori e `first_slice_angle`.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< blocks/products/pf/slides-design-update-10-2026/step >}}Chiama `save` con `SaveFormat.PPT` per scrivere la presentazione in formato PPT.{{< /blocks/products/pf/slides-design-update-10-2026/step >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/steps >}}
 
-{{< blocks/products/pf/feature-page-section  h2="Come creare e personalizzare un grafico a torta in PPT tramite Python" >}}
+{{< blocks/products/pf/slides-design-update-10-2026/chart-app label="Realizzato con Aspose.Slides" title="Creare grafici PPT online" description="L'app gratuita Aspose.Slides Chart è realizzata con [Aspose.Slides for Python via .NET](https://products.aspose.com/slides/it/python-net/), la stessa API del codice sopra. Aprila e scopri cosa può fare l'API con i tuoi file PPT." button="Apri Aspose.Slides Chart" note="[Tutte le app gratuite](https://products.aspose.app/slides/family)" >}}
+- Funziona nel browser, senza installare nulla.
+- Scopri come Aspose.Slides crea i grafici prima di scrivere codice.
+- Crea un grafico da dati Excel o da una tabella.
+- Scaricalo come file PPT o come immagine.
+{{< /blocks/products/pf/slides-design-update-10-2026/chart-app >}}
 
-{{< blocks/products/pf/agp/steps-block-autogen name="Questi sono i passaggi per aggiungere un grafico a torta ai file PPT." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversions title="Altri formati supportati per i grafici" subTitle="Con Python, puoi creare grafici anche in altri formati." >}}
+{{< blocks/products/pf/slides-design-update-10-2026/other-conversion href="/slides/it/python-net/chart/pptx/" name="PPTX" >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/other-conversions >}}
 
-{{< blocks/products/pf/agp/step-autogen >}}
-Per prima cosa, crea un'istanza della classe Presentation PPT.
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Aggiungi un grafico a torta con i dati predefiniti utilizzando il metodo add_chart(...).
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Configurare le proprietà necessarie del grafico a torta (impostare il titolo del grafico, modificare i dati del grafico, applicare la formattazione a serie e categorie)
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< blocks/products/pf/agp/step-autogen >}}
-Salva il risultato nel formato PPT
-{{< /blocks/products/pf/agp/step-autogen >}}
-
-{{< /blocks/products/pf/agp/steps-block-autogen >}}
-
-{{< /blocks/products/pf/feature-page-section >}}
-
-{{< blocks/products/pf/agp/demobox sectionTitle="Online PPT Crea grafici Demo dal vivo" sectionDescription="Crea grafici online" >}}
-{{< /blocks/products/pf/agp/demobox >}}
-
-{{< blocks/products/pf/agp/other-supported-section title="Altri formati supportati" subTitle="Utilizzando Python, puoi anche aggiungere grafici ai seguenti formati:" >}}
-
-{{< blocks/products/pf/agp/other-supported-section-item href="https://products.aspose.com/slides/it/python-net/chart/pptx/" name="PPTX" >}}
-
-
-{{< /blocks/products/pf/agp/other-supported-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-    
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/slides-design-update-10-2026/page >}}

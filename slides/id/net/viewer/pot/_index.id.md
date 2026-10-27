@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Lihat POT di C#
 keywords: Lihat POT, Buka POT, Penampil POT, POT, PowerPoint, API C#, Pustaka .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POT" readMoreLink="https://docs.fileformat.com/presentation/pot/" %}}
 
-Files with .POT extension represent Microsoft PowerPoint template files created by PowerPoint 97-2003 versions. Files created with these versions of Microsoft PowerPoint are in binary format as compared to those created in Office OpenXML file formats using the higher versions of PowerPoint. The files, hence, generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+File dengan ekstensi .POT adalah templat presentasi Microsoft PowerPoint berformat biner. Format ini termasuk dalam keluarga format file PowerPoint 97-2003. File POT menyimpan tata letak slide, tema, gaya, latar belakang, skema warna, font, dan pemformatan lain yang dapat digunakan ulang untuk membuat presentasi baru.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

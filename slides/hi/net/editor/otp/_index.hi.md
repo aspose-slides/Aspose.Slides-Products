@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET के माध्यम से ओटीपी फाइलों को संपादित करें
 url: /hi/net/editor/otp/ 
@@ -77,7 +77,7 @@ presentation.Save("document.otp", SaveFormat.Otp);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="OTP" readMoreLink="https://docs.fileformat.com/presentation/otp/" %}}
 
-Files with .OTP extension represent presentation template files created by applications in OASIS OpenDocument standard format. The contents of such a file include presentation information in the form of slides with text, images, shapes, multimedia content, transition effects and other slide elements. These template files are used for creating new presentations quickly based on the styling information stored in the template itself. OTP files can be created and saved with several different applications such as Impress that comes with OpenOffice suite and Microsoft PowerPoint. The OTP file format is similar to Microsoft PowerPoint template files .POT and .POTX.
+OTP एक्सटेंशन वाली फ़ाइलें OpenDocument प्रेज़ेंटेशन टेम्पलेट हैं। ये स्लाइड लेआउट, स्टाइल और प्रेज़ेंटेशन सामग्री संग्रहीत करती हैं, जिनसे नए प्रेज़ेंटेशन बनाए जा सकते हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

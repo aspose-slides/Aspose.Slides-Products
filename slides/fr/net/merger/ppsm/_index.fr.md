@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des fichiers PPSM via .NET
 weight: 3860
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.ppsm");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" %}}
 
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
+Les fichiers portant l’extension PPSM sont des diaporamas prenant en charge les macros, introduits avec Microsoft PowerPoint 2007. Contrairement à PPTM, PPSM s’ouvre par défaut en mode diaporama. Ce mode d’ouverture par défaut n’est pas une protection du fichier : un fichier PPSM peut aussi être ouvert dans Microsoft PowerPoint pour être modifié.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

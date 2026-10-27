@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 PPSM 보기
 keywords: PPSM 보기, PPSM 열기, PPSM 뷰어, PPSM, PowerPoint, C# API, .NET 라이브러리
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" %}}
 
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
+확장자가 PPSM인 파일은 Microsoft PowerPoint 2007과 함께 도입된 매크로 지원 슬라이드 쇼 파일입니다. PPTM과 달리 PPSM은 기본적으로 슬라이드 쇼 보기로 열립니다. 이 기본 열기 모드는 파일 보호 기능이 아니므로 PPSM 파일을 Microsoft PowerPoint에서 열어 편집할 수도 있습니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

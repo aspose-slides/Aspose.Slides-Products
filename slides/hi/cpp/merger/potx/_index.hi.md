@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: सी ++ के माध्यम से पीओटीएक्स फाइलों को मर्ज करें
 weight: 1280
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Potx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+.POTX एक्सटेंशन वाली फ़ाइलें Open XML फ़ॉर्मैट में Microsoft PowerPoint प्रेज़ेंटेशन टेम्पलेट हैं। बाइनरी POT फ़ॉर्मैट के विपरीत, POTX Office Open XML मानक पर आधारित है। POTX फ़ाइलें नए प्रेज़ेंटेशन बनाने के लिए दोबारा उपयोग किए जा सकने वाले स्लाइड लेआउट, थीम, स्टाइल, बैकग्राउंड, कलर स्कीम, फ़ॉन्ट और अन्य फ़ॉर्मैटिंग संग्रहीत करती हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: دمج ملفات POTM عبر C ++
 weight: 7950
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Potm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+الملفات ذات الامتداد `.POTM` هي قوالب Microsoft PowerPoint تدعم وحدات الماكرو، وقد ظهرت مع PowerPoint 2007. يمكنها تخزين إعدادات عرض قابلة لإعادة الاستخدام، مثل التخطيطات والأنماط والخلفيات ولوحات الألوان والخطوط والتنسيق الافتراضي ووحدات ماكرو VBA. ويمكن لـ PowerPoint 2007 والإصدارات الأحدث فتح ملفات POTM وتحريرها.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

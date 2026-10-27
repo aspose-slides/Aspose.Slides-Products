@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Προβολή PPSX σε C#
 keywords: Προβολή PPSX, Άνοιγμα PPSX, Πρόγραμμα προβολής PPSX, PPSX, PowerPoint, C# API, Βιβλιοθήκη .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+Ένα αρχείο PPSX είναι προβολή διαφανειών PowerPoint σε μορφή Open XML, που δημιουργείται με το Microsoft PowerPoint 2007 ή νεότερο. Είναι ο διάδοχος σε Open XML της μορφής PPS που χρησιμοποιεί το PowerPoint 97–2003. Σε αντίθεση με ένα αρχείο PPTX, που από προεπιλογή ανοίγει σε λειτουργία επεξεργασίας, ένα αρχείο PPSX ξεκινά απευθείας ως προβολή διαφανειών. Διατηρεί τη σειρά των διαφανειών και μπορεί να περιέχει εικόνες, ήχο και άλλα ενσωματωμένα πολυμέσα.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

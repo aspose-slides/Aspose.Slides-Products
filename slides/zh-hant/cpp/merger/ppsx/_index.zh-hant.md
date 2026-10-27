@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 C++ 合併 PPSX 文件
 weight: 6970
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Ppsx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSX" readMoreLink="https://docs.fileformat.com/presentation/ppsx/" %}}
 
-PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose. It is an update to the PPS file format that was supported by Microsoft PowerPoint 97-2003 versions. When a PPSX file is shared with another user and opened, it starts as PowerPoint show unlike PPTX file that opens in editable mode. The sequence of slide show is the same as in the original presentation. All the slides accompany the images, sounds and other embedded media accompany the presentation slides to the PPSX during the slideshow.
+PPSX 檔案是以 Microsoft PowerPoint 2007 或更新版本建立的 Open XML 格式 PowerPoint 投影片放映檔。它是 PowerPoint 97–2003 所用 PPS 格式以 Open XML 為基礎的後繼格式。與預設在編輯模式下開啟的 PPTX 檔案不同，PPSX 檔案會直接以投影片放映的方式開啟。它保留簡報的投影片順序，並可包含影像、音訊和其他內嵌媒體。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

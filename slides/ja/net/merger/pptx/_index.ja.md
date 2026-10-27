@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NETを介してPPTXファイルをマージする
 weight: 3150
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pptx");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application. Unlike the previous version of presentation file format PPT which was binary, the PPTX format is based on the Microsoft PowerPoint open XML presentation file format. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings.
+拡張子 `.PPTX` のファイルは、PowerPoint 2007 で導入された PowerPoint Open XML プレゼンテーション形式を使用します。従来のバイナリ形式の PPT とは異なり、PPTX はプレゼンテーション データを Office Open XML パッケージに格納します。PPTX ファイルには、テキスト、画像、書式、アニメーション、その他のメディアを含むスライドの集まりと、プレゼンテーションの設定が格納されます。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

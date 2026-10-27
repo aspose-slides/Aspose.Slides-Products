@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 70
 title: 使用 .NET 從 PPT 檔案擷取文字
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation in the binary file format. It contains slides with text, bulleted lists, images, multimedia, and embedded OLE objects. Newer versions of PowerPoint use the Office Open XML-based PPTX format. Applications such as OpenOffice Impress and Apple Keynote can also create PPT files.
+PPT 檔案是採用二進位檔案格式的 Microsoft PowerPoint 97-2003 簡報。它包含帶有文字、項目符號清單、影像、多媒體和內嵌 OLE 物件的投影片。較新的 PowerPoint 版本使用以 Office Open XML 為基礎的 PPTX 格式。OpenOffice Impress 和 Apple Keynote 等應用程式也可以建立 PPT 檔案。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

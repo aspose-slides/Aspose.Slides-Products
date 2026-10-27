@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 2780
 title: C++ से PPT प्रेज़ेंटेशन से टेक्स्ट निकालें
@@ -83,7 +83,7 @@ presentation->Dispose();
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation file. It stores slides, text, images, multimedia, and embedded objects in the binary PowerPoint file format used before the Open XML PPTX format.
+PPT फ़ाइल एक Microsoft PowerPoint 97-2003 प्रेज़ेंटेशन फ़ाइल है। यह स्लाइड्स, टेक्स्ट, इमेज, मल्टीमीडिया और एम्बेड किए गए ऑब्जेक्ट को PowerPoint के उस बाइनरी फ़ाइल फ़ॉर्मैट में संग्रहीत करती है, जिसका उपयोग Open XML आधारित PPTX फ़ॉर्मैट से पहले होता था।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

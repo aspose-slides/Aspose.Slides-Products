@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: C#에서 POTX 보기
 keywords: POTX 보기, POTX 열기, POTX 뷰어, POTX, PowerPoint, C# API, .NET 라이브러리
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+확장자가 .POTX인 파일은 Open XML 형식의 Microsoft PowerPoint 프레젠테이션 템플릿입니다. 바이너리 형식인 POT와 달리 POTX는 Office Open XML 표준을 기반으로 합니다. POTX 파일은 새 프레젠테이션을 만들기 위한 재사용 가능한 슬라이드 레이아웃, 테마, 스타일, 배경, 색 구성표, 글꼴 및 기타 서식을 저장합니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

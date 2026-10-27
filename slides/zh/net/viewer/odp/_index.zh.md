@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 使用 C# 查看 ODP
 keywords: 查看 ODP, 打开 ODP, ODP 查看器, ODP, C# API, .NET 库
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+扩展名为 `.ODP` 的文件使用由 OASIS OpenDocument 标准定义的 OpenDocument Presentation 格式。ODP 文件包含一组幻灯片，可包括文本、图像、格式、动画和其他媒体。支持 OpenDocument 演示文稿的应用程序（例如 LibreOffice Impress 和 Apache OpenOffice Impress）可以打开 ODP 文件。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

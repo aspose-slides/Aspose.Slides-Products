@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 70
 title: .NET से PPT फ़ाइलों से टेक्स्ट निकालें
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPT" readMoreLink="https://docs.fileformat.com/presentation/ppt/" %}}
 
-A PPT file is a Microsoft PowerPoint 97-2003 presentation in the binary file format. It contains slides with text, bulleted lists, images, multimedia, and embedded OLE objects. Newer versions of PowerPoint use the Office Open XML-based PPTX format. Applications such as OpenOffice Impress and Apple Keynote can also create PPT files.
+PPT फ़ाइल बाइनरी फ़ाइल फ़ॉर्मैट में एक Microsoft PowerPoint 97-2003 प्रेज़ेंटेशन है। इसमें टेक्स्ट, बुलेट सूचियों, इमेज, मल्टीमीडिया और एम्बेड किए गए OLE ऑब्जेक्ट वाली स्लाइड्स होती हैं। नए PowerPoint संस्करण Office Open XML पर आधारित PPTX फ़ॉर्मैट का उपयोग करते हैं। OpenOffice Impress और Apple Keynote जैसे ऐप्लिकेशन भी PPT फ़ाइलें बना सकते हैं।
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

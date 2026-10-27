@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1000
 title: Trích xuất văn bản từ tài liệu PPTX bằng Java
@@ -98,7 +98,7 @@ try {
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-Files with the PPTX extension use the Office Open XML presentation format. A PPTX file stores slides that can contain text, images, formatting, animations, and other presentation content.
+Các tệp có phần mở rộng PPTX sử dụng định dạng bản trình bày Office Open XML. Tệp PPTX lưu trữ các trang chiếu có thể chứa văn bản, hình ảnh, định dạng, hiệu ứng động và nội dung trình bày khác.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

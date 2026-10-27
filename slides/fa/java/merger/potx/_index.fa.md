@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: ادغام فایل های POTX از طریق جاوا
 weight: 4290
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.potx", SaveFormat.Potx);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTX" readMoreLink="https://docs.fileformat.com/presentation/potx/" %}}
 
-Files with .POTX extension represent Microsoft PowerPoint template presentations that are created with Microsoft PowerPoint 2007 and above. This format was created to replace the POT file format that is based on the binary file format and is supported with PowerPoint 97-2003. The files generated can be used to create presentations that have same layout and other settings required to be applied to new files. These settings can include styles, backgrounds, colour palette, fonts and defaults. Such files are generated in order to create ready-to-use template files for official use.
+فایل‌هایی با پسوند `.POTX` قالب‌های ارائه Microsoft PowerPoint هستند که با PowerPoint 2007 و نسخه‌های بعدی ساخته می‌شوند. فایل `POTX` می‌تواند چیدمان‌ها، سبک‌ها، تم‌ها، پس‌زمینه‌ها، فونت‌ها و مقادیر پیش‌فرض را برای ساخت ارائه‌های جدید ذخیره کند.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

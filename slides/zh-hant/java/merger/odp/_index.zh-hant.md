@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: 通過 Java 合併 ODP 文件
 weight: 2500
@@ -100,7 +100,7 @@ prest1.save("merged-presentation.odp", SaveFormat.Odp);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="ODP" readMoreLink="https://docs.fileformat.com/presentation/odp/" %}}
 
-Files with ODP extension represent presentation file format used by OpenOffice.org in the OASISOpen standard. A presentation file is a collection of slides where each slide can comprise of text, images, formatting, animations, and other media. These slides are presented to audience in the form of slideshows with custom presentation settings. ODP files can be opened by applications that conform to the OpenDocument format (such as OpenOffice or StarOffice).
+副檔名為 `ODP` 的檔案使用 OpenDocument Presentation 格式，OpenOffice 和其他支援 OpenDocument 標準的應用程式都使用此格式。`ODP` 簡報包含帶有文字、影像、格式、動畫和其他媒體的投影片。
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

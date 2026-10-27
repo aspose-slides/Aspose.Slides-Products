@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-23
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: عرض ملفات PPSM باستخدام C#
 keywords: عرض PPSM, فتح PPSM, عارض PPSM, PPSM, PowerPoint, C# API, مكتبة .NET
@@ -83,7 +83,7 @@ presentation.Save("output.html", SaveFormat.Html, htmlOptions);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPSM" readMoreLink="https://docs.fileformat.com/presentation/ppsm/" %}}
 
-Files with PPSM extension represent Macro-enabled Slide Show file format created with Microsoft PowerPoint 2007 or higher. Another similar file format is PPTM which differs in opening with Microsoft PowerPoint in editable format instead of running as Slide Show. When run as slide show, the PPSM file shows the presentation slides with contents intact in the slide show and is in read-only mode by default. PPSM files can still be edited in Microsoft PowerPoint by opening it in PowerPoint.
+الملفات ذات الامتداد PPSM هي ملفات عرض شرائح تدعم وحدات الماكرو، وقد ظهرت مع Microsoft PowerPoint 2007. وعلى خلاف PPTM، يُفتح PPSM افتراضيًا في طريقة عرض الشرائح. وهذا الوضع الافتراضي للفتح ليس حماية للملف، إذ يمكن أيضًا فتح ملف PPSM في Microsoft PowerPoint لتحريره.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-10-25
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 weight: 1480
 title: Wyodrębnianie tekstu z plików PPTX w .NET
@@ -87,7 +87,7 @@ foreach (var textFrame in textFrames)
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTX" readMoreLink="https://docs.fileformat.com/presentation/pptx/" %}}
 
-PPTX files are presentations created with Microsoft PowerPoint. Unlike the binary PPT format, PPTX uses the Office Open XML format. A presentation contains slides with text, images, formatting, animations, and other media that are shown as a slideshow.
+Pliki PPTX to prezentacje tworzone w Microsoft PowerPoint. W przeciwieństwie do binarnego formatu PPT format PPTX używa formatu Office Open XML. Prezentacja zawiera slajdy z tekstem, obrazami, formatowaniem, animacjami i innymi multimediami wyświetlanymi jako pokaz slajdów.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

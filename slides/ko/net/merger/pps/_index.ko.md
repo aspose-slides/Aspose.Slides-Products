@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: .NET을 통해 PPS 파일 병합
 weight: 5830
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.pps");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPS" readMoreLink="https://docs.fileformat.com/presentation/pps/" %}}
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. The more latest version of this file format is PPSX which is based on Office OpenXML standards. PPS files can still be read by latest versions of Microsoft PowerPoint, but newly created files can only be saved in PPSX file format. When a PPS file is shared with another user and opened, it starts as Powerpoint show unlike PPT file which opens in editable mode.
+PPS(PowerPoint 슬라이드 쇼)는 PowerPoint 97–2003에서 사용하는 바이너리 슬라이드 쇼 형식입니다. PPSX는 Office Open XML 표준을 기반으로 하는 최신 슬라이드 쇼 형식입니다. 현재 버전의 PowerPoint에서도 PPS 파일을 열 수 있으며 프레젠테이션을 여전히 PPS 형식으로 저장할 수 있습니다. 일반적인 방법으로 열면 PPS 파일은 슬라이드 쇼 모드로 시작되고 PPT 파일은 편집 모드로 열립니다.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

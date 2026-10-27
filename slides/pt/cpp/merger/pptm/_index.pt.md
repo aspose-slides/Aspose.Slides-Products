@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Mesclar arquivos PPTM via C++
 weight: 8630
@@ -88,7 +88,7 @@ presentation1->Save(outputFilePath, SaveFormat::Pptm);
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="PPTM" readMoreLink="https://docs.fileformat.com/presentation/pptm/" %}}
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. They are similar to PPTX files with the difference that the lateral can't execute macros though they can contain macros. PPTM files can be edited by opening them in Microsoft PowerPoint and updating the contents. Another similar format is PPSM but it is read-only by default and starts the slideshow when opened. PPTM, like PPTX, contains slides for different presentation elements like text, images, videos, graphs and other related material.
+Arquivos com a extensão `.PPTM` são arquivos de apresentação com suporte a macros, introduzidos com o Microsoft PowerPoint 2007. São semelhantes aos arquivos PPTX, mas os arquivos PPTM podem armazenar código de macro VBA, e os arquivos PPTX não. Arquivos PPTM podem ser abertos e editados no Microsoft PowerPoint. O formato relacionado PPSM abre por padrão no modo de exibição Apresentação de Slides, mas também pode ser aberto no PowerPoint para edição. Assim como os arquivos PPTX, os arquivos PPTM podem conter texto, imagens, vídeos, gráficos e outros conteúdos de apresentação.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 

@@ -1,5 +1,5 @@
 ---
-lastmod: 2026-08-11
+lastmod: 2026-10-27
 locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-hant"
 title: Fusionner des fichiers POTM via .NET
 weight: 4860
@@ -100,7 +100,7 @@ var ps1 = new Presentation("presen1.potm");
 
 {{% blocks/products/pf/slides-design-update-10-2026/about-format format="POTM" readMoreLink="https://docs.fileformat.com/presentation/potm/" %}}
 
-Files with POTM extension are Microsoft PowerPoint template files with support for Macros. POTM files are created with PowerPoint 2007 or above and contains default settings that can be used to create further presentation files. These settings can include styles, backgrounds, colour palette, fonts and defaults along with macros that consist of custom functions for doing particular task. They may also be opened by a previous version of PowerPoint with Open XML document support installed. POTM files can be opened in Microsoft PowerPoint for editing like any other PowerPoint file.
+Les fichiers portant l’extension `.POTM` sont des modèles Microsoft PowerPoint prenant en charge les macros, introduits avec PowerPoint 2007. Ils peuvent stocker des paramètres de présentation réutilisables, comme les mises en page, les styles, les arrière-plans, les palettes de couleurs, les polices, la mise en forme par défaut et des macros VBA. PowerPoint 2007 et versions ultérieures peuvent ouvrir et modifier les fichiers POTM.
 
 {{% /blocks/products/pf/slides-design-update-10-2026/about-format %}}
 
