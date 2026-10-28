@@ -313,6 +313,7 @@ Aspose.Slides Cloud is a hosted REST API for loading, creating, editing and conv
 
 ## Resources
 
+- [Features](/slides/features/)
 - [Documentation](https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/)
 - [API reference](https://reference.aspose.com/slides/androidjava/)
 - [Support forum](https://forum.aspose.com/c/slides/)

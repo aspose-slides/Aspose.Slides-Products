@@ -20,6 +20,8 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
   jump="Products|#platforms, Solutions|#solutions, Questions|#faqpage"
 >}}{{< /blocks/products/pf/slides-hero >}}
 
+<p><a href="/slides/features/">Explore Aspose.Slides features</a>.</p>
+
 {{< blocks/products/pf/slides-solution-platforms
   id="platforms"
   title="Aspose.Slides PowerPoint APIs"
