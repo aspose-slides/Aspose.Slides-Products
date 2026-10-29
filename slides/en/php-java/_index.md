@@ -14,7 +14,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR PHP VIA JAVA · ON-PREMISES LIBRARY · JVM-BACKED · NO OFFICE REQUIRED"
   h1="PowerPoint files, from PHP."
-  sub="Aspose.Slides for PHP via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from PHP. It is not a native extension: the Composer package aspose/slides is a thin PHP surface over the Java build, so the host needs a JRE and the PHP/Java Bridge running in a servlet container alongside PHP. What it does not need is a Microsoft Office install, COM automation or a display server."
+  sub="Aspose.Slides for PHP via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from PHP. It is not a native extension: the Composer package aspose/slides is a thin PHP surface over the Java build, so the host needs a JRE and the PHP/Java Bridge running in a servlet container alongside PHP. What it does not need is a Microsoft Office install, COM automation or a display server. [Explore features](/slides/features/)"
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/php-java/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/php-java/"
   note="Full API on trial · watermark on output"

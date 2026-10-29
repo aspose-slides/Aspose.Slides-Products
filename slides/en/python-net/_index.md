@@ -14,7 +14,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR PYTHON VIA .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from Python."
-  sub="Aspose.Slides for Python via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides .NET engine, not a pure-Python rewrite: one wheel from PyPI carries the compiled engine and the .NET runtime it needs, so there is no .NET SDK to install and no JVM anywhere in the stack. Python 3.5 or later on Windows, Linux or macOS, running in your own process - on Linux and macOS the wheel also wants libgdiplus and the native dependencies of the .NET Core runtime."
+  sub="Aspose.Slides for Python via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides .NET engine, not a pure-Python rewrite: one wheel from PyPI carries the compiled engine and the .NET runtime it needs, so there is no .NET SDK to install and no JVM anywhere in the stack. Python 3.5 or later on Windows, Linux or macOS, running in your own process - on Linux and macOS the wheel also wants libgdiplus and the native dependencies of the .NET Core runtime. [Explore features](/slides/features/)"
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/python-net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/python-net/"
   note="Full API on trial · watermark on output"

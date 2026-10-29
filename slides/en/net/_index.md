@@ -14,7 +14,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from C#."
-  sub="Aspose.Slides for .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from managed code. One NuGet package, running in your own process on Windows, Linux, macOS or a container — no Office install, no COM automation, no display server."
+  sub="Aspose.Slides for .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from managed code. One NuGet package, running in your own process on Windows, Linux, macOS or a container — no Office install, no COM automation, no display server. [Explore features](/slides/features/)"
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/"
   note="Full API on trial · watermark on output"

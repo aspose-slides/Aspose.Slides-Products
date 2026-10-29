@@ -14,7 +14,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR PYTHON VIA JAVA · ON-PREMISES LIBRARY · NEEDS A JRE, NOT MICROSOFT OFFICE"
   h1="PowerPoint files, from Python on a JVM."
-  sub="Aspose.Slides for Python via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides Java engine: pip installs the wheel and the JPype1 bridge, and JPype starts a JVM inside your own process — there is no server, no socket and no native extension of ours to build. You supply a JRE 8 or newer on Windows, Linux or macOS; no Microsoft Office install and no COM automation."
+  sub="Aspose.Slides for Python via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides Java engine: pip installs the wheel and the JPype1 bridge, and JPype starts a JVM inside your own process — there is no server, no socket and no native extension of ours to build. You supply a JRE 8 or newer on Windows, Linux or macOS; no Microsoft Office install and no COM automation. [Explore features](/slides/features/)"
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/python-java/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/python-java/"
   note="Full API on trial · watermark on output"

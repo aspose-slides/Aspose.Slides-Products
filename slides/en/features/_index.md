@@ -4,7 +4,7 @@ title: "Aspose.Slides features"
 url: /features/
 description: "Explore presentation features for Aspose.Slides libraries. Search the catalogue, then open a feature for guides and examples in the documentation."
 slides_features_registry: true
-slides_features_revision: "1"
+slides_features_revision: "1a"
 outputs: ["HTML", "MDTWIN", "LLMS"]
 ---
 
