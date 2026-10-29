@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Aspose.Slides for Python: PowerPoint API for PPTX and PPT"
 weight: 5860
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /python-net/
 description: "Python library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR PYTHON VIA .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from Python."
-  sub="Aspose.Slides for Python via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides .NET engine, not a pure-Python rewrite: one wheel from PyPI carries the compiled engine and the .NET runtime it needs, so there is no .NET SDK to install and no JVM anywhere in the stack. Python 3.5 or later on Windows, Linux or macOS, running in your own process - on Linux and macOS the wheel also wants libgdiplus and the native dependencies of the .NET Core runtime. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for Python via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Python code. It is a binding over the Aspose.Slides .NET engine, not a pure-Python rewrite: one wheel from PyPI carries the compiled engine and the .NET runtime it needs, so there is no .NET SDK to install and no JVM anywhere in the stack. Python 3.5 or later on Windows, Linux or macOS, running in your own process - on Linux and macOS the wheel also wants libgdiplus and the native dependencies of the .NET Core runtime."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/python-net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/python-net/"
   note="Full API on trial · watermark on output"

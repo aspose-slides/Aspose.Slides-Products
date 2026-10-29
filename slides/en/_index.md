@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides"
 weight: 7160
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /
 keywords:
 - PowerPoint
@@ -28,7 +29,7 @@ description: "Aspose.Slides APIs create, edit, render, and convert PowerPoint an
 {{< blocks/products/pf/slides-hero
   eyebrow="ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="Read, write and render PowerPoint files from your own code."
-  sub="Aspose.Slides creates, edits, converts and renders PowerPoint and OpenDocument presentations in .NET, Java, Python, C++, Node.js, Android and more. It runs in your process, on Windows, Linux or macOS, in a container or on a host, with no Office install. [Explore features](/slides/features/)"
+  sub="Aspose.Slides creates, edits, converts and renders PowerPoint and OpenDocument presentations in .NET, Java, Python, C++, Node.js, Android and more. It runs in your process, on Windows, Linux or macOS, in a container or on a host, with no Office install."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/"
   note="Full API on trial · watermark on output"

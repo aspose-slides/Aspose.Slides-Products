@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Aspose.Slides for Android via Java: PowerPoint API for PPTX and PPT"
 weight: 5960
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /android-java/
 description: "Aspose.Slides for Android via Java is a PowerPoint API for creating, reading, editing, and converting PPT, POT, PPS, PPTX, POTX, and PPSX files in Android apps."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR ANDROID VIA JAVA · ITS OWN BUILD · NO SERVER, NO MICROSOFT OFFICE"
   h1="PowerPoint files, on the device."
-  sub="Aspose.Slides for Android via Java opens, edits, converts and renders PowerPoint and OpenDocument presentations inside an Android app, with no server call and no Microsoft Office anywhere. It is its own build rather than the server JAR repackaged: the geometry types on its API surface are android.graphics PointF and RectF, sizes are com.aspose.slides.android.Size and IColorFormat.getColor() returns java.lang.Integer, rather than the java.awt ones, which is why this artifact runs on a device and the desktop one does not. You get it as a single JAR, aspose-slides-26.6-android.via.java.jar, 31 MB, whose POM declares no dependencies. It also declares 145,426 methods, so the first thing to plan for is not the download size but multidex. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for Android via Java opens, edits, converts and renders PowerPoint and OpenDocument presentations inside an Android app, with no server call and no Microsoft Office anywhere. It is its own build rather than the server JAR repackaged: the geometry types on its API surface are android.graphics PointF and RectF, sizes are com.aspose.slides.android.Size and IColorFormat.getColor() returns java.lang.Integer, rather than the java.awt ones, which is why this artifact runs on a device and the desktop one does not. You get it as a single JAR, aspose-slides-26.6-android.via.java.jar, 31 MB, whose POM declares no dependencies. It also declares 145,426 methods, so the first thing to plan for is not the download size but multidex."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/androidjava/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/java/aspose-slides-for-android-via-java/"
   note="Full API on trial · evaluation watermark on output · multidex required"

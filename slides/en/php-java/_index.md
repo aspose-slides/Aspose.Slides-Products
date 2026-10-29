@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "PHP PowerPoint API for PPT, PPTX, and ODP Presentations"
 weight: 5890
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /php-java/
 description: "PHP library for creating, editing, converting, and processing presentations in formats such as PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM, and ODP, with support for PDF output."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR PHP VIA JAVA · ON-PREMISES LIBRARY · JVM-BACKED · NO OFFICE REQUIRED"
   h1="PowerPoint files, from PHP."
-  sub="Aspose.Slides for PHP via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from PHP. It is not a native extension: the Composer package aspose/slides is a thin PHP surface over the Java build, so the host needs a JRE and the PHP/Java Bridge running in a servlet container alongside PHP. What it does not need is a Microsoft Office install, COM automation or a display server. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for PHP via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from PHP. It is not a native extension: the Composer package aspose/slides is a thin PHP surface over the Java build, so the host needs a JRE and the PHP/Java Bridge running in a servlet container alongside PHP. What it does not need is a Microsoft Office install, COM automation or a display server."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/php-java/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/php-java/"
   note="Full API on trial · watermark on output"

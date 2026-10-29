@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: C# .NET PowerPoint Processing API | Aspose.Slides
 weight: 1890
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /net/
 description: Aspose.Slides for .NET is a C# PowerPoint API for creating, editing, converting, and processing presentations programmatically.
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR .NET · ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from C#."
-  sub="Aspose.Slides for .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from managed code. One NuGet package, running in your own process on Windows, Linux, macOS or a container — no Office install, no COM automation, no display server. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from managed code. One NuGet package, running in your own process on Windows, Linux, macOS or a container — no Office install, no COM automation, no display server."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/net/"
   note="Full API on trial · watermark on output"

@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Node.js via Java PowerPoint API by Aspose.Slides"
 weight: 5890
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /nodejs-java/
 description: "Aspose.Slides for Node.js via Java is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR NODE.JS VIA JAVA · ON-PREMISES LIBRARY · JDK 8 REQUIRED · NO MICROSOFT OFFICE"
   h1="PowerPoint files, from Node.js."
-  sub="Aspose.Slides for Node.js via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from server-side JavaScript. It is not a native port: one npm package wraps the Java engine and drives it through the node-java bridge, so a JVM is loaded into your Node process and a JDK 8 or later has to be installed with JAVA_HOME set. Past that it runs in your own process on Windows, Linux or macOS - no Office install, no COM automation, no display server. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for Node.js via Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from server-side JavaScript. It is not a native port: one npm package wraps the Java engine and drives it through the node-java bridge, so a JVM is loaded into your Node process and a JDK 8 or later has to be installed with JAVA_HOME set. Past that it runs in your own process on Windows, Linux or macOS - no Office install, no COM automation, no display server."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/nodejs-java/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/nodejs-java/"
   note="Full API on trial · watermark on output"

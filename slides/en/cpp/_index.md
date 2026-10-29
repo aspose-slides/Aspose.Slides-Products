@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Create, Edit, and Convert PowerPoint Presentations with Aspose.Slides for C++"
 weight: 6580
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /cpp/
 description: "Aspose.Slides for C++ is a powerful library for creating, editing, and converting PowerPoint presentations in C++."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR C++ · NATIVE ON-PREMISES LIBRARY · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from C++."
-  sub="Aspose.Slides for C++ creates, edits, converts and renders PowerPoint and OpenDocument presentations from native C++. It compiles and links straight into your own binary - no .NET runtime, no JVM, no bridge process, no Office install, no COM automation, no display server. Prebuilt libraries ship for Windows on MSVC 2017 or later, Linux on GCC 6.1 or Clang 3.9, and macOS on Xcode 13.4. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for C++ creates, edits, converts and renders PowerPoint and OpenDocument presentations from native C++. It compiles and links straight into your own binary - no .NET runtime, no JVM, no bridge process, no Office install, no COM automation, no display server. Prebuilt libraries ship for Windows on MSVC 2017 or later, Linux on GCC 6.1 or Clang 3.9, and macOS on Xcode 13.4."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/cpp/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/cpp/"
   note="Full API on trial · watermark on output"

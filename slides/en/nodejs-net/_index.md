@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Node.js via .NET PowerPoint API by Aspose.Slides"
 weight: 5890
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /nodejs-net/
 description: "Aspose.Slides for Node.js via .NET is a Node.js PowerPoint API that lets you create, modify, and convert PowerPoint presentations in Node.js."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR NODE.JS VIA .NET · ON-PREMISES LIBRARY · NEEDS A .NET 6 RUNTIME"
   h1="PowerPoint files, from Node.js."
-  sub="Aspose.Slides for Node.js via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from JavaScript. It is not a native Node addon: the npm package wraps the Aspose.Slides .NET engine and calls into it over the edge-js bridge, so a .NET 6 or later runtime has to be present on the machine. Everything else is bundled, including edge-js and the native rendering libraries for Windows, Linux and macOS, and no Microsoft Office install or display server is involved. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for Node.js via .NET creates, edits, converts and renders PowerPoint and OpenDocument presentations from JavaScript. It is not a native Node addon: the npm package wraps the Aspose.Slides .NET engine and calls into it over the edge-js bridge, so a .NET 6 or later runtime has to be present on the machine. Everything else is bundled, including edge-js and the native rendering libraries for Windows, Linux and macOS, and no Microsoft Office install or display server is involved."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/nodejs-net/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/nodejs-net/"
   note="Full API on trial · watermark on output"

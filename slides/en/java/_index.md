@@ -4,6 +4,7 @@ locales: "ar,cs,de,el,es,fa,fr,hi,hu,id,it,ja,ko,nl,pl,pt,ru,sv,th,tr,vi,zh,zh-h
 title: "Java PowerPoint API | Aspose.Slides for Java"
 weight: 6330
 slidesIndexRebuild: true
+slides_features_cta: true
 url: /java/
 description: "Aspose.Slides for Java is a PowerPoint API for creating, editing, converting, and processing PPT, PPTX, and other presentation formats in Java."
 outputs: ["HTML", "MDTWIN", "LLMS"]
@@ -14,7 +15,7 @@ outputs: ["HTML", "MDTWIN", "LLMS"]
 {{< blocks/products/pf/slides-hero
   eyebrow="ASPOSE.SLIDES FOR JAVA · ON-PREMISES JAR · NO MICROSOFT OFFICE REQUIRED"
   h1="PowerPoint files, from Java."
-  sub="Aspose.Slides for Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Java code. It is a pure-Java JAR whose POM declares no dependencies and which carries no native library, no COM automation and no .NET runtime underneath it. What it does need is a JVM: Java 6 or later on Windows, Linux, Unix, macOS or a container, plus fontconfig and installed fonts anywhere you render to PDF or images. [Explore features](/slides/features/)"
+  sub="Aspose.Slides for Java creates, edits, converts and renders PowerPoint and OpenDocument presentations from ordinary Java code. It is a pure-Java JAR whose POM declares no dependencies and which carries no native library, no COM automation and no .NET runtime underneath it. What it does need is a JVM: Java 6 or later on Windows, Linux, Unix, macOS or a container, plus fontconfig and installed fonts anywhere you render to PDF or images."
   ctaPrimaryText="Download free trial" ctaPrimaryUrl="https://releases.aspose.com/slides/java/"
   ctaSecondaryText="Documentation" ctaSecondaryUrl="https://docs.aspose.com/slides/java/"
   note="Full API on trial · watermark on output"
